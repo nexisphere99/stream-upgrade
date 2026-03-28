@@ -1303,4 +1303,6 @@ I sleep. And I don't dream about the stranger or the nose or the crop line.
 
 I dream about a girl with wire-frame glasses saying "I can't wait forever" and a door that's closing in slow motion and my feet won't move and the gap between the door and the frame is the exact width of a text message I haven't written yet.
 
-End 0f v0.0.2
+End of v0.0.2
+<<set $hint = "v0.0.2 End of current Story Branch">>
+[[Sleep|apartment_map]]

@@ -1388,4 +1388,6 @@ That's enough. For right now. That's enough.
 
 I sleep.
 
-End 0f v0.0.2
+End of v0.0.2
+<<set $hint = "v0.0.2 End of current Story Branch">>
+[[Sleep|apartment_map]]

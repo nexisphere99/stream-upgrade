@@ -22,7 +22,7 @@ STREAM UPGRADE: ELLIE.EXE
 <a href="https://www.patreon.com/c/ElliePlayz" target="_blank">Patreon</a>
 
 :: StoryInit
-<<set $firstTimeSplash to false>>
+<<set $firstTimeSplash to true>>
 <<set $locationImage to "images/locations/eli_apartment.jpeg">>
 <<set $day to 1>>
 <<set $day_step to 0>>

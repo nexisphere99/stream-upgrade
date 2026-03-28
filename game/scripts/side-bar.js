@@ -10,7 +10,7 @@ $(document).one(':storyready', function () {
             <div class="stream-left-brand">
                 <div class="stream-live-badge">
                     <span class="stream-live-dot"></span>
-                    LIVE
+                    V0.0.2
                 </div>
                 <h2 class="stream-game-title">Stream Upgrade</h2>
                 <span class="stream-game-version">ellie.exe</span>

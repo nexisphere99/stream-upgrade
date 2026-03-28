@@ -1,0 +1,45 @@
+
+
+
+:: eli_bathroom
+<<set $locationName to "Eli's Apartment - Bathroom">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/eli_bathroom.jpeg">>
+<img src="images/locations/eli_bathroom.jpeg" alt="Eli's Bathroom" style="width:100%; height:auto;">
+
+[[Masturbate|mastruebate_washroom]] | [[← Floor Plan|apartment_map]]
+
+:: mastruebate_washroom
+
+<<set $rand to random(1, 15)>>
+<<if $rand is 1>>
+<<goto masturbation_washroom_1>>
+<<elseif $rand is 2>>
+<<goto masturbation_washroom_2>>
+<<elseif $rand is 3>>
+<<goto masturbation_washroom_3>>
+<<elseif $rand is 4>>
+<<goto masturbation_washroom_4>>
+<<elseif $rand is 5>>
+<<goto masturbation_washroom_5>>
+<<elseif $rand is 6>>
+<<goto masturbation_washroom_6>>
+<<elseif $rand is 7>>
+<<goto masturbation_washroom_7>>
+<<elseif $rand is 8>>
+<<goto masturbation_washroom_8>>
+<<elseif $rand is 9>>
+<<goto masturbation_washroom_9>>
+<<elseif $rand is 10>>
+<<goto masturbation_washroom_10>>
+<<elseif $rand is 11>>
+<<goto masturbation_washroom_11>>
+<<elseif $rand is 12>>
+<<goto masturbation_washroom_12>>
+<<elseif $rand is 13>>
+<<goto masturbation_washroom_13>>
+<<elseif $rand is 14>>
+<<goto masturbation_washroom_14>>
+<<else>>
+<<goto masturbation_washroom_15>>
+<</if>>

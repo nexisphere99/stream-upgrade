@@ -1,0 +1,217 @@
+
+
+
+
+:: eli_kitchen
+<<set $locationName to "Eli's Apartment - Kitchen">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/eli_kitchen.jpeg">>
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+[[Eat|kitchen_eat]] | [[Drink|kitchen_drink]] | [[← Floor Plan|apartment_map]]
+
+:: kitchen_eat
+
+<<set $rand to random(1, 8)>>
+<<if $rand is 1>>
+<<goto kitchen_eat_1>>
+<<elseif $rand is 2>>
+<<goto kitchen_eat_2>>
+<<elseif $rand is 3>>
+<<goto kitchen_eat_3>>
+<<elseif $rand is 4>>
+<<goto kitchen_eat_4>>
+<<elseif $rand is 5>>
+<<goto kitchen_eat_5>>
+<<elseif $rand is 6>>
+<<goto kitchen_eat_6>>
+<<elseif $rand is 7>>
+<<goto kitchen_eat_7>>
+<<else>>
+<<goto kitchen_eat_8>>
+<</if>>
+
+:: kitchen_eat_1
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Instant ramen. The staple. I rip the foil packet open, dump the noodle block into a pot, and stare at it while the water heats. The seasoning smells like salt and something vaguely chickeny. It's fine. It always is.
+
+<<eli "...good enough.">>
+
+I eat standing at the counter, bowl in hand, not bothering with a table.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_2
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+There's half a pizza left in the box on the counter. Cold. I don't bother microwaving it. The cheese is rubbery, the crust a little stale. It's still fine. Maybe better cold.
+
+<<eli "Yeah, this works.">>
+
+Three slices down before I realize I wasn't even that hungry.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_3
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Cereal. I pour too much into the bowl, add the milk, and watch it all turn slightly soggy while I stand there spacing out. It's one of those generic brands. Tastes exactly like the name-brand version.
+
+<<eli "Close enough.">>
+
+I finish it. Rinse the bowl. Leave it in the sink.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_4
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Two slices of bread into the toaster. I wait. The smell of toast fills the kitchen   warm, familiar, nothing. I spread peanut butter on while it's still hot, letting it melt slightly into the surface.
+
+<<eli "...decent.">>
+
+Simple. Quiet. Gets the job done.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_5
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+I crack two eggs into the pan. They spit and sizzle in the butter. I keep the heat low, let the whites set slowly. Add salt. A little black pepper. Slide them onto a plate without breaking the yolks.
+
+<<eli "Not bad.">>
+
+One of the few things I can actually cook. I eat slowly this time.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_6
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Canned soup. I pop the lid, pour it into a pot, and turn the burner on low. The kitchen fills with that thin, salty steam. It takes four minutes. I eat it straight from the pot, leaning against the counter.
+
+<<eli "...gets the job done.">>
+
+Warm. That's about all it has going for it.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_7
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+There's a protein bar at the back of the cabinet. I find it buried behind a can of something I don't remember buying. Peanut butter flavor. Slightly past its best-by date but still fine.
+
+<<eli "This counts as eating.">>
+
+I unwrap it and eat it in three bites. Functional.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_eat_8
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Microwave burrito, still in the wrapper. I poke the holes in the plastic, slide it in, set it for two minutes. It comes out unevenly heated   one end almost too hot, the other still slightly cold in the middle.
+
+<<eli "Good enough.">>
+
+I eat it anyway. Standing up. Staring at nothing.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink
+
+<<set $rand to random(1, 6)>>
+<<if $rand is 1>>
+<<goto kitchen_drink_1>>
+<<elseif $rand is 2>>
+<<goto kitchen_drink_2>>
+<<elseif $rand is 3>>
+<<goto kitchen_drink_3>>
+<<elseif $rand is 4>>
+<<goto kitchen_drink_4>>
+<<elseif $rand is 5>>
+<<goto kitchen_drink_5>>
+<<else>>
+<<goto kitchen_drink_6>>
+<</if>>
+
+:: kitchen_drink_1
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Coffee. I measure it out by eye   probably too much   and wait while the machine runs. The smell hits the kitchen fast, thick and dark. I take the mug before it's fully done brewing, impatient.
+
+<<eli "...there it is.">>
+
+First sip is too hot. I drink it anyway.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink_2
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Just water. I fill a glass from the tap, drink the whole thing in one go standing at the sink. Cold enough to feel it going down. Simple. I didn't realize I was that thirsty.
+
+<<eli "...needed that.">>
+
+I refill it. Drink half. Leave the rest on the counter.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink_3
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+There's an energy drink in the back of the fridge. One of the tall ones. I crack it open and the hiss fills the quiet kitchen. Cold, sharp, chemical sweetness that somehow works.
+
+<<eli "Let's go.">>
+
+Half gone before I put it down. The familiar buzz starts settling in behind my eyes.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink_4
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+A beer. I grab one from the bottom shelf of the fridge, twist the cap off, and take a slow sip. Cold, slightly bitter, the kind of flat comfort that doesn't ask anything of you.
+
+<<eli "...yeah.">>
+
+I lean against the counter and drink it slowly. No reason to rush.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink_5
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+There's a carton of orange juice that's maybe three days old. I shake it, sniff the cap. Still fine. I pour a glass and drink it standing at the counter, the tartness cutting through the morning fog.
+
+<<eli "...not bad.">>
+
+Probably the healthiest thing I'll do today.
+
+[[← Kitchen|eli_kitchen]]
+
+:: kitchen_drink_6
+
+<img src="images/locations/eli_kitchen.jpeg" alt="Eli's Kitchen" style="width:100%; height:auto;">
+
+Milk, straight from the carton. I check the date first   still good. I drink it cold, leaning against the open fridge door, the cool air spilling out around me.
+
+<<eli "Classic.">>
+
+I put the carton back and close the fridge. Simple and oddly satisfying.
+
+[[← Kitchen|eli_kitchen]]

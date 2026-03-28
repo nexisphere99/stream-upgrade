@@ -1,0 +1,921 @@
+
+
+
+:: marc_apartment
+<<set $locationName to "Marc's Apartment">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/marc_apartment.jpeg">>
+<img src="images/locations/marc_apartment.jpeg" alt="Marc's Apartment" class="location-image">
+<<if $day == 1 and $day_step == 5.1>>
+<<goto "day_1_6">>
+<<else>>
+<</if>>
+[[Chat with Marc|chat_marc]] | [[← District Map|neighbourhood]]
+
+
+:: chat_marc
+
+<<set $rand to random(1, 15)>>
+<<if $rand is 1>>
+<<goto chat_marc_1>>
+<<elseif $rand is 2>>
+<<goto chat_marc_2>>
+<<elseif $rand is 3>>
+<<goto chat_marc_3>>
+<<elseif $rand is 4>>
+<<goto chat_marc_4>>
+<<elseif $rand is 5>>
+<<goto chat_marc_5>>
+<<elseif $rand is 6>>
+<<goto chat_marc_6>>
+<<elseif $rand is 7>>
+<<goto chat_marc_7>>
+<<elseif $rand is 8>>
+<<goto chat_marc_8>>
+<<elseif $rand is 9>>
+<<goto chat_marc_9>>
+<<elseif $rand is 10>>
+<<goto chat_marc_10>>
+<<elseif $rand is 11>>
+<<goto chat_marc_11>>
+<<elseif $rand is 12>>
+<<goto chat_marc_12>>
+<<elseif $rand is 13>>
+<<goto chat_marc_13>>
+<<elseif $rand is 14>>
+<<goto chat_marc_14>>
+<<else>>
+<<goto chat_marc_15>>
+<</if>>
+
+:: chat_marc_1
+
+The door creaks open before I even knocks, Marc already there, a half-eaten sandwich in hand. The room smells like toasted bread and cheap cologne.
+
+<<marc "yo, you made it. welcome to the palace.">>
+
+<<eli "palace? this place has one chair.">>
+
+<<marc "it’s a good chair.">>
+
+<<eli "it’s missing fabric.">>
+
+<<marc "adds character. sit down.">>
+
+I steps in, nudging aside a shoe with my foot.
+
+<<eli "you always leave your door unlocked?">>
+
+<<marc "only when i expect losers to show up.">>
+
+<<eli "nice. real warm welcome.">>
+
+<<marc "i said welcome, didn’t i?">>
+
+Marc tosses the sandwich wrapper away.
+
+<<marc "you eat yet?">>
+
+<<eli "define eat.">>
+
+<<marc "ramen doesn’t count.">>
+
+<<eli "then no.">>
+
+Marc shakes his head, amused.
+
+<<marc "man’s running on sodium and regret.">>
+
+<<eli "it’s efficient.">>
+
+We settle in, the TV flickering on.
+
+<<eli "you ever think about upgrading anything in here?">>
+
+<<marc "nah. works fine. like me.">>
+
+<<eli "that explains a lot.">>
+
+A beat of quiet.
+
+<<eli "alright… i’m gonna head before i get too comfortable.">>
+
+<<marc "later, man. don’t steal anything on your way out.">>
+
+<<eli "no promises. see you.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_2
+
+Rain taps softly against the window as I knocks this time. Marc opens slower, hair slightly damp, hoodie darker at the shoulders.
+
+<<marc "yo. welcome back to the same place.">>
+
+<<eli "wow, you redecorated.">>
+
+<<marc "don’t mock the vision.">>
+
+I steps in, shaking a bit of rain from my sleeves.
+
+<<eli "it smells like wet dog in here.">>
+
+<<marc "i don’t even have a dog.">>
+
+<<eli "exactly. concerning.">>
+
+Marc grabs a towel, tosses it at him.
+
+<<marc "dry off before you mildew.">>
+
+<<eli "too late.">>
+
+We both glance at the TV, already paused on a game.
+
+<<marc "you streaming tonight?">>
+
+<<eli "yeah. probably dead again.">>
+
+<<marc "you say that every time.">>
+
+<<eli "because it’s true every time.">>
+
+Marc shrugs, unconcerned.
+
+<<marc "still better than doing nothing.">>
+
+<<eli "this is nothing. just louder.">>
+
+A quiet beat.
+
+<<marc "you overthink it.">>
+
+<<eli "i don’t think enough, actually. that’s the issue.">>
+
+Rain gets heavier outside.
+
+<<eli "anyway… i should bounce before it floods.">>
+
+<<marc "later. try not to dissolve out there.">>
+
+<<eli "i’ll do my best. good night.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_3
+
+Marc opens the door mid-yawn, stretching as I walks in. The apartment smells like instant noodles and something faintly burnt.
+
+<<marc "yo… welcome. ignore the smell.">>
+
+<<eli "what did you do?">>
+
+<<marc "experiment. didn’t work.">>
+
+I eyes the kitchen corner.
+
+<<eli "you almost set this place on fire again?">>
+
+<<marc "almost doesn’t count.">>
+
+<<eli "it absolutely counts.">>
+
+Marc drops onto the couch.
+
+<<marc "you look worse than usual.">>
+
+<<eli "thanks.">>
+
+<<marc "no, like… extra tired.">>
+
+<<eli "yeah. stayed up editing clips.">>
+
+Marc raises a brow.
+
+<<marc "you hate editing.">>
+
+<<eli "i hate everything. might as well try.">>
+
+maybe something sticks… anything. Marc tosses him a drink.
+
+<<marc "you’re trying. that’s new.">>
+
+<<eli "don’t get used to it.">>
+
+We sit in silence for a moment.
+
+<<marc "clips might help though.">>
+
+<<eli "yeah. or they disappear like everything else.">>
+
+Marc shrugs.
+
+<<marc "then you make more.">>
+
+I exhales.
+
+<<eli "i’ll see.">>
+
+He stands after a bit.
+
+<<eli "alright… i’m out. before i inhale whatever that smell is.">>
+
+<<marc "later. i’ll perfect it next time.">>
+
+<<eli "please don’t. bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_4
+
+Music hums faintly from inside when Marc opens the door, nodding to the beat.
+
+<<marc "yo, welcome. you hear this track?">>
+
+<<eli "it’s… loud.">>
+
+<<marc "that’s the point.">>
+
+I steps in, glancing at Marc’s phone on the counter.
+
+<<eli "since when are you into music like this?">>
+
+<<marc "since five minutes ago.">>
+
+<<eli "trendsetter.">>
+
+Marc laughs, turning it down slightly.
+
+<<marc "you look like you lost a fight with sleep.">>
+
+<<eli "sleep started it.">>
+
+<<marc "and won. clearly.">>
+
+I drops into the chair.
+
+<<eli "i tried streaming earlier. ended early.">>
+
+<<marc "why?">>
+
+<<eli "just… didn’t feel like talking.">>
+
+Marc leans against the wall.
+
+<<marc "you don’t always have to force it.">>
+
+<<eli "kinda do. that’s the job.">>
+
+if i stop, it’s over. Marc watches him for a second.
+
+<<marc "still… take a day sometimes.">>
+
+<<eli "can’t afford days.">>
+
+A pause.
+
+<<marc "fair.">>
+
+I stands, rubbing my neck.
+
+<<eli "i’m gonna head. get something done maybe.">>
+
+<<marc "later, man. try not to spiral.">>
+
+<<eli "no promises. see you.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_5
+
+The door swings open fast this time, Marc already mid-laugh at something on his phone.
+
+<<marc "yo! welcome, you gotta see this ">>
+
+<<eli "if it’s another broken phone video, no.">>
+
+<<marc "it’s funny, trust.">>
+
+I walks in anyway, dropping my bag near the wall.
+
+<<eli "your definition of funny is questionable.">>
+
+<<marc "your existence is questionable.">>
+
+<<eli "fair.">>
+
+Marc shoves the phone in his face anyway.
+
+<<marc "look.">>
+
+<<eli "…okay that’s actually kind of good.">>
+
+Marc grins, victorious.
+
+<<marc "i know. i have taste.">>
+
+<<eli "rare moment.">>
+
+We drift toward the TV.
+
+<<marc "you hitting stream later?">>
+
+<<eli "yeah. same as always.">>
+
+<<marc "you ever think about switching it up?">>
+
+<<eli "like what?">>
+
+<<marc "idk. different game. different vibe.">>
+
+I shrugs.
+
+<<eli "doesn’t matter. nobody’s watching either way.">>
+
+unless something changes… Marc nudges him lightly.
+
+<<marc "someone’s watching. i tune in sometimes.">>
+
+<<eli "you leave after five minutes.">>
+
+<<marc "i got attention issues. not your fault.">>
+
+I cracks a small smile.
+
+<<eli "sure.">>
+
+I grab my bag again.
+
+<<eli "alright, i’m out. gotta go pretend to be entertaining.">>
+
+<<marc "you got this. later, man.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_marc_6
+
+The door is closed this time. I knocks twice, softer than usual. A shuffle inside, then Marc opens it with a confused squint.
+
+<<marc "you knock now? who are you. welcome, i guess.">>
+
+<<eli "trying something new. growth.">>
+
+<<marc "hate it already.">>
+
+I steps in, the room carrying a faint lemon cleaner smell for once.
+
+<<eli "wait… did you clean?">>
+
+<<marc "don’t make it weird.">>
+
+<<eli "it’s already weird.">>
+
+Marc shrugs it off, grabbing a controller.
+
+<<marc "slow day at work. got bored.">>
+
+<<eli "you got bored and chose cleaning?">>
+
+<<marc "don’t spread that around.">>
+
+I runs a hand along the table, checking for dust.
+
+<<eli "this is suspicious.">>
+
+<<marc "man’s investigating like a detective.">>
+
+he looks less dead today… huh.
+
+<<eli "my place still looks like a crime scene.">>
+
+<<marc "yeah, consistent branding.">>
+
+A pause.
+
+<<eli "maybe i should clean.">>
+
+<<marc "don’t rush into big life changes.">>
+
+I snorts.
+
+<<eli "alright… i’m heading out before i adopt your habits.">>
+
+<<marc "later. don’t clean too much, wouldn’t recognize you.">>
+
+<<eli "yeah. bye.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_marc_7
+
+Marc opens the door with a headset around his neck, mid-chew, crumbs on his hoodie.
+
+<<marc "yo, welcome. caught me mid-snack.">>
+
+<<eli "you’re always mid-snack.">>
+
+<<marc "it’s a lifestyle.">>
+
+I steps inside, the sharp smell of chips and artificial cheese filling the air.
+
+<<eli "you ever eat real food?">>
+
+<<marc "this is real. it exists.">>
+
+<<eli "barely.">>
+
+Marc tosses him the bag anyway.
+
+<<marc "you want some or you judging from a distance?">>
+
+<<eli "both.">>
+
+We sit.
+
+<<marc "you look like you’ve been staring at a screen for ten hours.">>
+
+<<eli "twelve, actually.">>
+
+<<marc "that’s not better.">>
+
+he’s pushing himself harder lately… weird.
+
+<<eli "i was tweaking stream stuff. overlays, titles…">>
+
+<<marc "any difference?">>
+
+<<eli "no.">>
+
+Marc nods like he expected that.
+
+<<marc "still worth trying.">>
+
+<<eli "yeah… i guess.">>
+
+I stands after a moment.
+
+<<eli "i’m gonna dip. eyes are fried.">>
+
+<<marc "later. blink occasionally, yeah?">>
+
+<<eli "no promises. see you.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_8
+
+The TV is already blasting when I walks in unannounced, Marc not even turning at first.
+
+<<marc "door’s open, welcome.">>
+
+<<eli "you just let anyone walk in?">>
+
+<<marc "only you. mistake, probably.">>
+
+I closes the door behind him, bass from the game vibrating faintly through the floor.
+
+<<eli "what are you playing?">>
+
+<<marc "something i’m actually good at.">>
+
+<<eli "so not what i play.">>
+
+Marc smirks, eyes still on screen.
+
+<<marc "exactly.">>
+
+I leans against the wall.
+
+<<eli "i tried a new game yesterday.">>
+
+<<marc "and?">>
+
+<<eli "same viewers. less fun.">>
+
+Marc finally glances over.
+
+<<marc "then don’t force it.">>
+
+<<eli "kinda have to experiment.">>
+
+everything feels like throwing darts blind. Marc pauses the game.
+
+<<marc "or you just get better at the one you like.">>
+
+<<eli "that takes time.">>
+
+<<marc "you got time.">>
+
+I exhales.
+
+<<eli "do i?">>
+
+A beat.
+
+<<eli "anyway… i’ll head. didn’t mean to interrupt.">>
+
+<<marc "you didn’t. later, man.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_9
+
+Marc opens the door slower this time, phone pressed to his ear.
+
+<<marc " yeah, i’ll fix it tomorrow. hold on  yo, welcome, come in.">>
+
+<<eli "busy man.">>
+
+I slips inside quietly, the room smelling like coffee and something burnt. Marc finishes the call quickly.
+
+<<marc "sorry. work stuff.">>
+
+<<eli "you sound important.">>
+
+<<marc "i’m not. they just break things a lot.">>
+
+I sits, watching him.
+
+<<eli "must be nice being needed.">>
+
+<<marc "you’re needed.">>
+
+<<eli "by who?">>
+
+Marc shrugs.
+
+<<marc "me, sometimes.">>
+
+he says stuff like that so casually… I looks away.
+
+<<eli "yeah.">>
+
+A short silence.
+
+<<marc "you good?">>
+
+<<eli "just tired. same as always.">>
+
+Marc nods, not pushing.
+
+<<marc "stay a bit if you want.">>
+
+<<eli "nah… i should go.">>
+
+He stands.
+
+<<eli "later, man.">>
+
+<<marc "later. text me.">>
+
+<<eli "yeah.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_10
+
+The door opens to loud laughter Marc watching something on his phone, barely holding it together.
+
+<<marc "yo welcome hold on this is killing me ">>
+
+<<eli "you good?">>
+
+Marc waves him in, still laughing.
+
+<<marc "nah, just dumb video. come here.">>
+
+<<eli "if it’s not funny i’m leaving immediately.">>
+
+I watches, arms crossed… then cracks a small laugh.
+
+<<eli "okay… that’s decent.">>
+
+<<marc "i told you.">>
+
+The room smells like soda and something sugary.
+
+<<eli "you ever drink water?">>
+
+<<marc "overrated.">>
+
+<<eli "your organs hate you.">>
+
+Marc shrugs, unbothered.
+
+<<marc "they’ll adapt.">>
+
+We sit for a second.
+
+<<marc "you seem lighter today.">>
+
+<<eli "yeah… maybe.">>
+
+or just pretending better.
+
+<<marc "something happen?">>
+
+<<eli "nah. just… normal day.">>
+
+Marc nods.
+
+<<marc "i’ll take that.">>
+
+I grabs my bag again.
+
+<<eli "i’m heading out before i get stuck here.">>
+
+<<marc "later, man.">>
+
+<<eli "later. good night.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_11
+
+Marc opens the door slower than usual, one eyebrow raised like I showing up was mildly unexpected. The room behind him smells like burnt popcorn and something metallic.
+
+<<marc "yo… welcome. you look like you walked here in slow motion.">>
+
+<<eli "felt like it.">>
+
+<<marc "rough day?">>
+
+<<eli "just… long.">>
+
+I steps inside, dragging my feet slightly across the floor.
+
+<<eli "what’s that smell?">>
+
+<<marc "popcorn. failed attempt.">>
+
+<<eli "how do you fail popcorn?">>
+
+<<marc "talent.">>
+
+Marc nudges a scorched bowl off the counter.
+
+<<marc "you stream today?">>
+
+<<eli "yeah. nothing special.">>
+
+<<marc "same crowd?">>
+
+<<eli "same silence.">>
+
+why do i keep expecting different. Marc leans back against the wall.
+
+<<marc "you still showed up.">>
+
+<<eli "doesn’t feel like it counts.">>
+
+<<marc "it does. you just don’t like the result.">>
+
+I exhales, staring at the floor.
+
+<<eli "maybe.">>
+
+A pause settles.
+
+<<eli "i’m gonna head. before i start overthinking in here too.">>
+
+<<marc "later, man. try not to spiral on the walk back.">>
+
+<<eli "no guarantees. bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_12
+
+The door swings open fast, Marc holding a screwdriver, fingers smudged with grease. The air smells sharp plastic and heat.
+
+<<marc "yo, welcome. don’t touch anything, it might bite.">>
+
+<<eli "comforting.">>
+
+I steps in carefully, eyeing the half-open device on the table.
+
+<<eli "what are you fixing now?">>
+
+<<marc "someone’s phone. they dropped it in water.">>
+
+<<eli "and you agreed to fix that?">>
+
+<<marc "i like challenges.">>
+
+Marc gestures vaguely.
+
+<<marc "sit somewhere safe.">>
+
+<<eli "define safe.">>
+
+<<marc "not near me.">>
+
+I sits anyway.
+
+<<eli "you ever mess one up?">>
+
+<<marc "all the time. they just don’t come back.">>
+
+<<eli "that’s… not reassuring.">>
+
+Marc smirks.
+
+<<marc "it works out.">>
+
+he always acts like nothing matters… must be nice.
+
+<<eli "i wish my stuff was fixable like that.">>
+
+<<marc "it is. just takes longer.">>
+
+I shakes my head slightly.
+
+<<eli "yeah… maybe.">>
+
+He stands after a moment.
+
+<<eli "i’ll let you get back to breaking things.">>
+
+<<marc "later. try not to break yourself on the way home.">>
+
+<<eli "i’ll try. see you.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_13
+
+Marc opens the door with music faintly playing behind him, something low and rhythmic. The room smells like takeout spices and grease lingering in the air.
+
+<<marc "yo, welcome. you just missed food.">>
+
+<<eli "of course i did.">>
+
+<<marc "timing’s a skill.">>
+
+I steps in, glancing at the empty containers.
+
+<<eli "you didn’t save anything?">>
+
+<<marc "i considered it. briefly.">>
+
+<<eli "wow. generous.">>
+
+Marc tosses a bottle of soda my way.
+
+<<marc "liquid dinner.">>
+
+<<eli "perfect.">>
+
+We settle in.
+
+<<marc "you look distracted.">>
+
+<<eli "just thinking.">>
+
+<<marc "dangerous.">>
+
+<<eli "yeah.">>
+
+can’t turn it off lately. Marc leans forward slightly.
+
+<<marc "about what?">>
+
+<<eli "stuff. stream. life. same loop.">>
+
+Marc nods slowly.
+
+<<marc "you’ll break out of it eventually.">>
+
+<<eli "feels like i’m stuck.">>
+
+<<marc "you’re not. just… paused.">>
+
+I lets out a quiet breath.
+
+<<eli "hope you’re right.">>
+
+He stands.
+
+<<eli "i’m gonna go. before i overstay.">>
+
+<<marc "later, man.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_14
+
+The door opens to near silence this time no TV, no music. Just the faint hum of electronics and a clean, neutral smell.
+
+<<marc "yo. welcome.">>
+
+<<eli "why is it so quiet?">>
+
+<<marc "felt like it.">>
+
+I steps in cautiously, like the silence might break.
+
+<<eli "this is unsettling.">>
+
+<<marc "you need noise all the time?">>
+
+<<eli "kinda.">>
+
+Marc shrugs, sitting down.
+
+<<marc "try it. it’s not bad.">>
+
+<<eli "it’s loud in my head.">>
+
+Marc glances at him briefly.
+
+<<marc "yeah… fair.">>
+
+he’s thinking too much again. I leans against the wall.
+
+<<eli "stream chat fills the silence, at least.">>
+
+<<marc "even when it’s dead?">>
+
+<<eli "especially then.">>
+
+A beat passes.
+
+<<marc "you don’t have to fill every gap.">>
+
+<<eli "feels like i do.">>
+
+Marc doesn’t argue.
+
+<<marc "sit for a minute anyway.">>
+
+We sit in quiet. After a while 
+
+<<eli "i’m gonna head.">>
+
+<<marc "later.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_marc_15
+
+Marc opens the door mid-stretch, cracking his neck slightly. The room smells like laundry detergent for once fresh, almost unfamiliar.
+
+<<marc "yo, welcome.">>
+
+<<eli "why does it smell… good in here?">>
+
+<<marc "did laundry. don’t make it a thing.">>
+
+I steps in, sniffing the air like I didn’t trust it.
+
+<<eli "this is weird.">>
+
+<<marc "you’re weird.">>
+
+Marc tosses a clean hoodie onto the chair.
+
+<<marc "you should try it sometime.">>
+
+<<eli "don’t start.">>
+
+We both sit.
+
+<<marc "you stream earlier?">>
+
+<<eli "yeah. same outcome.">>
+
+<<marc "consistent, at least.">>
+
+<<eli "consistently bad.">>
+
+Marc nudges him lightly.
+
+<<marc "consistency’s step one.">>
+
+<<eli "what’s step two?">>
+
+<<marc "not quitting.">>
+
+I says it like it’s simple. I stares at the floor.
+
+<<eli "yeah…">>
+
+I stands after a moment.
+
+<<eli "i’ll head out.">>
+
+<<marc "later, man.">>
+
+<<eli "later. good night.">>
+
+[[Leave|neighbourhood]]

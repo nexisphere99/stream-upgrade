@@ -1,0 +1,1243 @@
+
+
+
+
+:: day_3_1_other
+<<set $day to 3>>
+I wake up and the first thing I do is check the dashboard.
+
+Not my phone. Not the time. Not the ceiling crack, which is still there, still growing, still splitting the plaster in its patient, geological way. The dashboard. I roll off the mattress, cross the two steps to the desk in my boxers and the same grey shirt I slept in, jiggle the mouse, and watch the second monitor wake with the ElliePlayz stats from last night still displayed like a stock ticker from a dream I can't believe I had.
+
+Peak Viewers: 89
+Average Viewers: 61
+New Followers: 47
+Donations: $47.00
+Chat Messages: 312
+
+It's real. I stare at the numbers the way I used to stare at the ceiling crack   with a fixed, trance-like attention that borders on devotion   except these numbers don't fill me with dread. They fill me with something else. Something that vibrates in my fingertips and my jawline and the pit of my stomach. Something I haven't felt since I first started streaming eight months ago, back when I still believed the next stream would be the one that changed everything.
+
+Hope. Except this time the hope has evidence.
+
+$47 in one hour. As a voice. As a name. As a pink-and-purple gradient with a cursive font. 47 followers in one session   that's 87% of what EliPlays accumulated over eight entire months. In sixty minutes, Ellie eclipsed Eli.
+
+I sit in the desk chair. It sinks its customary inch and a half. The hydraulic wheezes. The apartment is the same   cold, dim, the fridge humming, the burrito wrappers breeding on the counter   but the numbers on the screen are a window into a different apartment, a different life, a different version of this same morning where the person sitting in this chair isn't calculating how many days until the $47 in his bank account runs out but calculating how quickly the $47 on his dashboard can multiply.
+
+My phone buzzes. I grab it off the floor.
+
+<<kira "hey. hope you got home safe last night.">>
+
+Kira. The message from last night   the one I answered with "night kira" and no heart, the bare two words, the closed door. She sent this at 8:15 AM. It's now 9:47. She's been awake for an hour and a half and the first thing she did was check on me.
+
+The warmth is there. The Kira warmth. Even in the standard route, even in the version where I laughed off calling her hot and killed the moment with cowardice, the warmth is there   muted, banked, a fire I covered with ashes but didn't extinguish. She still cares. She still sends red hearts. She still asks if I got home safe.
+
+<<eli "yeah got home fine. late night">>
+
+<<kira "streaming?">>
+
+<<eli "yeah. working on some stuff">>
+
+<<kira "the mysterious 'stuff.' one day you'll tell me what that means">>
+
+<<eli "one day">>
+
+<<kira "🙄 anyway. stream at noon if you want to watch. doing a Just Chatting Q&A today">>
+
+<<eli "might tune in">>
+
+<<kira "you better. i'm answering embarrassing questions from chat and i need moral support">>
+
+<<eli "i'll be there">>
+
+<<kira "❤️">>
+
+Red heart. She's still sending them. Even after the laugh. Even after I closed the door. Kira Nomura sends red hearts the way the sun produces light   not because it's asked to, not because it's reciprocated, but because that's what it does. It's her nature. The warmth radiates outward regardless of whether it's absorbed.
+
+I don't send one back. I send a thumbs up. The forty-year-old dad emoji. The emotional equivalent of a firm handshake when someone opens their arms for a hug.
+
+I put the phone down. Look at the dashboard. Look at the phone. Dashboard. Phone. Two realities, two screens, two versions of who I am and what I want.
+
+The dashboard wins.
+
+I open the browser. Tab one: the ElliePlayz channel page. 47 followers. The number is small but it's real and it's growing and the growth happened in an hour and the trajectory, if it holds, projects into numbers that make my stomach flip. Tab two: YouTube. The VoxMorph tutorials I bookmarked last night. Tab three, which I open now with the deliberate, focused energy of a person who has identified a problem and is solving it:
+
+Google search: "how to look feminine fast"
+
+[[How to look feminine fast|day_3_2_other]]
+
+:: day_3_2_other
+<<set $hint to "Go down the rabbit hole">>
+<<set $day_step to 2>>
+The rabbit hole opens.
+
+It starts with makeup tutorials. Dozens of them. YouTube is overflowing with videos titled "FEMININE MAKEUP FOR BEGINNERS" and "MTF MAKEUP TRANSFORMATION" and "How to Feminize Your Face in 10 Minutes." I watch three of them in succession   women and trans women and drag queens demonstrating contouring, highlighting, the strategic application of color to reshape the way light hits bone. The techniques are impressive but impractical for my purposes: makeup is visible on camera, especially on a webcam with bad resolution, and the time investment is significant. Twenty minutes of contouring before every stream, plus the risk of smudging, sweating, the makeup shifting mid-session.
+
+I want something more permanent. Something that doesn't wash off.
+
+There's the obvious solution. The one any tech-literate person in 2027 would think of first.
+
+AI face-swap. Real-time deepfake filters. The technology exists   apps that map a generated face onto yours live, rendering a completely synthetic person over your webcam feed. Half the internet runs on some version of it.
+
+I consider it for exactly twelve minutes.
+
+The problem isn't quality   for pre-recorded content, AI faces are nearly flawless. A YouTube video, a TikTok, an edited clip   you could run a generated face through post-processing and nobody would ever know. But I'm not making videos. I'm live streaming. Real-time. Two hours of continuous webcam, every frame rendered on the fly, every expression tracked and mapped and composited at 30fps with zero room for error and the errors come. They always come.
+
+There was a streamer   IndigoVeil   who ran a real-time AI face filter for four months. Premium GPU, calibrated lighting, the best software money could buy. It worked beautifully. Until she sneezed. One involuntary full-body sneeze that the motion-tracking couldn't follow. The AI lost the face for less than a second. One frame of the real face underneath   wrong jaw, wrong skin, wrong everything. One viewer screenshotted it. Reddit post. Viral in six hours. Clip channels dissecting it frame by frame. 2,000 viewers became zero overnight. Account deleted within 48 hours.
+
+That's the premium version. I have a 2014 webcam and a thrift-store desk lamp. The composite would bleed at the hairline within minutes. The lip sync would lag on every third sentence. The micro-expressions   the wide-eyed gasp, the slow blink, the thinking face   would arrive 40 milliseconds behind the voice, and the regulars who watch every stream would clock it in a week.
+
+Pre-made content? AI is perfect for it. Live streaming? It's a time bomb with a sneeze for a trigger and when it detonates   one screenshot, one Reddit post, one clip channel   there's no recovery. The internet doesn't forgive fake faces. It archives them.
+
+I close the FaceMorph tab. AI is the last resort. The nuclear option I'd only touch if nothing else worked, and even then I'd be building on sand.
+
+The voice modulator is a different story. VoxMorph works   it works well enough for now. The pitch shift is clean, the formant adjustment is natural, and through Twitch compression at 128kbps audio nobody can tell the difference between processed and organic. It's reliable in a way that AI face-swap isn't. A voice doesn't sneeze. A voice doesn't glitch at the hairline. The processing is consistent, frame after frame, hour after hour.
+
+But "well enough for now" isn't "permanent." I can hear the seams if I listen for them   a faint digital shimmer on certain vowels, a flatness in the laugh that a real feminine voice wouldn't have, the way the software rounds off the edges of my natural register instead of truly reshaping them. Chat doesn't notice. Chat is listening through laptop speakers and earbuds and the general audio soup of a Twitch stream. But someone with good headphones and an ear for audio? A sound engineer? A voice coach? They'd hear the processing. They'd hear the machine inside the girl.
+
+There's the fatigue. Two hours of speaking through VoxMorph strains my throat differently than normal talking   I'm pitching my natural voice into a range that the software can work with, staying in a narrow band that processes cleanly, avoiding the low register that makes the algorithm stutter. By the end of a long session my vocal cords ache in a way that feels unsustainable. I can't do this for years. The software is a bridge, not a destination.
+
+RegenaForm's menu listed voice modulation   organic, not software. Tier 2. Actual restructuring of the vocal cords and resonance chambers. A voice that's mine, that's feminine, that doesn't need a plugin. That doesn't fatigue. That doesn't shimmer on certain vowels.
+
+But that's later. That's Tier 2. That's thousands of Dollars I don't have yet.
+
+For now, VoxMorph holds. The voice is the most reliable part of the illusion   more reliable than the crop-line framing, more reliable than the wig, infinitely more reliable than any AI face would be. It's enough. For now.
+
+The face is the problem. The face needs to be real.
+
+I need something real. Something that IS the face, not something projected onto it. Something a viewer can screenshot and frame-by-frame and zoom into and find nothing wrong   because the lashes are actual lashes and the brows are actual brows and every cell is mine.
+
+
+The search mutates. "How to look feminine without makeup." "Facial feminization non-surgical." "Subtle feminization techniques for streaming." The results shift from YouTube to forums   Reddit threads, niche communities, spaces where people discuss passing and presentation and the specific art of looking like someone other than who you were born as.
+
+I read for forty-five minutes. The information is dense, detailed, and organized by the kind of people who have spent years thinking about exactly this problem. Brow shaping. Eyelash extensions. Skincare routines that change the texture and luminosity of skin. Hair   real hair, wig options, styling techniques. Each topic is a door, and behind each door is a room full of more doors, and the architecture of the rabbit hole is designed to keep you descending and then   on the second page of a Google search for "facial feminization fast results"   the ad.
+
+It doesn't look like an ad. It looks like a search result, clean and authoritative, with a thumbnail image of a chrome double helix and text that reads:
+
+RegenaForm   Unlock Your True Form DNA-based bioengineering. No scars. Full sensory integration. Consultations available.
+
+I click it.
+
+The website loads and it's   beautiful. In the way that a luxury car showroom is beautiful, or a five-star hotel lobby. The design communicates money and competence and the specific brand of confidence that comes from knowing your product works. White space. Clean typography. The chrome double-helix logo rotating slowly in the header. A tagline beneath it: "We don't change you. We unlock you."
+
+I scroll. Before-and-after gallery. Each transformation shown in high resolution, the images so detailed they look medical and so beautiful they look editorial. Faces shifting from one configuration to another   masculine to feminine, angular to soft, forgettable to magnetic. The changes range from subtle (a jawline refined, skin cleared) to dramatic (full facial feminization, the bone structure literally reshaped, a different person emerging from beneath the same skin).
+
+Services. Listed in tiers. Tier 1: Facial Feminization. Eyelashes, brow sculpting, nose refinement, jawline contouring, lip enhancement, skin treatments. Tier 2: Voice Modulation (organic   not software). Tier 3: Hair. Tier 4: Body contour. Tiers 5 through 8: escalating, invasive, transformative. The prices are in Dollars, a cryptocurrency I've seen in niche forums. The conversion rate to USD is roughly 1:1.
+
+Tier 1 starts at 500 $. Individual features are cheaper. Eyelash enhancement: 200-350 $. Brow sculpting: 300-500 $. The numbers are large for someone with $47 in the bank but small for someone who just earned $47 in an hour.
+
+I read the FAQ.
+
+"Is the process reversible?"   "All modifications can be revised or reversed. See our Revision Policy."
+
+"Does it hurt?"   "Our DNA-based technology integrates with your own genetic material. Most clients describe the sensation as 'warm' or 'tingling.' No anesthesia required for Tier 1."
+
+"How long does it take?"   "Tier 1 procedures range from 20 minutes to 2 hours. Results are immediate."
+
+Immediate. No surgery. No scarring. No downtime. I read the word "immediate" three times and each time it sounds more like a promise and less like a claim.
+
+At the bottom of the FAQ, a button: Book Free Consultation.
+
+I click it before the rational part of my brain can file an objection. The form loads. Name: Ellie. Email: ellieplayz.stream@gmail.com (created on the spot, fingers moving faster than thought). Phone: my real number. Date: today. Time: the dropdown shows 2:30 PM available.
+
+I submit. Confirmation page: "Thank you, Ellie! Your consultation with Dr. Voss is confirmed for 2:30 PM today. 1440 Meridian Ave, Suite 12."
+
+1440 Meridian. Four blocks from my apartment. The clinic that promises to unlock my "true form" is a fifteen-minute walk from the building where I've been slowly decomposing for eight months. The proximity feels like fate or marketing. Probably marketing.
+
+I close the browser. Open it. Close it. Open it one more time, look at the confirmation, and close it for real.
+
+It's 11:30 AM. Three hours until the consultation.
+
+I should stream. I should open EliPlays and grind ranked and talk to DarkSlayer and earn my $1.75 per hour and maintain the fiction that the first account still matters. But the ElliePlayz dashboard is glowing on the second monitor and the $47 is still there and the idea of going live as Eli right now feels like putting on a costume   the wrong costume, the one that doesn't fit, the one the audience doesn't want to see.
+
+I eat a microwave burrito. Rotate at one minute. Chicken and cheese. Warm salt and texture. Monster Energy, the last one. The green can, original flavor. Breakfast of a person whose diet will kill him before the streaming does.
+
+I watch Kira's stream for an hour. She's doing the Q&A she mentioned   sitting in front of the ring light, the bob perfect, the glasses catching the LED glow, answering questions from chat with the easy charisma of someone who's done this a thousand times. Her viewer count hovers around 950. The donations scroll. I watch her talk and laugh and perform and I feel the familiar two-part feeling: the warmth (she's incredible, she's magnetic, her laugh does things to my heartbeat) and the math (950 viewers, $12 in donations in the ten minutes I've been watching, $72 an hour, $288 in four hours, and I have $47 in the bank).
+
+She says something that makes me sit up.
+
+A viewer asks: "What advice would you give to a new streamer trying to grow?"
+
+<<kira "Honestly? Be authentic. Find the thing that makes you you and lean into it. The algorithm rewards consistency and personality. Don't try to be someone you're not   the audience can tell.">>
+
+Don't try to be someone you're not.
+
+I close her stream. I can't watch right now. The cognitive dissonance is giving me a headache   the girl I almost kissed yesterday telling me to be authentic while I'm sitting at a desk with a voice modulator installed and a consultation booked at a bioengineering clinic to make my face look like someone else's.
+
+12:30 PM. Two hours until RegenaForm.
+
+I shower. Use the Marriott shampoo. Not for Kira this time   for the consultation. For Dr. Voss, whoever they are. I want to look... presentable. Not feminine, not yet, just like a person who cares about their appearance, who takes this seriously, who isn't walking in off the street in a state of visible desperation.
+
+I put on the grey shirt. Black joggers. The hoodie. The crushed sneakers. I look in the phone camera. The face is the same   pale, dark circles, thin lips, greasy hair that the shampoo improved but didn't transform. The face that earned $3.50. The face I'm about to ask a stranger to change.
+
+I leave the apartment at 2:10. The walk takes twelve minutes.
+
+<<link "Go to the consultation">><<set $hint to "Go to the consultation at Regeneform">><<goto neighbourhood>><</link>>
+
+
+:: day_3_3_other
+
+Suite 12. Second floor. A frosted glass door with a chrome double helix etched into it, catching the hallway's fluorescent light and turning it into something elegant. No signage. No description. Just the logo and the suite number and the quiet implication that if you're here, you already know what this is.
+
+I push the door open.
+
+The waiting area is designed to make you forget you're in a building on Meridian Ave that also houses an accountant and a bail bondsman. Hardwood floors, polished. Two dove-grey couches with angular precision. A glass coffee table with a single orchid and a stack of lookbooks   glossy, heavy-stock portfolios of before-and-after transformations that sit between the orchid and a small bowl of individually wrapped mints like an art exhibition catalog at the world's most unsettling gallery. The lighting is warm, recessed, the kind that makes everyone look better, which is either thoughtful design or a cruel preview of services available and then there's the receptionist.
+
+Lina.
+
+I've seen attractive people before. I live in a city. I browse the internet. I have functioning eyes. But Lina exists at a frequency of beauty that makes the word "attractive" feel like bringing a butter knife to a sword fight. She's standing behind the reception desk in a fitted dove-grey dress with the chrome helix embroidered on the chest, and everything about her   the honey-toned skin, the doe-shaped amber-gold eyes, the caramel-highlighted waves, the lips in a permanent, precise smile   reads as an answer to a question nobody asked. What does "perfect" look like? This. Apparently.
+
+The thing that gets me   the thing that hooks into my brain and won't let go   is that I can't tell what she is. Ethnically, genetically, categorically. She could be anything. Everything. The universality of her beauty is its own uncanny valley   too balanced, too symmetrical, too carefully composed, like a face designed by a committee whose only mandate was "no flaws."
+
+She's a walking advertisement. RegenaForm's best pitch isn't on the website or in the lookbooks. It's standing behind the desk, smiling, being impossible.
+
+<<lina "Welcome to RegenaForm! You must be Ellie.">>
+
+The voice is melodic, warm, modulated. Every word placed like a brushstroke.
+
+<<eli "Yeah. Hi.">>
+
+My voice sounds like gravel in comparison. Male, flat, the voice that earned $3.50. Standing in front of Lina, I'm acutely aware of every masculine thing about myself   the jaw, the Adam's apple, the broad knuckles, the shoes, the posture. I'm a rough sketch standing in front of a finished painting.
+
+<<lina "Wonderful. Dr. Voss will be right with you. Can I get you anything? Water, tea, sparkling?">>
+
+<<eli "No, I'm good. Thanks.">>
+
+<<lina "Of course. Please make yourself comfortable.">>
+
+I sit on the grey couch. It's beautiful and rigid. I pick up a lookbook and flip through it   transformation after transformation, each spread a before-and-after that challenges the concept of identity. A jaw goes from square to soft. A brow ridge flattens. Skin clears from acne-scarred to porcelain. Each page is a person becoming a different person, or the same person becoming more of themselves, depending on which story you want to tell.
+
+I'm on a spread showing a full facial feminization   a face I would have read as unmistakably male on the left page and unmistakably female on the right   when the back door opens.
+
+[[Doctor arrives|day_3_4_other]]
+
+:: day_3_4_other
+<<set $hint to "Meet Doctor Maren Voss">>
+Dr. Maren Voss.
+
+Tall. Lean. Mid-thirties. A face that refuses categorization   sharp cheekbones and soft lips, strong brow and arched eyebrows, the kind of face that makes your brain try to assign a gender and fail and try again and fail again and eventually give up. Ash-blonde hair pulled sleekly back. Cool grey-green eyes that look at you the way a scanner looks at a barcode   not judgmentally, not warmly, just completely. White lab coat. Black high-collared shirt. The RegenaForm helix pin on the lapel.
+
+<<dr_maren "Ellie. I'm Dr. Maren Voss. Please, come in.">>
+
+I follow them through the door. The consultation room is behind it   warm lighting, two chairs facing each other across a low table, a large wall-mounted screen. More design studio than medical office. The whole clinic is like this   aggressively not-clinical, as if the aesthetic itself is part of the treatment, the first modification being your assumption of what this experience would feel like.
+
+I sit. Dr. Maren sits across from me. The grey-green eyes settle on my face with the attention of someone beginning an inventory.
+
+<<dr_maren "Tell me what brings you here.">>
+
+I've rehearsed this. Multiple versions. The one I deliver is the one that sounds most like a normal person making a normal request:
+
+<<eli "I'm a content creator. Streamer. I want to look better on camera. More... polished. Maybe a little more feminine. Not a full transformation   just enough to be camera-friendly.">>
+
+Dr. Maren listens without expression. The neutral attention of a professional who has heard this before   this specific request, this specific framing, this specific dance between what the client is saying and what the client means.
+
+<<dr_maren "Camera-friendly. Can you elaborate?">>
+
+<<eli "My face doesn't... it doesn't stop people. When they see my thumbnail, they scroll past. I need a face that makes people click.">>
+
+<<dr_maren "You want a face that performs.">>
+
+<<eli "...yeah. A face that performs.">>
+
+<<dr_maren "May I?">>
+
+They gesture toward my face. I nod. They lean forward and take my chin between two fingers   cool, dry, impersonal   and turn my head. Left. Right. Center. Up. Down. The examination is brief and thorough, the way a mechanic examines an engine   checking components, identifying the parts that work and the parts that need replacing.
+
+<<dr_maren "Interesting bone structure underneath the neglect. The jaw has feminine potential   it's not heavily set, just undefined. The brow ridge is moderate. Skin quality is poor but treatable. Eye shape is actually quite good   balanced, proportional. The main masculine reads are the brow, the nose, and the skin texture. Everything else is workable.">>
+
+They release my chin. Turn to the wall screen. A tap on a hidden tablet and my face appears   captured by a camera I didn't notice, displayed in merciless high resolution under clinical lighting. Every pore. Every blemish. Every asymmetry. I look like an evidence photo of my own mediocrity.
+
+A digital overlay appears   architectural lines mapping the bone structure, highlighting the masculine markers in red and the neutral/feminine zones in blue.
+
+<<dr_maren "Here's what I see.">>
+
+They trace the red zones.
+
+<<dr_maren "Brow ridge   moderately heavy. Reduces the vertical space of the eye area, codes masculine. Nose   wide bridge, rounded tip, unremarkable but distinctly male. Jaw   could go either way with treatment. Skin   acne, texture issues, dullness. These are the barriers between your current face and a face that... performs.">>
+
+They tap the screen. The overlay shifts. The red zones morph   the brow softens, the lashes lengthen, the skin smooths. A predictive rendering of the same face with Tier 1 modifications applied. The face on screen is still mine but also not mine   it's the face I'd have if I'd been born with different settings, if the genetic sliders had been positioned two notches to the left on every axis.
+
+<<dr_maren "This is achievable. Tier 1 only. No structural bone work. DNA-based modifications using your own genetic material   no rejection, no scarring, full sensory preservation. The technology activates dormant potential in your existing cells. We're not adding anything foreign. We're unlocking what's already there.">>
+
+Unlocking what's already there. The tagline from the website, delivered in person, with the weight of a doctor's authority and the precision of a sales pitch. I can't tell where the medicine ends and the marketing begins. Maybe there's no line.
+
+<<eli "What would you recommend? To start?">>
+
+<<dr_maren "For a first visit, we typically recommend eyelash enhancement   it's our most popular introductory procedure and we offer it complimentary for new clients.">>
+
+Free. The first one's free.
+
+<<dr_maren "Natural-Long eyelashes. Dense, dark, naturally long. Subtle enough that casual acquaintances won't identify the change consciously, but the effect on camera is dramatic. Lashes frame the eyes. Framed eyes hold attention.">>
+
+<<eli "And beyond that?">>
+
+<<dr_maren "If you'd like to invest in one paid procedure today, the brow sculpt. Feathered   soft, natural-looking, feminine arch. Three hundred Dollars. Opens the eye area, reduces the masculine coding of the brow ridge. Combined with the lashes, the effect is... transformative might be too strong a word. Let's say: significant.">>
+
+300 $. $300. I don't have $300. I have $47 in the bank plus $47 on the ElliePlayz dashboard that hasn't hit my account yet. But the $47 from last night will clear. If I stream tonight   which I will, which I'm already planning, the stream already taking shape in the back of my mind   the numbers suggest another $40-50 minimum. In two days, the brow sculpt pays for itself.
+
+<<eli "Payment plan?">>
+
+<<dr_maren "We offer credit. Dollars-based. Seven-day payment window. The eyelashes are complimentary. The brow sculpt   300 $   billed to your streaming account.">>
+
+<<eli "My streaming account?">>
+
+<<dr_maren "ElliePlayz.">>
+
+I don't ask how they know. I should ask how they know. A doctor at a clinic I found on Google two hours ago just said my fake streaming account name   the one I created last night at midnight, the one with 47 followers, the one that exists in a pocket of the internet so small you'd need a microscope to find it   and I should be alarmed by this. I should feel the hair on my neck stand up and the alarm bells ring and the rational part of my brain should be screaming how do they know, who told them, what are they tracking.
+
+But the $47 is on the dashboard and the rendering of my face on the screen looks like a person people would click on and Dr. Maren's grey-green eyes are steady and the word "complimentary" is still hanging in the air like a gift, and I don't ask. I cross the bridge without looking down.
+
+<<eli "How did you ">>
+
+<<dr_maren "We keep our ear to the ground. New streamers with... potential... tend to find their way here. It's not unusual. Many of our most successful clients began exactly where you are.">>
+
+They say it smoothly. Too smoothly. The words are a bridge over a question I should be asking   how do you know my stream name?   but the bridge is well-built and the far side has a brow sculpt and eyelashes waiting, and I cross it without looking down.
+
+<<eli "Okay. Let's do it. Eyelashes and brow sculpt.">>
+
+<<dr_maren "For streamers, we also include a complimentary professional wig from our StreamLine series. Camera-optimized. Natural appearance. Consider it a welcome gift.">>
+
+Three modifications. Two free. One on credit. The math of the deal is so favorable it should be suspicious, and it is suspicious, and I take it anyway because the rendering on the screen shows a face that could stream without hiding behind a nose-down crop and the numbers say that face would be worth more than $47 an hour.
+
+<<dr_maren "Excellent. Follow me.">>
+
+[[Follow Dr. Maren to the procedure room|day_3_5_other]]
+
+:: day_3_5_other
+<<set $hint to "The procedure">>
+
+The procedure room. Reclining chair. Adjustable lights. A tray of instruments that look less like medical tools and more like the contents of a very expensive artist's kit. The screen on the wall shows my face with the target areas highlighted   lashes in blue, brows in green.
+
+I lie back. The chair reclines silently   no wheezing, no hydraulic death rattle, just smooth mechanical precision. The ceiling above is white and featureless. No crack. The absence feels wrong, like a face without features.
+
+<<dr_maren "Eyelash enhancement first. Twenty minutes. You'll feel warmth at the application site. Close your eyes.">>
+
+I close them. A cool gel touches my eyelids. Then warmth   spreading, gradual, not unpleasant. Like sunlight through a window, concentrated on the tissue around my eyes. I can feel activity   not movement, not growth in the way you'd imagine growth, but a stirring. Something cellular being switched on. Dormant potential being activated. The science or the poetry of it   I can't tell which and I'm not sure it matters.
+
+Twenty minutes. I lie there with my eyes closed and I think about the numbers.
+
+$47 per hour × 3 hours per day × 7 days = $987 per week.
+$987 per week × 4 weeks = $3,948 per month.
+
+Four thousand dollars a month. Streaming as Ellie. That's rent plus groceries plus utilities plus enough left over to start climbing the transformation tiers, to invest back into the face, to make the face better which makes the numbers higher which makes the face better which makes the numbers higher 
+
+The loop is already running. I can feel it   the feedback circuit, the escalation logic, the same compulsive optimization that Kira described when she talked about her content strategy except pointed inward. At myself. At my face. The product and the marketing are the same thing and the thing they're selling is me and the buyer is the internet and the currency is attention.
+
+<<dr_maren "Eyelashes complete. Open your eyes.">>
+
+[[Open eyes after eyelash procedure|day_3_6_other]]
+
+:: day_3_6_other
+<<set $hint to "Open your eyes">>
+I open them. Mirror. My face. The same face, mostly. But the eyes 
+<<set $appearance   to 3>>
+<<set $femininity   to 1>>
+<<set $playerImage = "images/user/tier_0_1.jpeg">>
+<img src="images/user/tier_0_1.jpeg" alt="Eli's face after eyelash enhancement" class="scene-image">
+The lashes. Long, dark, dense, fanning out from my eyelids like the bristles of a brush dipped in ink. They catch the clinical light and cast micro-shadows on my cheekbones, tiny half-moons of shade that didn't exist twenty minutes ago. The eyes themselves are the same   brown, tired, the dark circles still visible   but the framing has changed. The lashes create a border, a declaration, a reason for a viewer's gaze to pause.
+
+<<dr_maren "Natural-Long. Dense, dark. No maintenance. They'll grow at the same rate as your natural lashes. The length is calibrated for standard webcam distance   one to three feet.">>
+
+Calibrated. For webcam distance. They've thought about this. They've optimized the lash length for the specific use case of being seen through a camera. The product is designed for the market. The market is me.
+
+<<dr_maren "Now the brows. Thirty minutes. Same process.">>
+
+The brow procedure involves more shaping   Dr. Maren's fingers trace the new arch with the precision of someone drawing a line they've drawn a thousand times, mapping the geometry of feminization onto the canvas of my brow ridge. The warmth spreads across my forehead, concentrated at the brow line, and I feel the restructuring   the cells shifting, reorganizing, the thick masculine arch thinning and lifting into something feathered and soft.
+
+Thirty minutes. Mirror again.
+
+[[See the new brows|day_3_7_other]]
+
+:: day_3_7_other
+<<set $hint to "See the new brows">>
+
+The brows have changed. Not dramatically   not yet. Dr. Maren says they'll continue refining for two to three hours, the full shape emerging gradually. But already the difference is visible. The thick, low-set, slightly unruly brows I've had my whole life are thinner now, with a soft arch where there was none, a curve that lifts the eye area upward and creates the impression of more space, more openness, more approachability. The combination of lashes and brows makes my forehead look different   less heavy, less masculine, lighter in the way that Dr. Maren described.
+<<set $appearance   to 4>>
+<<set $femininity   to 2>>
+<<set $playerImage = "images/user/tier_0_2.jpeg">>
+<img src="images/user/tier_0_2.jpeg" alt="Eli's face after eyelash enhancement" class="scene-image">
+
+I look at my face. The face with the new lashes and the reshaping brows and the same acne and dark circles and thin lips. It's a face in transition   not between genders, not yet, but between states. Between the face that earns $3.50 and the face that might earn more. Between EliPlays and ElliePlayz. Between the person I was yesterday and the person I'm deciding to become.
+
+<<dr_maren "The brows will reach their final shape by this evening. By tomorrow, you won't remember what the previous ones looked like.">>
+
+[[Wig fitting with Lina|day_3_8_other]]
+
+:: day_3_8_other
+<<set $hint to "Wig fitting with Lina">>
+
+Lina fits the wig. A side room   vanity mirror, lit, a wall of wig forms. She selects one without asking my preference, as if the choice was made before I arrived.
+
+<<lina "StreamLine series. Medium-length, soft waves, warm brunette. The fiber is camera-optimized   responds to light the way biological hair does, no synthetic sheen. The cap is adjustable, the lace front invisible.">>
+
+She puts it on me. Tucks my hair. Adjusts the cap. Aligns the lace. Her hands are efficient and warm and smell like vanilla and something that might be fabric softener or might be the ambient scent of someone who was manufactured to be perfect.
+
+<<lina "There.">>
+
+[[Look in the mirror with the new wig|day_3_9_other]]
+
+:: day_3_9_other
+<<set $hint to "Look in the mirror with the new wig">>
+<<set $loan        to 300>>
+She turns me to the mirror. The person looking back at me is 
+
+Not me. Except it is me. Every feature, individually, is mine   the eyes, the nose, the mouth, the skin. But the sum has changed. The wig   warm brunette waves falling to the shoulders, soft and real-looking and catching the vanity light like hair in a shampoo ad   reframes the entire face. The lashes anchor the eyes. The reshaping brows lift the forehead. The hair completes the illusion that isn't quite an illusion because it's built from my own cells, my own genetics, my own "dormant potential" switched on by a clinic four blocks from my apartment.
+
+<<set $playerImage = "images/user/tier_0_3.jpeg">>
+<img src="images/user/tier_0_3.jpeg" alt="Eli's face after eyelash enhancement" class="scene-image">
+
+I don't look female. I look... ambiguous. From certain angles, in certain light, the face could go either way. The jaw is still too angular, the Adam's apple still visible, the skin still rough. But from the nose up   lashes, brows, hair   the read is feminine. From the nose down   jaw, throat, stubble shadow   the read is male and the nose itself is neutral territory, the DMZ between two interpretations of the same face.
+
+From the nose down. Camera positioned to show from the nose down. Or from the nose up. Different framings for different truths.
+
+From the nose up.
+
+<<lina "The wig comes with a care kit. It's yours   our welcome gift. We hope to see you again soon, Ellie.">>
+
+The way she says "soon" has the same certainty as "we'll see you soon" at the end of a first dealer's sample. Not if. When.
+
+<<eli "Thanks.">>
+
+<<lina "Of course. Dr. Voss wanted me to mention   your Dollars credit is active. The brow sculpt balance is due within seven days and if you'd like to explore Tier 1 further... the full menu is available through our app.">>
+
+An app. Of course there's an app. Of course the bioengineering clinic that makes you prettier has a mobile application for browsing the catalog and scheduling procedures and managing your transformation like a subscription service. Of course.
+
+<<eli "I'll think about it.">>
+
+<<lina "Of course. We'll see you soon, Ellie.">>
+
+<<lina "Take your time. The door is always open.">>
+
+She says it with the certainty of a person who knows the difference between "goodbye" and "see you soon," who understands that the free eyelashes and the free wig are not charity but investment, and that the investment will pay off because it always does, because the door only opens one way.
+
+[[Take of the wig and Leave Facility|day_3_10_other]]
+
+:: day_3_10_other
+<<set $hint to "Leave the clinic">>
+<<set $playerImage = "images/user/tier_0_2.jpeg">>
+I leave RegenaForm with a bag containing the wig and the care kit and the knowledge that my face is actively restructuring itself as I walk. The January air hits me   cold, clean, the kind that makes your newly enhanced eyelashes feel longer because the cold air moves against them differently. I can feel them. The lashes. A faint awareness of their presence, like wearing new jewelry you haven't adjusted to yet.
+<<set $day_step to 10>>
+Four blocks home. I walk fast, the bag swinging from my hand, head down, hood up. Nobody looks at me. Nobody has ever looked at me   I'm the guy people scroll past, the face that doesn't register   and right now the invisibility is a gift because I'm walking home from a clinic that changed my face and I need to know if the changes are visible.
+
+I round the corner of my block and 
+
+<<marc "Yo!">>
+
+Marcus. Standing on the sidewalk in front of the laundromat, holding a bag of clean clothes, wearing the oversized charcoal hoodie and basketball shorts despite it being January, because Marcus dresses for the weather he wants, not the weather he has. His beat-up Jordans are untied. The scar on his left eyebrow catches the afternoon light.
+
+<<marc "Where you coming from?">>
+
+My heart rate spikes. The bag from RegenaForm suddenly weighs forty pounds. I shift it behind my leg.
+
+<<eli "Just walking. Needed air.">>
+
+<<marc "You don't go outside.">>
+
+<<eli "I go outside.">>
+
+<<marc "Name the last time.">>
+
+<<eli "...yesterday. Kira and I ">>
+
+<<marc "Before yesterday.">>
+
+<<eli "I went to the convenience store last week.">>
+
+<<marc "For Monster Energy.">>
+
+<<eli "It was outside.">>
+
+He looks at me. The Marcus look   direct, unhurried, the brown eyes that hold you and don't let go. He's scanning my face the way he always does, the quick visual check-in that he'd never admit is a welfare assessment but which is, objectively, a welfare assessment. He does it every time he sees me. Every time, for two years, Marcus has looked at my face and read it like a status report.
+
+<<marc "You look different.">>
+
+My stomach drops. The lashes. The brows. He sees them. He 
+
+<<marc "You do something with your hair?">>
+
+<<eli "Washed it.">>
+
+<<marc "With what, actual shampoo?">>
+
+<<eli "Hotel shampoo. Marc gave it to me.">>
+
+<<marc "I know. I'm Marc.">>
+
+<<eli "Right. Yeah.">>
+
+He squints at me for another second. Then shrugs.
+
+<<marc "Looks better. You should wash it more than once a year.">>
+
+<<eli "Noted.">>
+
+<<marc "Where you headed?">>
+
+<<eli "Home. Streaming stuff.">>
+
+<<marc "The mysterious streaming stuff.">>
+
+<<eli "It's not mysterious. It's just... stuff.">>
+
+<<marc "You and Kira both say that. 'Stuff.' Like it's classified.">>
+
+<<eli "It's not classified. It's boring.">>
+
+<<marc "Nothing about you is boring, bro. Tragic, maybe. Not boring.">>
+
+He adjusts the laundry bag on his shoulder. The conversation is casual   this is how we always talk, in the space between going somewhere and getting there, a running commentary that doesn't ask for depth but allows it. Marcus never forces the serious stuff. He just walks beside it and waits.
+
+<<marc "You talk to Kira today?">>
+
+<<eli "Yeah. Briefly.">>
+
+<<marc "How's that going? After the... thing?">>
+
+The thing. The moment. The "it's hot" and the laugh and the taking it back.
+
+<<eli "Fine. Normal.">>
+
+<<marc "Normal.">>
+
+<<eli "We're friends, Marc.">>
+
+<<marc "Mhm.">>
+
+<<eli "Don't mhm me.">>
+
+<<marc "You called her hot and then said 'just kidding' like someone defusing a bomb they built themselves, and now you're telling me it's 'normal.' That's not normal. That's emotional bomb disposal.">>
+
+<<eli "It was a joke.">>
+
+<<marc "It wasn't.">>
+
+<<eli "Marc ">>
+
+<<marc "I'm just saying. You had the moment. You bailed and now you're doing 'streaming stuff' on a Thursday afternoon instead of talking to her about it.">>
+
+He's right. He's always right. Marcus has this infuriating quality of being correct about emotional situations he's observing from the outside, like a sports commentator who can see plays developing before the players can. He saw the Kira thing coming. He called it and he's watching me fumble the aftermath with the same mixture of affection and exasperation that defines our entire friendship.
+
+<<eli "I'll figure it out.">>
+
+<<marc "You're not going to figure it out. You're going to avoid it until it becomes impossible to avoid and then panic. That's your pattern.">>
+
+<<eli "I don't have a pattern.">>
+
+<<marc "You have the most consistent pattern of anyone I know. Step one: identify problem. Step two: acknowledge problem. Step three: do absolutely nothing about problem until problem becomes crisis. Step four: panic.">>
+
+<<eli "That's... uncomfortably accurate.">>
+
+<<marc "I've had two years of data.">>
+
+We stand there on the sidewalk. The January wind cuts between the buildings. My face is changing beneath the skin   the brows still reshaping, the cells still restructuring   and Marcus is two feet away and he doesn't see it. He looked at my face, the face he's known for years, and he noticed the hair and nothing else.
+
+The lashes, the brows   they're invisible to him. Not invisible objectively   they're there, they're physical, they're real   but invisible socially. The changes are subtle enough that a person who knows my face reads them as "he washed his hair" rather than "he went to a bioengineering clinic and had his eyelashes modified and his brows restructured."
+
+The test passed. The first test. If Marcus   who has two years of data, who does welfare assessments with his eyes, who notices when I text at 4 AM about penguin knees   doesn't see it, then nobody will.
+
+<<marc "Alright, I gotta drop this off and get to work. ScreenFixx doesn't fix itself.">>
+
+<<eli "That's actually the business model.">>
+
+<<marc "Ha. See you later and talk to Kira.">>
+
+<<eli "I'll think about it.">>
+
+<<marc "You'll avoid it. But I said my piece.">>
+
+He walks off. The laundry bag bounces against his back. His untied Jordans slap the pavement. I watch him go   my best friend, my welfare assessor, the person who tells me truths I don't want to hear   and I feel the weight of the bag in my hand. The wig. The care kit. The evidence of a choice he doesn't know about, in a bag he didn't ask about, behind the leg he wasn't looking at.
+
+I walk the last block home.
+
+The apartment. The door. The key. The hallway that smells like cleaning products and someone's dinner. The stairs (elevator still sounds like a submarine, still don't trust it). The door to my unit. The lock. The interior.
+
+Same apartment. Same crack. Same everything.
+
+Except me.
+
+I set the bag on the desk. Open it. The wig sits inside, nestled in tissue paper, the brownish-auburn waves catching the overhead light (flicker, flicker, on) like something alive. I touch it. The fiber is soft   softer than my real hair, softer than anything in this apartment, which is a low bar but still.
+
+I place it on the desk beside the monitors. It sits there like a prop waiting for its scene.
+
+<<link "Go Home and Stream">><<set $hint to "Go Home and Stream">><<goto neighbourhood>><</link>>
+
+
+
+
+
+
+
+
+
+:: day_3_11_other
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+8:00 PM. The apartment is dark except for the monitors. I've spent the last three hours in a state I can only describe as preparation   not the productive kind, not the kind that results in a clean desk or an organized scene layout, but the internal kind. The psychological loading screen. The process of deciding to do something you've already decided to do.
+
+The cold one: ElliePlayz. The dashboard. The $47. The 89 viewers. The clinic. The wig in the closet.
+
+Both real. Both mine. Both impossible to hold simultaneously without something cracking.
+
+I turn on the light. The bulb flickers twice. Everything appears. The mattress, the desk, the monitors, the fridge, the burrito wrappers (two now, a growing collection). The closet with the wig buried in it.
+
+I sit at the desk. Open the closet. Pull the wig out. Set it on the desk beside the monitors.
+
+It sits there   brownish-auburn, soft waves, the StreamLine series from RegenaForm, designed for camera use   and it looks like a prop. A costume piece. A thing that belongs to someone else, waiting to be put on.
+
+I open OBS. Open VoxMorph. Open the ElliePlayz channel. The dashboard from this afternoon's stream is still visible:
+
+Peak Viewers: 89
+Average Viewers: 63
+Followers: 51
+Donations: $47.00
+
+51 followers. Some of them said they'd be back tonight. MidnightWhale99 said "tonight. I'll be there." ChillVibesOnly said "best new streamer on Twitch." People are waiting. Strangers who've never seen my face are waiting for a voice that doesn't exist to come back.
+
+I put on the wig.
+
+The process takes ten minutes   I watched a YouTube tutorial on the walk home, pausing at streetlights, memorizing the steps. Tuck the natural hair. Position the cap. Align the lace front. Secure with adhesive strips. The wig settles onto my head with a weight that's both physical and metaphorical   the feeling of putting on a costume, of stepping into a role, of becoming someone who isn't you and is entirely you.
+
+I look at the webcam preview in OBS. The image is 
+
+Different. Completely different.
+
+The wig changes everything. The brownish-auburn waves frame the face in a way my greasy brown hair never did   soft, warm, feminine. The lashes catch the monitor light and cast those tiny shadows. The brows, now almost fully reshaped, lift the eye area into something open and inviting. The combination   wig, lashes, brows   doesn't make me look female. Not yet. The jaw is still too angular, the nose too wide, the skin too rough. But from certain angles, in certain light, with certain framing 
+
+I adjust the webcam. Tilt it down. Frame the shot from the nose above. eyes, eyelashes, eye brows,forehead and the cascade of wig-hair falling from the top of my head. I angle my desk lamp to the side, creating a warm, directional light that softens the jaw shadow and makes the skin look smoother than it is.
+
+In the preview, from the nose up without nose visibility, in this lighting, with this wig, I look like 
+
+I look like a girl.
+
+Not a beautiful girl. Not a convincing girl. But a plausible one. A girl who's shy about showing her face. A girl who streams with the camera low because she's nervous. A girl named Ellie who has a cute voice and 51 followers and whose full face reveal is always "coming eventually."
+
+I turn on VoxMorph. Route the mic through OBS. Test the voice.
+
+<<chat "ElliePlayz" "Hey everyone, welcome back.">>
+
+The voice comes through the monitoring feed   feminine, warm, the same voice from this afternoon   and combined with the visual of the wig and the chin and the lips in the webcam preview, it's... convincing. Not flawless. Not indistinguishable. But convincing the way a good magic trick is convincing   you know it's not real, but if you don't look too hard, the illusion holds.
+
+I check the time. 11:00 PM. Late-night Twitch. The same time slot that worked this afternoon (which was actually early afternoon, different vibe, but the late-night slot is the one the guide recommended for new streamers).
+
+I change the OBS scene. Add the webcam   the nose-up framing without even nose visibility, the warm lighting. The ElliePlayz overlay, the pink-purple gradient, the cursive text. The game capture. Chat.
+
+I hover over "Go Live."
+
+[[Go Live|day_3_12_other]]
+
+:: day_3_12_other
+<<nobr>>
+<<set $right_sidebar_mode to 1>>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+<<set $day_step to 29>>
+<<set $viewers to 0>>
+<<set $followers to 51>>
+<</nobr>>
+
+My phone sits on the desk beside me. The last message on it is from Kira: a red heart emoji, sent as I left her apartment. The heart glows in the notification bar, a small red pulse, and I look at it and I look at the "Go Live" button and the distance between them is the distance between the person Kira thinks I am and the person I'm about to be.
+
+The wig is on. The VoxMorph is calibrated and the webcam   this is where the plan lives   the webcam is tilted UP.
+
+Not down. Up. Angled so the frame catches from the nose upward without nose visibility. Eyes. Lashes. Brows. Hair. The feminized zone. Everything RegenaForm touched today, everything the software processes, everything the wig transforms   it's all above the nose and everything that gives me away   the angular jaw, the thin masculine lips, the shadow of the Adam's apple   is below it, cropped out, invisible to anyone watching.
+
+I check the OBS preview. The framing is   it's startling.
+
+In the small rectangle of the webcam feed, a girl looks back at me. Not a whole girl. A suggestion of one. Large brown eyes framed by dense, dark, dramatically long lashes that fan outward and catch the desk lamp light in tiny bright points along their length. Soft feathered brows arched in a gentle feminine curve above the eyes, creating the open, inviting look that Dr. Maren described as "lighter." and the hair   the warm brownish-auburn waves cascading down both sides of the frame, a center part revealing a realistic hairline, the waves catching warm lamp light on the left and cool monitor glow on the right, two-toned and beautiful.
+
+From the nose up point, there is nothing masculine in this frame. The eyes could belong to any girl. The lashes are indistinguishable from natural. The brows are delicate and arched. The hair is long and warm and real-looking. The forehead is smooth, the brow ridge softened by the reshaping. A viewer scrolling the browse page would see this thumbnail and their brain would register: female. Pretty. Click.
+
+I angle the desk lamp one more degree to the left. The warm light catches the lashes and they cast those tiny crescent shadows on my cheekbones that I first noticed in Dr. Maren's mirror. The shadows are visible on camera. They read as cheekbone contour. They read as beauty.
+
+I click "Go Live."
+
+[[Go Live|day_3_13_other]]
+
+:: day_3_13_other
+<<nobr>>
+<<set $right_sidebar_mode to 1>>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+<<set $day_step to 30>>
+<<set $viewers to 15>>
+<<set $followers to 51>>
+<<set $hint to "Stream as ElliePlayz">>
+<</nobr>>
+ElliePlayz   Live
+Category: Just Chatting → Gunmetal Requiem
+Viewers: 0
+
+The stream goes live. The webcam activates. In the preview, a pair of large, lash-framed eyes and a cascade of brownish-auburn waves appear beside the game capture window, and the VoxMorph hums softly as it processes my breathing into something softer.
+
+<<eli  "Hiii! I'm back! Oh my gosh, hi everyone! I said I'd stream again tonight and here I am! I even have a little bit of camera now   I know I know, it's not a full face reveal, but you can see my eyes and my hair! Progress, right? How is everyone?">>
+
+Viewers: 3
+
+Viewers: 8
+
+Viewers: 15
+
+They come back. The people from this afternoon   I can see the usernames, ChillVibesOnly and MidnightWhale99 and night_owl_cc, returning like regulars to a bar, settling into the chat with the easy familiarity of people who've found something they want to keep.
+
+<<chat "MidnightWhale99"  "SHE'S BACK and we can see her EYES">>
+
+<img src="images/scenes/day_3/day_3_2.png" alt="A screenshot of the stream webcam feed, showing a close-up of Ellie's eyes, framed by long lashes and soft brows, with warm lighting creating tiny shadows on her cheekbones.">
+
+<<chat "ChillVibesOnly"  "ellie!! oh my god your EYES. your LASHES. i'm deceased">>
+
+<<chat "night_owl_cc"  "wait is that her actual face omgggg those eyelashes are UNREAL">>
+
+<<chat "stream_viewer_b1"  "her eyes are so pretty holy shit">>
+
+<<eli  "Aw, you guys! You're going to make me blush! I was so nervous to show any of my face, you have no idea.">>
+
+<<chat "MidnightWhale99"  "nervous?? you're gorgeous. those eyes could END me">>
+
+<<chat "stream_viewer_b2"  "the hair omg. the hair and the eyes together. i'm in love">>
+
+<<chat "ChillVibesOnly"  "okay but can we talk about the lashes? are those real??">>
+
+<<eli  "Haha, yes they're real! I just... have really long lashes, I guess? Genetics!">>
+
+Genetics. The word comes out smooth, wrapped in Ellie's voice, and the chat scrolls past it without a second thought. Nobody questions it. Why would they? The lashes look natural. They ARE natural   grown from my own cells, Dr. Maren's bioactive compound switching on dormant potential. The lie is built from truth, which is the most convincing kind.
+
+[[Play Gunmetal Requiem|day_3_14_other]]
+
+:: day_3_14_other
+Viewers: 28
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 28>>
+<<set $followers to 52>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<</nobr>>
+<<chat "stream_viewer_b3"  "new here, followed immediately, those eyes stopped my scroll">>
+
+<<chat "stream_viewer_b4"  "same lol i was literally scrolling the browse page and her eyes just grabbed me">>
+
+<<chat "stream_viewer_b5"  "the ring of gold around the brown is so pretty omg">>
+
+The ring of gold. They're talking about the color of my irises   a detail I've never heard mentioned in my life, a feature of my eyes that no one has ever noticed or commented on in 22 years of having them. As Eli, my eyes are "small dull brown." As Ellie, framed by lashes and arched brows and lit by a warm desk lamp, the same eyes have "a ring of gold around the brown."
+
+Same eyes. Different frame. Different reading.
+
+[[Continue streaming|day_3_15_other]]
+
+:: day_3_15_other
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 42>>
+<<set $followers to 54>>
+<<set $donations += 5>>
+<<set $money += 5>>
+<</nobr>>
+Viewers: 42
+
+$5.00 from MidnightWhale99: "told you i'd be here. those eyes are everything. the mystery of the lower face just makes it better."
+
+<<eli  "MidnightWhale, oh my gosh, thank you so much! Five dollars! You're literally the sweetest and haha, don't worry   full face eventually! I'm just still getting confident, you know?">>
+
+<<chat "MidnightWhale99"  "take forever. the half face thing is iconic honestly">>
+
+<<chat "stream_viewer_b6"  "she's right it IS iconic. like a vtuber but real eyes">>
+
+<<chat "stream_viewer_b7"  "the eyes-only thing makes you want to see the rest SO bad">>
+
+<<chat "night_owl_cc"  "imagine how pretty the full face is if the EYES look like that">>
+
+I load Gunmetal Requiem. Queue into ranked. The loading screen spins and I glance at the webcam preview again   the eyes looking back at me, lash-framed and softly lit, framed by auburn waves. They look like someone else's eyes. They look like a girl's eyes and the part of me that should be horrified by this is quiet, suppressed by the part that's watching the viewer count climb.
+
+[[Play the match|day_3_16_other]]
+
+:: day_3_16_other
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 58>>
+<<set $followers to 57>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<</nobr>>
+Viewers: 58
+
+The match starts. I play Sentinel   same agent, same Silver rank, same person. Round 1: I set up on B-site, place my traps, anchor the position. An enemy peeks my angle. I flick   actually flick, a genuine reflex shot that I couldn't replicate if I tried   and get the headshot. Clean. Instant.
+
+<<chat "stream_viewer_b8"  "WAIT">>
+
+<<chat "stream_viewer_b9"  "DID SHE JUST FLICK THAT">>
+
+<<chat "ChillVibesOnly"  "ELLIE?? CRACKED??">>
+
+<<chat "night_owl_cc"  "that was NASTY oh my god">>
+
+<<eli  "Oh my gosh!! Did you see that? I actually hit it! I never hit those!">>
+
+In the webcam preview, my eyes are wide   genuine surprise, genuine excitement   and the lashes frame the expression perfectly, the wide-eyed look reading as adorable surprise rather than the shocked-face-of-a-guy-who-never-hits-shots that it would read as on EliPlays. Same reaction. Different frame. Different audience response.
+
+<<chat "stream_viewer_b10"  "her eyes went SO BIG when she hit that shot lmaooo">>
+
+<<chat "stream_viewer_b11"  "the wide eyes + lashes combo im weak 🥺">>
+
+<<chat "MidnightWhale99"  "she's cute AND cracked. game over for everyone else on this platform">>
+
+[[Continue the match|day_3_17_other]]
+
+:: day_3_17_other
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 73>>
+<<set $followers to 61>>
+<<set $donations += 3>>
+<<set $money += 3>>
+<</nobr>>
+$3.00 from stream_viewer_b12: "that flick was cleaner than my entire career"
+
+Viewers: 73
+
+I play through the match. 7 and 5. Positive K/D   actually positive, not the 2-and-13 disasters I'm used to on EliPlays. The chat erupts:
+
+<<chat "stream_viewer_b13"  "SEVEN AND FIVE??? ELLIE IS ACTUALLY GOOD??">>
+
+<<chat "ChillVibesOnly"  "she's been hiding her power level">>
+
+<<eli  "You guys, I'm not good! I literally got lucky like three times!">>
+
+<<chat "stream_viewer_b14"  "HUMBLE QUEEN">>
+
+<<chat "night_owl_cc"  "she's good AND humble we stan">>
+
+<<chat "stream_viewer_b15"  "protect ellie at all costs">>
+
+Protect. There it is   the word. The instinct. I'm watching it happen in real time: 73 strangers developing the collective impulse to protect a person who doesn't exist. The feminine framing   the eyes, the lashes, the voice, the self-deprecating "I'm not good!"   triggers something in the audience, some evolutionary wiring that says she is small and humble and talented and she doesn't know it and we must shield her from the world. It's the same gameplay, the same skill level, the same K/D ratio that DarkSlayer would respond to with "lol still silver"   but the wrapper has changed, and the wrapper changes everything.
+
+[[Continue the match|day_3_18_other]]
+
+:: day_3_18_other
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 91>>
+<<set $followers to 67>>
+<<set $donations += 10>>
+<<set $money += 10>>
+<</nobr>>
+Viewers: 91
+
+$10.00 from MidnightWhale99: "you ARE good. you just don't see it yet. we see it."
+
+<<eli  "MidnightWhale, ten dollars?? You're insane! You keep donating and I'm going to cry on stream and then my mascara will run and that's the real reason I don't do full face cam!">>
+
+The chat explodes:
+
+<<chat "stream_viewer_b16"  "LMAOOO mascara excuse 😂">>
+
+<<chat "ChillVibesOnly"  "she's funny too I CAN'T">>
+
+<<chat "night_owl_cc"  "ellie crying on stream would break twitch">>
+
+<<chat "stream_viewer_b17"  "her eyes are already pretty imagine them with tears. devastating">>
+
+<<chat "MidnightWhale99"  "note to self: make ellie cry (happy tears only)">>
+
+I'm riffing. The Ellie voice is flowing now   not just the VoxMorph processing but the performance, the personality, the specific combination of shy and funny and self-deprecating that I've been building since the first stream. It's me. It's not me. It's the me that lives underneath the me, the version that has timing and charm and the ability to make a room laugh, the version that Kira described when she said "when we talk in Discord you're so quick and witty and real   on stream you get all stiff." This is the not-stiff version. This is the version that exists when the face doesn't match the expectations and the mismatch creates a freedom   a persona, a mask, a key that fits a lock I didn't know my personality had.
+
+[[Finish the match|day_3_19_other]]
+
+:: day_3_19_other
+<<nobr>>
+<<set $day_step to 30>>
+<<set $viewers to 107>>
+<<set $followers to 73>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<</nobr>>
+Viewers: 107
+
+Second match. I queue in. During the loading screen, the chat shifts to personal questions   the parasocial orbit tightening, the strangers wanting to know the person behind the eyes.
+
+<<chat "stream_viewer_b18"  "ellie how old are you?">>
+
+<<eli  "I'm 22! Just trying to figure life out, you know?">>
+
+<<chat "stream_viewer_b19"  "same 😭">>
+
+<<chat "stream_viewer_b20"  "what color are your eyes exactly? they look brown but there's like gold in them">>
+
+<<eli  "Haha, they're brown! I think the gold thing might just be the lighting? My desk lamp makes everything look warmer.">>
+
+<<chat "stream_viewer_b21"  "no the gold is REAL i can see it. hazel maybe?">>
+
+<<chat "stream_viewer_b22"  "eyes-only stream and we're already debating her eye color. this community is down BAD">>
+
+<<chat "MidnightWhale99"  "they're amber. trust me. i've been staring.">>
+
+<<chat "night_owl_cc"  "midnight you need to go outside">>
+
+<<chat "MidnightWhale99"  "outside doesn't have ellie's eyes">>
+
+The chat is developing its own dynamics   regulars emerging, inside jokes forming, the social ecosystem of a stream community crystallizing in real time. ChillVibesOnly is the hype person, reacting to everything with capslock enthusiasm. Night_owl_cc is the dry wit, the commenter who punctures the simping with deadpan observations. MidnightWhale99 is... MidnightWhale99. The devoted one. The one who donates, who shows up first, who says things that balance on the knife's edge between sweet and obsessive.
+
+[[Continue the match|day_3_20_other]]
+
+:: day_3_20_other
+<<nobr>>
+<<set $day_step to 37>>
+<<set $viewers to 118>>
+<<set $followers to 76>>
+<<set $donations += 15>>
+<<set $money += 15>>
+<</nobr>>
+Viewers: 118
+
+The match starts. I play well   or at least, I play the same way I always play, which is inconsistently, with bursts of competence between stretches of mediocrity. But the chat's reaction transforms the mediocrity into narrative. When I die, it's not failure   it's adversity. When I clutch, it's not luck   it's a growth arc. The audience is writing a story about me, a story about a shy girl with beautiful eyes who's finding her confidence through gaming, and every round is a chapter.
+
+Round 3: I pull off a 1v2. Not as clean as the flick earlier, but scrappy   a trade kill followed by a desperate spray-down that somehow connects.
+
+<<chat "stream_viewer_b23"  "1v2!!! ELLIE!!">>
+
+<<chat "ChillVibesOnly"  "SHE DID NOT JUST DO THAT">>
+
+<<chat "stream_viewer_b24"  "ok she's actually insane">>
+
+<<eli  "OH MY GOD! My hands are shaking! Did that actually happen?!">>
+
+In the webcam, my eyes are wide again, bright, the lashes catching desk lamp light   and I can see the viewer count spike as the moment gets clipped.
+
+$8.00 from stream_viewer_b25: "that 1v2 was beautiful and so are your eyes"
+
+$5.00 from night_owl_cc: "okay fine i'm simping too. you earned it"
+
+<<eli  "Night owl!! Your first donation! Oh my gosh, you don't have to—">>
+
+<<chat "night_owl_cc"  "shut up and take my money">>
+
+<<chat "stream_viewer_b26"  "night owl has fallen. we've lost another one to the eyes">>
+
+<<chat "MidnightWhale99"  "one of us. one of us.">>
+
+[[Continue the match|day_3_21_other]]
+
+:: day_3_21_other
+<<nobr>>
+<<set $day_step to 38>>
+<<set $viewers to 134>>
+<<set $followers to 81>>
+<<set $donations += 15>>
+<<set $money += 15>>
+<</nobr>>
+Viewers: 134
+
+$15.00 from BobaAndChill: "just got here from the browse page. the eyes-only cam is genius and your gameplay is better than most full-face streamers. instant follow."
+
+Fifteen dollars. From a stranger who clicked because the thumbnail   my eyes, framed by lashes and auburn waves   stopped their scroll. Exactly the way Kira described it. "When a cute face shows up on a thumbnail, people click." Except this isn't my face. Or it is my face, with modifications, seen through a frame that hides the parts that don't perform. It's a curated face. A product face. A face that exists only in the rectangle of the webcam preview, bounded by the crop line that separates who I am from who they think I see.
+
+The stream settles into rhythm. I play, I talk, I react. The eyes do the heavy lifting   every expression is amplified by the lashes and the framing. When I'm concentrating, the eyes narrow and the chat says "focus mode activated." When I'm surprised, the eyes widen and the chat says "the wide eyes 🥺." When I laugh   and VoxMorph processes the laugh into something higher, lighter, more musical   the eyes crinkle and the chat says "her eye smile is the best thing on twitch."
+
+<<chat "stream_viewer_b27"  "does anyone else just watch her eyes instead of the gameplay">>
+
+<<chat "stream_viewer_b28"  "yes. constantly.">>
+
+<<chat "stream_viewer_b29"  "the lashes cast these tiny shadows on her cheeks when she blinks and it's honestly hypnotic">>
+
+<<chat "MidnightWhale99"  "i've noticed the shadow thing too. it's the light angle. whoever set up that lighting is a genius">>
+
+I set up the lighting. Twenty minutes ago, in a dark apartment, with a $12 desk lamp from a thrift store. The shadows that MidnightWhale99 is calling genius are an accident   the lamp positioned to hide my jaw, the angle coincidentally catching the lashes at the exact distance needed to cast those crescent shadows. Genius. Sure. The genius of a desperate person with a desk lamp and a secret.
+
+[[Continue streaming|day_3_22_other]]
+
+:: day_3_22_other
+<<nobr>>
+<<set $day_step to 38>>
+<<set $viewers to 152>>
+<<set $followers to 89>>
+<<set $donations += 30>>
+<<set $money += 30>>
+<</nobr>>
+Viewers: 152
+
+$20.00 from BigSpender_X: "hottest eyes on twitch. don't @ me."
+
+<<eli  "Twenty dollars?! BigSpender, you're living up to your name! Thank you SO much!">>
+
+<<chat "BigSpender_X"  "worth every penny. those eyes are premium content">>
+
+<<chat "stream_viewer_b30"  "premium content 😂 he's not wrong tho">>
+
+<<chat "stream_viewer_b31"  "face reveal is going to break the internet. calling it now.">>
+
+<<chat "stream_viewer_b32"  "when do we get to see the full face ellie?? WHEN">>
+
+<<eli  "Ahh, you guys keep asking! I PROMISE I'll do a full face reveal eventually. I just want it to be special, you know? Like, I want my setup to be really good and my confidence to be there and I want to do it right.">>
+
+<<chat "stream_viewer_b33"  "take your time but know that we are DYING">>
+
+<<chat "MidnightWhale99"  "don't rush it. the eyes-only thing is iconic. you're building something special.">>
+
+<<chat "night_owl_cc"  "midnight speaking facts for once">>
+
+<<chat "MidnightWhale99"  "i always speak facts. especially about ellie">>
+
+The face reveal. They talk about it like it's a season finale   an event they're building toward, a promise I made that carries the weight of anticipation and they're right to anticipate it, because the eyes-only framing IS building something. It's building desire. The invisible lower face is a blank canvas that every viewer fills with their own projection   they imagine the most beautiful version of what they can't see, because the parts they CAN see (the eyes, the lashes, the hair) set the standard high.
+
+Except the face reveal can't happen. Not like this. The jaw would give it away. The lips. The Adam's apple. The face below the nose is still Eli's face   modified at the eye level but fundamentally, structurally masculine from the nose down. A face reveal would end ElliePlayz in the time it takes for one viewer to type "wait is that a dude."
+
+Unless the face changed more.
+
+The thought arrives uninvited, the way the voice modulator idea arrived, the way the RegenaForm consultation arrived   knocking at a door I didn't know existed, polite and inevitable. Unless the face changed more. Unless the jaw softened. Unless the lips filled. Unless the nose refined. Unless Tier 1 continued where it left off this morning, pushing the face further from Eli and closer to Ellie, until the crop line could drop lower and lower and the webcam could show more and more and eventually   eventually   there would be nothing left to hide.
+
+I push the thought away. Not now. Not tonight. Tonight is numbers.
+
+[[Continue streaming|day_3_23_other]]
+
+:: day_3_23_other
+<<nobr>>
+<<set $day_step to 40>>
+<<set $viewers to 173>>
+<<set $followers to 97>>
+<<set $donations += 25>>
+<<set $money += 25>>
+<</nobr>>
+Viewers: 173
+
+Third match. I queue in. The chat has grown large enough that it's self-sustaining   conversations happening between viewers that don't involve me, the community building its own culture, its own rhythms.
+
+<<chat "stream_viewer_b34"  "what's everyone's rank? i'm gold 2">>
+
+<<chat "stream_viewer_b35"  "plat 1 but i play like silver when ellie's stream is on because i can't focus lol">>
+
+<<chat "stream_viewer_b36"  "mood">>
+
+<<chat "ChillVibesOnly"  "i don't even play gunmetal i just come for the vibes">>
+
+<<chat "stream_viewer_b37"  "the vibes ARE the content">>
+
+I play. 8 and 6   my best game in recent memory, a K/D ratio that would be average for a normal player but represents a genuine personal best for me. The chat reacts like I won a world championship:
+
+<<chat "stream_viewer_b38"  "EIGHT AND SIX?? SHE'S ASCENDING">>
+
+<<chat "ChillVibesOnly"  "POSITIVE KD AGAIN THIS IS NOT A DRILL">>
+
+<<chat "night_owl_cc"  "ellie went from 'i'm so bad' to carrying in two days. character arc of the century">>
+
+<<chat "stream_viewer_b39"  "the glow up is real. gameplay AND visuals">>
+
+<<eli  "You guys are too hype! Eight and six is not carrying, that's just... not feeding!">>
+
+<<chat "MidnightWhale99"  "your version of 'not feeding' is our version of 'popping off.' accept it.">>
+
+[[Continue the stream|day_3_25_other]]
+
+:: day_3_25_other
+<<nobr>>
+<<set $day_step to 41>>
+<<set $viewers to 227>>
+<<set $followers to 121>>
+<<set $donations += 35>>
+<<set $money += 35>>
+<</nobr>>
+$10.00 from stream_viewer_b40: "the eyes the gameplay the personality. triple threat."
+
+$5.00 from new_viewer_x1: "stumbled in from browse page. 30 seconds in and already followed. those eyes are magnetic."
+
+$3.00 from stream_viewer_b41: "ellie for streamer of the year"
+
+Viewers: 198
+
+Viewers: 212
+
+Viewers: 227
+
+The number keeps climbing. I watch it in the dashboard on the second monitor   the graph line angling upward, steady, relentless, the visual representation of a lie that's working. 227 people are watching a pair of eyes and a voice and a name and they're happy. They're engaged. They're paying.
+
+I play one more match. Fourth of the session. By now the stream has been live for over two hours and I'm starting to feel it   not fatigue exactly, but the strain of sustained performance, the effort of maintaining Ellie's voice and Ellie's energy and Ellie's personality while my own personality sits behind it like a stagehand in black. The VoxMorph processes every breath, every pause, every involuntary sound into something feminine, and the effort of speaking naturally while being processed   of not thinking about how my voice sounds while a computer thinks about it for me   is a cognitive load that accumulates.
+
+But the numbers. The numbers keep me in the chair.
+
+Match 4: 5 and 7. Negative K/D. The worst game of the session. I whiff shots I should hit. I peek angles I should hold. I make the same mistakes EliPlays makes every day   the brainless aggression, the panicked peeks, the Silver instincts that no amount of webcam framing can fix.
+
+<<chat "stream_viewer_b42"  "rough game 😢">>
+
+<<eli  "Ugh, I'm sorry guys. That was terrible. I think I'm getting tired.">>
+
+<<chat "ChillVibesOnly"  "you played amazing all night don't apologize for one game!!">>
+
+<<chat "stream_viewer_b43"  "she's been live for two hours give her a break">>
+
+<<chat "night_owl_cc"  "rest queen. we'll be here tomorrow">>
+
+<<chat "MidnightWhale99"  "your worst game is better than most people's best. go sleep.">>
+
+<<chat "stream_viewer_b44"  "take care of yourself ellie. stream was incredible tonight.">>
+
+Even the bad performance is met with warmth. Even failure is cushioned. The audience has committed to the narrative   Ellie is the underdog, the shy girl getting better, the diamond in the rough   and a bad game doesn't break the narrative. It enriches it. It makes the next good game sweeter. It makes the audience feel protective, invested, needed.
+
+On EliPlays, a 5-and-7 game would produce silence. Or DarkSlayer saying "lol trash." Here, it produces twenty messages of encouragement and three people telling me to take care of myself.
+
+Same player. Same game. Same score. Different frame.
+
+[[Continue the stream|day_3_26_other]]
+
+:: day_3_26_other
+<<nobr>>
+<<set $day_step to 41>>
+<<set $viewers to 227>>
+<<set $followers to 148>>
+<<set $donations += 25>>
+<<set $money += 25>>
+<</nobr>>
+$12.00 from MidnightWhale99: "go rest. dream about something good. we'll be here when you wake up. always. 🌙"
+
+Always. He said always. A stranger on the internet just told a pair of eyes and a manufactured voice that he'll be there always. The word lands in my chest beside the splinter and the warmth and the $12 and I don't know which of those things weighs more.
+
+<<eli  "Okay everyone, I think I have to call it! This was the most incredible night of my life   227 viewers?? On my SECOND DAY?? I literally cannot process this. You guys are the absolute best community on Twitch and I mean that from the bottom of my heart. I'll be back tomorrow, same time. Thank you, thank you, thank you. Love you all SO much!">>
+
+<<chat "stream_viewer_b45"  "LOVE YOU ELLIE">>
+
+<<chat "ChillVibesOnly"  "BEST STREAMER ON THE PLATFORM">>
+
+<<chat "night_owl_cc"  "goodnight ellie. rest those beautiful eyes.">>
+
+<<chat "MidnightWhale99"  "tomorrow. 💜">>
+
+<<chat "stream_viewer_b46"  "notis ON. see you tomorrow queen ❤️">>
+
+<<chat "stream_viewer_b47"  "the rise of ellie begins. this is day 2 and it already feels historic">>
+
+[[End Stream|day_3_27_other]]
+
+:: day_3_27_other
+<<set $day_step to 43>>
+<<set $playerImage to "images/user/tier_0_2.jpeg">>
+I hit End Stream. VoxMorph stops. The monitoring feed goes silent and the room fills with the sound of my real breathing   low, male, the sound that doesn't earn $125 in a night.
+<<set $right_sidebar_mode to 0>>
+The dashboard sits there. The numbers sit there.
+
+Duration: 2 hours 14 minutes
+Peak Viewers: 231
+Average Viewers: 142
+New Followers: 97
+Total Followers: 148
+Donations: $163.00
+Subscribers: 6
+
+Combined ElliePlayz earnings: $210.00 (Session 1: $47 + Session 2: $163)
+
+I close OBS. Close VoxMorph. Take off the wig. Place it on the care form beside the desk. The brownish-auburn waves settle into stillness. Without the wig, my face reappears in the dead webcam preview   the face beneath the costume, the person beneath the performance. Pale. Tired. Male. The new lashes look strange without the wig and the framing   feminine accessories on a masculine canvas, conspicuous in the wrong context, invisible in the right one. The reshaped brows arch softly over tired eyes that no one is calling amber or golden anymore. Just brown. Just dull. Just Eli.
+
+I check my phone. Two messages.
+
+<<kira "hey hope you're doing ok. you seemed quiet today. eat something real tonight, not a burrito. i worry about you. ❤️">>
+
+<<marc "yo we still on for rift walkers this weekend? also you left your controller charger at my place">>
+
+I read Kira's message twice. The red heart. She's still sending them   even after I laughed off the moment, even after I closed the door, even after the "it's hot" died in the emergency chuckle and neither of us has mentioned it since. She still worries. She still checks. The warmth is there, banked and patient, the warmth of a person who decided to care about me and hasn't uncared yet.
+
+I don't send a heart back. I send what I always send.
+
+<<eli "ate something. thanks kira. night">>
+
+Bare. Two sentences and a period. The emotional equivalent of a nod across a room.
+
+<<eli "yeah this weekend works. i'll grab the charger">>
+
+I put the phone down. Lie on the mattress. Grey sheets. Thin comforter. Ceiling crack.
+
+The apartment is quiet in a way that Kira's apartment never is   no cat purring on an armrest, no hum of a full-sized refrigerator with actual food in it, no residual warmth of another person's presence in the cushions. Just the mini-fridge. Just the pipes. Just the sound of a building settling into its own decay and a person settling into his.
+
+The numbers float in the dark behind my closed eyes:
+
+EliPlays : $3.50. Peak viewers: 5. Followers: 54.
+ElliePlayz : $210.00 (combined sessions). Peak viewers: 231. Followers: 148.
+
+The gap. The gap isn't between me and Kira anymore. It isn't between me and the female streamers on the browse page. It's between me and myself. Between the person I am in the morning and the person I become at night. Between the stream nobody watches and the stream everybody wants. Between the name in the Discord message   Eli   and the name on the dashboard   Ellie and beneath those numbers, another thought   the one that arrived during the stream and refused to leave. The face reveal. The crop line. The jaw and the lips and the nose still waiting below the frame, masculine and visible, the border between Ellie's world and Eli's reality. The thought that whispered: unless the face changed more.
+
+RegenaForm's app is on my phone. I didn't open it. I don't open it now.
+
+But I know it's there.
+
+[[Stare at the ceiling crack|day_3_28_other]]
+
+:: day_3_28_other
+<<set $day_step to 28>>
+<<set $day to 3>>
+I stare at the crack. It's growing. Everything is growing   the crack, the followers, the donations, the lie, the guilt, the thought of what comes next. Everything is growing and nothing is stopping and the door that opened today opens only one way and I'm through it now, standing in a room I can't leave, wearing a face that isn't mine and isn't not-mine, holding a name that is two letters from my own.
+
+Ellie.
+
+Eli.
+
+The same person. Different key.
+
+But the key works. That's the thing my brain keeps circling back to, the fact it can't release, the number it can't stop chewing on. The key works. $210 today. From half a face. From eyes and lashes and brows and hair   from the nose up, from the feminized slice, from the fraction I'm willing to show.
+
+Half a face earned $210. Not even half a face, really. A quarter of a face, if you think about it. The eyes and hair, the part that reads feminine, the part that performs. The part that makes people say "those eyes could END me." The part that makes people click and stay and donate and simper and build a community around a person who doesn't exist.
+
+What would the full face earn?
+
+The math does itself. It runs unbidden, the way the math always runs in my head at this hour   not requested, not welcome, just there, a calculator that never sleeps, tabulating in the dark while I stare at the crack. If half the face   the pretty half, the modified half, the half that stops scrolls and earns donations and makes strangers say "those eyes could END me"   produces $210 in two sessions... what would the whole face produce? The full reveal. The eyes AND the lips AND the jaw AND the chin. The complete Ellie, not the cropped version, not the suggestion, but the person entire.
+
+Double? Triple? The face reveal is the most anticipated event on the channel   chat talks about it in stream, the curiosity building like pressure in a sealed container. When it finally happens, the viewer spike alone could push me past 500. Past 1,000. The donations during a face reveal stream would be   I can see it, I can see the number, and it's not $210. It's $500. It's $1,000. It's the kind of number that changes a bank account from a countdown to a foundation.
+
+But the full face can't happen yet. The jaw. The lips. The nose. The masculine tells that live below the crop line, waiting to betray me. A few more modifications   that's all. Not a full transformation. Not the deep tiers. Just... finishing what I started. Jawline softening. Lip enhancement. Nose refinement. Tier 1 stuff. The same tier I'm already in. Just completing the set. Filling in the gaps between the eyes and the chin until the whole face reads the way the upper half already does.
+
+A few more changes. That's all. A few more changes to show the full face and it wouldn't hurt anyone, I can always hide it with some minor changes. Without wig all these changes not make much difference. Wig is the one connnecting all nodes into one and make it complete.
+
+That's the part that locks into place like a deadbolt   the rationalization that seals the others shut, the capstone on the wall between what I'm doing and what it means. It wouldn't hurt anyone. The viewers are entertained. They're choosing to be here. The donations are voluntary. The parasocial bond is the same bond every streamer has with every audience   Kira has it with her chat, every Just Chatting streamer has it, every face on Twitch has it. I'm not scamming anyone. I'm performing. I'm providing a service. The fact that the performer doesn't match the performance is   what? Theater. Drag. Character work. The internet runs on personas. Nobody's real name is their username. Nobody's stream personality is their actual personality. I'm just taking it one step further. One step further with bioengineering and voice modulation and a wig.
+
+A few more changes to the face won't hurt a single soul on this earth. The viewers get their content. The algorithm gets its engagement. RegenaForm gets its StreamCoin and I get a life and the money   the money isn't just for me. That's what makes the math noble instead of desperate. That's the thread I pull on until the whole rationalization unspools into something that looks almost like virtue.
+
+I could stop being a weight.
+
+Marcus. Every coffee he buys me without mentioning it. Every time he covers lunch and changes the subject before I can offer to split. Every cheese puff and every "come thru if u want" and every shoulder punch that's really a welfare check disguised as friendship. He's been carrying me for two years   not financially, not exactly, but emotionally, practically, the way a person carries a friend who's drowning by keeping them near the surface without ever acknowledging the water. I've been the friend who can't buy his own coffee. The friend whose bank account is a punchline. The friend who takes and takes and calls it friendship because the alternative is admitting he's a burden.
+
+$210 in one day. If this continues   if the numbers hold, if the growth sustains   I can pay Marcus back. Not literally. He'd never accept money and he'd be insulted if I offered. But I can stop being the friend who needs covering. I can buy my own coffee. I can bring the snacks to his apartment instead of eating his. I can show up with a Tupperware of something that isn't a microwave burrito and say "I made this" and he'd look at me sideways and say "since when do you cook" and I'd say "since I could afford groceries" and neither of us would need to acknowledge what changed because the change would be visible in the Tupperware and the groceries and the fact that I'm standing in his kitchen with food I bought with money I earned.
+
+Kira. The friend who buys me ramen and drives me places and sends red hearts I don't return. The friend who told me the truth about the system and then watched me fail to use the information. Except I am using it now. She just doesn't know.
+
+If ElliePlayz works, I could tell her. Maybe. Eventually. I can picture the conversation   sitting in her apartment, Packet on the armrest judging us both, and me saying: "Remember when you told me the system rewards a specific input? I found a way to change the input." nd she'd look at me with those analytical eyes, the ones that see everything, and she'd understand. Because Kira understands systems. She identified the problem. She'd respect the solution, even if the solution is unconventional, even if it involves a wig and a voice modulator and a clinic four blocks from my apartment.
+
+She'd understand. She might even be impressed. The pragmatist in her   the part that writes essays about parasocial economics for fun   would see the elegance of it. The same system that punished Eli rewards Ellie. Same person. Different packaging. Market arbitrage.
+
+Marc would understand too. Eventually. Once there's something to show   once the numbers are undeniable, once the income is real and sustained, once I'm not presenting a theory but a result. Marc doesn't care about methods. He cares about outcomes. He cares about whether I'm okay. If the outcome of a wig and some facial modifications and a fake name is that I'm okay   actually, financially, measurably okay   he'd nod and say "wild" and ask if I'd eaten today and the conversation would move on because that's what Marcus does. He absorbs. He adjusts. He carries on.
+
+I'll tell them both. When the time is right. When the face is further along. When the numbers are big enough that the confession comes with evidence attached.
+
+My mom.
+
+God. My mom.
+
+My mom who works two jobs in another state   one at a grocery store, one doing night cleaning at an office building   and sends money she can't afford through Venmo every other month with texts that say "hope you're eating ok." Four words. The maximum emotional bandwidth of a woman who loves her son but doesn't know how to say it and doesn't have the energy to learn because both of her energies   the first shift and the second shift   are spent by the time she gets home to an apartment that's probably not much bigger than mine.
+
+She sends me $1500 every two months. $1500 she earns standing on her feet for eight hours scanning groceries and then standing on her feet for four more hours pushing a vacuum through cubicle farms. $1500 that crosses the distance between her state and mine and lands in my Venmo like a care package from a war zone, except the war zone is just America and the casualties are just dignity.
+
+$210. I earned $210 today. In one day. Sitting in a chair. Talking into a camera. Playing a video game.
+
+My mother earns that in two months of supplemental labor on top of two jobs.
+
+If ElliePlayz works   if the money continues, if the growth holds   I can stop taking her money. I can send her money. I can open Venmo and reverse the arrow and type "hope YOU'RE eating ok" and attach a number that's big enough to matter and she'd see it on her phone between shifts and she might cry or she might just nod the way she nods at things she doesn't fully understand but recognizes as good.
+
+I could call her. Pick up the phone and video call and when she sees my face   whatever face it is by then, whatever configuration the modifications have produced   she'd see a person who's okay. Not the gaunt, pale, acne-marked, dark-circled face she's afraid to see. A face that has color. That has rest. That has the specific luminosity of a person who isn't drowning anymore.
+
+She doesn't need to know how the money was earned. She doesn't need to know about Ellie or RegenaForm or the voice modulator. She just needs to know her son is okay. If the path to okay runs through a wig and a webcam and a name that's two letters different from his own   that's a path. That's more path than he's had in eight months. That's more path than the ceiling crack and the microwave burritos and the $12.50 monthly income offered.
+
+The brow sculpt cost $300. Today I earned $210. Two-thirds of the cost covered in a single day. Tomorrow, another stream. Another $100, $150, $200. By the end of the week, the brow sculpt is paid off. By the end of next week, I can afford the next modification.
+
+Nose refinement   $500. Then lips   $400. Then jawline   $600 to $900. Each one dropping the crop line lower. Each one bringing the face reveal closer. Each one feeding the loop that feeds the income that feeds the life that feeds the people who've been feeding me.
+
+The math works. The money is real. The face is changing. The audience is growing.
+
+A few more changes. A few more trips to Suite 12. A few more sessions in the chair with the cool gel and the warmth and the cells restructuring beneath the skin.
+
+It won't hurt anyone. The viewers get entertainment. RegenaForm gets paid. Marc gets a friend who can buy coffee. Kira gets a friend who figured it out. Mom gets a son who's okay and I get a life.
+
+The ceiling crack is still there. Still growing. But it's sharing the ceiling now with numbers that also grow   numbers that go up instead of apart, numbers that build instead of break.
+
+I close my eyes. The fridge hums. The wig sits on its form in the closet, patient, waiting for tomorrow. The RegenaForm app glows on my phone beside the mattress, a small teal icon, the double helix in miniature, a door in my pocket that opens with a tap.
+
+A whole face is coming. When it arrives   when Ellie's face is complete and the crop line drops to nothing and the stream goes live with everything visible   the number won't be $210.
+
+It'll be enough.
+
+Enough to stop being a weight. Enough to buy coffee. Enough to bring snacks. Enough to call my mom.
+
+I sleep and for the first time, I don't dream about the crack splitting wider. I dream about it filling in   plaster smoothing over the fault line, the ceiling repairing itself, the apartment becoming a place instead of a sentence.
+
+I dream about sending money instead of spending trust.
+
+I dream about a face that isn't finished yet, but will be. Soon.
+
+[[Sleep|eli_bed]]

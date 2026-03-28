@@ -1,0 +1,168 @@
+## CHARACTER PROFILES & IMAGE PROMPTS
+
+---
+
+### ELI VANCE — The Nobody
+
+**Role:** Protagonist. A failing streamer whose desperation becomes the engine of his transformation.
+
+**Age:** 22
+
+**Personality:** Quietly bitter, deeply insecure, but not without spark. Eli is the kind of person who rehearses conversations in the shower and still fumbles them in real life. He's smart enough to recognize the systems working against him but too paralyzed by self-doubt to do anything about it — until desperation makes the decision for him. He oscillates between self-pity and manic bursts of motivation that burn out within hours. Has a dry, self-deprecating sense of humor that occasionally lands but mostly just makes people uncomfortable. Underneath the cynicism is a genuine hunger to be *seen* — not famous, not rich, just acknowledged. He doesn't know it yet, but that hunger is the most dangerous thing about him.
+
+He eats like a college freshman despite graduating nothing — instant ramen, energy drinks, gas station sandwiches. Sleeps at irregular hours. Has a habit of picking at the skin around his thumbnails when anxious. Avoids mirrors not out of dysphoria but out of disappointment. Talks to his chat even when it's empty because the silence is worse.
+
+**Appearance:** Unremarkable and aware of it. 5'9", skinny-fat — no muscle tone but not overweight, just soft and undefined in a way that reads as neglect rather than genetics. Pale dull skin with mild acne concentrated on his forehead and jawline, visible dark circles from chronic poor sleep. Small brown eyes that rarely make direct contact. Thin, pale lips. A flat undefined jawline that disappears into his neck at certain angles. Slightly large nose with a wide bridge — the kind of feature that wouldn't matter on a more put-together face but on his just adds to the general impression of *asymmetry*. Slightly protruding ears he's been self-conscious about since middle school. Greasy, unkempt medium-length brownish hair that falls messily over his forehead because he can't afford a decent cut and doesn't care enough to try. His default expression is tired apathy — the face of someone who stopped expecting good things a long time ago.
+
+**Wardrobe:** Rotation of three faded t-shirts (one black, one grey, one dark green with an unreadable graphic), the same pair of black joggers he wears four days a week, cheap slip-on sneakers with the heels crushed down from wearing them like slides, and a worn-out dark navy zip hoodie that serves as his jacket, blanket, and emotional support garment.
+
+**Streaming Setup:** Secondhand desk found curbside. One working monitor, one with a dead pixel cluster. A budget mic that picks up ambient noise. A webcam from approximately 2014. No ring light. No acoustic treatment. No overlays. Stream name: **EliPlays** (54 followers, 8–15 average viewers, most of whom are bots or people who left the tab open by accident).
+
+**Earnings:** Last month total: $12.50 in donations. Lifetime: ~$180. He has never hit a subscriber milestone.
+
+**Dialogue Tag:** `<<eli "line">>`
+
+---
+
+#### ELI — Image Prompts
+
+**Face (Default — tired, unkempt):**
+Close-up front-facing portrait of a young man in his early 20s, clean-shaven with patchy missed stubble on chin and upper lip, pale dull skin with a greyish undertone and mild acne on forehead and along jawline, visible dark circles with slight puffiness under tired eyes, small dull brown eyes with sparse short straight lashes and a distant unfocused gaze, thick masculine low-set brows with slight unibrow hairs between, slightly large asymmetric nose with a wide bridge and rounded tip, thin pale lips slightly chapped, flat undefined masculine jawline that blends into the neck at certain angles, average male cheekbones with no definition, slightly protruding ears, greasy unkempt medium-length brownish hair falling messily over the forehead and covering the tops of the ears, tired apathetic expression with slight downward pull at the mouth corners, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Face (Streaming — webcam glow, trying):**
+Close-up front-facing portrait of a young man in his early 20s, same tired features — pale dull skin with acne, dark circles, small brown eyes, greasy unkempt brownish hair — but now lit from the front by a cool blue-white monitor glow casting harsh shadows under the brows and nose, eyes slightly more alert and focused looking directly forward at the viewer, thin lips pressed together in concentration, wearing a cheap black headset with a mic boom near the mouth, the faint reflection of a game screen visible in his eyes, slightly hunched posture visible in the neck and shoulder area, a worn dark green t-shirt collar visible at the bottom of frame, flat frontal screen-glow lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Body Front (Clothed — default):**
+Front-facing full body character sheet of one single young man standing against a plain solid black background. Skinny-fat build with no muscle definition, 5'9", slight forward slouch in posture, wearing a faded black t-shirt that hangs loosely on narrow shoulders, black joggers with a small hole near the left knee and elastic cuffs bunched at the ankles, cheap grey slip-on sneakers with the heels crushed flat, a worn dark navy zip-up hoodie open and unzipped hanging loosely, hands stuffed in hoodie pockets pulling it forward. Pale forearms visible with sparse dark hair. Defeated low-energy stance, shoulders rolled inward, head tilted slightly down. Full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+**Body Front (Home — streaming outfit):**
+Front-facing full body character sheet of one single young man standing against a plain solid black background. Skinny-fat build, 5'9", wearing a faded dark green t-shirt with an unreadable cracked graphic across the chest, grey sweatpants with a drawstring hanging loose, bare feet on a cluttered floor — energy drink cans and cable tangles suggested around the feet, a cheap black headset around his neck, greasy hair slightly pushed back from running a hand through it. Pale skin, thin arms, soft undefined midsection visible through the loose shirt. Slouched tired posture. Full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+**Body Front (Nude — T0 Baseline):**
+*(Already exists in transformation catalog as T0 Body Front, Back, Side, and Crotch prompts — identical. Cross-reference T0 section.)*
+
+---
+
+#### ELI — Expression Sheet Prompts
+
+**Frustrated/Angry:**
+Close-up front-facing portrait of the same young man — pale dull skin, acne, dark circles, small brown eyes, greasy brownish hair — with a frustrated angry expression, brows furrowed and pulled down hard, jaw clenched tight, nostrils slightly flared, lips pressed thin and turned down, eyes glaring directly forward with bitter intensity, tension in the neck and visible jaw muscles, overall impression of impotent rage, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, head and neck only
+
+**Hopeful/Excited (rare):**
+Close-up front-facing portrait of the same young man — pale skin, dark circles still present but eyes slightly wider and brighter, small brown eyes with a spark of light in them, brows raised, lips parted slightly in a small genuine smile showing a hint of teeth, greasy hair pushed back from forehead by one hand visible at the edge of frame, the expression of someone seeing possibility for the first time in months, still tired but *awake*, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, head and neck only
+
+**Embarrassed/Hiding:**
+Close-up front-facing portrait of the same young man — pale skin flushed slightly pink across the cheeks and nose bridge and ear tips, eyes averted to the side and slightly downward, one hand partially covering the lower face, brows pulled up and together in a cringe, greasy hair falling forward to partially hide the face, body language of someone who wants to disappear, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, head and neck only
+
+**Scheming/Thinking:**
+Close-up front-facing portrait of the same young man — pale dull skin, dark circles, but eyes narrowed with calculation rather than fatigue, small brown eyes focused and sharp for once, one brow slightly raised higher than the other, thin lips pulled to one side in a crooked half-smirk, chin slightly lowered creating a shadow under the brow ridge, the faintest hint of something dangerous in an otherwise forgettable face, greasy hair hanging forward, lit by cool blue monitor glow from below, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, head and neck only
+
+---
+
+#### ELI — Environment Prompts
+
+**Eli's Apartment — Wide Shot:**
+Wide interior shot of a cramped studio apartment, dim and cluttered. A mattress on the floor with tangled grey sheets and a flat pillow, no bed frame. A secondhand desk against the wall under a window with dusty bent blinds, two monitors — one with a visible dead pixel cluster glowing in the corner — a cheap microphone on a short desk stand, a webcam clipped to the top of the main monitor, tangled cables everywhere. A mini-fridge humming in the kitchenette area with a hot plate on the counter beside a stack of instant ramen cups. Energy drink cans scattered on the desk and floor. A single overhead light with a slightly flickering warm bulb. Clothes draped over a cheap folding chair. The walls are bare except for one small anime poster curling at the corners. Overall impression: functional depression. Visual novel background art style, semi-realistic anime aesthetic, soft cel shading, warm dim interior lighting.
+
+**Eli's Streaming Setup — Close:**
+Close-up view of a cluttered desk setup. Two monitors — main showing a game lobby screen with a tiny viewer count overlay reading "12" in the corner, second monitor showing an empty chat window with one bot message and one troll message visible. A cheap black microphone on a short stand slightly crooked. A webcam with a small dust smudge on the lens clipped to the monitor top. Tangled USB cables, a half-empty energy drink can, a crumpled ramen seasoning packet, and a worn mouse pad with frayed edges. The desk surface has ring stains from drinks. Cool blue-white monitor glow illuminates the scene. Visual novel background art style, semi-realistic anime aesthetic, soft cel shading.
+
+
+
+
+
+
+### MARCUS "MARC" DELANO — The Anchor
+
+**Role:** Eli's best friend since middle school. The guy who never left.
+
+**Age:** 22
+
+**Personality:** Laid-back, loyal to a fault, chronically unbothered. Marcus works part-time at a phone repair shop and plays games casually — he has zero ambition to stream but will hop on anyone's stream if asked. He's the kind of guy who brings snacks without being asked, never judges, and communicates almost entirely through sarcasm and shoulder punches. He doesn't notice subtle changes in people's appearances because he genuinely doesn't care what anyone looks like. This trait becomes critical later.
+
+**Appearance:** Tall (6'1"), broad-shouldered, Black, keeps his hair in short twists. Warm brown eyes, easy grin, usually wearing oversized hoodies and basketball shorts regardless of weather. Beat-up Jordans he refuses to replace. Has a small scar on his left eyebrow from a skateboarding accident at 14 that he lies about the origin of every time someone asks.
+
+**Streaming Setup:** Doesn't have one. Plays on a secondhand PS5 on a TV balanced on a milk crate. Doesn't understand why anyone would watch someone else play games.
+
+**Dialogue Tag:** `<<marc "line">>`
+
+---
+
+#### MARCUS — Image Prompts
+
+**Face:**
+Close-up front-facing portrait of a young Black man in his early 20s, warm dark brown skin with a healthy even complexion, short dark twisted hair neatly maintained, warm friendly brown eyes with a relaxed half-lidded expression, small scar cutting through the left eyebrow, naturally thick masculine brows, broad flat nose with rounded tip, full lips with an easy lopsided grin, strong square masculine jawline with slight stubble shadow, slightly protruding ears, relaxed confident expression, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Body Front (Clothed — casual default):**
+Front-facing full body character sheet of one single young Black man standing against a plain solid black background. Tall broad-shouldered athletic build, 6'1", wearing an oversized dark grey hoodie with sleeves pushed to elbows revealing muscular forearms, black basketball shorts past the knees, beat-up off-white high-top sneakers with visible scuff marks and crease lines. Relaxed posture with slight lean, one hand in hoodie pocket, confident easy stance. Neutral standing pose, full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+---
+
+### KIRA NOMURA — The Catalyst
+
+**Role:** Eli's online-friend-turned-real-friend. Successful mid-tier streamer. The living proof that female streamers earn more — not because she's manipulative, but because the market rewards her existence and she's smart enough to ride it.
+
+**Age:** 21
+
+**Personality:** Sharp, pragmatic, genuinely kind but not naive. Kira started streaming two years ago as a hobby and stumbled into consistent income almost by accident. She's aware of the gender dynamics in streaming and neither resents nor exploits them — she just *understands* them. She's the friend who tells you the uncomfortable truth while handing you a coffee. Has a dry sense of humor, tends to talk fast when excited, and has an infectious laugh she's embarrassed about. She cares about Eli more than she lets on and worries he's spiraling, but respects his autonomy too much to push.
+
+**Appearance:** Petite (5'3"), Japanese-American, slim build with soft features. Straight black hair cut in a sharp bob with blunt bangs. Dark brown eyes behind round wire-frame glasses she doesn't need for streaming (wears contacts on camera). Clear skin, minimal makeup in person — on stream she does a full e-girl setup with colored contacts and decorative blush. Usually dressed in oversized band tees (she likes J-rock), high-waisted jeans, and white platform sneakers. Has a small tattoo of a pixel heart on her inner left wrist.
+
+**Streaming Setup:** Clean, professional. Ring light, dual monitors, a pink-and-black custom keyboard, a high-end webcam, acoustic foam panels covered in anime posters. Her stream overlay is polished. She averages 800–1,200 viewers and pulls $3,000–5,000/month through a mix of subscriptions, donations, and brand deals.
+
+**Stream Name:** KiraByte
+
+**Dialogue Tag:** `<<kira "line">>`
+
+---
+
+#### KIRA — Image Prompts
+
+**Face:**
+Close-up front-facing portrait of a young Japanese-American woman in her early 20s, fair warm-toned skin with a clear smooth complexion, straight glossy black hair in a sharp chin-length bob with precise blunt bangs cut straight across the forehead, dark brown intelligent eyes behind round thin wire-frame glasses, naturally shaped dark brows, small neat nose with a soft slope, soft naturally pink lips with a slight knowing smirk, delicate oval face with a small pointed chin, small ears hidden behind the bob, composed confident expression with a hint of warmth, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Face (Stream Mode):**
+Close-up front-facing portrait of a young Japanese-American woman in her early 20s, fair warm-toned skin with applied decorative pink blush across cheeks and nose bridge, straight glossy black hair in a sharp chin-length bob with blunt bangs, vivid violet colored contact lenses in slightly larger-looking eyes with applied winged eyeliner and dramatic false lashes, naturally shaped dark brows with slight fill, small neat nose, soft pink-glossed lips with a playful smile, delicate oval face, small ears with dangling star-shaped earrings, cute energetic streamer expression, ring light catch-light visible in eyes, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Body Front (Clothed — casual default):**
+Front-facing full body character sheet of one single young Japanese-American woman standing against a plain solid black background. Petite slim build, 5'3", wearing an oversized faded black band t-shirt with Japanese text graphic tucked loosely into high-waisted light blue jeans, white chunky platform sneakers, a small pixel-heart tattoo visible on inner left wrist, round wire-frame glasses, black bob haircut with blunt bangs. Relaxed natural pose, one hand adjusting glasses, the other at her side. Full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+**Body Front (Stream outfit):**
+Front-facing full body character sheet of one single young Japanese-American woman standing against a plain solid black background. Petite slim build, 5'3", wearing a fitted black crop top with a pink pixel-heart graphic, high-waisted black pleated mini skirt, black thigh-high stockings, pink chunky headphones around neck, star-shaped dangling earrings, vivid violet contact lenses, full e-girl makeup with decorative blush and winged liner, black bob with blunt bangs, confident cute pose with one hand making a peace sign. Full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+---
+
+### REGENAFORM STAFF
+
+#### DR. MAREN VOSS — The Architect
+
+Already established in the GDD. Adding image prompt:
+
+**Face:**
+Close-up front-facing portrait of an ambiguously gendered person in their mid-30s, flawless pale skin with an almost luminous quality, sharp elegant bone structure that reads neither definitively masculine nor feminine, cool grey-green eyes with an unsettlingly calm steady gaze, thin sculpted eyebrows with a high arch, straight narrow nose with precise angles, lips that are full but controlled — neither smiling nor frowning, ash-blonde hair pulled back sleekly from the face, visible from hairline framing the temples, high cheekbones casting subtle shadows, wearing a barely-visible wireless earpiece in one ear, composed clinical expression radiating quiet authority, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+**Body (Clothed — clinic):**
+Front-facing full body character sheet of one single ambiguously gendered person standing against a plain solid black background. Lean elegant build, 5'9", wearing a tailored white lab coat over a black high-collared shirt, slim black trousers, minimalist white shoes, a thin silver bracelet on the left wrist, a small RegenaForm logo pin on the lab coat lapel — a stylized double helix in chrome. Perfect posture, hands clasped in front at waist level, composed and still. Full body from head to toe. One person only. Visual novel art style, semi-realistic anime aesthetic, soft cel shading, flat lighting.
+
+#### RECEPTIONIST — LINA
+
+**Role:** RegenaForm front desk. First face clients see. Deliberately chosen to be a walking advertisement for the clinic's work.
+
+**Age:** 26 (apparent). Actual unknown.
+
+**Personality:** Warm, professional, slightly too perfect. Speaks in a melodic cadence. Every gesture feels rehearsed but not robotic — more like a person who has practiced being approachable until it became second nature. She never blinks at odd requests.
+
+**Appearance:** Stunning in a way that's hard to pin down. Could be any ethnicity, all of them, none of them. Honey-toned skin, large doe eyes in an unusual amber-gold color, soft wavy caramel-highlighted hair past her shoulders, full lips in a permanent subtle smile. Her beauty is almost *too* balanced — the uncanny valley of attractiveness. She wears the RegenaForm uniform: a fitted dove-grey dress with the chrome double-helix logo embroidered on the chest.
+
+**Dialogue Tag:** `<<lina "line">>`
+
+**Face:**
+Close-up front-facing portrait of a stunningly beautiful young woman of ambiguous mixed ethnicity in her mid-20s, flawless smooth honey-toned skin with a subtle inner glow, large doe-shaped amber-gold eyes with naturally thick dark lashes, soft arched brows, small refined nose with a gentle slope, full softly smiling lips in a warm rose tone, high defined cheekbones with a gentle rounded quality, delicate oval face with a softly pointed chin, soft wavy caramel-highlighted brown hair falling past the shoulders with a slight center part, warm inviting expression that feels almost too perfectly composed, a small chrome double-helix earring in each ear, flat lighting, visual novel art style, semi-realistic anime aesthetic, soft cel shading, plain solid black background, character reference sheet, head and neck only
+
+---
+
+Now let me read your frontend-design skill before building the actual story, since this will be a substantial artifact.
+
+Actually — this is pure narrative text in Twee3 format, so let me just build it directly. Let me write the full three-day arc.
+
+---

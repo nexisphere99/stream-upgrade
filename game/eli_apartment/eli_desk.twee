@@ -1,0 +1,210 @@
+
+
+
+
+:: eli_desk
+<<nobr>>
+<<set $locationImage to "images/locations/eli_desk.jpeg">>
+<<set $locationName to "Eli's Desk">>
+<<set $right_sidebar_mode to 1>>
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+<<if $day == 1 and $day_step == 1>>
+[[Stream|day_1_2]] |
+<<elseif $day == 1 and $day_step == 9>>
+[[Stream|day_1_10]] |
+<<elseif $day == 2 and $day_step == 2>>
+[[Stream|day_2_3]] |
+<<elseif $day == 2 and $day_step == 21>>
+[[Stream|day_2_22_other]] |
+<<elseif $day == 3 and $day_step == 27>>
+[[Stream|day_3_28_kira]] |
+<<elseif $day == 3 and $day_step == 10>>
+[[Stream|day_3_11_other]] |
+<<elseif $day == 4 and $day_step == 2>>
+[[Stream|day_4_3_kira]]
+<<elseif $day == 4 and $day_step == 17>>
+[[Stream|day_4_18_kira]]
+<<else>>
+<</if>>
+[[Listen to Music|desk_music]] | [[Watch Movie|desk_movie]] | [[← Back to Apartment|apartment_map]]
+<</nobr>>
+
+:: desk_music
+
+<<set $rand to random(1, 6)>>
+<<if $rand is 1>>
+<<goto desk_music_1>>
+<<elseif $rand is 2>>
+<<goto desk_music_2>>
+<<elseif $rand is 3>>
+<<goto desk_music_3>>
+<<elseif $rand is 4>>
+<<goto desk_music_4>>
+<<elseif $rand is 5>>
+<<goto desk_music_5>>
+<<else>>
+<<goto desk_music_6>>
+<</if>>
+
+:: desk_music_1
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I pull up a playlist I haven't touched in a while. Something slow, low-fi, the kind of stuff that fills a room without demanding attention. I lean back in the chair and let it run. The monitor glows in front of me, idle.
+
+<<eli "...forgot I had this.">>
+
+It's good. I don't do anything else. I just let it play.
+
+[[← Desk|eli_desk]]
+
+:: desk_music_2
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+Something faster this time. I queue up a track I've been coming back to lately   the kind with a beat that hits somewhere behind the sternum. I turn it up louder than I should.
+
+<<eli "Yeah, that's the one.">>
+
+I sit there nodding to it like an idiot in an empty room. Don't care.
+
+[[← Desk|eli_desk]]
+
+:: desk_music_3
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I put on an album I used to listen to a lot   years ago, different apartment, different headspace. It sounds the same as it did then, which is strange, because I don't.
+
+<<eli "...takes me back.">>
+
+I sit through most of it without touching anything. Some songs still hit exactly the same.
+
+[[← Desk|eli_desk]]
+
+:: desk_music_4
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I shuffle something and whatever comes up is loud, aggressive, exactly wrong for the mood I was in going in. I almost skip it. Then I don't. I let it ride.
+
+<<eli "Okay. Okay, fine.">>
+
+By the second track I'm into it. Energy I didn't know I needed.
+
+[[← Desk|eli_desk]]
+
+:: desk_music_5
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+Ambient stuff. No real structure, just texture   layered tones that hum and shift without going anywhere. The room feels different with it on. Bigger, somehow.
+
+<<eli "...this is actually nice.">>
+
+I close my eyes for a minute. Just listen. Doesn't fix anything but makes the air feel less heavy.
+
+[[← Desk|eli_desk]]
+
+:: desk_music_6
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I can't decide what I want to hear so I just let autoplay do it. Five songs in, something I've never heard before comes on and I actually sit up to check what it is.
+
+<<eli "...who is this.">>
+
+I replay it twice. Add it to a playlist I'll probably never finish building.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie
+
+<<set $rand to random(1, 6)>>
+<<if $rand is 1>>
+<<goto desk_movie_1>>
+<<elseif $rand is 2>>
+<<goto desk_movie_2>>
+<<elseif $rand is 3>>
+<<goto desk_movie_3>>
+<<elseif $rand is 4>>
+<<goto desk_movie_4>>
+<<elseif $rand is 5>>
+<<goto desk_movie_5>>
+<<else>>
+<<goto desk_movie_6>>
+<</if>>
+
+:: desk_movie_1
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I scroll through the library for too long, can't pick anything, and end up rewatching something I've already seen three times. I know how it ends. I watch it anyway.
+
+<<eli "Still good.">>
+
+There's something comfortable about a movie when you already know it. No tension. Just the familiar shape of it.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie_2
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I put on something I saved months ago and forgot about. Thirty minutes in, I'm actually into it   leaning forward slightly, drink untouched. It's good in that way that sneaks up on you.
+
+<<eli "Okay, this one's actually solid.">>
+
+I make a note to finish it later. I probably won't, but I mean it right now.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie_3
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+Action. Something dumb and loud and entirely without pretension. Explosions, one-liners, a plot that exists mostly as scaffolding for action sequences. I eat it up.
+
+<<eli "Sometimes this is exactly what you need.">>
+
+I'm grinning at the screen like an idiot by the end of the first act. No regrets.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie_4
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+A horror one. I've been putting it off   the kind with a good reputation and a slow build. It starts quiet, almost dull. Twenty minutes in the atmosphere has already gotten under my skin. I turn the room lights up slightly without admitting why.
+
+<<eli "...okay it's a little tense.">>
+
+I finish it. Sleep will be slightly worse tonight. Worth it.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie_5
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+I start a movie and fall asleep forty minutes in. I wake up with the credits rolling and absolutely no memory of what happened after the first act. I sit there trying to reconstruct the plot from the bits I caught.
+
+<<eli "...I have no idea what just happened.">>
+
+I close the tab. Maybe I'll rewatch it when I'm actually awake.
+
+[[← Desk|eli_desk]]
+
+:: desk_movie_6
+
+<img src="images/locations/eli_desk.jpeg" alt="Eli's Desk" class="location-image">
+
+Something older   a film I saw once as a kid and remembered wrong. It's quieter than I remember. Slower. Less about plot, more about just watching people exist on screen. I'm not sure I get all of it.
+
+<<eli "...I feel like I was supposed to understand more of that.">>
+
+I sit with it for a minute after it ends. Something about it sticks.
+
+[[← Desk|eli_desk]]

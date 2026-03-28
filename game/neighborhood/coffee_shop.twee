@@ -1,0 +1,128 @@
+
+
+
+
+:: coffee_shop
+<<set $locationName to "Coffee Shop">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/coffee_shop.jpeg">>
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+<<if $day == 1 and $day_step == 8>>
+<<goto "day_1_9">>
+<<else>>
+<</if>>
+[[Buy a Coffee|coffee_shop_menu]] | [[← District Map|neighbourhood]]
+
+:: coffee_shop_menu
+<<nobr>>
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+<br>
+The menu board is chalked up above the counter. A few options, nothing fancy. I check my wallet.
+<br>
+''You have: $<<print $money>>''
+<br><br>
+<<if $money >= 3>>[[Espresso - $3|coffee_buy_espresso]]<<else>><span style="opacity:0.4">Espresso - $3 (can't afford)</span><</if>>
+|
+<<if $money >= 4>>[[Americano - $4|coffee_buy_americano]]<<else>><span style="opacity:0.4">Americano - $4 (can't afford)</span><</if>>
+|
+<<if $money >= 5>>[[Latte - $5|coffee_buy_latte]]<<else>><span style="opacity:0.4">Latte - $5 (can't afford)</span><</if>>
+<br><br>
+<<if $money >= 5>>[[Cappuccino - $5|coffee_buy_cappuccino]]<<else>><span style="opacity:0.4">Cappuccino - $5 (can't afford)</span><</if>>
+|
+<<if $money >= 6>>[[Cold Brew - $6|coffee_buy_coldbrew]]<<else>><span style="opacity:0.4">Cold Brew - $6 (can't afford)</span><</if>>
+|
+<<if $money >= 6>>[[Caramel Macchiato - $6|coffee_buy_macchiato]]<<else>><span style="opacity:0.4">Caramel Macchiato - $6 (can't afford)</span><</if>>
+<</nobr>>
+<br>
+[[← Leave|coffee_shop]]
+
+:: coffee_buy_espresso
+<<set $money to $money - 3>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+Small cup. Dark. The barista slides it across the counter without a word. I take it to a corner seat and drink it in three slow sips. Bitter, strong, over in under a minute.
+
+<<eli "...exactly what I needed.">>
+
+The caffeine hits clean. Sharp edges. I sit with the empty cup for a second before getting up.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]
+
+:: coffee_buy_americano
+<<set $money to $money - 4>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+Espresso diluted with hot water - sounds wrong, tastes right. I wrap both hands around the paper cup and find a seat near the window. The shop is quiet. A few people on laptops, one couple talking low.
+
+<<eli "...nice in here.">>
+
+I drink it slowly. Let the room stay around me for a bit.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]
+
+:: coffee_buy_latte
+<<set $money to $money - 5>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+Smooth, milky, the coffee flavor softened just enough. The barista does a small leaf pattern in the foam that I didn't ask for but immediately appreciate. I take a picture. Delete it.
+
+<<eli "...don't be that guy.">>
+
+I drink it slowly anyway. It's good. One of the better ones.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]
+
+:: coffee_buy_cappuccino
+<<set $money to $money - 5>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+More foam than I expected, in a good way. The first sip is all texture - that thick, airy layer before the coffee underneath. I sit with it by the window and watch the street for a while.
+
+<<eli "Yeah, this is the move.">>
+
+Nothing productive happens. That's fine.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]
+
+:: coffee_buy_coldbrew
+<<set $money to $money - 6>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+It comes in a tall glass over ice, dark and thick. No milk, no sugar. I take a sip and the cold hits first, then the coffee - deep, smooth, concentrated. It's the kind that doesn't feel like it's doing anything until suddenly it is.
+
+<<eli "...okay, that's dangerous.">>
+
+I finish it faster than I meant to. Feel it kick in before I'm even out the door.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]
+
+:: coffee_buy_macchiato
+<<set $money to $money - 6>>
+
+<img src="images/locations/coffee_shop.jpeg" alt="Coffee Shop" style="width:100%; height:auto;">
+
+Sweet, layered, the caramel drizzled down the inside of the cup. It's probably too sweet but I ordered it anyway. The barista reads my energy correctly and doesn't comment.
+
+<<eli "Worth it.">>
+
+I drink it slowly, feeling vaguely indulgent. The kind of thing you buy when you want something that feels like a treat.
+
+''Remaining: $<<print $money>>''
+
+[[← Coffee Shop|coffee_shop]]

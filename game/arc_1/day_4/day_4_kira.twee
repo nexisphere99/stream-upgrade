@@ -1,0 +1,1391 @@
+
+
+
+:: day_4_1_kira
+<<nobr>>
+<<set $day = 4>>
+<<set $day_step to 1>>
+<<set $hint to "Wake up">>
+<<set $locationName to "Eli's Apartment - Bed">>
+<<set $playerImage to "images/user/tier_0_2.jpeg">>
+<</nobr>>
+I wake up at 8:30 AM.
+
+Eight. Thirty. Not because of an alarm   I didn't set one. My body just... decided to be awake. At a reasonable hour. Like a functional person. Like someone whose circadian rhythm is being rewired by something stronger than Monster Energy and despair   by money, by momentum, by the gravitational pull of a dashboard that said $210 yesterday and might say more today.
+
+I lie on the mattress for sixty seconds. The ceiling crack is there. The fridge hums. Everything is the same and nothing is the same. The apartment hasn't changed but the person in it has   not physically (not yet, not beyond the lashes and the brows), but the internal architecture has shifted. There's a structure now. A plan. A reason to get out of bed at 8:30 instead of 11:47.
+
+Phone. Two messages already.
+
+<<kira "good morning!! ☀️ i was thinking   do you want to go somewhere today? like actually outside? there's this thai place near the art district that's supposed to be amazing. my treat! (don't argue) tonight maybe?">>
+
+<<kira "also packet knocked my mug off the nightstand this morning so that's how MY day started 😤">>
+
+I smile. The muscles are adapting. Day three of regular smiling and the face is starting to remember the shape.
+
+<<eli "morning. thai sounds great. tonight works. tell packet he owes you a mug">>
+
+<<kira "he owes me three mugs and a phone charger he chewed through. he's a menace and i love him">>
+
+<<kira "pick you up at 6? 🍜">>
+
+<<eli "perfect">>
+
+<<kira "❤️">>
+
+<<eli "❤️">>
+
+Red hearts. Automatic now. The protocol running smooth.
+
+Second message thread   Marcus.
+
+<<marc "yo can i come thru this afternoon? screenfixx gave me the day off because the owner is 'restructuring' which means he's firing someone and doesn't want witnesses">>
+
+<<marc "i'll bring the leftover curry">>
+
+<<eli "yeah come by whenever. door's open">>
+
+<<marc "bet. 2ish?">>
+
+<<eli "works">>
+
+Marc at 2. Kira at 6. ElliePlayz stream before those. The day has structure. The day has appointments. Three days ago my schedule was: wake up, stream to nobody, eat a burrito, stream to nobody again, stare at the ceiling. Now I have a social calendar. The ceiling crack looks up at me like it doesn't recognize me either.
+
+I shower. Marriott shampoo   the bottle is running low, I'll need to buy actual shampoo soon, which is a sentence I never expected to think. The hot water takes its eight minutes but I wait because I'm learning that waiting for things you want is a skill and the hot water is practice. I put on the grey shirt. Black joggers. The uniform. But cleaner today   I actually did laundry yesterday between the RegenaForm visit and Kira picking me up, a single load at the basement machines, quarters fed through the hole in my hoodie pocket.
+
+9:15 AM. Five hours before Marc arrives. Its too early for stream. Time to study new thing.
+
+[[Time to Study|day_4_2_kira]]
+
+:: day_4_2_kira
+<<set $day_step to 2>>
+I open YouTube. Not the gaming videos, not the patch notes, not the growth-tip compilations I've been watching for eight months like a medical student who only reads the textbook and never practices on a patient. Today I'm watching something different.
+
+I type: "female streamer tips engagement techniques"
+
+The results cascade. Dozens of videos, hundreds. An entire industry of content about how women stream   the techniques, the mannerisms, the specific vocabulary of feminine online performance. I've watched female streamers before (I've watched Kira), but I've always watched as a viewer, passively, absorbing the content without analyzing the craft. Today I'm watching as a student. Today I'm taking notes.
+
+The first video is by a streamer coach   a woman in her thirties with a ring light and a whiteboard, breaking down "high-engagement feminine streaming techniques." I pull the desk chair in. I lean forward. I watch.
+
+<<chat "youtube_coach" "The number one thing that separates high-engagement female streamers from low-engagement ones isn't looks   it's eye contact. Your eyes are your primary tool. When you're talking to chat, look directly into the camera lens, not at the chat window. The viewer needs to feel like you're looking at THEM. Personally. Make eye contact for two to three seconds, then glance away naturally. It creates intimacy.">>
+
+Eye contact. I've been looking at my second monitor   at the chat   when I talk to viewers. That means on camera I'm looking to the side. Not at them. The webcam lens is on top of the main monitor. I need to look at the lens. At the camera. At them.
+
+I practice. I look at the webcam   the old 2014 brick clipped to the monitor   and I say, in my real voice:
+
+<<eli "Hey, welcome to the stream.">>
+
+Then I do it again, looking at the webcam lens:
+
+<<eli "Hey, welcome to the stream.">>
+
+The difference is invisible to me but I know from the video that on the other end   on the viewer's screen   the second version feels like I'm talking to them specifically. Like I see them. The camera lens is the viewer's eyes and I need to treat it that way.
+
+Next video. A compilation of "top female streamer techniques" with annotations.
+
+The video breaks down specific behaviors I've seen Kira do a thousand times but never consciously identified:
+
+The reaction gasp. When something surprising happens   a donation, a play, a funny chat message   the streamer gasps softly, eyes widening, hand coming to mouth or chest. The gasp is slightly exaggerated but not fake. It's the amplification of a genuine reaction, dialed up 20% for camera. The wide eyes make the lashes more visible. The hand gesture draws attention to the face. The gasp itself, in a feminine voice, triggers a protective/delighted response in the audience.
+
+I practice the gasp. Without VoxMorph it sounds ridiculous   a grown man going "oh!" at his desk at 9 AM. But the facial expression   the wide eyes, the slight parting of the lips   I practice that in the phone camera. With the lashes and the brows and the right framing, the wide-eyed gasp looks... convincing. The lashes amplify the eye-widening. The brows lift the expression into something open and genuine.
+
+The lean-in. When reading a chat message or donation, the streamer leans slightly toward the camera   maybe two inches, just enough to fill more of the frame. The lean creates the impression of closeness, of the streamer being drawn toward the viewer. Combined with eye contact at the lens, it produces a micro-moment of artificial intimacy that the viewer's brain registers as real.
+
+The hair touch. Unconscious-seeming gestures with the hair   tucking a strand behind the ear, running fingers through the length, letting the hair fall forward and then sweeping it back. These gestures are hypnotic on camera, especially with long, well-lit hair. They draw the eye. They read as feminine. They fill the micro-pauses between sentences with visual content that keeps the viewer watching.
+
+I don't have real long hair   I have a wig. But the wig is designed for camera. The fibers respond to touch. I put the wig on, sit at the desk, and practice: a slow tuck of the hair behind where my ear would be (hidden by the hair), a sweep of the waves over one shoulder, a casual run of fingers through the length. In the phone camera, from the nose up, the gestures look natural. The wig moves like real hair. The brownish-auburn waves catch the desk lamp light as they shift.
+
+The eye actions. The video calls them "eye acting"   specific expressions performed with the eyes that communicate emotion to the camera. A slow blink for emphasis. A look up-and-to-the-side when thinking (the "cute thinking face"). A narrowing of the eyes when concentrating that reads as focused and competent. A widening when excited that makes the viewer feel the excitement vicariously. The key, the video emphasizes, is that the lashes amplify everything   every blink, every widening, every narrowing   because the lashes are the frame and the frame determines how the picture reads.
+
+I practice eye actions for twenty minutes. Slow blink   the lashes sweep down and up, visible even on the phone camera, a deliberate flutter that reads as either thoughtful or flirtatious depending on context. Thinking look   eyes up and to the right, the brows lifting slightly, the arched feminine shape creating an expression that's readable as "adorable concentration." Excitement   eyes wide, lashes fanning, brows up, the full feminine eye area opening like a flower.
+
+Twenty minutes of practicing expressions in front of a phone camera in a studio apartment at 9:30 in the morning. This is what my life has become. And the terrifying part is that it's working.
+
+The voice modulation within modulation. The video discusses vocal techniques   not software, but performance. Pitch variation. Rising intonation at the end of sentences ("I'm so excited?") that reads as enthusiastic and inviting. Dropping to a lower register for emphasis or intimacy. The strategic deployment of giggling   not fake laughter, but the amplification of genuine amusement into something lighter, higher, more musical. The "cute sneeze"   making involuntary sounds sound adorable rather than jarring.
+
+I can layer these techniques on top of VoxMorph. The software handles the base frequency   the pitch, the formant, the breathiness. But within that processed voice, I can add the performance: the rising intonation, the giggle, the gasp, the soft "oh!" that the first video described. The software is the instrument. The technique is the music.
+
+I watch three more videos. One about "donation bait"   phrases and behaviors that increase the likelihood of donations (expressing genuine surprise and gratitude, reading donor names aloud with warmth, creating callback jokes with regular donors). One about "chat management"   how to make viewers feel individually seen in a fast-scrolling chat (calling out specific usernames, referencing previous interactions, remembering personal details that regulars share). One about "the parasocial sweet spot"   close enough that viewers feel a personal connection, distant enough that the connection feels aspirational rather than attainable.
+
+By 10:30 I've watched six videos and taken mental notes on thirty-seven specific techniques that I intend to deploy on today's stream. The knowledge sits in my head like ammunition   loaded, ready, each technique a bullet designed to hit the specific target of audience engagement.
+
+I am engineering a person. Not just a face, not just a voice, but a complete performed identity   the eye contact, the gasp, the hair touch, the vocal modulation, the lean-in, the parasocial calibration. Ellie isn't a mask I'm wearing. She's a machine I'm building. Every component tested. Every gesture optimized. Every behavior designed for a specific output: attention. Money. Growth.
+
+The thought should bother me. It doesn't. The $210 from yesterday doesn't allow it to bother me.
+<<set $hint = "Stream">>
+[[Stream Time|apartment_map]]
+
+:: day_4_3_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+<<set $day_step to 3>>
+<<set $viewers to 0>>
+<<set $followers to 0>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<</nobr>>
+10:45 AM. Stream time.
+
+I set up. Wig on   the practiced application getting faster, four minutes now instead of ten. VoxMorph calibrated. OBS open. Webcam tilted up, framing from the nose upward. Desk lamp angled from the left. I check the preview   eyes, lashes, brows, hair. The feminized zone. The zone that earned $210.
+
+But today is different. Today I have techniques.
+
+I adjust my chair so I'm sitting slightly forward   the lean-in as default posture. I position my hands where they can reach the wig hair naturally. I locate the webcam lens   the exact point I need to look at to create eye contact   and I mark it mentally. Not the chat window. Not the game. The lens. The viewer's eyes.
+
+ElliePlayz   Live
+Category: Just Chatting → Gunmetal Requiem
+Viewers: 0
+
+I click "Go Live." Look at the lens. Right at it. Right at them.
+
+[[Go Live|day_4_4_kira]]
+
+:: day_4_4_kira
+<<eli "Hiii everyone! Good morning! Oh my gosh, I'm actually streaming in the morning for once   look at me being responsible!">>
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 19>>
+<<set $followers += 3>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+I do the wide-eyed expression. The lashes fan. I sweep the hair over one shoulder with my left hand, the auburn waves catching the desk lamp light. In the preview, the gesture looks effortless, natural, the kind of thing a girl does without thinking. It took me twenty minutes of practice.
+
+Viewers: 8
+
+Viewers: 19
+
+The regulars arrive. Notification squad. The names I'm starting to memorize   the people who have, in the span of two days, become my audience.
+
+<<chat "MidnightWhale99" "MORNING ELLIE?? she's a morning person now??">>
+
+<<chat "ChillVibesOnly" "good morning queen!! you look extra pretty today?? is that possible??">>
+
+I look at the lens. Direct eye contact. Two seconds. Then I glance down at the chat naturally.
+
+<<eli "Aww, ChillVibes! You're going to make me blush before the stream even starts!">>
+
+I do the slight gasp   eyes widening, hand to chest. In the preview, the lashes catch the light during the widening, the crescent shadows dancing on my cheekbones.
+
+<<chat "stream_viewer_c1" "wait did she just do the eye thing">>
+
+<<chat "stream_viewer_c2" "THE EYE THING. the wide eyes. im dead">>
+
+<<chat "night_owl_cc" "she looked directly at me through the camera and i felt it in my soul">>
+
+The eye contact is working. The direct-to-lens technique from the video   the viewers feel seen. They feel like Ellie is looking at them personally. The comments reflect it immediately: "she looked directly at me." Because I did. I looked at the lens. At the camera. At the portal between my apartment and their screen. And they felt it.
+
+[[Load Game|day_4_5_kira]]
+
+:: day_4_5_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 47>>
+<<set $followers += 4>>
+<<set $donations += 15>>
+<<set $money += 15>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 47
+
+I load Gunmetal Requiem. Queue into ranked. While the match loads, I do the hair touch   fingers running through the wig waves, the hair falling forward over one shoulder, then swept back. The gesture fills the loading-screen dead time with visual content. Three people comment on it.
+
+<<chat "stream_viewer_c2" "the hair flip omg">>
+
+<<chat "stream_viewer_c4" "she does this thing with her hair and i just 🥺">>
+
+<<chat "MidnightWhale99" "the hair + the eyes + the morning light. premium content.">>
+
+$5.00 from MidnightWhale99: "morning donation to start your day right. those eyes deserve breakfast."
+
+<<eli "MidnightWhale!! You're here in the morning too?? Do you ever sleep??">>
+
+I do the thinking expression   eyes up and to the right, brows lifting, the "cute thinking face" from the video. I let it hold for a beat before looking back at the lens.
+
+<<chat "MidnightWhale99" "sleep is for people who don't have ellie's morning stream to watch">>
+
+<<chat "stream_viewer_c5" "she just did the thinking face. the THINKING FACE. the brows.">>
+
+<<chat "stream_viewer_c6" "her eyebrows are actually works of art?? like the arch??">>
+
+[[Round 1|day_4_6_kira]]
+
+:: day_4_6_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 73>>
+<<set $followers += 15>>
+<<set $donations += 25>>
+<<set $money += 25>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 73
+
+The match starts. I play   same agent, same Silver rank   but the between-round commentary is different today. I'm deploying the techniques: eye contact during kills ("look at the lens when you clutch   let them see the excitement in your eyes directly"), the reaction gasp when I get a surprise kill ("gasp oh my gosh did I just "), the hair touch during loading screens, the vocal variation   dropping Ellie's voice lower when I'm concentrating, raising it when excited, the giggle when something funny happens in chat.
+
+Round 2: I clutch a 1v2. The moment I get the second kill, I look directly at the lens   wide eyes, lashes fanning, the genuine surprise amplified 20% for camera   and I let the excitement hit my voice:
+
+<<eli "NO WAY! Did you guys SEE that?! A 1v2! I actually did it!">>
+
+The hair falls forward during the celebration. I sweep it back. The gesture is timed perfectly   probably by accident, but the effect is cinematic.
+
+<<chat "stream_viewer_c7" "THE EYES DURING THE CLUTCH">>
+
+<<chat "stream_viewer_c8" "she looked RIGHT AT US when she got the kill im literally shaking">>
+
+<<chat "ChillVibesOnly" "the eye contact + the hair flip + the voice going high. CONTENT.">>
+
+<<chat "stream_viewer_c9" "this is the best streamer on twitch and i will fight anyone who disagrees">>
+
+$10.00 from stream_viewer_c10: "that clutch plus the eye contact. you're built different ellie."
+
+[[Round 2|day_4_7_kira]]
+
+:: day_4_7_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 112>>
+<<set $followers += 12>>
+<<set $donations += 18>>
+<<set $money += 18>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 112
+
+<img src="images/scenes/day_4/day_4_1.png" alt="Streaming Dashboard" class="dashboard-image">
+
+The techniques are compounding. Each one amplifies the others   the eye contact makes the gasp feel personal, the gasp makes the hair touch feel like a release of tension, the hair touch draws attention back to the eyes for the next eye contact. It's a cycle. A loop. Each behavior feeding the next, the audience's attention spiraling tighter around the performed version of me that lives in the webcam frame.
+
+[[Round 3|day_4_8_kira]]
+
+:: day_4_8_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 203>>
+<<set $followers += 19>>
+<<set $donations += 40>>
+<<set $money += 40>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+The stream runs hot. Hotter than any session so far. The viewer count climbs steadily   112, 145, 178, 203. The donations don't trickle anymore. They flow:
+
+$5.00 from night_owl_cc: "morning crew ellie hits different. the eye contact thing you're doing today is ILLEGAL."
+
+$8.00 from new_viewer_d1: "browsed in, your eyes stopped my scroll, your personality made me stay. followed."
+
+$15.00 from BigSpender_X: "those eyes + that laugh. i'm bringing my whole paycheck next time."
+
+$3.00 from stream_viewer_c11: "the way she sweeps her hair back after a clutch should be studied in a lab"
+
+$20.00 from MidnightWhale99: "morning, afternoon, night   doesn't matter. i'm here. the eyes are everything."
+
+I play five matches. Go positive in four of them   the confidence from the viewer response is leaking into my gameplay, the opposite of what happens on EliPlays where DarkSlayer's mockery makes me play worse. Here, the encouragement makes me play better. The cycle again: good gameplay → chat celebrates → confidence rises → better gameplay → more celebration. The positive feedback loop that Kira described as the thing that separated growing streamers from stagnant ones   not skill, not content, but momentum.
+
+<<chat "stream_viewer_c1" "face reveal when?? we're DYING">>
+
+<<chat "stream_viewer_c1" "yeah ellie when do we get the full face??">>
+
+<<chat "stream_viewer_c1" "i bet she's gorgeous. the eyes are already a 10">>
+
+<<eli "Ahh, you guys! I'm still not ready! I promise it's coming though. Soon. I just want to get everything perfect first, you know?">>
+
+I look at the lens when I say "soon." Direct eye contact. A slow blink   the lashes sweeping down and up. The word "soon" delivered with the weight of a promise and the intimacy of eye contact. The chat reacts like I proposed.
+
+<<chat "MidnightWhale99" "the way she said 'soon' while looking at the camera. i need a moment.">>
+
+<<chat "stream_viewer_c1" "she blinked slowly while saying soon. that's a power move.">>
+
+<<chat "ChillVibesOnly" "SOON. she said SOON. i'm marking my calendar">>
+
+[[Round 6|day_4_9_kira]]
+
+:: day_4_9_kira
+<<nobr>>
+<<set $day_step to 3>>
+<<set $viewers to 312>>
+<<set $followers += 23>>
+<<set $donations += 66>>
+<<set $money += 66>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 267
+
+Viewers: 289
+
+Viewers: 312
+
+The stream hits two hours. The dashboard is a document from a different life:
+
+$5.00 from stream_viewer_c16: "best morning of my life and i haven't even gotten out of bed"
+
+$12.00 from WhaleWatcher_7: "new here. subscribed. those eyes are an investment."
+
+$7.00 from stream_viewer_c17: "the way she touches her hair should be its own stream category"
+
+I'm getting tired. The performance strain is real   two hours of sustained eye contact and vocal modulation and practiced gestures and VoxMorph processing and Silver-ranked gameplay simultaneously. The cognitive load is immense. But the numbers keep me going the way caffeine keeps a driver awake   not sustainably, not healthily, but effectively.
+
+One more match. The fifth. I play it well   9 and 4, my best K/D ever. The chat loses its collective mind. The peak viewer count spikes during the final round:
+
+[[Round 8|day_4_10_kira]]
+
+:: day_4_10_kira
+<<nobr>>
+<<set $day_step to 10>>
+<<set $viewers to 324>>
+<<set $followers += 12>>
+<<set $donations += 13>>
+<<set $money += 13>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+
+Viewers: 324
+
+<<chat "stream_viewer_c1" "NINE AND FOUR?? NINE AND FOUR?? ELLIE??">>
+
+<<chat "ChillVibesOnly" "SHE'S ASCENDING INTO A HIGHER RANK IN REAL TIME">>
+
+<<chat "night_owl_cc" "the glow up is gameplay AND visuals and i'm here for ALL of it">>
+
+<<chat "MidnightWhale99" "324 viewers. 4th time streaming. we're watching history.">>
+
+I end the stream with the full technique stack: direct eye contact at the lens, the slow blink, the hair sweep, the slightly lowered voice for intimacy.
+
+<<eli "Okay everyone, I have to go   I have plans today and I can't be late. But this morning was INCREDIBLE. 324 viewers?? I literally cannot. You guys are my everything. I'll be back tonight. Same time. Same eyes.">>
+
+I wink at the camera. One eye closing, the lashes visible against the cheek. It's a move I practiced for thirty seconds this morning and it lands like a bomb.
+
+<<chat "stream_viewer_c1" "SHE WINKED">>
+
+<<chat "stream_viewer_c1" "THE WINK. I'M NOT OKAY.">>
+
+<<chat "MidnightWhale99" "same eyes. she said same eyes. i'm ruined.">>
+
+<<chat "ChillVibesOnly" "BEST STREAMER ON THE PLATFORM CONFIRMED">>
+
+I hit End Stream.
+
+[[End Stream|day_4_11_kira]]
+
+:: day_4_11_kira
+<<nobr>>
+<<set $day_step to 11>>
+<<set $viewers to 0>>
+<<set $followers += 0>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<<set $right_sidebar_mode to 0>>
+<<set $playerImage = "images/user/tier_0_2.jpeg">>
+<</nobr>>
+
+Duration: 2 hours 8 minutes
+Peak Viewers: 324
+Average Viewers: 198
+New Followers: 70
+Total Followers: 218
+Donations: $177.00
+Subscribers: 9
+
+$177. In a morning stream. The number on the dashboard is larger than my weekly rent payment used to seem.
+
+I close OBS. Close VoxMorph. Take off the wig. The face in the dead webcam preview returns   Eli, pale, tired, the lashes and brows looking orphaned without their frame. The person the 324 viewers don't know exists.
+
+Marc is coming at 2. I have two hours.
+
+I eat a microwave burrito. Rotate at one minute. But this time, while the microwave hums, I open the RegenaForm app on my phone. I don't select anything. I just... browse. The Tier 1 menu. The options I haven't purchased yet. Nose   500 $. Lips   400 $. Jawline   600 $. Cheekbones   400 $. The crop line, dropping lower with each purchase. The face reveal, getting closer with each modification.
+
+I close the app. Eat the burrito. It tastes the same as every burrito   warm salt and texture   but today it tastes like fuel rather than defeat.
+
+[[Marc's Visit|day_4_12_kira]]
+
+:: day_4_12_kira
+<<set $day_step = 12>>
+<<set $hint = "Hangout with Marc">>
+Marc arrives at 2:07, because Marc has never been on time for anything in his life and the seven-minute margin is actually an improvement over his usual fifteen.
+
+The knock is his   two quick raps followed by a pause followed by one more, a rhythm he's been using since high school that he swears is from a song but can never remember which one. I open the door.
+
+He's standing in the hallway in the oversized charcoal hoodie and basketball shorts   in January, as always, because Marcus exists in a personal climate zone that the rest of the planet hasn't agreed to   holding a Tupperware container of leftover curry in one hand and his phone in the other.
+
+<<marc "Yo.">>
+
+<<eli "Hey.">>
+
+He walks in. Steps over the Monster can I still haven't picked up from two days ago. Scans the apartment the way he always does   the quick, unconscious welfare assessment, the brown eyes cataloging the state of things. Mattress: unmade but not disaster-level. Desk: monitors off, nothing alarming visible. Kitchen: burrito wrapper (only one today). Closet: door closed.
+
+The closet door is closed. I closed it specifically before he arrived. The wig is inside, on its care form, buried beneath the clothing pile. The RegenaForm bag is behind the mini-fridge. The VoxMorph is minimized on my desktop but the monitors are off. The evidence is hidden. The apartment presents as the same shitty apartment Marc has been visiting for two years.
+
+He drops the curry on the counter. Turns to me.
+
+<<marc "You look...">>
+
+My stomach drops. The lashes. The brows. He's going to see them. He looked at my face yesterday on the street and clocked the washed hair and nothing else, but that was thirty seconds in passing. Now he's in my apartment, under the overhead light (flicker, flicker, on), three feet away, doing the full Marcus scan 
+
+<<marc "...rested. You actually sleeping?">>
+
+<<eli "Yeah. Been sleeping better.">>
+
+<<marc "Huh. The Kira effect.">>
+
+<<eli "What?">>
+
+<<marc "Getting some action fixes your circadian rhythm. It's science.">>
+
+<<eli "I'm not getting action.">>
+
+<<marc "You kissed a girl in a car two days ago. That's action.">>
+
+<<eli "Kissing isn't action.">>
+
+<<marc "For you it is. You peaked.">>
+
+He grins. The easy Marcus grin, the one that communicates affection through insult. He opens the Tupperware   the curry is rice and chicken in a jarred sauce, Marcus's signature dish, the culinary equivalent of a B-minus but compared to my diet it's a Michelin star   and puts it on the hot plate.
+
+<<marc "You eat today?">>
+
+<<eli "I had a burrito.">>
+
+<<marc "Before noon?">>
+
+<<eli "...ten-ish.">>
+
+<<marc "He's eating before noon AND sleeping. The transformation is real.">>
+
+The word "transformation" lands in my chest like a stone thrown through a window. He means it casually   the transformation of my habits, my mood, the Kira effect   but the word has a second meaning that he doesn't know about, a meaning that's sitting on a care form in my closet and running as a software plugin on my desktop and reshaping the bone structure above my eyes right now, still, the brows still settling into their final arch seventy-two hours after Dr. Maren's cool gel.
+
+<<eli "Yeah. Feeling better.">>
+
+<<marc "Good. You look it.">>
+
+He doesn't specify what "it" looks like. He doesn't say "your eyelashes are longer" or "your eyebrows are different" or "there's something about your face that's changed." He just says I look better and means it generally   less tired, less grey, less like a person watching themselves decay in real time. The specific changes   the lashes, the brows   are invisible to him. Absorbed into the general impression of "Eli's doing better." The modifications are too subtle for a person who isn't looking for them, and Marcus isn't looking because Marcus doesn't care what faces look like. He cares what people feel like. And I feel better. So I look better. QED.
+
+The test passes again. Day two of walking around in a modified face and nobody in my real life has noticed.
+
+We eat the curry standing at the counter because I don't have a dining table, or a dining anything. The curry is good   warm, slightly too salty, the jarred sauce doing most of the work while the rice does the rest. Marcus eats with the focused efficiency of a person who views food as fuel, same as me, except his fuel is home-cooked and mine comes from a freezer.
+
+<<marc "So. Kira.">>
+
+<<eli "What about Kira.">>
+
+<<marc "You seeing her today?">>
+
+<<eli "She's picking me up at 6. Thai food.">>
+
+<<marc "Thai food. That's a step up from ramen.">>
+
+<<eli "She's paying.">>
+
+<<marc "She always pays.">>
+
+<<eli "Marc ">>
+
+<<marc "I'm not judging. She can afford it. I'm just saying   you should be able to treat her sometimes. That's boyfriend stuff.">>
+
+Boyfriend. He said boyfriend. The word is   it's new. Kira and I haven't used it. We've been together for two days, which feels like either a week or a century depending on which metric you use, and the label hasn't been applied. But Marcus applies it the way Marcus applies everything   directly, without ceremony, as though the thing he's naming has been obvious to everyone except the person he's naming it to.
+
+<<eli "I'm not her boyfriend.">>
+
+<<marc "You kissed her. Twice. She drives you places. She buys you food. She texts you good morning with heart emojis. That's a boyfriend, Eli.">>
+
+<<eli "We haven't talked about it.">>
+
+<<marc "You don't have to talk about it for it to be real.">>
+
+He rinses his Tupperware in the sink   an act of domestic competence that I watch with the admiration of someone who doesn't own dish soap. Then he heads to the couch. The mattress. He sits on the mattress because I don't have a couch, and the mattress groans beneath him.
+
+<<marc "Rift Walkers?">>
+
+<<eli "Yeah.">>
+
+I grab the controllers from the desk. Hand Marcus the good one   not the sticky one, because I only have one controller at home and it's the good one and Marcus brought it over months ago and forgot to take it back. I plug in the second one, the cheap replacement I bought at a thrift store for $8, and sit beside him on the mattress.
+
+The PS4 (not a PS5, the PS4, the one Marcus gave me when he upgraded, the hand-me-down that represents approximately 40% of my net worth) boots up. Rift Walkers loads. The dungeon generates.
+
+[[Play Rift Walkers|day_4_12.1_other]]
+
+:: day_4_12.1_other
+
+We play.
+
+The rhythm is the same. The same yelling, the same panic, the same call-and-response that strips the layers of bullshit away and leaves two friends in a room killing digital monsters.
+
+<<eli "LEFT SIDE, LEFT SIDE ">>
+
+<<marc "I SEE HIM, I'm out of charges ">>
+
+<<eli "USE THE SWORD">>
+
+<<marc "The sword does twelve damage, bro. He has four hundred health.">>
+
+<<eli "Use it REPEATEDLY">>
+
+<<marc "That's not a strategy, that's optimism.">>
+
+We die on Floor 16. Our personal best. The death is spectacular   a chain reaction that starts when I step on a trap and ends when the boss does a room-wide attack that kills us both in the same frame. Marcus stares at the death screen for three seconds.
+
+<<marc "Floor 16.">>
+
+<<eli "Floor 16.">>
+
+<<marc "Tied the record.">>
+
+<<eli "Tied it.">>
+
+<<marc "Next time we break it.">>
+
+<<eli "Next time.">>
+
+We run it again. Die on Floor 12. Again. Floor 9. The game is a meditation, a shared focus that requires enough attention to prevent thinking about anything else. For two hours, I'm not Ellie. I'm not ElliePlayz. I'm not a person with a wig in the closet and a voice modulator on the desktop and $177 on a dashboard that belongs to someone who doesn't exist. I'm Eli. I'm Marcus's friend. I'm a person sitting on a mattress eating leftover curry and dying on Floor 12 of a roguelike and arguing about sword damage.
+
+Marcus is the anchor. He's always been the anchor   the fixed point that doesn't move while everything else shifts. He doesn't know about ElliePlayz. He doesn't know about RegenaForm. He doesn't know that the face he's sitting beside has been modified, that the brows have been sculpted, that the lashes are engineered. He sees what he's always seen: his friend. Looking better. Sleeping more. The Kira effect.
+
+Between runs, during loading screens, he talks.
+
+<<marc "So ScreenFixx is probably letting someone go.">>
+
+<<eli "Who?">>
+
+<<marc "Probably Devon. He dropped another phone last week. In the sink this time.">>
+
+<<eli "How do you drop a phone in the sink?">>
+
+<<marc "He was washing his hands and the phone was in his shirt pocket and he leaned over the sink and ">>
+
+<<eli "Gravity.">>
+
+<<marc "Gravity. The customer's face was incredible. Like watching someone's soul leave their body in real time.">>
+
+<<eli "At least it wasn't the toilet this time.">>
+
+<<marc "The toilet was Tyler. Tyler got fired. Devon is the sink guy. Keep your ScreenFixx lore straight.">>
+
+We laugh. Real laughs. Not performed, not processed, not amplified for camera. Just two people on a mattress, laughing about a man who dropped a phone in a sink. The sound of my real laugh   my actual voice, my actual frequency   fills the apartment and it sounds different than it used to. Lighter. Less strained. Still male, still Eli, but the undertone of desperation that used to sit beneath every sound I made is... quieter. Not gone. But quieter.
+
+<<marc "You seem good.">>
+
+He says it during a loading screen, not looking at me, the casual observation delivered to the TV.
+
+<<eli "I am good.">>
+
+<<marc "Like actually good. Not the 'it's fine' good.">>
+
+<<eli "Yeah. Actually good.">>
+
+<<marc "The Kira thing?">>
+
+<<eli "Partly.">>
+
+<<marc "What's the other part?">>
+
+I look at the loading screen. The dungeon generating. The randomized corridors and rooms and monsters assembling themselves from code, a world being built in real time from a set of rules and a random seed.
+
+<<eli "I think... I'm figuring some stuff out. Career stuff.">>
+
+<<marc "Streaming stuff?">>
+
+<<eli "Yeah.">>
+
+<<marc "Good stuff?">>
+
+<<eli "I think so. It's early. But the numbers are... better.">>
+
+<<marc "On EliPlays?">>
+
+A beat. A half-second pause that Marcus might not notice and might notice because Marcus notices things when they matter even if he doesn't notice things when they don't.
+
+<<eli "Just... streaming in general. Trying some new approaches.">>
+
+<<marc "Cool. About time.">>
+
+He doesn't push. Marcus has the gift. The question was asked, the answer was given   incomplete, evasive, wrapped in vagueness   and Marcus accepts it the way he accepts everything I offer: with trust. He trusts me. The way Kira trusts me. The way the 324 viewers trust Ellie. Trust flowing in from every direction, and me spending it in a closet.
+
+The loading screen ends. The dungeon generates. We play. We die. We play again.
+
+At 4:30, Marcus stands. Stretches. The spine-crack that sounds medically concerning.
+
+<<marc "I gotta bounce. Meeting some guys from the shop for pickup at the gym.">>
+
+<<eli "Basketball?">>
+
+<<marc "Yeah. You should come sometime.">>
+
+<<eli "I would literally die.">>
+
+<<marc "You'd last at least ten minutes.">>
+
+<<eli "Generous.">>
+
+He picks up his hoodie from where he draped it over the desk chair. I hold my breath for a half-second   the hoodie was two feet from the monitors, two feet from the OBS icon on the desktop, two feet from the corner of the screen where VoxMorph's taskbar icon sits. But the monitors are off. Everything is invisible.
+
+<<marc "Have fun with Kira tonight.">>
+
+<<eli "I will.">>
+
+<<marc "Wear the grey shirt.">>
+
+<<eli "I'm already wearing the grey shirt.">>
+
+<<marc "Wear it again. It's working.">>
+
+<<eli "Clothing advice from a man in basketball shorts in January.">>
+
+<<marc "These shorts are a lifestyle choice. Your shirt is a survival strategy.">>
+
+He heads for the door. Stops. Turns. The look   the Marcus look, the direct one, the one that holds you.
+
+<<marc "I'm glad you're figuring stuff out, Eli. Whatever it is. You deserve to figure stuff out.">>
+
+<<eli "Thanks, Marc.">>
+
+<<marc "And if you need to talk about whatever the 'new approaches' are   I'm here. No judgment.">>
+
+<<eli "I know.">>
+
+<<marc "Alright. Later.">>
+
+<<eli "Later.">>
+
+The door closes. His footsteps in the hallway. The stairwell door. Then silence.
+
+I stand in the apartment. The curry smell lingers. The mattress has a Marcus-shaped depression. The controller he used is warm from his hands.
+
+No judgment. He said no judgment. He offered, the way he always offers, the open door that I keep not walking through. He'd understand. If I told him   Marcus, I made a second account and I'm streaming as a girl and I went to a clinic that modified my face and I'm earning $177 a morning   he'd listen. He'd process. He'd probably say something like "that's wild" and then ask if I'd eaten today.
+
+But I can't tell him. Not yet. Not when the money is still proving itself. Not when the face is still half-finished. Not when the story doesn't have an ending yet   just a beginning and a middle and a dashboard that keeps climbing.
+
+I close the door. It's 4:45. Kira picks me up at 6.
+
+An hour and fifteen minutes to shower, change, and stop being Ellie's creator long enough to be Eli's self. Kira's Eli. The version of me that sits still while she sleeps and sends red hearts without hesitation and doesn't have a wig in the closet.
+
+That version. The real one. Or the other real one. I'm losing track of which is which.
+<<set $hint = "Go Outside to meet Kira">>
+[[Wait till Kira Comes|apartment_map]]
+
+
+
+:: day_4_13_kira
+
+She picks me up at 6:03. Three minutes late. Cherry blossom. Heater. The warm enclosure that has become, in four days, the most reliable geography of my happiness.
+
+<<kira "Hi!">>
+
+She says it the same way every time   bright, singular, loaded with a warmth that makes the word sound like it weighs more than two letters. I lean across the console and she meets me halfway and the kiss is quick and easy, a hello that's becoming a habit, her lips warm and slightly glossy from the chapstick-that's-actually-lip-gloss and mine dry and cold from the January walk to the curb.
+
+<<eli "Hey.">>
+
+<<kira "You smell like curry.">>
+
+<<eli "Marc came over. He brought leftovers.">>
+
+<<kira "Aw, Marc. How is he?">>
+
+<<eli "He's Marc. Someone at his job dropped a phone in a sink.">>
+
+<<kira "Was it the toilet guy?">>
+
+<<eli "Different guy. Sink is a different guy. The toilet guy got fired.">>
+
+<<kira "ScreenFixx lore is getting complicated.">>
+
+<<eli "Marcus keeps a mental database. He's the historian.">>
+
+She laughs. Pulls into traffic. Her hand finds mine across the console before we've gone two blocks   the interlacing of fingers that's already becoming automatic, the geometry of small and large and warm and cold that fits without effort. I feel the pixel-heart tattoo against my palm. My thumb traces the edge of it through the skin, the faintest ridge of ink.
+
+[[Go Inside|day_4_14_kira]]
+
+:: day_4_14_kira
+<<set $day_step to 14>>
+<<set $hint = "Check the Menu and Order Food">>
+The Thai place is called Lotus Room. Cheap. Small. Twelve tables, half of them empty on a Thursday evening. Red and gold decor that's trying hard and mostly succeeding. The smell of lemongrass and chili and coconut hits us at the door and Kira makes a sound   a small "mmm" of anticipation that I file away in the archive alongside every other sound she makes, the encyclopedia of Kira growing by the hour.
+<<set $locationName to "Lotus Room">>
+<img src="images/locations/lotus_room.jpeg" alt="Lotus Room Interior" class="scene-image">
+<<set $locationImage to "images/locations/lotus_room.jpeg">>
+We sit at a table by the wall. The lighting is warm   red-tinted pendant lamps   and Kira glows in it. The black turtleneck again (or a similar one), the wire-frame glasses catching the red lamplight, the bob tucked behind one ear on the left side the way she does when she's relaxed. She's beautiful in this light. She's beautiful in every light but in red light she looks like a painting, warm tones on warm skin, the sharpness of her features softened into something that makes my chest ache.
+
+<<kira "I'm getting the pad thai. You?">>
+
+I scan the menu. The prices are reasonable   $12-16 for mains. I can afford this. I have $177 on the ElliePlayz dashboard from this morning alone, plus the $210 from yesterday, plus the miscellaneous EliPlays income that's too small to mention. I can afford a $14 green curry. I can afford it easily.
+
+But I can't tell her that. The money doesn't exist in the Eli timeline. In the timeline Kira knows about   the one where I have $47 in the bank and my last stream earned $3.50   I can't afford anything. The dashboard that says $318 in two days belongs to someone she doesn't know about. Someone named Ellie.
+
+<<eli "Green curry.">>
+
+<<kira "Spice level?">>
+
+<<eli "Medium?">>
+
+<<kira "Coward. I'm going extra hot.">>
+
+<<eli "Your funeral.">>
+
+<<kira "My taste buds, my rules.">>
+
+She orders. In her minimal Thai   two words, pointing at the menu, a smile at the server that probably earns better service than fluent Thai would. The food comes fast. The pad thai is piled high with bean sprouts and crushed peanuts and a lime wedge. My green curry is a pool of emerald coconut milk with vegetables and chicken, steam rising.
+
+We eat. We talk. The conversation flows the way it always does   spiraling, touching, releasing   and I realize, sitting across from her in the red light, that this is what a date feels like. Not the coffee shop with Marcus buying. Not the ramen where Kira framed it as "celebrating." This is a date. She's my... whatever we are. Girlfriend. The word Marcus used. The word that fits even if we haven't said it.
+
+<<kira "Can I ask you something?">>
+
+<<eli "Always.">>
+
+<<kira "Are you happy?">>
+
+The question is simple and impossible. Am I happy. The word contains multitudes. Am I happy that Kira is sitting across from me looking like a painting? Yes. Am I happy that $318 appeared in my life in two days? Yes. Am I happy that I'm lying to the person asking the question? No. Am I happy? The answer is yes and no and both and neither and the fact that I have to calculate it means the answer is complicated in a way that "happy" isn't designed to be.
+
+<<eli "Yeah. I think I am.">>
+
+<<kira "You THINK you are?">>
+
+<<eli "I'm not used to it. I'm still calibrating.">>
+
+<<kira "Calibrating happiness. That's the most Eli answer possible.">>
+
+<<eli "What's the most Kira answer?">>
+
+<<kira "The most Kira answer is: same. I'm calibrating too.">>
+
+She reaches across the table. Her hand   small, warm, the pixel-heart tattoo   finds mine beside the green curry. Our fingers interlace on the tablecloth. Her thumb traces circles on the back of my hand, the now-familiar gesture, the circuit she draws on every surface when she's feeling something she hasn't named.
+
+<<kira "This is nice. Just this. Eating food and holding hands and not thinking about stream schedules.">>
+
+<<eli "You think about stream schedules on dates?">>
+
+<<kira "I think about stream schedules in the shower, Eli. I'm a content creator. My brain doesn't have an off switch.">>
+
+<<eli "I know the feeling.">>
+
+More than she knows. We finish dinner. She reaches for the check.
+
+<<eli "I can ">>
+
+<<kira "Eli.">>
+
+<<eli "Let me at least ">>
+
+<<kira "I've got it. Don't make it weird.">>
+
+She pays. The card taps. The receipt prints. And I sit there with $318 on a dashboard she doesn't know about and I let her pay for my dinner and the splinter pushes a millimeter deeper. After the next modification, I think. After the nose. After the face is more complete. I'll tell her then. I'll show her the numbers and she'll understand and then I can pay for everything. I can pay for every dinner from now until we're old.
+
+Soon. Just not yet.
+<<set $hint = "Go Back to Kira's Apartment">>
+[[Go Back to Kira's Apartment|neighbourhood]]
+
+:: day_4_15_kira
+
+Back at Kira's apartment. The Civic parks. We take the elevator. She unlocks 3C. Packet is on the couch, occupying the center cushion with the territorial confidence of a cat who has never been told no. He looks at me. I look at him. The détente continues.
+
+<<kira "Tea?">>
+
+<<eli "Sure.">>
+
+She disappears into the kitchen. I sit on the couch   Packet grudgingly relocates to the armrest with the displeased fluidity of a liquid poured from one container into another   and I look around the apartment. The same curated space. The same intentional warmth. Kira's setup is visible across the room   the dual monitors dark, the ring light off, the keyboard's RGB underglow faintly pulsing in standby mode like a sleeping heartbeat. The chibi figurine on the shelf. The acoustic foam. Everything in its place.
+
+She returns with two mugs. Green tea. She hands me one and sits beside me   close, closer than necessary, the couch offering plenty of space and Kira choosing to use none of it. Her thigh presses against mine. Her shoulder finds the hollow of my arm.
+
+<<kira "What do you want to watch?">>
+
+<<eli "You pick.">>
+
+<<kira "Frieren? We left off at episode four.">>
+
+<<eli "The one where you fell asleep.">>
+
+<<kira "I did NOT fall  okay, I fell asleep. But only because you were so comfortable.">>
+
+<<eli "I'm a mattress with a pulse.">>
+
+<<kira "The most romantic pulse-mattress I've ever slept on.">>
+
+She queues the episode. The TV lights up   painted backgrounds, soft music, the elf mage and her journey. Kira tucks her feet under her and leans into me and my arm goes around her shoulders the way it did two days ago, the position already memorized by my body, muscle memory forming for a gesture I've performed exactly twice.
+
+We watch. She doesn't fall asleep this time   she's more awake, more present, commenting on the show, her voice soft and close. I can feel her breathing against my side, the steady rise and fall of her ribcage.
+
+The episode reaches an emotional scene   the elf realizing she missed something important about a person she lost   and Kira shifts. She turns her face toward me. I look down. She's close   closer than the car, closer than the izakaya   her face tilted up, the glasses at an angle, the brown eyes looking directly into mine from four inches away.
+
+She kisses me.
+
+Not the hello kiss. Not the goodbye kiss. This is a different kiss   slower, deeper, her hand coming up to the back of my neck, fingers in the short hair at my nape, pulling me down toward her. Her lips part against mine and the kiss opens and I taste green tea and something underneath that's just her, the specific chemistry of Kira's mouth, and my brain stutters and restarts in a different mode.
+
+<img src="images/scenes/day_4/day_4_2.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I kiss her back. My hand finds her waist   the side of her body, the curve between ribcage and hip, felt through the black turtleneck, small and warm and real. She makes a sound against my mouth. A small sound. Not a word   something pre-verbal, something the body produces when it stops consulting the brain. "Mmnh." A vibration against my lips.
+
+The kiss deepens. Her hand tightens at my nape. My hand on her waist pulls her closer   not dramatically, not aggressively, just a half-inch of reduced distance that she fills by pressing her whole side against me. The couch cushions shift. Packet, sensing that his territory is being used for purposes he doesn't approve of, leaps from the armrest and stalks toward the bedroom with the disgusted dignity of a cat who has standards.
+
+<img src="images/scenes/day_4/day_4_3.jpeg" alt="Kira's Apartment" class="scene-image">
+
+When the kiss breaks   when we pull apart for air, both breathing slightly harder, faces flushed   she stays close. Her forehead against mine. The wire-frame glasses bumping my brow bone. Her eyes, from this distance, are blurred   too close to focus, a wash of brown and warmth.
+
+<<kira "Hi.">>
+
+<<eli "Hi.">>
+
+<<kira "Your eyes look different up close.">>
+
+The sentence lands like a cold stone in warm water. My body goes still   a micro-freeze that I force myself to override, to smooth over, to bury beneath the warm fog of the kiss and the closeness and her forehead on mine.
+
+<<eli "Different how?">>
+
+<<kira "I don't know. Bigger? Your lashes are really long. Have they always been this long?">>
+
+She's looking. From four inches away, with her analytical eyes, the eyes that notice brand changes in energy drinks and remember 3 AM voices. She's looking at my lashes   the engineered lashes, the RegenaForm lashes, the lashes that are longer and darker and denser than anything that was there four days ago.
+
+<<eli "I think it's just... the lighting in here. Your lamp does something.">>
+
+<<kira "Hmm.">>
+
+The "hmm" again. The same one from the car two days ago. The syllable that means I don't believe you but I'm choosing not to press. She files it. I can almost see the filing   the mental folder labeled "Things About Eli's Face" getting a new entry.
+
+I redirect. The only move.
+
+<<eli "You look different up close too.">>
+
+<<kira "How?">>
+
+<<eli "More freckle. You have a freckle near your left eyebrow.">>
+
+<<kira "I've always had that!">>
+
+<<eli "I've never been close enough to see it.">>
+
+<<kira "You've been close enough for two days. You're just not observant.">>
+
+<<eli "I'm observant about other things.">>
+
+<<kira "Like what?">>
+
+<<eli "Like the way you make a sound when you kiss me. A little 'mmnh.'">>
+
+Her face goes red. The flush starts at the neck and climbs past her jaw to her cheeks and the tips of her ears, visible even in the warm lamp light.
+
+<<kira "I do NOT make a sound.">>
+
+<<eli "You absolutely do. It's ">>
+
+<<kira "Eli.">>
+
+<<eli "It's incredibly cute.">>
+
+<<kira "STOP.">>
+
+She shoves my shoulder. I catch her hand. She lets me. We're holding hands on the couch and her face is red and mine is probably red too and the TV is still playing the anime neither of us is watching.
+
+<<kira "You can't just notice things like that and SAY them.">>
+
+<<eli "Why not?">>
+
+<<kira "Because I've been trying to be COOL about this and you keep making it impossible.">>
+
+<<eli "You're the coolest person I know.">>
+
+<<kira "I drooled on your shirt last time.">>
+
+<<eli "Coolly.">>
+
+She laughs. The real laugh. And then she kisses me again.
+
+[[Continue Kissing|day_4_16_kira]]
+
+:: day_4_16_kira
+<<set $day_step to 16>>
+<<set $hint = "Enjoy the Moment with Kira">>
+The second round of kissing is longer. Less tentative. We shift on the couch until she's half-turned toward me, her legs across my lap, my arm around her back. The position is closer than anything we've done   her weight on me, her body against mine, the full surface area of contact that two people can achieve while technically sitting on a couch.
+
+<img src="images/scenes/day_4/day_4_4.jpeg" alt="Kira's Apartment" class="scene-image">
+
+She kisses my jaw. My neck. The spot below my ear. Her lips are warm and her breath is hot and each point of contact sends a signal through my nervous system that is rapidly becoming difficult to manage. I'm hyper-aware of every place her body touches mine   her thigh across my lap, her hip against my side, her chest pressed against my arm.
+
+Her chest.
+
+I feel it through the turtleneck and through my grey shirt   the soft, specific pressure of her breasts against my arm. Soft round press can't ignore. The shape of them felt through two layers of fabric, warm, the kind of pressure that registers in a part of the brain that doesn't process words. She probably doesn't notice the contact   it's incidental, a consequence of the position, the geometry of two bodies close together. But I notice it. I notice it the way a person standing in a river notices the current.
+
+The kissing continues. Her hand is on my chest, fingers curled into the fabric of my shirt. My hand is on her back, the warmth of her spine through the turtleneck. We're breathing harder. The TV plays unnoticed. The apartment is warm and close and the only sounds are us   the small wet sounds of mouths meeting and separating, the fabric shifting, the breathing and then   slowly, inevitably, with the reliability of a physical law   I get hard.
+
+It's not subtle. It's not a slight stirring that could be ignored or attributed to a fold in the joggers. It's a full, insistent, undeniable erection that happens because a beautiful girl is on my lap and kissing my neck and her breast is against my arm and my body has made a decision that my brain did not approve.
+
+I feel it. She has to feel it   her thigh is across my lap, the contact is direct, the evidence is pressing against her through two layers of fabric and there is no amount of subtle repositioning that will hide what's happening in my joggers.
+
+I freeze. Not completely   the kiss doesn't stop   but internally I lock up, the panic arriving late to a party the body started without permission. Do I acknowledge it? Shift? Pull back? The etiquette of involuntary erections during early-relationship couch makeouts is not covered in any guide I've ever read.
+
+Kira doesn't freeze. She doesn't pull back. She doesn't say anything. What she does is   nothing. She continues kissing my jaw, her hand still on my chest, her thigh still across my lap, and she adjusts her position by approximately one inch in a direction that is not away from the situation. The adjustment is so small it might be unconscious. It might not be. She shifts and the pressure changes and I feel the contact through the fabric and my brain produces a sound that is fortunately not processed by VoxMorph because it's just me on a couch and not Ellie on a stream.
+
+She knows. She has to know. And she's choosing not to make it a thing.
+
+The kissing slows. Naturally, organically, the way a wave recedes   not because it's forced back but because it reaches its natural shore. She pulls back. Lays her head on my shoulder. My arm stays around her. Her legs stay across my lap. The erection persists, insistent and embarrassing, and she rests against me as though it isn't there, granting me the dignity of pretending physics isn't happening.
+
+<<kira "This is nice.">>
+
+<<eli "Yeah.">>
+
+<<kira "You seem happy today. Like really happy. Not calibrating-happy. Actually happy.">>
+
+<<eli "I am happy.">>
+
+<<kira "Why?">>
+
+<<eli "I'm with you.">>
+
+<img src="images/scenes/day_4/day_4_5.jpeg" alt="Kira's Apartment" class="scene-image">
+
+It comes out simple and true and the simplicity of it surprises me because the real answer is more complicated   I'm happy because I earned $177 this morning and $210 yesterday and the numbers are climbing and the face is changing and the future is opening   but the simple answer is also true. I'm with her. And being with her produces a specific happiness that the dashboard can't replicate. The money makes me hopeful. Kira makes me happy. They're different things and right now, on this couch, with her weight against me and her warmth in my arm, the difference matters.
+
+<<kira "I'm happy too. For the record.">>
+
+She nestles closer. Her breathing slows. The anime plays.
+<<set $hint = "Relax and Enjoy Kira's Company">>
+[[Stay on the Couch|day_4_17_kira]]
+
+:: day_4_17_kira
+
+Twenty minutes later, Kira stands. Stretches. Her turtleneck rides up, showing that strip of stomach above the waistband   smooth, fair skin, the small architecture of her navel   and I look and look away and she catches me looking and does the teasing grin.
+
+<<kira "I'm going to shower. You stay. I'll make us dinner after.">>
+
+<<eli "You're making dinner?">>
+
+<<kira "I can cook, Eli. Not everyone lives on microwave burritos.">>
+
+<<eli "What are you making?">>
+
+<<kira "Rice and egg. The Japanese way. It's comfort food.">>
+
+She disappears into the bathroom. The shower starts   I can hear the water through the door, the different sound a good shower makes compared to my apartment's dispirited drizzle. This is a real showerhead. Real water pressure. Real hot water that arrives on demand instead of after an eight-minute geological negotiation.
+
+I sit on the couch. Packet has returned, sensing the romantic energy has dissipated, and has reclaimed the opposite cushion. He stares at me. I stare at him. The erection has subsided, finally, the body accepting that the immediate stimulus has moved to another room, though the memory of the pressure   her thigh, her chest, the contact   lingers in my nervous system like the echo of a bell.
+
+I check my phone. Nothing urgent. The ElliePlayz dashboard on my phone browser still shows the morning numbers: $177. I close it. Open Kira's chat instead.
+
+The shower stops. Minutes pass. Sounds of moving around. Then the bathroom door opens.
+
+Kira walks out in a bathrobe.
+
+Not a towel   a short cotton bathrobe, white, belted loosely at the waist, ending mid-thigh. Her legs are bare below it   smooth, fair skin from mid-thigh to bare feet on the hardwood. Her hair is wet, the bob darkened and slightly longer when heavy with water, the bangs plastered to her forehead. She's not wearing her glasses   the wire frames left in the bathroom, her face naked without them, the eyes larger and softer and more vulnerable without the barrier. Steam follows her from the bathroom. She smells like body wash   something floral and clean, the personal scent of her skin amplified by hot water.
+
+<img src="images/scenes/day_4/day_4_6.jpeg" alt="Kira's Apartment" class="scene-image">
+
+She walks to the kitchen. Casually. Like this is normal. Like walking past her boyfriend of three days in a short bathrobe with wet hair and no glasses is an unremarkable Tuesday evening event.
+
+<<kira "Rice'll be ready in twenty. You want soy sauce or ponzu?">>
+
+My mouth is dry. My brain is offline. I'm sitting on a couch looking at Kira Nomura in a bathrobe and the signal traveling from my eyes to my speech center has encountered a critical error.
+
+<<eli "Uh.">>
+
+<<kira "Soy sauce or ponzu. It's not a hard question.">>
+
+<<eli "Soy sauce.">>
+
+<<kira "Good choice.">>
+
+<img src="images/scenes/day_4/day_4_7.jpeg" alt="Kira's Apartment" class="scene-image">
+
+She moves through the kitchen with the easy confidence of a person who is comfortable in her own space and her own body. She opens the rice cooker. Steam rises. She cracks eggs into a bowl and whisks with chopsticks. The bathrobe shifts as she moves   not revealing anything explicit, but the fabric drapes and moves and suggests, the outline of her body visible through the thin cotton, the line of her waist and the curve of her hip and the shape of her breasts under the loosely belted robe.
+
+I'm hard again. Immediately. Completely. The same insistent, undeniable, physics-defying erection that will not be reasoned with. I'm sitting on her couch with a throw pillow in my lap   placed there with the casual desperation of a person pretending to be comfortable   and Kira is making rice in a bathrobe and I am going to die on this couch.
+
+She turns. Holds out a bowl   rice topped with a raw egg, soy sauce drizzled in a spiral, sesame seeds, a strip of nori. Simple. Beautiful. The food of a person who knows how to feed another person.
+
+<<kira "Tamago kake gohan. My grandma's version.">>
+
+She sits beside me. Cross-legged on the couch, the robe riding up on her thighs, the hem barely covering what it needs to cover. She mixes her egg into the rice with chopsticks, the steam curling, and she eats with the same focused precision she brings to everything   neat, efficient, the chopsticks moving quickly.
+
+<<eli "This is really good.">>
+
+<<kira "It's rice and egg, Eli.">>
+
+<<eli "It's the best rice and egg I've ever had.">>
+
+<<kira "You've been eating burritos for eight months. A saltine cracker would be the best thing you've ever had.">>
+
+<<eli "Don't disrespect the saltine. Or the tamago. Both are sacred.">>
+
+She kicks me lightly with her bare foot. Her toes against my ankle. I feel the contact like a bolt and the throw pillow in my lap becomes more necessary.
+
+We eat. She tells me about her stream today   good numbers, the Q&A format working, her viewers sending increasingly specific questions ("someone asked my blood type. My BLOOD TYPE, Eli. For compatibility purposes."). I listen and respond and the conversation is normal, easy, the surface calm of a person whose subsurface is a catastrophe of arousal and guilt and the specific cognitive dissonance of eating comfort food made by a girl he's lying to.
+
+After dinner, she puts the bowls in the sink. Returns. Sits close. The bathrobe has loosened slightly   the neckline wider than it was, showing more of her collarbone, the upper curve of her chest visible where the robe doesn't quite close. She either doesn't notice or doesn't mind.
+
+<img src="images/scenes/day_4/day_4_8.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I look. I try not to look. I look again. The skin of her upper chest is smooth and fair and slightly flushed from the hot shower and I'm going to need the throw pillow permanently surgically attached to my lap if this continues.
+
+<<kira "I should probably get dressed before I freeze.">>
+
+<<eli "You look  I mean. Yeah. It's cold.">>
+
+She gives me the teasing grin. The one where the left side pulls up higher. She knows exactly what she's doing. She has to know. Kira doesn't do anything without intention.
+
+She goes to the bedroom. Returns in sweats and an oversized T-shirt   the uniform of a person who has decided the seduction portion of the evening is complete and the comfort portion has begun. The glasses are back on. The hair is drying, the bob returning to its natural shape. She looks like Kira again   sharp, comfortable, the girl with the stream and the cat and the pixel-heart tattoo.
+
+We kiss goodnight at the door. A long one. Her hands on my chest, mine on her waist, the contact that I'm learning the geography of   the specific width of her ribcage under my palms, the heat of her skin through the t-shirt, the way she rises slightly on her toes because I'm taller and she's not wearing the platform sneakers.
+
+<<kira "Goodnight, disaster.">>
+
+<<eli "Goodnight.">>
+
+<<kira "Stream tomorrow?">>
+
+<<eli "Always.">>
+
+<<kira "Same. Noon. Watch if you want.">>
+
+<<eli "I'll be there.">>
+
+<<kira "❤️">>
+
+She says it out loud. Not a text, not an emoji   the word "heart" replaced by the look in her eyes, the squeeze of her hands, the last press of her lips against mine. Then the door closes and I'm in the hallway and the cold returns.
+
+I walk home. Fifteen minutes. January. The cold is clarifying   it strips the arousal back to baseline, the frigid air doing what the throw pillow couldn't. By the time I reach my building, my body has calmed but my brain hasn't. The images persist: the bathrobe, the wet hair, the collarbone, the shape of her breasts through the cotton, her thigh across my lap, the pressure, the "mmnh" against my lips.
+<<set $hint = "Go Home and Stream">>
+<<set $day_step to 17>>
+[[Go Home and Stream|neighbourhood]]
+
+:: day_4_18_kira
+<<set $day_step to 18>>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+11:00 PM. The apartment. The desk. The ritual.
+
+Wig on. VoxMorph calibrated. Webcam tilted up   eyes, lashes, brows, hair. Desk lamp angled. OBS scene loaded. The preview shows Ellie's eyes looking back at me from the small rectangle, waiting for the permission to exist.
+
+My body still carries traces of the evening   the warmth of Kira's couch in my joints, the phantom pressure of her thigh across my lap, the taste of soy sauce and green tea. The sensory memory of her in the bathrobe persists like a watermark on my awareness, visible through everything I layer on top of it. I can still smell the floral body wash. I can still feel the cotton.
+
+I push it down. Compartmentalize. The evening was Eli. The night is Ellie. Different drawer. Different key.
+
+ElliePlayz   Live
+Category: Just Chatting → Gunmetal Requiem
+Viewers: 0
+
+Click. Go Live. Look at the lens.
+
+[[Go Live|day_4_19_kira]]
+
+:: day_4_19_kira
+<<nobr>>
+<<set $day_step to 19>>
+<<set $viewers to 34>>
+<<set $followers += 3>>
+<<set $donations += 0>>
+<<set $money += 0>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+<<eli "Hiii! Okay, late night crew, I'm back! I know I streamed this morning too but I couldn't stay away   I missed you guys! How is everyone tonight?">>
+
+The wide eyes. The hair sweep. The techniques from this morning, deployed again   but smoother now, less conscious, the practiced gestures beginning to settle into habit. The eye contact at the lens. The lean-in. The gasp when the first viewer arrives.
+
+Viewers: 6
+
+Viewers: 18
+
+Viewers: 34
+
+The notification squad returns. By now the pattern is established   ElliePlayz streams, the regulars arrive, the chat fills, the numbers climb. The late-night slot is different from the morning   darker energy, slower chat, more intimate. The viewers at 11 PM are different people than the viewers at 10 AM. Lonelier. Quieter. More willing to stay. More willing to pay.
+
+<<chat "MidnightWhale99" "twice in one day. we're blessed.">>
+
+<<chat "night_owl_cc" "morning ellie was top tier but night ellie hits different">>
+
+<<chat "stream_viewer_d1" "the vibes at this hour are immaculate">>
+
+<<eli "Night streams are my favorite honestly. Everything feels more... real? Like the pressure is off. It's just us.">>
+
+I say "just us" while looking at the lens. Direct eye contact. The slow blink. The word "us" lands in the chat like a stone in still water   ripples moving outward, each viewer reading "us" as "her and me" rather than "her and 34 people."
+
+<<chat "MidnightWhale99" "just us. i felt that.">>
+
+<<chat "stream_viewer_d3" "the way she said 'just us' looking directly at the camera. i'm not okay.">>
+
+[[Start Playing|day_4_20_kira]]
+
+:: day_4_20_kira
+<<nobr>>
+<<set $day_step to 19>>
+<<set $viewers to 57>>
+<<set $followers += 7>>
+<<set $donations += 21>>
+<<set $money += 21>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 57
+
+I play Gunmetal Requiem. The gameplay is... better tonight. Not dramatically   I'm still Silver, still inconsistent   but there's something in my hands that wasn't there before. Confidence? Calm? The residual endorphins from Kira's couch? Whatever it is, my aim is steadier, my decisions are cleaner, and by the end of the first match I've gone 10 and 5   my best K/D ratio ever.
+
+<<chat "stream_viewer_d3" "TEN AND FIVE??">>
+
+<<chat "ChillVibesOnly" "DOUBLE DIGITS. DOUBLE. DIGITS.">>
+
+<<chat "night_owl_cc" "morning ellie: 9 and 4. night ellie: 10 and 5. she's ascending.">>
+
+<<eli "You guys, I don't know what's happening! I'm never this good! Something about tonight just feels right.">>
+
+Something about tonight. The warmth still in my body. The memory of being held and holding. The specific calm of a person who was, three hours ago, kissing a girl on a couch while an anime played. That calm translates. It smooths the edges that make me panic-peek and rush shots. It grounds my crosshair.
+
+Kira makes me a better gamer. Not through coaching. Through peace.
+
+[[Continue Playing|day_4_21_kira]]
+
+:: day_4_21_kira
+<<nobr>>
+<<set $day_step to 19>>
+<<set $viewers to 124>>
+<<set $followers += 8>>
+<<set $donations += 33>>
+<<set $money += 33>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 89
+
+$8.00 from stream_viewer_d4: "night ellie is a different breed. those eyes in the dark lighting are something else."
+
+The night lighting IS different. The desk lamp is the only source   no daylight from the window, no ambient room light. Just the warm gold cone from the lamp and the cool blue-white of the monitors. The combination makes my eyes   Ellie's eyes   look deeper, more dramatic. The lashes cast longer shadows in the angled light. The brows arch more visibly against the contrast. The late-night aesthetic is, accidentally, better than the morning one.
+
+Viewers: 124
+
+The stream finds its rhythm. Matches blend together   7 and 6, 8 and 4, 6 and 7. The chat flows. Donations arrive at a steady pace, the late-night viewers more generous per capita than the morning crowd, each one accompanied by a message that ranges from sweet to uncomfortably devoted:
+
+$5.00 from stream_viewer_d5: "can't sleep. your stream is better than ambien."
+
+$10.00 from MidnightWhale99: "two streams today. two donations. this is my subscription to happiness."
+
+$7.00 from night_owl_cc: "i'm supposed to be studying for an exam. worth it."
+
+$20.00 from new_viewer_d6: "just discovered this channel. the eyes-only cam, the voice, the gameplay   following immediately. see you tomorrow."
+
+$15.00 from BigSpender_X: "night ellie's eyes hit different. the shadows from the lamp. premium content."
+
+<<eli "BigSpender, FIFTEEN? You're going to make me cry and I already told you   mascara situation!">>
+
+The callback. The mascara joke from last night, referenced tonight. The chat remembers. They respond to the continuity   the feeling that this is a living story they're part of, a narrative that remembers its own details, a community with inside jokes that date back 48 hours but feel like years.
+
+<<chat "stream_viewer_d3" "the mascara lore continues 😂">>
+
+<<chat "MidnightWhale99" "mascara reveal before face reveal">>
+
+<<chat "ChillVibesOnly" "both. both is good.">>
+
+[[Continue Playing|day_4_22_kira]]
+
+:: day_4_22_kira
+<<nobr>>
+<<set $day_step to 19>>
+<<set $viewers to 213>>
+<<set $followers += 21>>
+<<set $donations += 45>>
+<<set $money += 45>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+
+Viewers: 178
+
+Viewers: 213
+
+The second hour. I'm tired   genuinely tired, the double-stream day catching up, the VoxMorph processing straining my voice and my concentration. But the numbers are climbing and the donations are flowing and the chat is warm and each time I think about ending the stream, another notification pops, another dollar drops, another stranger says something that makes Ellie feel real and Eli feel further away.
+
+<<chat "stream_viewer_d8" "face reveal when ellie? 🥺">>
+
+<<eli "Soooon! I promise! I'm getting closer. Just need a little more time.">>
+
+I look at the lens when I say it. The eye contact. The slow blink. "A little more time." The words mean something different to me than they mean to the chat. The chat hears: she's building confidence. I hear: the nose isn't done yet. The lips aren't done. The jaw isn't done. The face beneath the crop line needs more work before the line can drop.
+
+A little more time. A few more modifications. A few more trips to Suite 12.
+
+[[Continue Playing|day_4_23_kira]]
+
+:: day_4_23_kira
+<<nobr>>
+<<set $day_step to 19>>
+<<set $viewers to 301>>
+<<set $followers += 12>>
+<<set $donations += 32>>
+<<set $money += 32>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+
+Viewers: 267
+
+Viewers: 301
+
+$25.00 from MidnightWhale99: "300 viewers. ellie, you're not just a streamer. you're a phenomenon. don't forget us when you're famous."
+
+Three hundred. The number breaks a barrier that EliPlays never even approached. Three hundred people, simultaneously, watching a pair of eyes and a voice and believing.
+
+I play one more match. 7 and 7. Even. The chat calls it a "boss battle" because the opponent was Platinum and I held my own. The hype carries the stream to its peak:
+
+[[Continue Playing|day_4_24_kira]]
+
+:: day_4_24_kira
+<<nobr>>
+<<set $day_step to 24>>
+<<set $viewers to 339>>
+<<set $followers += 16>>
+<<set $donations += 55>>
+<<set $money += 55>>
+<<set $right_sidebar_mode to 1>>
+<</nobr>>
+Viewers: 339
+
+<<eli "339?? THREE HUNDRED AND THIRTY NINE?? I literally cannot. I can't. You guys   this is the best night of my life. I have to end the stream before I actually cry on camera and nobody wants that.">>
+
+<<chat "stream_viewer_d9" "WE WANT THAT">>
+
+<<chat "MidnightWhale99" "happy tears are always welcome">>
+
+<<chat "night_owl_cc" "goodnight ellie. rest those eyes. they've earned it.">>
+
+<<eli "Goodnight everyone. Same eyes tomorrow. I love you all. For real.">>
+
+[[End Stream|day_4_25_kira]]
+
+:: day_4_25_kira
+<<nobr>>
+<<set $right_sidebar_mode to 0>>
+<</nobr>>
+The wink. The lash-visible wink that worked this morning. It works again. The chat detonates. I hit End Stream before the dopamine wears off.
+
+Duration: 1 hour 47 minutes
+Peak Viewers: 339
+Average Viewers: 206
+New Followers: 34
+Total Followers: 252
+Donations: $186.00
+Subscribers: 11
+
+$186. In under two hours. At night. After already earning $177 this morning.
+
+Day total (ElliePlayz): $363.00
+
+I close OBS. Close VoxMorph. Take off the wig. The face returns. Eli. The person the numbers don't belong to. The person the viewers don't know about.
+
+I open the RegenaForm app.
+
+Not browsing this time. Calculating. The Tier 1 menu loads   every option, every price, every feature I haven't purchased yet. I scroll through them with the focused attention of a person planning a renovation, which is exactly what this is.
+
+Current modifications:
+- Eyelashes   Natural-Long (1.8a): FREE ✓
+- Brow Sculpt   Feathered (1.7a): 300 $ (on credit, due in 5 days) ✓
+- Wig   StreamLine: FREE ✓
+
+Next target:
+- Nose   Slope (1.5a): 500 $
+
+The nose. The next piece. The slope nose would narrow the bridge, refine the tip, bring the nose from "slightly large and asymmetric" to "feminine and clean." It's the next step down from the eyes   the feature that sits between the visible zone and the hidden zone, the bridge between the face the viewers see and the face they don't.
+
+With the nose done, the crop line could drop another inch. Show the nose. Show the bridge. Show more of the face while still hiding the jaw and lips. Incremental reveal. Each modification purchasing another inch of visibility. Each inch earning more.
+
+The math:
+
+Day 1 earnings (ElliePlayz): $210
+Day 2 earnings (ElliePlayz): $363
+Total ElliePlayz earnings: $504
+
+Brow sculpt debt: 300 $ (due in 5 days)
+$504 - $300 = $204 remaining after debt
+
+Nose   Slope: 500 $
+$204 short of nose cost: need $296 more
+
+At current rate ($363/day average of Day 4): one more day of streaming covers the nose with surplus.
+
+One day. One more day of being Ellie and the nose is paid for. And after the nose, the next feature   lips? Jawline? Cheekbones? Each one has a cost and each cost has a timeline and the timeline is measured in streams and the streams are measured in dollars and the dollars are real and the face is changing and the math works.
+
+It all works. The system that Kira identified   the system that rewards a specific input   is producing exactly the output the math predicted. The loop is running. The escalation is functioning. The door opened and behind it is money and behind the money is a face and behind the face is a life.
+
+I scroll the app further. Past Tier 1. Into the overview.
+
+Tier 1   Facial Feminization: 500-4,500 $ total (partially complete)
+Tier 2   Voice Modulation (organic): 1,200-3,500 $
+Tier 3   Hair Redesign: 800-3,500 $
+Tier 4   Body Contour: 3,000-8,000 $
+
+The numbers are large. The tiers stretch upward like floors in a building, each one more expensive than the last, each one further from the starting point. But the starting point was $0 and $47 in the bank and now it's $504 in four days and the trajectory isn't slowing down, it's accelerating. Each modification improves the stream. Each improved stream generates more money. Each dollar funds the next modification. The loop is the product. The escalation is the business model.
+
+I close the app.
+
+I should tell Kira. Soon. Maybe after the nose. Once the face is one step further, once the investment is more concrete, once the numbers are undeniable   then I'll tell her. I'll sit her down and show her the dashboard and explain the logic: you told me the system rewards a specific input. I changed the input. Look at what happened.
+
+She'll understand. She's Kira. She's pragmatic. She identified the problem.
+
+And she's bisexual. The thought returns   the same rationalization from last night, polished smoother with repetition. She likes girls AND she likes me. A few feminine features on her boyfriend wouldn't repel her. It might attract her. The modified face   the lashes, the brows, eventually the nose and the lips   wouldn't push her away. It would add a dimension. Both sides of her attraction converging on the same person. She said it herself: "I like the way women look. I like softness." And I'm building softness onto a frame she already likes.
+
+She won't mind. A bit of feminine on her boyfriend. She might even find it beautiful. She sees beauty in unusual places   in penguin anatomy facts at 4 AM, in a guy who sits still for 45 minutes so she can nap. She'd see beauty in this too.
+
+I'll tell her. After the nose. After one more step.
+
+The RegenaForm app glows on my phone. I set it beside the mattress, screen down.
+
+[[Go to Sleep|day_4_26_kira]]
+
+:: day_4_26_kira
+<<set $day_step to 26>>
+<<set $playerImage to "images/user/tier_0_2.jpeg">>
+I lie on the mattress. Grey sheets. Thin comforter. The apartment is dark except for the second monitor's standby glow and the green LED of the router. The ceiling crack is up there, invisible. The numbers float behind my closed eyes: $363 today. $504 total. 339 peak. 252 followers. The nose is $500 and I'll have it by tomorrow night.
+
+But the numbers fade. The dashboard recedes. And what replaces it, in the dark, on the mattress, is not money.
+
+It's Kira.
+
+The bathrobe.
+
+The image arrives fully formed, preserved in high resolution by a brain that recorded every detail with the obsessive fidelity of a webcam running at 60fps. The white cotton loosely belted. The wet hair dark and heavy against her bare neck. The collarbone exposed where the neckline fell open. The smooth skin of her upper chest, flushed from the shower. The line where the robe ended at mid-thigh and her bare legs began. The way she walked to the kitchen   casual, unhurried, the movement shifting the cotton against her body, the fabric draping and suggesting the topography beneath.
+
+<img src="images/scenes/day_4/day_4_9.jpeg" alt="Kira's Apartment" class="scene-image">
+
+The couch. Her thigh across my lap. The kiss that deepened. The "mmnh" against my lips   the involuntary sound, the vibration, the signal from her body that her brain didn't approve. Her chest pressed against my arm through the turtleneck. The shape of her. The specific, imagined-in-detail shape that I felt through two layers of fabric and am now reconstructing in the dark with the focus of an artist working from memory.
+
+<img src="images/scenes/day_4/day_4_10.jpeg" alt="Kira's Apartment" class="scene-image">
+
+Her breasts. I felt them. Not directly   through cloth, through cotton, through the incidental geometry of two bodies pressed close on a couch   but I felt them. Small. Firm. The size of   I don't even know the system. Cup sizes. Letters on a scale I've never had reason to learn. B? C? Bigger? She's petite   5'3", slim frame   so they're proportional, which means they could be anything. They felt like enough. They felt like the word "enough" was invented specifically for the thing I felt pressed against my arm.
+
+My hand moves.
+
+Not toward the phone. Not toward the RegenaForm app. Downward. Under the comforter. Under the waistband of the joggers I haven't changed out of. The movement is automatic, the body making decisions the brain already made ten minutes ago in the dark while thinking about cotton robes and collarbone and the sound she makes when she kisses me.
+
+<img src="images/scenes/day_4/day_4_11.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I think about Kira. Not the stream version of her   not KiraByte with the ring light and the 1,100 viewers. The real one. The one who walks out of a bathroom in a robe like it's nothing. The one who puts her legs in my lap and doesn't flinch when my body responds. The one who looks at me from four inches away and says "your lashes are really long" with the analytical attention of a person who sees everything and the warmth of a person who likes what she sees.
+
+<img src="images/scenes/day_4/day_4_12.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I think about kissing her. The specific kiss   not the hello or the goodbye but the long one, the one on the couch, her hand on my nape, pulling me down. The way her lips opened against mine and the taste of green tea. The sound. The "mmnh." The vibration transferred from her mouth to mine.
+
+<img src="images/scenes/day_4/day_4_13.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I think about her chest. The pressure through the fabric. I try to imagine what they look like without the fabric   and I can't, not precisely, because I haven't seen them, but I can approximate. The shape suggested by the bathrobe. The size suggested by the contact. Small but present. Rounded. The skin the same smooth fair tone as her collarbone, as her bare legs, as the skin above the turtleneck that I've been studying for days. I imagine touching them. My hand   the hand with bitten thumbnails   on her breast. The softness. The weight. The way she might react   the gasp, maybe, the gasp I've seen her do on stream when something surprises her, except this would be a different gasp. A private one. The one that lives behind the "mmnh."
+
+<img src="images/scenes/day_4/day_4_14.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I think about her lying beside me instead of in her own apartment. On this mattress. On these grey sheets. Her wet hair on my pillow. The bathrobe open. Her eyes without glasses, large and brown and looking up at me the way she looked from four inches away but closer, impossibly close, the closest two people can be.
+
+<img src="images/scenes/day_4/day_4_16.jpeg" alt="Kira's Apartment" class="scene-image">
+
+My hand moves. The rhythm is simple. The images are specific. The ceiling crack is invisible above me and the fridge hums its one note and the apartment is dark and I am alone with the memory of a girl who trusts me and the fantasy of a girl I haven't earned and the physical release building in my body the way the viewer count builds during a stream   slowly, then faster, then the peak.
+
+<img src="images/scenes/day_4/day_4_17.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I think about her saying my name. Not "disaster." Not "Eli." Just the sound of her voice   the real one, not the stream one   saying something soft into the dark space between us. A word. A sound. The "mmnh" expanding into something more.
+
+The peak arrives. The body tenses, arches slightly against the mattress, and then releases   a shudder that moves through me like a wave, carrying with it the tension of the day, the double stream, the performance, the arousal that's been building since the couch, since the bathrobe, since the wet hair and the bare legs and the way she didn't flinch.
+
+<img src="images/scenes/day_4/day_4_15.jpeg" alt="Kira's Apartment" class="scene-image">
+
+I lie still. Breathing. The ceiling is dark. The release drains everything   the sexual tension, yes, but also some of the cognitive tension, the spin-cycle of numbers and plans and rationalizations that's been running since I woke up at 8:30. For a few seconds my brain is quiet. Not calculating. Not planning. Just present. A body on a mattress. A person who touched himself thinking about a girl who kissed him.
+
+Normal. Pathetically, beautifully normal.
+
+I clean up with a tissue from the box beside the mattress (the one purchase I made that qualifies as forward-thinking). Settle back. Pull the comforter up.
+
+The numbers try to return. The $363. The nose at $500. The math, the timeline, the RegenaForm app on the phone beside my head. They try to fill the post-orgasmic quiet with their insistent logic.
+
+I let them. For a minute. The nose   after tomorrow's streams, I'll have enough. I'll book the appointment. Walk four blocks. Sit in the chair. Feel the warmth. Walk out with a face that's one step closer to the face reveal, one step closer to telling Kira, one step closer to the life where the numbers support the person instead of replacing him.
+
+But then the numbers fade and what's left is Kira. Her face. Her real face, not the calculated value of it, not the stream metrics, not the bisexuality rationalization. Just her. The freckle near her left eyebrow. The glasses she takes off when she's close. The sound she makes when she kisses me.
+
+Tomorrow I'll modify my nose. Tomorrow I'll stream and earn and grow. Tomorrow the face will change again and the numbers will climb and the loop will continue.
+
+But right now, in the dark, on the grey sheets, in the seconds before sleep   right now I'm just a boy who touched himself thinking about a girl who fell asleep on his shoulder once and walked out of a bathroom in a robe and didn't care that he saw her like that.
+
+That's enough. For right now. That's enough.
+
+I sleep.
+
+End 0f v0.0.2

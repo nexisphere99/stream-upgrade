@@ -1,0 +1,15 @@
+
+
+
+:: outside
+<<set $locationName to "Eli's Apartment - Outside">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/neighbourhood.jpeg">>
+<img src="images/locations/neighbourhood.jpeg" alt="Eli's neighbourhood" style="width:100%; height:auto;">
+<<if $day == 4 and $day_step == 12>>
+<<goto "day_4_13_kira">>
+<<elseif $day == 4 and $day_step == 13>>
+<<goto "day_4_14_other">>
+<<else>>
+<</if>>
+[[← Floor Plan|apartment_map]] | [[District Map|neighbourhood]]

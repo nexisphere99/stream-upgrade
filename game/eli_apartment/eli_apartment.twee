@@ -1,0 +1,21 @@
+
+
+
+:: eli_apartment
+<<nobr>>
+<<set $locationImage to "images/locations/eli_apartment.jpeg">>
+<<set $locationName to "Eli's Apartment">>
+<<set $right_sidebar_mode to 0>>
+<img src="images/locations/eli_apartment.jpeg" alt="Eli's Apartment" class="location-image">
+/* <br><br> */
+<<=$day>>.<=$day_step>>
+
+
+
+<<if $day == 3 and $day_step == 23>>
+<<goto "day_3_24_kira">>
+<<else>>
+/* <<goto "apartment_map">> */
+<</if>>
+[[← District Map|neighbourhood]]
+<</nobr>>

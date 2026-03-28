@@ -1,0 +1,87 @@
+
+
+
+
+
+:: eli_closet
+<<set $locationName to "Eli's Apartment - Closet">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/eli_closet.jpeg">>
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+[[Change Clothes|closet_change]] | [[← Floor Plan|apartment_map]]
+
+:: closet_change
+
+<<set $rand to random(1, 5)>>
+<<if $rand is 1>>
+<<goto closet_outfit_1>>
+<<elseif $rand is 2>>
+<<goto closet_outfit_2>>
+<<elseif $rand is 3>>
+<<goto closet_outfit_3>>
+<<elseif $rand is 4>>
+<<goto closet_outfit_4>>
+<<else>>
+<<goto closet_outfit_5>>
+<</if>>
+
+:: closet_outfit_1
+
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+I pull out the grey hoodie. It's the one I always go back to   slightly worn at the cuffs, a small bleach stain near the pocket that I stopped noticing a long time ago. Dark jeans. The same ones as yesterday, probably.
+
+<<eli "...this works.">>
+
+I pull it on. Nothing fits great. Nothing needs to.
+
+[[← Closet|eli_closet]]
+
+:: closet_outfit_2
+
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+There's one clean black t-shirt left. Slightly wrinkled from the drawer but not bad enough to care about. I pair it with sweatpants and call it done.
+
+<<eli "Clean enough.">>
+
+I check myself in the closet mirror for exactly one second. Fine.
+
+[[← Closet|eli_closet]]
+
+:: closet_outfit_3
+
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+The navy crewneck I almost never wear. I grab it anyway   it's near the front, which means everything else is either dirty or buried. Worn jeans, the ones with the frayed left knee.
+
+<<eli "...this'll do.">>
+
+A little more put-together than usual. Barely.
+
+[[← Closet|eli_closet]]
+
+:: closet_outfit_4
+
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+Nothing looks clean. I sniff a shirt   a plain white one, slightly creased. It passes. I pull it on over boxers and reach for the joggers crumpled on the closet floor.
+
+<<eli "It's fine, nobody's coming over.">>
+
+Good enough for staying in.
+
+[[← Closet|eli_closet]]
+
+:: closet_outfit_5
+
+<img src="images/locations/eli_closet.jpeg" alt="Eli's Closet" style="width:100%; height:auto;">
+
+I dig toward the back and find the olive green jacket I forgot I owned. Throw it over a plain tee. It actually fits okay. Better than okay. I leave the jeans from this morning on   they're still clean enough.
+
+<<eli "...not bad.">>
+
+I almost look like I have somewhere to be.
+
+[[← Closet|eli_closet]]

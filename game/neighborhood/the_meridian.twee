@@ -1,0 +1,1011 @@
+:: the_meridian
+<<nobr>>
+<style>
+/* ── VARIABLES & BASE ─────────────────────────────────────────────────── */
+/* Background: #08080f, surfaces: #0d0d1a, border: rgba(45,212,191,0.2) */
+
+#mer-wrap {
+  max-width: 900px;
+  margin: 0 auto;
+  font-family: var(--font-ui, 'Outfit', sans-serif);
+}
+
+/* Header / breadcrumb */
+#mer-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(45, 212, 191, 0.2);
+}
+#mer-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #f59e0b;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+#mer-breadcrumb {
+  font-family: monospace;
+  font-size: 0.75rem;
+  color: #5d5875;
+  letter-spacing: 0.08em;
+}
+#mer-breadcrumb span { color: #2dd4bf; }
+
+/* Tier grid - 4 columns desktop, 2 mobile */
+.mer-tier-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 14px;
+}
+@media (max-width: 700px) { .mer-tier-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Category grid - 3 columns */
+.mer-cat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+@media (max-width: 700px) { .mer-cat-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Option grid - 3 columns */
+.mer-opt-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+@media (max-width: 700px) { .mer-opt-grid { grid-template-columns: repeat(2, 1fr); } }
+
+/* Tier card */
+.mer-tier-card {
+  background: #0d0d1a;
+  border: 1px solid var(--tc);
+  border-radius: 10px;
+  padding: 16px 12px;
+  cursor: pointer;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.15s;
+  position: relative;
+  overflow: hidden;
+}
+.mer-tier-card:hover {
+  background: rgba(var(--tcr),0.07);
+  box-shadow: 0 0 20px rgba(var(--tcr),0.2);
+  transform: translateY(-2px);
+}
+.mer-tier-card.locked {
+  opacity: 0.45;
+  cursor: not-allowed;
+  filter: saturate(0.3);
+}
+.mer-tier-card.locked:hover { transform: none; box-shadow: none; }
+.mer-tier-icon {
+  font-size: 1.6rem;
+  margin-bottom: 6px;
+  color: var(--tc);
+}
+.mer-tier-num {
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: var(--tc);
+  opacity: 0.7;
+  font-family: monospace;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+}
+.mer-tier-name {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: #e8e4f0;
+  margin-bottom: 8px;
+}
+.mer-tier-meta {
+  font-family: monospace;
+  font-size: 0.62rem;
+  color: #4a4a6a;
+  line-height: 1.6;
+}
+.mer-tier-meta .mc { color: var(--tc); opacity: 0.8; }
+.mer-lock-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 0.7rem;
+  color: #ef4444;
+  opacity: 0.7;
+}
+.mer-suite-badge {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 0.55rem;
+  font-family: monospace;
+  letter-spacing: 0.1em;
+  color: var(--tc);
+  opacity: 0.5;
+  text-transform: uppercase;
+}
+
+/* Category card */
+.mer-cat-card {
+  background: #0d0d1a;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-left: 3px solid var(--tc);
+  border-radius: 8px;
+  padding: 14px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+}
+.mer-cat-card:hover {
+  background: rgba(var(--tcr),0.05);
+  transform: translateX(3px);
+}
+.mer-cat-icon { font-size: 1.3rem; margin-bottom: 6px; }
+.mer-cat-name { font-size: 0.88rem; font-weight: bold; color: #e0dcea; margin-bottom: 4px; }
+.mer-cat-count { font-family: monospace; font-size: 0.65rem; color: #5d5875; }
+
+/* Option card */
+.mer-opt-card {
+  background: #0d0d1a;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 10px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s, transform 0.15s;
+}
+.mer-opt-card:hover {
+  border-color: var(--tc);
+  box-shadow: 0 0 16px rgba(var(--tcr),0.2);
+  transform: translateY(-2px);
+}
+.mer-opt-img {
+  width: 100%;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: monospace;
+  background: linear-gradient(135deg, rgba(var(--tcr),0.12) 0%, rgba(0,0,0,0.3) 100%);
+  border-bottom: 1px solid rgba(var(--tcr),0.15);
+  color: var(--tc);
+  opacity: 0.7;
+  letter-spacing: 0.05em;
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  flex-direction: column;
+  gap: 4px;
+}
+.mer-opt-img .opt-placeholder-icon { font-size: 2rem; opacity: 0.4; }
+.mer-opt-body { padding: 10px 12px; }
+.mer-opt-name { font-size: 0.82rem; font-weight: bold; color: #e0dcea; margin-bottom: 4px; }
+.mer-opt-cost { font-family: monospace; font-size: 0.7rem; color: #f59e0b; }
+.mer-opt-score { font-family: monospace; font-size: 0.65rem; color: #2dd4bf; margin-top: 2px; }
+.mer-excl-badge {
+  font-size: 0.55rem;
+  background: rgba(239,68,68,0.15);
+  color: #ef4444;
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-left: 4px;
+  font-family: monospace;
+}
+.mer-prereq-badge {
+  font-size: 0.55rem;
+  background: rgba(168,85,247,0.15);
+  color: #a855f7;
+  border-radius: 4px;
+  padding: 1px 5px;
+  margin-left: 4px;
+  font-family: monospace;
+}
+
+/* Detail overlay */
+#mer-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(5, 5, 12, 0.92);
+  z-index: 8000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+#mer-overlay.mer-hidden { display: none !important; }
+#mer-detail-box {
+  background: #0d0d1a;
+  border: 1px solid var(--tc);
+  border-radius: 14px;
+  max-width: 580px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 0 60px rgba(var(--tcr),0.3);
+}
+#mer-detail-img {
+  width: 100%;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(var(--tcr),0.15) 0%, #080810 100%);
+  border-radius: 14px 14px 0 0;
+  font-size: 3.5rem;
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(var(--tcr),0.2);
+}
+#mer-detail-body { padding: 20px 24px; }
+#mer-detail-tier-tag {
+  font-family: monospace;
+  font-size: 0.65rem;
+  letter-spacing: 0.15em;
+  color: var(--tc);
+  opacity: 0.7;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+#mer-detail-name {
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #f0ecff;
+  margin-bottom: 14px;
+}
+.mer-detail-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  font-size: 0.82rem;
+}
+.mer-detail-label { color: #5d5875; font-family: monospace; font-size: 0.72rem; letter-spacing: 0.05em; }
+.mer-detail-val { color: #e0dcea; font-weight: bold; }
+.mer-detail-val.cost { color: #f59e0b; }
+.mer-detail-val.score { color: #2dd4bf; }
+.mer-detail-val.locked-val { color: #ef4444; }
+#mer-detail-desc {
+  margin-top: 14px;
+  font-size: 0.85rem;
+  color: #9893a6;
+  line-height: 1.7;
+}
+#mer-detail-effects {
+  margin-top: 12px;
+  padding: 10px 14px;
+  background: rgba(var(--tcr),0.05);
+  border-left: 3px solid var(--tc);
+  border-radius: 0 6px 6px 0;
+  font-size: 0.78rem;
+  color: #c8c4d4;
+  line-height: 1.6;
+}
+.mer-detail-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+.mer-btn-close {
+  flex: 1;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  color: #9893a6;
+  font-family: monospace;
+  font-size: 0.8rem;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+}
+.mer-btn-close:hover { border-color: rgba(255,255,255,0.2); color: #e0dcea; }
+.mer-btn-purchase {
+  flex: 2;
+  padding: 10px;
+  background: var(--tc);
+  border: none;
+  border-radius: 8px;
+  color: #08080f;
+  font-family: monospace;
+  font-size: 0.82rem;
+  font-weight: bold;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+}
+.mer-btn-purchase:hover { opacity: 0.85; }
+.mer-btn-purchase.locked-btn {
+  background: #2a2a3a;
+  color: #ef4444;
+  cursor: not-allowed;
+}
+
+/* Back button */
+.mer-back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid rgba(45,212,191,0.2);
+  border-radius: 6px;
+  color: #2dd4bf;
+  font-family: monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  padding: 5px 12px;
+  cursor: pointer;
+  margin-bottom: 16px;
+  transition: border-color 0.15s, background 0.15s;
+}
+.mer-back-btn:hover { border-color: rgba(45,212,191,0.5); background: rgba(45,212,191,0.05); }
+
+/* Panel transitions */
+.mer-panel { animation: mer-fade-in 0.2s ease; }
+.mer-hidden { display: none !important; }
+@keyframes mer-fade-in { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+
+/* Section header */
+.mer-section-header {
+  margin-bottom: 16px;
+}
+.mer-section-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #e0dcea;
+  margin-bottom: 4px;
+}
+.mer-section-sub {
+  font-family: monospace;
+  font-size: 0.72rem;
+  color: #5d5875;
+  letter-spacing: 0.06em;
+}
+
+/* Combo section */
+.mer-combo-card {
+  background: rgba(245,158,11,0.05);
+  border: 1px solid rgba(245,158,11,0.2);
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 8px;
+}
+.mer-combo-name { font-size: 0.85rem; font-weight: bold; color: #f59e0b; margin-bottom: 4px; }
+.mer-combo-desc { font-size: 0.75rem; color: #9893a6; line-height: 1.5; }
+
+/* $ balance display */
+#mer-sc-display {
+  margin-left: auto;
+  font-family: monospace;
+  font-size: 0.8rem;
+  color: #f59e0b;
+  background: rgba(245,158,11,0.08);
+  border: 1px solid rgba(245,158,11,0.2);
+  border-radius: 6px;
+  padding: 4px 10px;
+}
+
+/* Locked flash */
+#mer-locked-flash.visible { opacity: 1 !important; transform: translate(-50%,-50%) scale(1) !important; }
+</style>
+
+<div id="mer-wrap" style="--tc:#2dd4bf;--tcr:45,212,191">
+  <div id="mer-header">
+    <div>
+      <div id="mer-title">◎ THE MERIDIAN</div>
+      <div id="mer-breadcrumb"></div>
+    </div>
+    <div id="mer-sc-display">0 $</div>
+  </div>
+
+  <div id="mer-tier-panel" class="mer-panel"></div>
+  <div id="mer-cat-panel" class="mer-panel mer-hidden"></div>
+  <div id="mer-opt-panel" class="mer-panel mer-hidden"></div>
+</div>
+
+<div id="mer-overlay" class="mer-hidden">
+  <div id="mer-detail-box">
+    <div id="mer-detail-img"></div>
+    <div id="mer-detail-body">
+      <div id="mer-detail-tier-tag"></div>
+      <div id="mer-detail-name"></div>
+      <div id="mer-detail-rows"></div>
+      <div id="mer-detail-desc"></div>
+      <div id="mer-detail-effects"></div>
+      <div class="mer-detail-actions">
+        <button class="mer-btn-close" id="mer-btn-close">✕ CLOSE</button>
+        <button class="mer-btn-purchase" id="mer-btn-purchase">PURCHASE</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="mer-locked-flash" style="position:fixed;top:50%;left:50%;transform:translate(-50%,-50%) scale(0.9);background:rgba(10,10,15,0.96);border:1px solid rgba(239,68,68,0.4);color:#fca5a5;font-family:monospace;font-size:0.8rem;font-weight:bold;text-align:center;padding:14px 22px;border-radius:10px;pointer-events:none;opacity:0;transition:opacity 0.2s ease,transform 0.2s ease;z-index:9999;max-width:min(280px,88vw)">
+  🔒 TIER LOCKED - Prerequisites not met
+</div>
+<br>
+[[← RegenaForm|regenaform_map]]
+<</nobr>>
+
+<<script>>
+(function() {
+
+// ── DATA ─────────────────────────────────────────────────────────────────────
+
+var D = {
+  tiers: [
+    // {
+    //   id:'t0', label:'T0', name:'Baseline', color:'#9893a6', cr:'148,147,166',
+    //   icon:'○', suite:'Current', locked:false, cost:'Free', score:'0–5', recovery:'-',
+    //   desc:'Eli as he is. Unremarkable male-presenting.',
+    //   cats: []
+    // },
+    {
+      id:'t1', label:'T1', name:'Facial Augmentation', color:'#e84393', cr:'232,67,147',
+      icon:'◈', suite:'Suite 1', locked:false, cost:'200–4,500 $', score:'+8 to +25', recovery:'6–12 hrs/feature',
+      desc:'Facial bone structure, features, and skin modification. Most visible tier - transforms on-camera appearance dramatically.',
+      cats: [
+        { id:'jawline', name:'Jawline', icon:'◻', opts:[
+          { name:'Soft', cost:600, score:'+3', excl:true, desc:'Rounded, youthful contour. Eliminates masculine angles entirely. Girl-next-door.', effect:'Broad appeal. Softens on-camera reads.', recovery:'8 hrs', placeholder:'◻' },
+          { name:'Angular-Feminine', cost:800, score:'+4', excl:true, desc:'High cheekbones with a defined but delicate jaw. Model-tier. Think editorial beauty.', effect:'+Whale attraction. Editorial aesthetic.', recovery:'10 hrs', placeholder:'◻' },
+          { name:'Heart-Shaped', cost:700, score:'+3', excl:true, desc:'Pointed chin, wide cheekbones. Anime-esque. Maximum cute factor.', effect:'+Fetishist and weeb fanbase.', recovery:'8 hrs', placeholder:'◻' },
+          { name:'V-Line', cost:900, score:'+4', excl:true, desc:'Extremely tapered chin, slim lower face. K-beauty ideal.', effect:'+Korean fanbase demographic. Pairs with K-Beauty combo.', recovery:'10 hrs', placeholder:'◻' },
+        ]},
+        { id:'lips', name:'Lips', icon:'◇', opts:[
+          { name:'Natural-Full', cost:400, score:'+2', desc:'Subtly plumped. Looks like good genetics, not work.', effect:'Mainstream appeal. Passes as natural.', recovery:'6 hrs', placeholder:'◇' },
+          { name:'Plush', cost:500, score:'+2', desc:'Noticeably full, soft, inviting. Streams well on camera.', effect:'+Camera performance. Mid-range appeal.', recovery:'6 hrs', placeholder:'◇' },
+          { name:"Bee-Stung", cost:600, score:'+2', excl:false, desc:'Dramatic pout. Oversized upper lip. Polarizing - some fans love it, some think it\'s too much.', effect:'Divides chat. Dedicated fans tip more.', recovery:'6 hrs', placeholder:'◇' },
+          { name:"Cupid's Bow", cost:450, score:'+2', desc:'Exaggerated dip in upper lip. Classic feminine shape. Elegant.', effect:'Romantic fan attraction. Pairs with Doll Face combo.', recovery:'6 hrs', placeholder:'◇' },
+          { name:'Pillow', cost:700, score:'+3', desc:'Extremely full both top and bottom. Instagram lips. Maximum sex appeal, lowest subtlety.', effect:'+Fetishist income. Pairs with E-Girl Special combo.', recovery:'7 hrs', placeholder:'◇' },
+        ]},
+        { id:'eyes', name:'Eyes', icon:'◉', opts:[
+          { name:'Wider-Set', cost:500, score:'+2', desc:'Opens the face. Creates an innocent, approachable look.', effect:'+Mainstream appeal.', recovery:'8 hrs', placeholder:'◉' },
+          { name:'Cat-Eye', cost:600, score:'+3', desc:'Upswept outer corners. Seductive, sharp, predatory.', effect:'+Seduction stat. Pairs with Model Tier combo.', recovery:'8 hrs', placeholder:'◉' },
+          { name:'Doe-Eye', cost:550, score:'+3', desc:'Large, round, expressive. Maximum kawaii appeal.', effect:'+Fetishist/weeb fanbase. Pairs with Doll Face.', recovery:'8 hrs', placeholder:'◉' },
+          { name:'Almond', cost:500, score:'+2', desc:'Balanced, elegant shape. Versatile - works with any other facial choice.', effect:'Neutral versatile base.', recovery:'8 hrs', placeholder:'◉' },
+          { name:'Fox-Eye', cost:650, score:'+3', desc:'Elongated, slightly hooded. Trendy, mysterious, editorial.', effect:'+Editorial aesthetic. K-Beauty combo component.', recovery:'8 hrs', placeholder:'◉' },
+        ]},
+        { id:'eye_color', name:'Eye Color (Add-On)', icon:'✦', opts:[
+          { name:'Violet', cost:200, score:'+1', desc:'Striking, unnatural, anime-coded. Fetishist fans love it.', effect:'+Clout. Unique visual hook.', recovery:'-', placeholder:'✦' },
+          { name:'Emerald', cost:200, score:'+1', desc:'Rich green. Classic beauty.', effect:'Broad appeal.', recovery:'-', placeholder:'✦' },
+          { name:'Amber/Gold', cost:200, score:'+1', desc:'Warm, exotic. Pairs well with darker skin tones.', effect:'+Exotic appeal.', recovery:'-', placeholder:'✦' },
+          { name:'Ice Blue', cost:200, score:'+1', desc:'Piercing, intimidating, magnetic.', effect:'+Mystery. Memorable.', recovery:'-', placeholder:'✦' },
+          { name:'Heterochromia', cost:200, score:'+2', desc:'Two different colors. Unique gimmick. Viral potential.', effect:'+Clout bonus. Viral clip potential.', recovery:'-', placeholder:'✦' },
+        ]},
+        { id:'skin', name:'Skin Tone', icon:'◌', opts:[
+          { name:'Porcelain', cost:500, score:'+2', excl:true, desc:'Pale, flawless, luminous. Zero blemishes. Reflects light beautifully on camera.', effect:'+Camera quality bonus.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Sun-Kissed', cost:500, score:'+2', excl:true, desc:'Warm golden tone with a natural glow. Beach-girl energy.', effect:'+Lifestyle appeal.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Caramel', cost:500, score:'+2', excl:true, desc:'Rich, warm brown. Smooth and even.', effect:'+Diversity appeal.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Ebony', cost:500, score:'+2', excl:true, desc:'Deep, dark, radiant. Striking contrast with any eye/hair color.', effect:'+Unique visual contrast.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Olive', cost:500, score:'+2', excl:true, desc:'Mediterranean warmth. Tans-don\'t-burn energy.', effect:'+Exotic appeal.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Rose', cost:550, score:'+2', excl:true, desc:'Fair with natural pink undertones. Blushes easily - visible on stream.', effect:'Fans see emotions more clearly. +Cute reactions.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Honey', cost:500, score:'+2', excl:true, desc:'Golden-brown midtone. Versatile, universally flattering.', effect:'+Broad demographic appeal.', recovery:'4 hrs', placeholder:'◌' },
+        ]},
+        { id:'skin_addons', name:'Skin Add-Ons', icon:'✧', opts:[
+          { name:'Blemish Purge', cost:200, score:'+1', desc:'Removes all acne, scars, dark spots permanently.', effect:'+Camera quality.', recovery:'2 hrs', placeholder:'✧' },
+          { name:'Glow Treatment', cost:300, score:'+1', desc:'Subtle luminescence. Skin looks lit from within. Insane on camera.', effect:'+Viewer retention. Sponsors notice.', recovery:'2 hrs', placeholder:'✧' },
+          { name:'Freckle Pattern', cost:150, score:'+1', desc:'Natural-looking scattered freckles. Girl-next-door boost.', effect:'+Relatability. Pairs with E-Girl Special combo.', recovery:'1 hr', placeholder:'✧' },
+          { name:'Beauty Mark', cost:100, score:'+1', desc:'Single placed mole - cheek, lip corner, etc. Classic.', effect:'+Memorable visual signature.', recovery:'30 min', placeholder:'✧' },
+          { name:'Pore Refinement', cost:250, score:'+1', desc:'Invisible pores. Skin looks airbrushed IRL.', effect:'+Photo content quality.', recovery:'1 hr', placeholder:'✧' },
+        ]},
+        { id:'nose', name:'Nose', icon:'▽', opts:[
+          { name:'Button', cost:500, score:'+2', excl:true, desc:'Small, rounded, upturned tip. Cute and youthful.', effect:'+Kawaii appeal. Pairs with Doll Face combo.', recovery:'8 hrs', placeholder:'▽' },
+          { name:'Slope', cost:500, score:'+2', excl:true, desc:'Straight bridge, gently angled. Classic feminine profile.', effect:'+Mainstream appeal.', recovery:'8 hrs', placeholder:'▽' },
+          { name:'Refined', cost:600, score:'+2', excl:true, desc:'Narrowed bridge, defined tip. Elegant, aristocratic.', effect:'+High-status aesthetic.', recovery:'8 hrs', placeholder:'▽' },
+          { name:'Pixie', cost:550, score:'+2', excl:true, desc:'Tiny, upturned, almost cartoonishly cute. Anime-adjacent.', effect:'+Weeb fanbase.', recovery:'8 hrs', placeholder:'▽' },
+          { name:'Sculpted', cost:650, score:'+3', excl:true, desc:'Straight with precise angles. High-fashion.', effect:'+Editorial. Pairs with Model Tier combo.', recovery:'10 hrs', placeholder:'▽' },
+        ]},
+        { id:'cheekbones', name:'Cheekbones', icon:'◆', opts:[
+          { name:'High & Defined', cost:500, score:'+2', desc:'Prominent, model-like. Creates shadows that photograph beautifully.', effect:'+Photo content. Pairs with Model Tier.', recovery:'8 hrs', placeholder:'◆' },
+          { name:'Soft & Full', cost:400, score:'+2', desc:'Rounded, youthful fullness. Approachable, cute.', effect:'+Relatable appeal.', recovery:'6 hrs', placeholder:'◆' },
+          { name:'Glass-Skin Contour', cost:600, score:'+3', desc:'Subtle definition with ultra-smooth surface. K-beauty ideal.', effect:'+K-Beauty combo component.', recovery:'8 hrs', placeholder:'◆' },
+          { name:'Apple Cheeks', cost:450, score:'+2', desc:'Full, high, naturally blushing appearance. Sweet.', effect:'+Cute reactions. Pairs with Doll Face combo.', recovery:'6 hrs', placeholder:'◆' },
+        ]},
+        { id:'brow', name:'Brow Sculpt', icon:'⌒', opts:[
+          { name:'Arched', cost:300, score:'+1', desc:'Classic feminine arch. Opens the eye area.', effect:'+Expressiveness on camera.', recovery:'4 hrs', placeholder:'⌒' },
+          { name:'Straight', cost:300, score:'+1', desc:'Youthful, Korean-style straight brow.', effect:'+K-Beauty combo component.', recovery:'4 hrs', placeholder:'⌒' },
+          { name:'Feathered', cost:300, score:'+1', desc:'Soft, natural-looking with slight arch.', effect:'+Natural believability.', recovery:'4 hrs', placeholder:'⌒' },
+          { name:'High-Lift', cost:500, score:'+2', desc:'Brow bone reduced, brows lifted. Maximum forehead feminization.', effect:'+Passing score. Hard to reverse.', recovery:'8 hrs', placeholder:'⌒' },
+        ]},
+        { id:'eyelashes', name:'Eyelashes', icon:'∿', opts:[
+          { name:'Natural-Long', cost:200, score:'+1', desc:'Dense, dark, naturally long. No maintenance needed.', effect:'+Camera baseline.', recovery:'2 hrs', placeholder:'∿' },
+          { name:'Dramatic-Curl', cost:300, score:'+1', desc:'Thick, curled, visible from across a room. Camera-ready always.', effect:'+Stream visual quality.', recovery:'2 hrs', placeholder:'∿' },
+          { name:'Wispy', cost:250, score:'+1', desc:'Soft, fluttery, doll-like.', effect:'+Kawaii appeal.', recovery:'2 hrs', placeholder:'∿' },
+          { name:'Volume-Max', cost:350, score:'+1', desc:'Extremely thick and dark. Borderline theatrical. Bold.', effect:'+Bold visual signature.', recovery:'3 hrs', placeholder:'∿' },
+        ]},
+        { id:'ears', name:'Ears', icon:'◑', opts:[
+          { name:'Refined', cost:200, score:'+1', desc:'Slightly smaller, closer to head. Clean silhouette.', effect:'+Passing score.', recovery:'3 hrs', placeholder:'◑' },
+          { name:'Elfin', cost:350, score:'+1', desc:'Subtly pointed tips. Fantasy/cosplay appeal. Niche fan favorite.', effect:'+Cosplay niche. Unlocks Elf cosplay streams.', recovery:'4 hrs', placeholder:'◑' },
+          { name:'Detached-Lobe', cost:150, score:'+1', desc:'Aesthetic earlobe shape for earring display.', effect:'+Earring content options.', recovery:'2 hrs', placeholder:'◑' },
+        ]},
+        { id:'t1_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'Doll Face', cost:0, score:'+3 bonus', desc:'Doe-Eye + Button Nose + Cupid\'s Bow Lips + Apple Cheeks. Requires all four components.', effect:'+3 bonus Appearance. Fetishist fan spike. Unique dialogue paths.', recovery:'-', placeholder:'★' },
+          { name:'Model Tier', cost:0, score:'+4 bonus', desc:'Cat-Eye + Sculpted Nose + Angular-Feminine Jaw + High Cheekbones. All four required.', effect:'+4 bonus Appearance. Whale attraction multiplier.', recovery:'-', placeholder:'★' },
+          { name:'K-Beauty', cost:0, score:'+5 bonus', desc:'Fox-Eye + V-Line Jaw + Glass-Skin Contour + Straight Brow + Porcelain Skin. All five required.', effect:'+5 bonus Appearance. Unlocks Korean fanbase demographic.', recovery:'-', placeholder:'★' },
+          { name:'E-Girl Special', cost:0, score:'+4 Clout', desc:'Doe-Eye + Heart-Shaped Jaw + Pillow Lips + Freckles + Heterochromia. All five required.', effect:'+4 bonus Clout. Viral social media potential. Unique stream aesthetic.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t2', label:'T2', name:'Voice Modulation', color:'#a855f7', cr:'168,85,247',
+      icon:'♪', suite:'Suite 2', locked:false, cost:'1,200–3,500 $', score:'+5 to +10', recovery:'4 hrs (no stream 1 day)',
+      desc:'Complete vocal feminization. Permanent base voice type with stackable add-ons. No streaming for 24hrs post-procedure.',
+      cats: [
+        { id:'voice_base', name:'Base Voice Type', icon:'♪', opts:[
+          { name:'Sweet/Breathy', cost:1500, score:'+5', excl:true, desc:'Soft, airy, slightly high. Classic e-girl voice. Maximum simp appeal. Sounds like ASMR by default.', effect:'+Simp income. Unlocks ASMR stream potential.', recovery:'4 hrs', placeholder:'♪' },
+          { name:'Husky/Low-Feminine', cost:1500, score:'+5', excl:true, desc:'Sultry, smoky, mature. Think lounge singer. Attracts older, wealthier fans.', effect:'+Whale income. Older demographic attraction.', recovery:'4 hrs', placeholder:'♪' },
+          { name:'Bright/Energetic', cost:1500, score:'+5', excl:true, desc:'Bubbly, upbeat, expressive. Streamer-girl energy. Broad appeal, younger demographic.', effect:'+Mainstream appeal. Fastest viewer growth.', recovery:'4 hrs', placeholder:'♪' },
+          { name:'Melodic', cost:2000, score:'+6', excl:true, desc:'Musical quality, pitch-perfect modulation. Singing voice included. Unlocks karaoke streams.', effect:'+Music stream category unlocked. Karaoke revenue.', recovery:'4 hrs', placeholder:'♪' },
+          { name:'Whisper-Core', cost:1800, score:'+6', excl:true, desc:'Permanently soft-spoken, intimate-sounding. Every word sounds like a secret. ASMR goddess tier.', effect:'+ASMR revenue ×200%. Unlocks dedicated ASMR category.', recovery:'4 hrs', placeholder:'♪' },
+        ]},
+        { id:'voice_addons', name:'Voice Add-Ons', icon:'♬', opts:[
+          { name:'Giggle Package', cost:300, score:'+1', desc:'Natural, infectious feminine laugh. Multiple variants: shy giggle, full laugh, snort-laugh.', effect:'+Chat engagement. Viral clip moments.', recovery:'-', placeholder:'♬' },
+          { name:'Moan Mapping', cost:500, score:'+1', desc:'Involuntary sounds now register as feminine. Critical for physical encounters later.', effect:'+Physical encounter satisfaction. Required for GFE Voice combo.', recovery:'-', placeholder:'♬' },
+          { name:'Vocal Fry Option', cost:200, score:'+1', desc:'Toggle-able subtle vocal fry for chill girl persona.', effect:'Aesthetic versatility. Alt-girl demographic.', recovery:'-', placeholder:'♬' },
+          { name:'Multilingual Accent Pack', cost:800, score:'+2', desc:'Can shift between accents - Japanese, French, British, etc. Fan service for international viewers.', effect:'+International viewer revenue. Accent request donations.', recovery:'-', placeholder:'♬' },
+          { name:'Singing Range Extension', cost:600, score:'+2', desc:'Full octave range. Enables singing streams, karaoke, original music content.', effect:'+Music stream category. Pairs with Idol Package combo.', recovery:'-', placeholder:'♬' },
+          { name:'Whisper Mode', cost:300, score:'+1', desc:'Ultra-quiet register that\'s still perfectly audible on mic. ASMR gold.', effect:'+ASMR content quality. Pairs with ASMR Queen combo.', recovery:'-', placeholder:'♬' },
+          { name:'Emotional Resonance', cost:400, score:'+1', desc:'Voice naturally cracks/trembles with genuine emotion. Feels real. Romantic fans adore this.', effect:'+Romantic fan income. GFE Voice combo component.', recovery:'-', placeholder:'♬' },
+        ]},
+        { id:'t2_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'ASMR Queen', cost:0, score:'×200% ASMR', desc:'Whisper-Core + Whisper Mode + Moan Mapping. All three required.', effect:'Unlocks dedicated ASMR stream category. +200% donation rate during quiet streams.', recovery:'-', placeholder:'★' },
+          { name:'Idol Package', cost:0, score:'+Music unlock', desc:'Melodic + Singing Range + Giggle Package. All three required.', effect:'Unlocks Music stream category. Original song creation. Fan chants.', recovery:'-', placeholder:'★' },
+          { name:'GFE Voice', cost:0, score:'+15% all income', desc:'Sweet/Breathy + Emotional Resonance + Moan Mapping. All three required.', effect:'+15% income on all private interactions. "She really likes me" fan psychology.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t3', label:'T3', name:'Hair Redesign', color:'#f472b6', cr:'244,114,182',
+      icon:'≋', suite:'Suite 2', locked:false, cost:'800–3,500 $', score:'+3 to +8', recovery:'2 hrs',
+      desc:'Complete hair restructuring - length, texture, color, bangs, and hairline. Instant results, zero maintenance post-procedure.',
+      cats: [
+        { id:'hair_length', name:'Length', icon:'≋', opts:[
+          { name:'Pixie', cost:300, score:'+1', excl:true, desc:'Short, cropped, edgy. Tomboyish appeal. Niche but dedicated fans.', effect:'+Alt/tomboy niche.', recovery:'2 hrs', placeholder:'≋' },
+          { name:'Bob', cost:400, score:'+2', excl:true, desc:'Chin-length. Clean, modern, versatile.', effect:'+Mainstream feminine.', recovery:'2 hrs', placeholder:'≋' },
+          { name:'Shoulder', cost:500, score:'+2', excl:true, desc:'Medium length. Mainstream feminine. Easy to style on stream.', effect:'+Broad appeal.', recovery:'2 hrs', placeholder:'≋' },
+          { name:'Mid-Back', cost:600, score:'+3', excl:true, desc:'Long, flowing. Classic beauty. High-maintenance appearance with zero actual maintenance.', effect:'+Romantic appeal. Bombshell combo component.', recovery:'2 hrs', placeholder:'≋' },
+          { name:'Waist-Length', cost:700, score:'+3', excl:true, desc:'Dramatic length. Princess/goddess aesthetic.', effect:'+Anime Protagonist combo component.', recovery:'2 hrs', placeholder:'≋' },
+          { name:'Floor-Length', cost:900, score:'+4', excl:true, desc:'Extreme. Rapunzel-coded. Fetishist magnet. Impractical but iconic.', effect:'+Fetishist income. Unique visual identity.', recovery:'2 hrs', placeholder:'≋' },
+        ]},
+        { id:'hair_texture', name:'Texture', icon:'〜', opts:[
+          { name:'Silk-Straight', cost:300, score:'+1', excl:true, desc:'Sleek, glossy, moves like water.', effect:'+Elegant aesthetic.', recovery:'1 hr', placeholder:'〜' },
+          { name:'Soft Wave', cost:300, score:'+1', excl:true, desc:'Gentle, beachy waves. Effortless beauty.', effect:'+Lifestyle aesthetic.', recovery:'1 hr', placeholder:'〜' },
+          { name:'Defined Curl', cost:350, score:'+1', excl:true, desc:'Bouncy ringlets. Volume and personality.', effect:'+Personality expression.', recovery:'1 hr', placeholder:'〜' },
+          { name:'Tight Coil', cost:350, score:'+1', excl:true, desc:'Afro-textured. Natural, powerful, striking.', effect:'+Unique identity.', recovery:'1 hr', placeholder:'〜' },
+          { name:'Volumetric Blow-Out', cost:400, score:'+2', excl:true, desc:'Perpetually styled, big-hair energy. 80s/modern bombshell.', effect:'+Bombshell combo component. Dramatic presence.', recovery:'1 hr', placeholder:'〜' },
+        ]},
+        { id:'hair_color', name:'Color', icon:'◐', opts:[
+          { name:'Platinum Blonde', cost:300, score:'+1', excl:true, desc:'Ice-white blonde. Attention-grabbing.', effect:'+Bombshell aesthetic.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Honey Blonde', cost:250, score:'+1', excl:true, desc:'Warm golden. Girl-next-door.', effect:'+Approachable appeal.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Ash Brown', cost:200, score:'+1', excl:true, desc:'Cool-toned brunette. Subtle elegance.', effect:'+Classy aesthetic.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Jet Black', cost:200, score:'+1', excl:true, desc:'Deep, glossy black. Dramatic contrast.', effect:'+Striking visuals.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Cherry Red', cost:350, score:'+1', excl:true, desc:'Deep, unnatural red. Bold, e-girl aesthetic.', effect:'+Alt-girl niche.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Pastel Pink', cost:400, score:'+2', excl:true, desc:'Soft bubblegum. Maximum cute.', effect:'+Kawaii appeal. Anime Protagonist combo.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Lavender', cost:400, score:'+2', excl:true, desc:'Light purple. Dreamy, anime-coded.', effect:'+Weeb fanbase.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Mint Green', cost:400, score:'+2', excl:true, desc:'Fresh, unusual. Alt-girl aesthetic.', effect:'+Alt niche.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Rainbow Gradient', cost:600, score:'+3', excl:true, desc:'All colors blended. Maximum attention. Festival queen.', effect:'+Viral potential. Maximum clout.', recovery:'1 hr', placeholder:'◐' },
+          { name:'Color-Shift', cost:800, score:'+3', excl:true, desc:'Changes hue based on lighting angle. RegenaForm proprietary tech. Mesmerizing on camera.', effect:'+Unique visual hook. Sponsors approach you.', recovery:'1 hr', placeholder:'◐' },
+        ]},
+        { id:'hair_bangs', name:'Bangs / Fringe', icon:'⌐', opts:[
+          { name:'Blunt Bangs', cost:150, score:'+1', desc:'Straight across. Doll-like. Frames face.', effect:'+Doll aesthetic.', recovery:'30 min', placeholder:'⌐' },
+          { name:'Curtain Bangs', cost:150, score:'+1', desc:'Parted in center, framing cheeks. Soft, romantic.', effect:'+Romantic appeal.', recovery:'30 min', placeholder:'⌐' },
+          { name:'Side-Swept', cost:150, score:'+1', desc:'Asymmetric sweep. Adds mystery, covers one eye partially.', effect:'+Mystery. Unique silhouette.', recovery:'30 min', placeholder:'⌐' },
+          { name:'Wispy', cost:100, score:'+1', desc:'Thin, airy fringe. Youthful.', effect:'+Youthful look.', recovery:'30 min', placeholder:'⌐' },
+          { name:'Hime Cut', cost:200, score:'+1', desc:'Straight bangs + sidelocks. Japanese princess style. Otaku fanbase loves this.', effect:'+Otaku demographic. Anime Protagonist combo component.', recovery:'30 min', placeholder:'⌐' },
+        ]},
+        { id:'hair_hairline', name:'Hairline', icon:'∩', opts:[
+          { name:'Rounded Hairline', cost:400, score:'+2', desc:'Eliminates masculine M-shape. Smooth, oval frame.', effect:'+Passing score. Removes most obvious masculine tell.', recovery:'4 hrs', placeholder:'∩' },
+          { name:"Widow's Peak Softening", cost:300, score:'+1', desc:'Retains slight peak but feminizes it.', effect:'+Subtle improvement.', recovery:'3 hrs', placeholder:'∩' },
+          { name:'Baby Hair Framing', cost:200, score:'+1', desc:'Soft, fine hairs along temples and forehead. Natural, delicate.', effect:'+Natural believability.', recovery:'2 hrs', placeholder:'∩' },
+        ]},
+        { id:'t3_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'Anime Protagonist', cost:0, score:'+5 Clout', desc:'Waist-Length + Silk-Straight + Pastel Pink or Lavender + Hime Cut.', effect:'+5 Clout. Unlocks Cosplay stream category.', recovery:'-', placeholder:'★' },
+          { name:'Bombshell', cost:0, score:'×1.5 Whales', desc:'Mid-Back + Volumetric Blow-Out + Platinum Blonde + Side-Swept.', effect:'+Whale attraction multiplier ×1.5.', recovery:'-', placeholder:'★' },
+          { name:'Alt Queen', cost:0, score:'+Fetishist boost', desc:'Bob or Pixie + Any Unnatural Color + Split Dye.', effect:'+Fetishist fanbase boost. Unlocks Alt/Punk stream aesthetic.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t4', label:'T4', name:'Body Contour', color:'#60a5fa', cr:'96,165,250',
+      icon:'◎', suite:'Suite 3', locked:false, cost:'3,000–8,000 $', score:'+5 to +12', recovery:'24 hrs',
+      desc:'Full torso and body structural modification. Waist, shoulders, ribcage, neck, limbs, and height adjustment.',
+      cats: [
+        { id:'waist', name:'Waist Narrowing', icon:')(', opts:[
+          { name:'Subtle Taper', cost:2000, score:'+3', excl:true, desc:'2–3 inch reduction. Noticeable in fitted clothing but passable as good genetics.', effect:'+Natural passing.', recovery:'24 hrs', placeholder:')(' },
+          { name:'Defined Hourglass', cost:3000, score:'+5', excl:true, desc:'4–5 inch reduction. Clear feminine waist. Visible in all clothing.', effect:'+Model Body combo component.', recovery:'24 hrs', placeholder:')(' },
+          { name:'Extreme Cinch', cost:4500, score:'+7', excl:true, desc:'6+ inch reduction. Corset-waist proportions without a corset. Dramatic, almost cartoonish curves.', effect:'+Petite Package combo component.', recovery:'24 hrs', placeholder:')(' },
+          { name:'Wasp Waist', cost:6000, score:'+8', excl:true, desc:'Maximum reduction. Physically impossible without biotech. Fetish-tier proportions.', effect:'+Maximum fetishist income. Unique narrative paths.', recovery:'24 hrs', placeholder:')(' },
+        ]},
+        { id:'shoulders', name:'Shoulder Narrowing', icon:'←→', opts:[
+          { name:'Subtle Reduction', cost:1500, score:'+2', desc:'1–2 inches off shoulder width. Balances proportions.', effect:'+Passing score improvement.', recovery:'24 hrs', placeholder:'←→' },
+          { name:'Feminine Frame', cost:2500, score:'+4', desc:'Full restructuring to female-typical shoulder width.', effect:'+Model Body combo component.', recovery:'24 hrs', placeholder:'←→' },
+          { name:'Delicate', cost:3000, score:'+5', desc:'Narrower than average female. Petite, fragile-looking.', effect:'+Petite Package combo component.', recovery:'24 hrs', placeholder:'←→' },
+        ]},
+        { id:'neck', name:'Neck & Throat', icon:'|', opts:[
+          { name:"Adam's Apple Reduction", cost:800, score:'+3', desc:'Flattened laryngeal prominence. Smooth throat line.', effect:'+Critical passing score. Removes most obvious tell.', recovery:'8 hrs', placeholder:'|' },
+          { name:'Neck Slimming', cost:600, score:'+2', desc:'Slightly narrowed, elongated. Swan-neck aesthetic.', effect:'+Elegant appearance.', recovery:'8 hrs', placeholder:'|' },
+          { name:'Full Throat Feminization', cost:1200, score:'+4', desc:'Both reduction + slimming. Complete package.', effect:'+Model Body combo. Maximum passing.', recovery:'12 hrs', placeholder:'|' },
+        ]},
+        { id:'body_skin', name:'Full-Body Skin', icon:'◌', opts:[
+          { name:'Full-Body Skin Match', cost:1000, score:'+2', desc:'Extends facial skin tone/quality to entire body. Eliminates tan lines, body acne, scars.', effect:'+Photo and physical content quality.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Body Hair Elimination', cost:800, score:'+2', desc:'Permanent removal of all body hair below eyebrows. Selective keep options available.', effect:'+Physical encounter reactions. +Camera quality.', recovery:'4 hrs', placeholder:'◌' },
+          { name:'Softening Treatment', cost:600, score:'+1', desc:'Skin becomes notably softer to the touch. Silky texture.', effect:'+Physical encounter satisfaction. Tactile reactions.', recovery:'3 hrs', placeholder:'◌' },
+          { name:'Scent Modification', cost:400, score:'+1', desc:'Body chemistry altered to produce feminine-coded scent. Subtle floral/sweet.', effect:'+IRL encounter outcomes. Passive attraction bonus.', recovery:'2 hrs', placeholder:'◌' },
+        ]},
+        { id:'hands_feet', name:'Hands & Feet', icon:'✋', opts:[
+          { name:'Hand Feminization', cost:800, score:'+1', desc:'Slimmer fingers, smaller palms, softer knuckles. Nail beds reshaped for polish.', effect:'+Hand cam content. +Rings/nail content.', recovery:'6 hrs', placeholder:'✋' },
+          { name:'Foot Reduction', cost:1000, score:'+1', desc:'Resized to female proportions. Enables feminine shoe shopping. 2–3 sizes smaller.', effect:'+Shoe haul streams. Foot content if enabled.', recovery:'8 hrs', placeholder:'✋' },
+          { name:'Combined', cost:1500, score:'+2', desc:'Both hands and feet feminization. Complete extremity package.', effect:'+Petite Package combo. Maximum detail feminization.', recovery:'10 hrs', placeholder:'✋' },
+        ]},
+        { id:'limbs', name:'Arm & Leg Contour', icon:'╱', opts:[
+          { name:'Arm Slimming', cost:600, score:'+1', desc:'Reduced muscle mass, softer contour. Toned but feminine.', effect:'+Feminine silhouette.', recovery:'12 hrs', placeholder:'╱' },
+          { name:'Leg Reshaping', cost:800, score:'+2', desc:'Thigh taper, calf slimming, overall feminine leg silhouette.', effect:'+Model Body combo component. Shorts/skirt content.', recovery:'16 hrs', placeholder:'╱' },
+          { name:'Full Limb Package', cost:1200, score:'+3', desc:'Arms + legs. Complete limb feminization.', effect:'+Amazon combo. Full body transformation.', recovery:'20 hrs', placeholder:'╱' },
+        ]},
+        { id:'height', name:'Height Adjustment', icon:'↕', opts:[
+          { name:'Subtle (-1–2 inches)', cost:2000, score:'+1', excl:true, desc:'Slightly reduced. Still tall-girl range.', effect:'+Natural proportions.', recovery:'24 hrs', placeholder:'↕' },
+          { name:'Moderate (-3–4 inches)', cost:4000, score:'+2', excl:true, desc:'Noticeably shorter. Average female height.', effect:'+Mainstream proportions.', recovery:'24 hrs', placeholder:'↕' },
+          { name:'Petite (-5+ inches)', cost:8000, score:'+3', excl:true, desc:'Significant reduction. Short queen energy. Full skeletal restructuring.', effect:'+Simp income ×2. Must protect energy. Petite Package.', recovery:'48 hrs', placeholder:'↕' },
+          { name:'Taller (+1–3 inches)', cost:3000, score:'+1', excl:true, desc:'Model height. Statuesque. Some fans prefer tall.', effect:'+Amazon combo. Unique tall-girl niche. Dedicated Whale demographic.', recovery:'24 hrs', placeholder:'↕' },
+        ]},
+        { id:'t4_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'Model Body', cost:0, score:'+4 + Fashion unlock', desc:'Defined Hourglass + Feminine Frame + Full Throat + Leg Reshaping. All four required.', effect:'+4 bonus Appearance. Unlocks Fashion/Try-On stream category.', recovery:'-', placeholder:'★' },
+          { name:'Petite Package', cost:0, score:'×2 Simp income', desc:'Extreme Cinch + Delicate Shoulders + Petite Height + Hand/Foot Feminization.', effect:'+Simp fanbase ×2. Must protect energy. Unique dialogue options.', recovery:'-', placeholder:'★' },
+          { name:'Amazon', cost:0, score:'+Whale niche', desc:'Subtle Taper + Taller + Leg Reshaping + Feminine Frame.', effect:'+Unique tall-girl niche. Dedicated Whale demographic.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t5', label:'T5', name:'Breasts', color:'#f59e0b', cr:'245,158,11',
+      icon:'◉', suite:'Suite 3', locked:false, cost:'5,000–25,000 $', score:'+8 to +18', recovery:'24–48 hrs',
+      desc:'Full breast development. Requires T4 waist modification first. Size, shape, nipple config, sensitivity, and physics.',
+      cats: [
+        { id:'breast_size', name:'Size', icon:'○', opts:[
+          { name:'AA (Barely There)', cost:3000, score:'+4', excl:true, desc:'Just a hint of development. Flat-adjacent. Tomboy/androgynous appeal.', effect:'+Androgynous niche.', recovery:'24 hrs', placeholder:'○' },
+          { name:'A (Subtle)', cost:5000, score:'+6', excl:true, desc:'Small but present. Natural-looking on a slim frame. "Is she or isn\'t she?"', effect:'+Natural passing.', recovery:'24 hrs', placeholder:'○' },
+          { name:'B (Modest)', cost:6000, score:'+8', excl:true, desc:'Clearly feminine. Fits tastefully in most tops. Mainstream appeal.', effect:'+Mainstream feminine.', recovery:'24 hrs', placeholder:'○' },
+          { name:'C (Noticeable)', cost:8000, score:'+10', excl:true, desc:'Can\'t be hidden. Cleavage in V-necks. Sweet spot between natural and wow.', effect:'+Natural Beauty combo. Broad appeal.', recovery:'24 hrs', placeholder:'○' },
+          { name:'D (Attention-Grabbing)', cost:10000, score:'+12', excl:true, desc:'Unmistakable. Bounces. Chat will never stop talking about them.', effect:'+Fetishist income. Chat engagement boost.', recovery:'36 hrs', placeholder:'○' },
+          { name:'DD/E (Dominant)', cost:13000, score:'+14', excl:true, desc:'Large. Prominent. Changes posture, silhouette, everything.', effect:'+Fetishist income significant.', recovery:'36 hrs', placeholder:'○' },
+          { name:'F (Extreme)', cost:16000, score:'+16', excl:true, desc:'Huge. Impractical. Pure fan service. Fetish territory.', effect:'+Bimbo Path combo. Fetishist ×3.', recovery:'48 hrs', placeholder:'○' },
+          { name:'G+ (Maximum)', cost:20000, score:'+18', excl:true, desc:'Absurd. Cartoonish. RegenaForm structural tech makes them functional. Ultimate fetish appeal.', effect:'+Maximum fetishist income. Unique narrative branches.', recovery:'48 hrs', placeholder:'○' },
+        ]},
+        { id:'breast_shape', name:'Shape', icon:'◗', opts:[
+          { name:'Teardrop', cost:0, score:'+0', excl:true, desc:'Fuller at bottom, gradual slope. Most natural-looking.', effect:'+Natural passing. Most versatile.', recovery:'-', placeholder:'◗' },
+          { name:'Round', cost:500, score:'+1', excl:true, desc:'Even fullness top and bottom. Augmented look. Camera-perfect.', effect:'+Camera quality.', recovery:'-', placeholder:'◗' },
+          { name:'Perky', cost:500, score:'+1', excl:true, desc:'Upward-pointing, defying gravity. Youthful.', effect:'+E-Girl Starter combo component.', recovery:'-', placeholder:'◗' },
+          { name:'Natural-Hang', cost:0, score:'+1', excl:true, desc:'Slight droop, heavy fullness. Realistic, mature appeal.', effect:'+Mature fan attraction. Milk Maiden combo.', recovery:'-', placeholder:'◗' },
+          { name:'Bubble', cost:500, score:'+1', excl:true, desc:'High, tight, pronounced. Bouncy. Athletic look.', effect:'+Sporty niche.', recovery:'-', placeholder:'◗' },
+        ]},
+        { id:'breast_nipple', name:'Nipple Configuration', icon:'◦', opts:[
+          { name:'Small/Pink', cost:0, score:'+0', desc:'Delicate, light-colored areola. Innocent aesthetic.', effect:'+E-Girl Starter combo.', recovery:'-', placeholder:'◦' },
+          { name:'Medium/Rose', cost:0, score:'+0', desc:'Medium size, warm pink/brown. Natural and proportional.', effect:'+Natural Beauty combo.', recovery:'-', placeholder:'◦' },
+          { name:'Large/Dark', cost:0, score:'+0', desc:'Prominent areola, darker pigment. Bold, mature.', effect:'+Mature fan attraction. Bimbo Path combo.', recovery:'-', placeholder:'◦' },
+          { name:'Puffy', cost:300, score:'+1', desc:'Raised, soft, pillowy areola. Niche appeal but dedicated fanbase.', effect:'+Milk Maiden combo component. Dedicated niche revenue.', recovery:'-', placeholder:'◦' },
+          { name:'Inverted (toggle)', cost:500, score:'+1', desc:'Can toggle between inverted and protruding on command. Unique party trick.', effect:'+Chat interaction novelty.', recovery:'-', placeholder:'◦' },
+        ]},
+        { id:'breast_sensitivity', name:'Sensitivity Level', icon:'⚡', opts:[
+          { name:'Standard', cost:0, score:'+0', desc:'Normal female breast sensitivity. Pleasant but manageable.', effect:'Normal interaction responses.', recovery:'-', placeholder:'⚡' },
+          { name:'Enhanced', cost:1000, score:'+1', desc:'Heightened sensitivity. Touch causes visible reactions - flushing, quickened breath.', effect:'+30% fan satisfaction during physical encounters.', recovery:'-', placeholder:'⚡' },
+          { name:'Hyper-Sensitive', cost:2000, score:'+2', desc:'Extreme sensitivity. Brush of fabric is noticeable. Touch causes involuntary reactions.', effect:'+60% fan satisfaction. Risk of losing control during streams.', recovery:'-', placeholder:'⚡' },
+          { name:'Mapped-to-Arousal', cost:3000, score:'+3', desc:'Direct neural link between breast stimulation and arousal response. Cannot be faked or suppressed.', effect:'+Unique scene unlocks. Authenticity drives fan obsession. Dangerous in public.', recovery:'-', placeholder:'⚡' },
+        ]},
+        { id:'breast_bounce', name:'Bounce Physics', icon:'≈', opts:[
+          { name:'Natural', cost:0, score:'+0', excl:true, desc:'Moves realistically with body motion.', effect:'+Believability.', recovery:'-', placeholder:'≈' },
+          { name:'Reduced', cost:0, score:'+0', excl:true, desc:'Firmer, less motion. Sporty, contained.', effect:'+Athletic aesthetic.', recovery:'-', placeholder:'≈' },
+          { name:'Enhanced', cost:800, score:'+1', excl:true, desc:'Exaggerated bounce and jiggle. Defies physics slightly. Every movement is a show.', effect:'+Bimbo Path combo. Maximum fetishist appeal.', recovery:'-', placeholder:'≈' },
+        ]},
+        { id:'t5_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'E-Girl Starter', cost:0, score:'×1.5 Simp income', desc:'B-cup + Perky + Small/Pink + Enhanced Sensitivity. All four required.', effect:'+Simp income ×1.5. "Tasteful" reputation unlock.', recovery:'-', placeholder:'★' },
+          { name:'Bimbo Path', cost:0, score:'×3 Fetishist income', desc:'F+ + Round + Large/Dark + Enhanced Bounce + Hyper-Sensitive. All five required.', effect:'+Fetishist income ×3. "Shameless" reputation. Unique dialogue paths.', recovery:'-', placeholder:'★' },
+          { name:'Natural Beauty', cost:0, score:'+Romantic fans', desc:'C-cup + Teardrop + Medium/Rose + Standard. All four required.', effect:'+Broadest fan appeal. Romantic fan attraction boost.', recovery:'-', placeholder:'★' },
+          { name:'Milk Maiden', cost:0, score:'+Niche income', desc:'D+ + Natural-Hang + Puffy + Responsive Lactation. All four required.', effect:'+Dedicated niche following. Extremely high per-viewer revenue.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t6', label:'T6', name:'Buttocks & Hips', color:'#22c55e', cr:'34,197,94',
+      icon:'◙', suite:'Suite 3', locked:false, cost:'5,000–18,000 $', score:'+6 to +15', recovery:'24–36 hrs',
+      desc:'Hip width, buttock size, shape, firmness, and thigh augmentation. Requires T4 waist first.',
+      cats: [
+        { id:'hips', name:'Hip Width', icon:'◙', opts:[
+          { name:'Subtle Flare', cost:2000, score:'+2', excl:true, desc:'Slight widening. Suggests feminine proportions in tight clothing.', effect:'+Passing score improvement.', recovery:'24 hrs', placeholder:'◙' },
+          { name:'Feminine Standard', cost:3500, score:'+4', excl:true, desc:'Clear hip-to-waist ratio. Unmistakably female silhouette.', effect:'+Peach Emoji combo. Mainstream appeal.', recovery:'24 hrs', placeholder:'◙' },
+          { name:'Wide/Breeding Hips', cost:5000, score:'+6', excl:true, desc:'Exaggerated width. Child-bearing hips aesthetic. Dominant visual feature.', effect:'+Fetishist income. BBL Fantasy combo.', recovery:'30 hrs', placeholder:'◙' },
+          { name:'Extreme', cost:7000, score:'+7', excl:true, desc:'Cartoon-wide. Barely fits through doorways. Fetish-maximum.', effect:'+Impossible Curves combo. Maximum fetishist income.', recovery:'36 hrs', placeholder:'◙' },
+        ]},
+        { id:'butt_size', name:'Buttock Size', icon:'◎', opts:[
+          { name:'Athletic/Toned', cost:3000, score:'+3', excl:true, desc:'Firm, compact, defined. Sporty appeal. Looks amazing in leggings.', effect:'+Athletic Goddess combo. Sporty niche.', recovery:'24 hrs', placeholder:'◎' },
+          { name:'Curvy', cost:4500, score:'+5', excl:true, desc:'Noticeable roundness and projection. Fills out jeans perfectly.', effect:'+Peach Emoji combo. Mainstream appeal.', recovery:'24 hrs', placeholder:'◎' },
+          { name:'Thicc', cost:6000, score:'+6', excl:true, desc:'Large, soft, attention-commanding. Jiggles when walking.', effect:'+Fetishist income boost.', recovery:'28 hrs', placeholder:'◎' },
+          { name:'Exaggerated', cost:8000, score:'+8', excl:true, desc:'Extreme size. Shelf-like. Every chair is a show.', effect:'+BBL Fantasy combo. Chat interaction novelty.', recovery:'32 hrs', placeholder:'◎' },
+          { name:'XXL', cost:11000, score:'+9', excl:true, desc:'Maximum. Physics-defying. Pure spectacle.', effect:'+Impossible Curves combo. Ultimate fetishist appeal.', recovery:'36 hrs', placeholder:'◎' },
+        ]},
+        { id:'butt_shape', name:'Buttock Shape', icon:'❤', opts:[
+          { name:'Round', cost:0, score:'+0', excl:true, desc:'Even, spherical fullness. Classic.', effect:'+Universal appeal.', recovery:'-', placeholder:'❤' },
+          { name:'Heart', cost:500, score:'+1', excl:true, desc:'Fuller at the bottom, tapered at top. Valentine-shape from behind.', effect:'+Impossible Curves combo.', recovery:'-', placeholder:'❤' },
+          { name:'Shelf', cost:600, score:'+1', excl:true, desc:'Pronounced projection. Dramatic side-profile. Chat will request shelf challenges.', effect:'+Chat interaction novelty. BBL Fantasy combo.', recovery:'-', placeholder:'❤' },
+          { name:'Bubble', cost:500, score:'+1', excl:true, desc:'High, tight, pronounced. Bouncy. Instagram-model proportions.', effect:'+Peach Emoji combo. Instagram content quality.', recovery:'-', placeholder:'❤' },
+          { name:'Peach', cost:400, score:'+1', excl:true, desc:'Slightly bottom-heavy with a visible split line. Named for the emoji.', effect:'+Mainstream social media appeal.', recovery:'-', placeholder:'❤' },
+        ]},
+        { id:'butt_firmness', name:'Firmness', icon:'◈', opts:[
+          { name:'Firm/Toned', cost:0, excl:true, score:'+0', desc:'Muscular feel under a layer of softness. Doesn\'t deform much when squeezed.', effect:'+Athletic Goddess combo.', recovery:'-', placeholder:'◈' },
+          { name:'Soft', cost:300, excl:true, score:'+1', desc:'Yielding, plush. Visibly deforms under touch/sitting. Classic grab territory.', effect:'+Peach Emoji combo.', recovery:'-', placeholder:'◈' },
+          { name:'Ultra-Soft', cost:600, excl:true, score:'+1', desc:'Extremely malleable. Jiggles at the slightest motion. Almost liquid feel.', effect:'+Impossible Curves combo. Maximum fetishist appeal.', recovery:'-', placeholder:'◈' },
+        ]},
+        { id:'thighs', name:'Thigh Augmentation', icon:'╣', opts:[
+          { name:'Slim/Toned', cost:1000, score:'+1', desc:'Lean thighs with slight gap. Athletic.', effect:'+Athletic Goddess combo.', recovery:'12 hrs', placeholder:'╣' },
+          { name:'Soft/Full', cost:1500, score:'+2', desc:'Touching thighs. Plush. Thunder thighs (affectionate).', effect:'+Peach Emoji combo.', recovery:'14 hrs', placeholder:'╣' },
+          { name:'Thicc', cost:2500, score:'+3', desc:'Large, soft, prominent. Dominant leg silhouette.', effect:'+BBL Fantasy combo.', recovery:'18 hrs', placeholder:'╣' },
+          { name:'Thigh Gap (add-on)', cost:500, score:'+1', desc:'Guaranteed visible gap regardless of size. Aesthetic choice.', effect:'+Certain fan demographics very appreciative.', recovery:'8 hrs', placeholder:'╣' },
+        ]},
+        { id:'t6_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'Peach Emoji', cost:0, score:'×2 booty income', desc:'Curvy + Bubble + Soft + Feminine Hips + Soft/Full Thighs.', effect:'+Mainstream appeal. Booty pic content income ×2.', recovery:'-', placeholder:'★' },
+          { name:'BBL Fantasy', cost:0, score:'+Max booty content', desc:'Exaggerated + Shelf + Firm + Wide Hips + Thicc Thighs.', effect:'+Maximum booty-focused content value. Whale magnet.', recovery:'-', placeholder:'★' },
+          { name:'Athletic Goddess', cost:0, score:'+Gym unlock', desc:'Athletic Butt + Toned Thighs + Subtle Hips + Firm.', effect:'+Sporty niche. Unlocks Gym/Workout stream category.', recovery:'-', placeholder:'★' },
+          { name:'Impossible Curves', cost:0, score:'+Mega-fan unlock', desc:'XXL + Heart + Ultra-Soft + Extreme Hips + Erogenous Sensitivity.', effect:'+Maximum fetish value. Unique physics. Dedicated mega-fan following.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t7', label:'T7', name:'Genital Transformation', color:'#ef4444', cr:'239,68,68',
+      icon:'⬡', suite:'Suite 4', locked:false, cost:'20,000–65,000 $', score:'+15 to +25', recovery:'72–120 hrs',
+      desc:'Complete lower anatomical transformation. Most invasive procedure. Requires T4 AND T5 completion. Mandatory consultation with Dr. Voss.',
+      cats: [
+        { id:'t7_config', name:'Configuration', icon:'⬡', opts:[
+          { name:'External Only', cost:20000, score:'+12', excl:true, desc:'Vulva appearance with surface-level sensation. Visual pass but limited depth/function. Original removed.', effect:'+Passing score maximum. Photo/visual content.', recovery:'72 hrs', placeholder:'⬡' },
+          { name:'Partial Functional', cost:30000, score:'+16', excl:true, desc:'External + shallow internal canal. Penetration possible to moderate depth. Original removed.', effect:'+Physical encounter unlocks. Moderate functionality.', recovery:'96 hrs', placeholder:'⬡' },
+          { name:'Full Functional', cost:40000, score:'+22', excl:true, desc:'Complete female anatomy - external vulva, full-depth vaginal canal, cervix, full sensation. Original removed.', effect:'+All physical encounter types unlocked. Complete functionality.', recovery:'120 hrs', placeholder:'⬡' },
+          { name:'Dual Configuration', cost:60000, score:'+18', excl:true, desc:'Retains original AND adds female anatomy. Both fully functional. Extremely costly. Unique narrative branch.', effect:'+Unique dialogue paths. Rare fan reactions. Narrative branch exclusive.', recovery:'120 hrs', placeholder:'⬡' },
+          { name:'Switchable', cost:65000, score:'+25', excl:true, prereq:true, desc:'RegenaForm experimental tech. Can alternate between configurations on command. Story-locked - requires special approval.', effect:'+Maximum narrative flexibility. Ultimate option. Requires Dr. Voss personal approval.', recovery:'120 hrs', placeholder:'⬡' },
+        ]},
+        { id:'t7_combos', name:'Combo Bonuses', icon:'★', isCombo:true, opts:[
+          { name:'Consultation Required', cost:0, score:'-', desc:'All T7 options require a consultation with Dr. Voss before purchase. Visit the Consultation Room to unlock.', effect:'Speak with Dr. Voss first.', recovery:'-', placeholder:'★' },
+        ]},
+      ]
+    },
+    {
+      id:'t8', label:'T8', name:'Neural Integration', color:'#2dd4bf', cr:'45,212,191',
+      icon:'⟁', suite:'Suite 4', locked:false, cost:'Coming Soon', score:'Unknown', recovery:'Unknown',
+      desc:'Experimental neural and sensory integration. Cognitive and sensory modification. Details classified pending further development.',
+      cats: []
+    },
+  ]
+};
+
+// ── STATE ────────────────────────────────────────────────────────────────────
+var state = { tier: null, cat: null, opt: null };
+
+// ── HELPERS ──────────────────────────────────────────────────────────────────
+function el(id) { return document.getElementById(id); }
+
+function placeholder(sym, color) {
+  return '<div class="mer-opt-img" style="--tc:' + color + ';--tcr:0,0,0">'
+    + '<span class="opt-placeholder-icon">' + sym + '</span>'
+    + '</div>';
+}
+
+// ── RENDER TIER GRID ──────────────────────────────────────────────────────────
+function renderTiers() {
+  el('mer-cat-panel').classList.add('mer-hidden');
+  el('mer-opt-panel').classList.add('mer-hidden');
+  el('mer-tier-panel').classList.remove('mer-hidden');
+  el('mer-breadcrumb').innerHTML = '';
+  state.tier = null; state.cat = null;
+
+  var html = '<div class="mer-tier-grid">';
+  D.tiers.forEach(function(t) {
+    var lockClass = t.locked ? ' locked' : '';
+    var badge = t.locked
+      ? '<span class="mer-lock-badge">🔒</span>'
+      : '<span class="mer-suite-badge">' + t.suite + '</span>';
+    html += '<div class="mer-tier-card' + lockClass + '" data-tid="' + t.id + '" style="--tc:' + t.color + ';--tcr:' + t.cr + '">'
+      + badge
+      + '<div class="mer-tier-icon">' + t.icon + '</div>'
+      + '<div class="mer-tier-num">' + t.label + '</div>'
+      + '<div class="mer-tier-name">' + t.name + '</div>'
+      + '<div class="mer-tier-meta">'
+      + '<div><span class="mc">Cost:</span> ' + t.cost + '</div>'
+      + '<div><span class="mc">App:</span> ' + t.score + '</div>'
+      + '<div><span class="mc">Recovery:</span> ' + t.recovery + '</div>'
+      + '</div></div>';
+  });
+  html += '</div>';
+  el('mer-tier-panel').innerHTML = html;
+
+  document.querySelectorAll('.mer-tier-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var tid = this.getAttribute('data-tid');
+      var tier = D.tiers.find(function(t) { return t.id === tid; });
+      if (!tier) return;
+      if (tier.locked) {
+        var f = el('mer-locked-flash');
+        if (f) {
+          f.classList.add('visible');
+          setTimeout(function() { f.classList.remove('visible'); }, 2000);
+        }
+        return;
+      }
+      if (tier.cats.length === 0) {
+        showTierInfo(tier);
+        return;
+      }
+      state.tier = tier;
+      renderCategories(tier);
+    });
+  });
+}
+
+function showTierInfo(tier) {
+  var o = el('mer-overlay');
+  o.style.setProperty('--tc', tier.color);
+  o.style.setProperty('--tcr', tier.cr);
+  o.classList.remove('mer-hidden');
+  el('mer-detail-img').textContent = tier.icon;
+  el('mer-detail-tier-tag').textContent = tier.label + ' - ' + tier.suite;
+  el('mer-detail-name').textContent = tier.name;
+  el('mer-detail-rows').innerHTML =
+    '<div class="mer-detail-row"><span class="mer-detail-label">COST</span><span class="mer-detail-val cost">' + tier.cost + '</span></div>'
+    + '<div class="mer-detail-row"><span class="mer-detail-label">APPEARANCE</span><span class="mer-detail-val score">' + tier.score + '</span></div>'
+    + '<div class="mer-detail-row"><span class="mer-detail-label">RECOVERY</span><span class="mer-detail-val">' + tier.recovery + '</span></div>';
+  el('mer-detail-desc').textContent = tier.desc;
+  el('mer-detail-effects').innerHTML = '<em>Select a category to view individual procedures.</em>';
+  el('mer-btn-purchase').textContent = 'VIEW PROCEDURES';
+  el('mer-btn-purchase').className = 'mer-btn-purchase locked-btn';
+}
+
+// ── RENDER CATEGORY GRID ─────────────────────────────────────────────────────
+function renderCategories(tier) {
+  el('mer-tier-panel').classList.add('mer-hidden');
+  el('mer-opt-panel').classList.add('mer-hidden');
+  var panel = el('mer-cat-panel');
+  panel.classList.remove('mer-hidden');
+
+  el('mer-breadcrumb').innerHTML = '<span style="cursor:pointer" id="mer-bc-home">◉ THE MERIDIAN</span>'
+    + ' › <span style="color:#e0dcea">' + tier.label + ' - ' + tier.name + '</span>';
+  document.getElementById('mer-bc-home').addEventListener('click', renderTiers);
+
+  var html = '<button class="mer-back-btn" id="mer-cat-back">← Back to Tiers</button>'
+    + '<div class="mer-section-header">'
+    + '<div class="mer-section-title" style="color:' + tier.color + '">' + tier.label + ' - ' + tier.name + '</div>'
+    + '<div class="mer-section-sub">' + tier.desc + '</div>'
+    + '</div>'
+    + '<div class="mer-cat-grid">';
+
+  tier.cats.forEach(function(cat) {
+    html += '<div class="mer-cat-card" data-cid="' + cat.id + '" style="--tc:' + tier.color + ';--tcr:' + tier.cr + '">'
+      + '<div class="mer-cat-icon">' + cat.icon + '</div>'
+      + '<div class="mer-cat-name">' + cat.name + '</div>'
+      + '<div class="mer-cat-count">' + cat.opts.length + ' option' + (cat.opts.length !== 1 ? 's' : '') + '</div>'
+      + '</div>';
+  });
+  html += '</div>';
+  panel.innerHTML = html;
+
+  document.getElementById('mer-cat-back').addEventListener('click', renderTiers);
+  document.querySelectorAll('.mer-cat-card').forEach(function(card) {
+    card.addEventListener('click', function() {
+      var cid = this.getAttribute('data-cid');
+      var cat = tier.cats.find(function(c) { return c.id === cid; });
+      if (!cat) return;
+      state.cat = cat;
+      renderOptions(tier, cat);
+    });
+  });
+}
+
+// ── RENDER OPTION GRID ───────────────────────────────────────────────────────
+function renderOptions(tier, cat) {
+  el('mer-cat-panel').classList.add('mer-hidden');
+  var panel = el('mer-opt-panel');
+  panel.classList.remove('mer-hidden');
+
+  el('mer-breadcrumb').innerHTML = '<span style="cursor:pointer" id="mer-bc-home2">◉ THE MERIDIAN</span>'
+    + ' › <span style="cursor:pointer" id="mer-bc-tier2">' + tier.label + ' - ' + tier.name + '</span>'
+    + ' › <span style="color:#e0dcea">' + cat.name + '</span>';
+  document.getElementById('mer-bc-home2').addEventListener('click', renderTiers);
+  document.getElementById('mer-bc-tier2').addEventListener('click', function() { renderCategories(tier); });
+
+  var isCombo = cat.isCombo;
+
+  var html = '<button class="mer-back-btn" id="mer-opt-back">← Back to ' + tier.label + '</button>'
+    + '<div class="mer-section-header">'
+    + '<div class="mer-section-title" style="color:' + tier.color + '">' + cat.name + '</div>'
+    + '<div class="mer-section-sub">' + tier.label + ' · ' + cat.opts.length + ' options available</div>'
+    + '</div>';
+
+  if (isCombo) {
+    html += '<div>';
+    cat.opts.forEach(function(opt) {
+      html += '<div class="mer-combo-card">'
+        + '<div class="mer-combo-name">★ ' + opt.name + ' <span style="font-size:0.7rem;color:#9893a6;font-weight:normal;font-family:monospace">' + opt.score + '</span></div>'
+        + '<div class="mer-combo-desc">' + opt.desc + '<br><em style="color:#2dd4bf">' + opt.effect + '</em></div>'
+        + '</div>';
+    });
+    html += '</div>';
+  } else {
+    html += '<div class="mer-opt-grid">';
+    cat.opts.forEach(function(opt, i) {
+      var exclBadge = opt.excl ? '<span class="mer-excl-badge">⚔ EXCL</span>' : '';
+      var prereqBadge = opt.prereq ? '<span class="mer-prereq-badge">🔗 PREREQ</span>' : '';
+      html += '<div class="mer-opt-card" data-oidx="' + i + '" style="--tc:' + tier.color + ';--tcr:' + tier.cr + '">'
+        + placeholder(opt.placeholder, tier.color)
+        + '<div class="mer-opt-body">'
+        + '<div class="mer-opt-name">' + opt.name + exclBadge + prereqBadge + '</div>'
+        + '<div class="mer-opt-cost">' + (opt.cost > 0 ? opt.cost.toLocaleString() + ' $' : 'Included') + '</div>'
+        + '<div class="mer-opt-score">App ' + opt.score + '</div>'
+        + '</div></div>';
+    });
+    html += '</div>';
+  }
+
+  panel.innerHTML = html;
+  document.getElementById('mer-opt-back').addEventListener('click', function() { renderCategories(tier); });
+
+  if (!isCombo) {
+    document.querySelectorAll('.mer-opt-card').forEach(function(card) {
+      card.addEventListener('click', function() {
+        var idx = parseInt(this.getAttribute('data-oidx'));
+        showDetail(tier, cat, cat.opts[idx]);
+      });
+    });
+  }
+}
+
+// ── DETAIL OVERLAY ───────────────────────────────────────────────────────────
+function showDetail(tier, cat, opt) {
+  var o = el('mer-overlay');
+  o.style.setProperty('--tc', tier.color);
+  o.style.setProperty('--tcr', tier.cr);
+  o.classList.remove('mer-hidden');
+  el('mer-detail-img').textContent = opt.placeholder;
+  el('mer-detail-tier-tag').textContent = tier.label + ' - ' + cat.name;
+  el('mer-detail-name').textContent = opt.name;
+  el('mer-detail-rows').innerHTML =
+    '<div class="mer-detail-row"><span class="mer-detail-label">COST</span><span class="mer-detail-val cost">' + (opt.cost > 0 ? opt.cost.toLocaleString() + ' $' : 'Included') + '</span></div>'
+    + '<div class="mer-detail-row"><span class="mer-detail-label">APPEARANCE BONUS</span><span class="mer-detail-val score">' + opt.score + '</span></div>'
+    + '<div class="mer-detail-row"><span class="mer-detail-label">RECOVERY TIME</span><span class="mer-detail-val">' + opt.recovery + '</span></div>'
+    + (opt.excl ? '<div class="mer-detail-row"><span class="mer-detail-label">NOTE</span><span class="mer-detail-val" style="color:#ef4444">⚔ Mutually exclusive - one option per category</span></div>' : '')
+    + (opt.prereq ? '<div class="mer-detail-row"><span class="mer-detail-label">PREREQUISITE</span><span class="mer-detail-val" style="color:#a855f7">🔗 Special approval required</span></div>' : '');
+  el('mer-detail-desc').textContent = opt.desc;
+  el('mer-detail-effects').innerHTML = '<strong style="color:var(--tc);font-size:0.7rem;letter-spacing:0.1em;font-family:monospace">GAMEPLAY EFFECT</strong><br>' + opt.effect;
+
+  var sc = (typeof State !== 'undefined' && State.variables) ? (State.variables.sc || 0) : 0;
+  var canAfford = sc >= opt.cost;
+  var btn = el('mer-btn-purchase');
+  if (opt.cost === 0) {
+    btn.textContent = 'COMBO TRACKER';
+    btn.className = 'mer-btn-purchase locked-btn';
+  } else if (!canAfford) {
+    btn.textContent = 'INSUFFICIENT $ (' + sc.toLocaleString() + ' / ' + opt.cost.toLocaleString() + ')';
+    btn.className = 'mer-btn-purchase locked-btn';
+  } else {
+    btn.textContent = 'PURCHASE - ' + opt.cost.toLocaleString() + ' $';
+    btn.className = 'mer-btn-purchase';
+  }
+}
+
+// ── INIT ─────────────────────────────────────────────────────────────────────
+// Defer all DOM access until after SugarCube has rendered the passage HTML.
+$(document).one(':passagedisplay', function() {
+
+  var scVal = (typeof State !== 'undefined' && State.variables) ? (State.variables.sc || 0) : 0;
+  var scDisp = el('mer-sc-display');
+  if (scDisp) scDisp.textContent = scVal.toLocaleString() + ' $';
+
+  renderTiers();
+
+  // Close overlay on button
+  var closeBtn = document.getElementById('mer-btn-close');
+  if (closeBtn) closeBtn.addEventListener('click', function() {
+    el('mer-overlay').classList.add('mer-hidden');
+  });
+
+  // Close overlay on backdrop click
+  var overlay = document.getElementById('mer-overlay');
+  if (overlay) overlay.addEventListener('click', function(e) {
+    if (e.target === this) el('mer-overlay').classList.add('mer-hidden');
+  });
+
+});
+
+})();
+<</script>>

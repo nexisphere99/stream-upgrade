@@ -1,0 +1,79 @@
+
+
+
+:: regenaform
+<<set $locationName to "Regenaform Clinic">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_street_entrance.jpeg">>
+<img src="images/locations/regenaform_street_entrance.jpeg" alt="Regenaform Clinic" style="width:100%; height:auto;">
+<<if $day == 3 and $day_step == 14>>
+<<goto "day_3_15_kira">>
+<<elseif $day == 3 and $day_step == 2>>
+<<goto "day_3_3_other">>
+<<else>>
+<<goto "regenaform_map">>
+<</if>>
+[[← District Map|neighbourhood]]
+
+
+:: street_entrance
+<<set $locationName to "RegenaForm - Street Entrance">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_street_entrance.jpeg">>
+<img src="images/locations/regenaform_street_entrance.jpeg" alt="RegenaForm Street Entrance" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: approach_hallway
+<<set $locationName to "RegenaForm - Approach Hallway">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_approach_hallway.jpeg">>
+<img src="images/locations/regenaform_approach_hallway.jpeg" alt="RegenaForm Approach Hallway" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: reception_lobby
+<<set $locationName to "RegenaForm - Reception Lobby">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_reception_lobby.jpeg">>
+<img src="images/locations/regenaform_reception_lobby.jpeg" alt="RegenaForm Reception Lobby" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: consultation_room
+<<set $locationName to "RegenaForm - Consultation Room">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_consultation_room.jpeg">>
+<img src="images/locations/regenaform_consultation_room.jpeg" alt="RegenaForm Consultation Room" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: wig_fitting_suite
+<<set $locationName to "RegenaForm - Wig Fitting Suite">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_wig_fitting_suite.jpeg">>
+<img src="images/locations/regenaform_wig_fitting_suite.jpeg" alt="RegenaForm Wig Fitting Suite" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: client_corridor
+<<set $locationName to "RegenaForm - Client Corridor">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_client_corridor.jpeg">>
+<img src="images/locations/regenaform_client_corridor.jpeg" alt="RegenaForm Client Corridor" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: procedure_tier1
+<<set $locationName to "RegenaForm - Suite 1 (Tier 1)">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/regenaform_procedure_tier1.jpeg">>
+<img src="images/locations/regenaform_procedure_tier1.jpeg" alt="RegenaForm Procedure Tier 1" style="width:100%; height:auto;">
+
+[[← Floor Plan|regenaform_map]]

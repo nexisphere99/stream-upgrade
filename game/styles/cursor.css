@@ -1,0 +1,83 @@
+/* ============================================================
+   STREAM UPGRADE: ELLIE.EXE — Custom Cursor & Touch Effects
+   ============================================================
+
+   Arrow cursor  — hotspot (2, 2)
+   Hand cursor   — hotspot (7, 1)
+   ============================================================ */
+
+/* ---- ARROW cursor (default) ---- */
+@media (pointer: fine) {
+  * {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='24' viewBox='0 0 20 24'%3E%3Cpath d='M2 2 L2 19 L6 14 L9.5 22 L12.5 21 L9 13 L15 13 Z' fill='%230a0a14' stroke='%23e84393' stroke-width='1.2' stroke-linejoin='round'/%3E%3Cpath d='M2 2 L2 19' stroke='%23fd79a8' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M2 2 L15 13' stroke='%23fd79a8' stroke-width='0.6' stroke-linecap='round' opacity='0.4'/%3E%3C/svg%3E") 2 2, auto !important;
+  }
+
+  /* ---- HAND cursor (links, buttons, clickables) ---- */
+  a,
+  button,
+  [onclick],
+  label,
+  select,
+  input[type="button"],
+  input[type="submit"],
+  input[type="reset"],
+  input[type="checkbox"],
+  input[type="radio"],
+  .link,
+  .macro-link,
+  tw-link,
+  .aml,
+  .ml,
+  .mml-item,
+  .aml-item {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='22' viewBox='0 0 16 22'%3E%3Cpath d='M4 14 L4 4 Q4 1 7 1 Q10 1 10 4 L10 14 Q13 14 13 16 L13 20 Q13 22 10 22 L4 22 Q1 22 1 20 L1 16 Q1 14 4 14 Z' fill='%230a0a14' stroke='%23e84393' stroke-width='1.2' stroke-linejoin='round'/%3E%3Cline x1='4' y1='14' x2='10' y2='14' stroke='%231a1a28' stroke-width='0.8'/%3E%3Cpath d='M4 5 Q4 2 7 2' stroke='%23fd79a8' stroke-width='0.9' fill='none' stroke-linecap='round'/%3E%3Ccircle cx='7' cy='1.5' r='1' fill='%23e84393' opacity='0.8'/%3E%3C/svg%3E") 7 1, pointer !important;
+  }
+}
+
+
+/* ---- TOUCH RIPPLE ---- */
+.touch-ripple {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 56px;
+  height: 56px;
+  pointer-events: none;
+  z-index: 99999;
+  animation: touch-ripple-anim 0.55s cubic-bezier(0.2, 0.6, 0.4, 1) forwards;
+}
+
+/* Outer ring */
+.touch-ripple::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 2px solid rgba(232, 67, 147, 0.7);
+  border-radius: 50%;
+  animation: touch-ring-anim 0.55s cubic-bezier(0.2, 0.6, 0.4, 1) forwards;
+}
+
+/* Inner dot */
+.touch-ripple::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  margin: -4px 0 0 -4px;
+  background: #e84393;
+  border-radius: 50%;
+  animation: touch-dot-anim 0.3s ease forwards;
+  box-shadow: 0 0 8px rgba(232, 67, 147, 0.8);
+}
+
+@keyframes touch-ring-anim {
+  0%   { transform: scale(0.15); opacity: 1; }
+  100% { transform: scale(1.8);  opacity: 0; }
+}
+
+@keyframes touch-dot-anim {
+  0%   { transform: scale(1);   opacity: 1; }
+  100% { transform: scale(0);   opacity: 0; }
+}

@@ -1,0 +1,130 @@
+/* ============================================================
+   STREAM UPGRADE: ELLIE.EXE — Character Dialogue Styles
+   ============================================================ */
+
+/* --- DIALOGUE BASE --- */
+.dialog-box {
+  position: relative;
+  padding: 0.6em 1em;
+  margin: 0.8em 0;
+  border-radius: var(--radius-md, 8px);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  max-width: 90%;
+  border-left: 5px solid var(--text-muted, #5d5875);
+  background: var(--bg-elevated, #1a1a26);
+  overflow: hidden;
+  font-family: var(--font-body, 'Crimson Pro', Georgia, serif);
+  /* Always tall enough for the full portrait (120px + top offset + bottom padding) */
+  min-height: calc(120px + 1.4rem);
+}
+
+/* Reserve space for portrait */
+.dialog-text {
+  padding-right: 110px;
+}
+
+/* Name label */
+.dialog-text .name {
+  display: block;
+  margin-bottom: 0.4rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  font-family: var(--font-ui, 'Outfit', sans-serif);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* Portrait */
+.dialog-box img.portrait {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  width: 85px !important;
+  height: 127.5px !important;
+  object-fit: cover;
+  border-radius: 8px;
+  opacity: 0.95;
+  pointer-events: none;
+}
+
+
+/* ============================================================
+   CHARACTER THEMES
+   ============================================================ */
+
+/* Eli — muted, understated */
+.dialog-eli {
+  background: var(--bg-elevated, #1a1a26);
+  border-color: #9893a6;
+  color: #e2dfe8;
+}
+.dialog-eli .name { color: #9893a6; }
+
+/* Ellie (Eli on stream) — pink glow */
+.dialog-ellie {
+  background: rgba(232, 67, 147, 0.06);
+  border-color: #e84393;
+  color: #f5f3fa;
+}
+.dialog-ellie .name { color: #fd79a8; }
+
+/* Kira — warm pink */
+.dialog-kira {
+  background: rgba(244, 114, 182, 0.08);
+  border-color: #f472b6;
+  color: #fce7f3;
+}
+.dialog-kira .name { color: #f472b6; }
+
+/* Marc — cool blue */
+.dialog-marc {
+  background: rgba(96, 165, 250, 0.08);
+  border-color: #60a5fa;
+  color: #e3ecff;
+}
+.dialog-marc .name { color: #60a5fa; }
+
+/* Dr. Maren — clinical teal */
+.dialog-dr_maren {
+  background: rgba(45, 212, 191, 0.07);
+  border-color: #2dd4bf;
+  color: #ccfaf4;
+}
+.dialog-dr_maren .name { color: #2dd4bf; }
+
+/* Lina — warm amber */
+.dialog-lina {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: #fbbf24;
+  color: #fff3da;
+}
+.dialog-lina .name { color: #fbbf24; }
+
+/* DarkSlayer — red, monospace troll */
+.dialog-darkslayer {
+  background: rgba(239, 68, 68, 0.07);
+  border-color: #ef4444;
+  color: #ffe2e2;
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.88rem;
+}
+.dialog-darkslayer .name { color: #ef4444; }
+
+/* Generic chat user */
+.dialog-chat {
+  background: rgba(20, 20, 30, 0.85);
+  border-color: #2a2a3a;
+  color: #c8c4d4;
+  font-family: var(--font-mono, 'JetBrains Mono', monospace);
+  font-size: 0.88rem;
+}
+
+/* System / narrator */
+.dialog-system {
+  background: rgba(168, 85, 247, 0.07);
+  border-color: #a855f7;
+  color: #f5eeff;
+  font-style: italic;
+}
+.dialog-system .name { color: #c084fc; }

@@ -1,0 +1,576 @@
+:: regenaform_map
+<<nobr>>
+<style>
+.rfm-outer {
+  max-width: 100%;
+  overflow-x: auto;
+  background: #08080f;
+  border: 1.5px solid #2dd4bf;
+  border-radius: 12px;
+  padding: 8px;
+  box-sizing: border-box;
+  position: relative;
+}
+.rfm-header {
+  font-family: monospace;
+  text-align: center;
+  color: #1a5050;
+  letter-spacing: 0.18em;
+  font-size: 0.85em;
+  padding: 6px 0 10px;
+  text-transform: uppercase;
+}
+.rfm-map { width: 100%; height: auto; display: block; }
+.rml { cursor: pointer; }
+.rml .rmb {
+  transition: opacity 0.15s, stroke 0.15s, stroke-width 0.15s;
+  stroke: transparent;
+  stroke-width: 0;
+}
+.rml:hover .rmb {
+  stroke: rgba(45, 212, 191, 0.55);
+  stroke-width: 2.5;
+  opacity: 0.88;
+}
+.rml-blocked { cursor: not-allowed !important; }
+.rml-blocked .rmb {
+  filter: brightness(0.25) saturate(0.1) !important;
+  opacity: 0.5;
+}
+.rml-blocked:hover .rmb {
+  filter: brightness(0.3) saturate(0.15) !important;
+  opacity: 0.55;
+}
+#rfm-tooltip {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(10, 10, 15, 0.94);
+  color: #2dd4bf;
+  font-family: monospace;
+  font-size: 0.72rem;
+  font-weight: bold;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding: 5px 16px;
+  border-radius: 999px;
+  border: 1px solid rgba(45, 212, 191, 0.35);
+  box-shadow: 0 0 14px rgba(45, 212, 191, 0.2);
+  pointer-events: none;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  z-index: 9000;
+}
+#rfm-tooltip.visible { opacity: 1; }
+#rfm-blocked-flash {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  max-width: min(300px, 88vw);
+  box-sizing: border-box;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: rgba(10, 10, 15, 0.96);
+  border: 1px solid rgba(239, 68, 68, 0.4);
+  color: #fca5a5;
+  font-family: monospace;
+  font-size: 0.78rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-align: center;
+  word-break: break-word;
+  padding: 12px 20px;
+  border-radius: 10px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+  z-index: 9999;
+  box-shadow: 0 0 20px rgba(239, 68, 68, 0.2);
+}
+#rfm-blocked-flash.visible {
+  opacity: 1;
+  transform: translate(-50%, -50%) scale(1);
+}
+.rfm-mobile-legend { display: none; }
+@media (max-width: 900px) {
+  .rfm-mobile-legend { display: block; margin-top: 10px; }
+  .rfml-title {
+    font-family: monospace;
+    font-size: 0.68rem;
+    color: #5d5875;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .rfml-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+  .rfml-item {
+    display: block;
+    padding: 7px 8px;
+    border-radius: 7px;
+    border: 1px solid var(--c);
+    color: var(--c);
+    font-family: monospace;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    box-sizing: border-box;
+    opacity: 0.75;
+  }
+  .rfml-item:active { opacity: 1; }
+  .rfml-item-blocked {
+    --c: #3a3a4a !important;
+    cursor: not-allowed !important;
+    opacity: 0.3;
+  }
+}
+</style>
+
+<div class="rfm-outer" id="rfm-container">
+  <div class="rfm-header">◉ REGENAFORM CLINIC — FLOOR PLAN</div>
+  <svg class="rfm-map" viewBox="0 0 660 568" xmlns="http://www.w3.org/2000/svg" id="rfm-svg">
+    <defs>
+      <filter id="rfg-teal" x="-30%" y="-30%" width="160%" height="160%">
+        <feFlood flood-color="#2dd4bf" flood-opacity="0.4" result="color"/>
+        <feComposite in="color" in2="SourceGraphic" operator="in" result="shadow"/>
+        <feGaussianBlur in="shadow" stdDeviation="4" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="rfg-amber" x="-30%" y="-30%" width="160%" height="160%">
+        <feFlood flood-color="#f59e0b" flood-opacity="0.35" result="color"/>
+        <feComposite in="color" in2="SourceGraphic" operator="in" result="shadow"/>
+        <feGaussianBlur in="shadow" stdDeviation="5" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+      <filter id="rfg-pink" x="-30%" y="-30%" width="160%" height="160%">
+        <feFlood flood-color="#e84393" flood-opacity="0.3" result="color"/>
+        <feComposite in="color" in2="SourceGraphic" operator="in" result="shadow"/>
+        <feGaussianBlur in="shadow" stdDeviation="4" result="blur"/>
+        <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+      </filter>
+    </defs>
+
+    <!-- Background -->
+    <rect x="0" y="0" width="660" height="568" fill="#08080f"/>
+
+    <!-- Outer walls -->
+    <rect x="0" y="0" width="660" height="6" fill="#1a1a2e"/>
+    <rect x="0" y="0" width="6" height="568" fill="#1a1a2e"/>
+    <rect x="654" y="0" width="6" height="568" fill="#1a1a2e"/>
+    <rect x="0" y="562" width="660" height="6" fill="#1a1a2e"/>
+
+    <!-- Row dividers -->
+    <rect x="6" y="90" width="648" height="4" fill="#1a1a2e"/>
+    <rect x="6" y="118" width="648" height="4" fill="#1a1a2e"/>
+    <rect x="6" y="244" width="648" height="4" fill="#1a1a2e"/>
+    <rect x="6" y="272" width="648" height="4" fill="#1a1a2e"/>
+    <rect x="6" y="396" width="648" height="4" fill="#1a1a2e"/>
+    <!-- Walls flanking hallway/entrance -->
+    <rect x="6" y="494" width="172" height="68" fill="#1a1a2e"/>
+    <rect x="482" y="494" width="172" height="68" fill="#1a1a2e"/>
+
+    <!-- Vertical dividers — restricted row -->
+    <rect x="202" y="6" width="4" height="88" fill="#1a1a2e"/>
+    <rect x="452" y="6" width="4" height="88" fill="#1a1a2e"/>
+
+    <!-- Vertical dividers — procedure row -->
+    <rect x="164" y="122" width="4" height="126" fill="#1a1a2e"/>
+    <rect x="322" y="122" width="4" height="126" fill="#1a1a2e"/>
+    <rect x="480" y="122" width="4" height="126" fill="#1a1a2e"/>
+
+    <!-- Vertical dividers — inner rooms row -->
+    <rect x="176" y="276" width="4" height="124" fill="#1a1a2e"/>
+    <rect x="344" y="276" width="4" height="124" fill="#1a1a2e"/>
+
+    <!-- ============================================================ -->
+    <!-- ROW 1: RESTRICTED (y:6-90) -->
+    <!-- ============================================================ -->
+
+    <!-- Genetic Archive -->
+    <g class="rml" data-loc="genetic_archive">
+      <rect class="rmb" x="6" y="6" width="196" height="84" fill="#0e0e18"/>
+      <text x="104" y="38" font-family="monospace" font-size="6.5" fill="#2a1a1a" text-anchor="middle" letter-spacing="2">RESTRICTED</text>
+      <text x="104" y="54" font-family="monospace" font-size="8" fill="#2a1a1a" text-anchor="middle" font-weight="bold">Genetic Archive</text>
+      <text x="104" y="68" font-family="monospace" font-size="6" fill="#1e1212" text-anchor="middle">⛔ STAFF ONLY</text>
+    </g>
+
+    <!-- Biocompound Laboratory -->
+    <g class="rml" data-loc="biocompound_lab">
+      <rect class="rmb" x="206" y="6" width="246" height="84" fill="#0e0e18"/>
+      <text x="329" y="38" font-family="monospace" font-size="6.5" fill="#2a1a1a" text-anchor="middle" letter-spacing="2">RESTRICTED</text>
+      <text x="329" y="54" font-family="monospace" font-size="8" fill="#2a1a1a" text-anchor="middle" font-weight="bold">Biocompound Laboratory</text>
+      <text x="329" y="68" font-family="monospace" font-size="6" fill="#1e1212" text-anchor="middle">⛔ STAFF ONLY</text>
+    </g>
+
+    <!-- Sample Processing -->
+    <g class="rml" data-loc="sample_processing">
+      <rect class="rmb" x="456" y="6" width="198" height="84" fill="#0e0e18"/>
+      <text x="555" y="38" font-family="monospace" font-size="6.5" fill="#2a1a1a" text-anchor="middle" letter-spacing="2">RESTRICTED</text>
+      <text x="555" y="54" font-family="monospace" font-size="8" fill="#2a1a1a" text-anchor="middle" font-weight="bold">Sample Processing</text>
+      <text x="555" y="68" font-family="monospace" font-size="6" fill="#1e1212" text-anchor="middle">⛔ STAFF ONLY</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- ROW 2: STAFF CORRIDOR (y:94-118) -->
+    <!-- ============================================================ -->
+
+    <g class="rml" data-loc="staff_corridor">
+      <rect class="rmb" x="6" y="94" width="648" height="24" fill="#0c0c16"/>
+      <line x1="20" y1="106" x2="640" y2="106" stroke="#1a1a28" stroke-width="1" stroke-dasharray="8,6"/>
+      <text x="330" y="110" font-family="monospace" font-size="6.5" fill="#2a2a3a" text-anchor="middle" letter-spacing="3">STAFF CORRIDOR — BIOMETRIC ACCESS REQUIRED</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- ROW 3: PROCEDURE ROOMS (y:122-244) -->
+    <!-- ============================================================ -->
+
+    <!-- Suite 4 — Tier 7-8 -->
+    <g class="rml" data-loc="procedure_tier7_8">
+      <rect class="rmb" x="6" y="122" width="158" height="122" fill="#0a0e10"/>
+      <ellipse cx="85" cy="178" rx="44" ry="28" fill="none" stroke="#1a2828" stroke-width="1.5"/>
+      <text x="85" y="142" font-family="monospace" font-size="6.5" fill="#1a2828" text-anchor="middle" letter-spacing="1">SUITE 4</text>
+      <text x="85" y="154" font-family="monospace" font-size="7.5" fill="#1a2828" text-anchor="middle" font-weight="bold">Tier 7 – 8</text>
+      <text x="85" y="216" font-family="monospace" font-size="6" fill="#1a2020" text-anchor="middle">🔒 LOCKED</text>
+      <text x="85" y="228" font-family="monospace" font-size="5.5" fill="#141c1c" text-anchor="middle">Neural Integration</text>
+    </g>
+
+    <!-- Suite 3 — Tier 4-6 -->
+    <g class="rml" data-loc="procedure_tier4_6">
+      <rect class="rmb" x="168" y="122" width="154" height="122" fill="#0a0e10"/>
+      <rect x="198" y="162" width="94" height="32" rx="6" fill="none" stroke="#1a2828" stroke-width="1.5"/>
+      <text x="245" y="142" font-family="monospace" font-size="6.5" fill="#1a2828" text-anchor="middle" letter-spacing="1">SUITE 3</text>
+      <text x="245" y="154" font-family="monospace" font-size="7.5" fill="#1a2828" text-anchor="middle" font-weight="bold">Tier 4 – 6</text>
+      <text x="245" y="216" font-family="monospace" font-size="6" fill="#1a2020" text-anchor="middle">🔒 LOCKED</text>
+      <text x="245" y="228" font-family="monospace" font-size="5.5" fill="#141c1c" text-anchor="middle">Body Contour</text>
+    </g>
+
+    <!-- Suite 2 — Tier 2-3 -->
+    <g class="rml" data-loc="procedure_tier2_3">
+      <rect class="rmb" x="326" y="122" width="154" height="122" fill="#0a0e10"/>
+      <rect x="358" y="162" width="88" height="30" rx="5" fill="none" stroke="#1a2828" stroke-width="1.5"/>
+      <text x="403" y="142" font-family="monospace" font-size="6.5" fill="#1a2828" text-anchor="middle" letter-spacing="1">SUITE 2</text>
+      <text x="403" y="154" font-family="monospace" font-size="7.5" fill="#1a2828" text-anchor="middle" font-weight="bold">Tier 2 – 3</text>
+      <text x="403" y="216" font-family="monospace" font-size="6" fill="#1a2020" text-anchor="middle">🔒 LOCKED</text>
+      <text x="403" y="228" font-family="monospace" font-size="5.5" fill="#141c1c" text-anchor="middle">Voice / Hair</text>
+    </g>
+
+    <!-- Suite 1 — Tier 1 (OPEN, teal glow) -->
+    <g class="rml" data-loc="procedure_tier1" onclick="SugarCube.Engine.play('procedure_tier1')" filter="url(#rfg-teal)">
+      <rect class="rmb" x="484" y="122" width="170" height="122" fill="#091412"/>
+      <!-- Reclining chair -->
+      <rect x="512" y="160" width="112" height="34" rx="6" fill="none" stroke="#1a3a36" stroke-width="1.5"/>
+      <rect x="512" y="160" width="28" height="34" rx="4" fill="#0c1e1c"/>
+      <!-- Medical cross -->
+      <line x1="578" y1="148" x2="578" y2="140" stroke="#2dd4bf" stroke-width="1.5" opacity="0.5"/>
+      <line x1="574" y1="144" x2="582" y2="144" stroke="#2dd4bf" stroke-width="1.5" opacity="0.5"/>
+      <!-- Status LED green -->
+      <circle cx="644" cy="130" r="3" fill="#2dd4bf" opacity="0.8"/>
+      <text x="569" y="142" font-family="monospace" font-size="6.5" fill="#1a3a36" text-anchor="middle" letter-spacing="1">SUITE 1</text>
+      <text x="569" y="210" font-family="monospace" font-size="7.5" fill="#1a3a36" text-anchor="middle" font-weight="bold">Tier 1</text>
+      <text x="569" y="222" font-family="monospace" font-size="5.5" fill="#1a2a28" text-anchor="middle">Facial / Cosmetic</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- ROW 4: CLIENT CORRIDOR (y:248-272) -->
+    <!-- ============================================================ -->
+
+    <g class="rml" data-loc="client_corridor" onclick="SugarCube.Engine.play('client_corridor')">
+      <rect class="rmb" x="6" y="248" width="648" height="24" fill="#0a0a14"/>
+      <line x1="20" y1="260" x2="460" y2="260" stroke="#0e1a1a" stroke-width="1" stroke-dasharray="12,8"/>
+      <!-- Door LEDs -->
+      <circle cx="496" cy="260" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+      <circle cx="530" cy="260" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+      <circle cx="564" cy="260" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+      <circle cx="598" cy="260" r="2.5" fill="#2dd4bf" opacity="0.5"/>
+      <text x="210" y="264" font-family="monospace" font-size="7" fill="#1a3030" text-anchor="middle" letter-spacing="2">CLIENT CORRIDOR</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- ROW 5: INNER ROOMS (y:276-396) -->
+    <!-- ============================================================ -->
+
+    <!-- Wig Fitting Suite -->
+    <g class="rml" data-loc="wig_fitting_suite" onclick="SugarCube.Engine.play('wig_fitting_suite')">
+      <rect class="rmb" x="6" y="276" width="170" height="120" fill="#0d0b14"/>
+      <!-- Vanity mirror -->
+      <ellipse cx="91" cy="326" rx="34" ry="22" fill="none" stroke="#3d2060" stroke-width="1.5"/>
+      <ellipse cx="91" cy="326" rx="28" ry="17" fill="none" stroke="#2a1540" stroke-width="0.8"/>
+      <!-- Wig forms row -->
+      <circle cx="46" cy="362" r="5" fill="none" stroke="#2a1540" stroke-width="1"/>
+      <circle cx="66" cy="362" r="5" fill="none" stroke="#2a1540" stroke-width="1"/>
+      <circle cx="86" cy="362" r="5" fill="none" stroke="#2a1540" stroke-width="1"/>
+      <circle cx="106" cy="362" r="5" fill="none" stroke="#2a1540" stroke-width="1"/>
+      <circle cx="126" cy="362" r="5" fill="none" stroke="#2a1540" stroke-width="1"/>
+      <text x="91" y="292" font-family="monospace" font-size="8" fill="#2a1a40" text-anchor="middle" font-weight="bold">Wig Fitting</text>
+      <text x="91" y="304" font-family="monospace" font-size="6" fill="#1e1430" text-anchor="middle" letter-spacing="0.5">Suite</text>
+    </g>
+
+    <!-- Consultation Room (teal glow) -->
+    <g class="rml" data-loc="consultation_room" onclick="SugarCube.Engine.play('consultation_room')" filter="url(#rfg-teal)">
+      <rect class="rmb" x="180" y="276" width="164" height="120" fill="#090f10"/>
+      <!-- Wall screen -->
+      <rect x="200" y="282" width="122" height="28" rx="3" fill="none" stroke="#1a3030" stroke-width="1"/>
+      <text x="261" y="300" font-family="monospace" font-size="6.5" fill="#1a3030" text-anchor="middle">REGENAFORM</text>
+      <!-- Two chairs + table -->
+      <rect x="200" y="336" width="28" height="24" rx="4" fill="none" stroke="#1a3030" stroke-width="1.5"/>
+      <rect x="296" y="336" width="28" height="24" rx="4" fill="none" stroke="#1a3030" stroke-width="1.5"/>
+      <rect x="232" y="340" width="60" height="14" rx="2" fill="#0c1e1c"/>
+      <text x="261" y="320" font-family="monospace" font-size="8" fill="#1a3a36" text-anchor="middle" font-weight="bold">Consultation</text>
+      <text x="261" y="331" font-family="monospace" font-size="6" fill="#1a2a2a" text-anchor="middle">Dr. Voss</text>
+    </g>
+
+    <!-- The Meridian (amber glow) -->
+    <g class="rml" data-loc="the_meridian" onclick="SugarCube.Engine.play('the_meridian')" filter="url(#rfg-amber)">
+      <rect class="rmb" x="348" y="276" width="306" height="120" fill="#100e08"/>
+      <!-- Holographic rings -->
+      <ellipse cx="501" cy="336" rx="50" ry="32" fill="none" stroke="#2a1e08" stroke-width="1"/>
+      <ellipse cx="501" cy="336" rx="32" ry="20" fill="none" stroke="#2a1a06" stroke-width="0.8"/>
+      <!-- Configurator nodes -->
+      <circle cx="451" cy="336" r="3.5" fill="#1a1006" stroke="#f59e0b" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="501" cy="304" r="3.5" fill="#1a1006" stroke="#f59e0b" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="551" cy="336" r="3.5" fill="#1a1006" stroke="#f59e0b" stroke-width="0.8" opacity="0.7"/>
+      <circle cx="501" cy="368" r="3.5" fill="#1a1006" stroke="#f59e0b" stroke-width="0.8" opacity="0.7"/>
+      <!-- Side display panels -->
+      <rect x="358" y="282" width="56" height="32" rx="3" fill="none" stroke="#2a1a08" stroke-width="1"/>
+      <rect x="590" y="282" width="56" height="32" rx="3" fill="none" stroke="#2a1a08" stroke-width="1"/>
+      <text x="501" y="292" font-family="monospace" font-size="10" fill="#2a1a08" text-anchor="middle" font-weight="bold" letter-spacing="2">THE MERIDIAN</text>
+      <text x="501" y="305" font-family="monospace" font-size="6" fill="#1e1404" text-anchor="middle" letter-spacing="1">TRANSFORMATION SHOWROOM</text>
+      <text x="501" y="385" font-family="monospace" font-size="6" fill="#1e1404" text-anchor="middle">Holographic Configurator</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- ROW 6: RECEPTION LOBBY (y:400-494) -->
+    <!-- ============================================================ -->
+
+    <g class="rml" data-loc="reception_lobby" onclick="SugarCube.Engine.play('reception_lobby')" filter="url(#rfg-pink)">
+      <rect class="rmb" x="6" y="400" width="648" height="94" fill="#0c0a10"/>
+      <!-- Reception desk -->
+      <rect x="238" y="416" width="184" height="16" rx="3" fill="none" stroke="#1a1430" stroke-width="1.5"/>
+      <rect x="238" y="416" width="16" height="44" rx="3" fill="none" stroke="#1a1430" stroke-width="1"/>
+      <!-- Orchid -->
+      <circle cx="356" cy="415" r="5" fill="none" stroke="#2d1040" stroke-width="1"/>
+      <line x1="356" y1="420" x2="356" y2="432" stroke="#1a2010" stroke-width="1"/>
+      <!-- Sofas left -->
+      <rect x="26" y="436" width="68" height="28" rx="6" fill="none" stroke="#1a1830" stroke-width="1.5"/>
+      <rect x="102" y="436" width="68" height="28" rx="6" fill="none" stroke="#1a1830" stroke-width="1.5"/>
+      <!-- Sofas right -->
+      <rect x="490" y="436" width="68" height="28" rx="6" fill="none" stroke="#1a1830" stroke-width="1.5"/>
+      <rect x="566" y="436" width="68" height="28" rx="6" fill="none" stroke="#1a1830" stroke-width="1.5"/>
+      <text x="330" y="476" font-family="monospace" font-size="9" fill="#2a1a30" text-anchor="middle" font-weight="bold" letter-spacing="2">RECEPTION LOBBY</text>
+      <text x="330" y="488" font-family="monospace" font-size="6" fill="#1e1020" text-anchor="middle" letter-spacing="1">Lina · Dove-Grey Interiors</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- APPROACH HALLWAY (y:498-532) -->
+    <!-- ============================================================ -->
+
+    <g class="rml" data-loc="approach_hallway" onclick="SugarCube.Engine.play('approach_hallway')">
+      <rect class="rmb" x="178" y="498" width="304" height="34" fill="#09090e"/>
+      <!-- Frosted door line at top -->
+      <line x1="178" y1="498" x2="482" y2="498" stroke="#e84393" stroke-width="1" opacity="0.25" stroke-dasharray="6,4"/>
+      <text x="330" y="519" font-family="monospace" font-size="7.5" fill="#1a1424" text-anchor="middle" letter-spacing="1.5">APPROACH HALLWAY</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- STREET ENTRANCE (y:536-562) -->
+    <!-- ============================================================ -->
+
+    <g class="rml" data-loc="street_entrance" onclick="SugarCube.Engine.play('street_entrance')">
+      <rect class="rmb" x="248" y="536" width="164" height="26" fill="#08080c"/>
+      <!-- Steps -->
+      <line x1="248" y1="542" x2="412" y2="542" stroke="#1a1424" stroke-width="1"/>
+      <line x1="256" y1="548" x2="404" y2="548" stroke="#1a1424" stroke-width="1"/>
+      <line x1="264" y1="554" x2="396" y2="554" stroke="#1a1424" stroke-width="1"/>
+      <!-- Brass address plate -->
+      <rect x="314" y="538" width="32" height="8" rx="1" fill="#1e180a" stroke="#2a2208" stroke-width="0.5"/>
+      <text x="330" y="535" font-family="monospace" font-size="6.5" fill="#1a1424" text-anchor="middle" letter-spacing="1">STREET ENTRANCE</text>
+    </g>
+
+    <!-- ============================================================ -->
+    <!-- SECTION LABELS -->
+    <!-- ============================================================ -->
+    <text x="8" y="98" font-family="monospace" font-size="5.5" fill="#2a1a1a" letter-spacing="2">▲ RESTRICTED — AUTHORIZED STAFF ONLY</text>
+    <text x="8" y="130" font-family="monospace" font-size="5.5" fill="#1a2a2a" letter-spacing="1.5">PROCEDURE WING</text>
+
+    <!-- Scale bar -->
+    <line x1="14" y1="556" x2="64" y2="556" stroke="#1e1e2e" stroke-width="1"/>
+    <line x1="14" y1="553" x2="14" y2="559" stroke="#1e1e2e" stroke-width="1"/>
+    <line x1="64" y1="553" x2="64" y2="559" stroke="#1e1e2e" stroke-width="1"/>
+    <text x="39" y="564" font-family="monospace" font-size="5" fill="#1e1e2e" text-anchor="middle">≈ 5m</text>
+    <text x="640" y="556" font-family="monospace" font-size="5" fill="#1e1e2e" text-anchor="middle">▲ N</text>
+
+  </svg>
+  <div id="rfm-tooltip"></div>
+</div>
+<div id="rfm-blocked-flash">⚠ ACCESS RESTRICTED</div>
+<br>
+[[← District Map|neighbourhood]]
+<</nobr>>
+<<script>>
+(function() {
+  var LABELS = {
+    'street_entrance':   'Street Entrance',
+    'approach_hallway':  'Approach Hallway',
+    'reception_lobby':   'Reception Lobby',
+    'the_meridian':      'The Meridian',
+    'consultation_room': 'Consultation Room',
+    'wig_fitting_suite': 'Wig Fitting Suite',
+    'client_corridor':   'Client Corridor',
+    'procedure_tier1':   'Suite 1 — Tier 1',
+    'procedure_tier2_3': 'Suite 2 — Tier 2–3',
+    'procedure_tier4_6': 'Suite 3 — Tier 4–6',
+    'procedure_tier7_8': 'Suite 4 — Tier 7–8',
+    'staff_corridor':    'Staff Corridor',
+    'biocompound_lab':   'Biocompound Laboratory',
+    'sample_processing': 'Sample Processing',
+    'genetic_archive':   'Genetic Archive'
+  };
+  var OPEN = {
+    'street_entrance':   true,
+    'approach_hallway':  true,
+    'reception_lobby':   true,
+    'the_meridian':      true,
+    'consultation_room': true,
+    'wig_fitting_suite': true,
+    'client_corridor':   true,
+    'procedure_tier1':   true
+  };
+
+  var svg      = document.getElementById('rfm-svg');
+  var tooltip  = document.getElementById('rfm-tooltip');
+  var flash    = document.getElementById('rfm-blocked-flash');
+  var flashTimer = null;
+  var hideTimer;
+  if (!svg) return;
+
+  function showFlash() {
+    if (!flash) return;
+    flash.classList.add('visible');
+    if (flashTimer) clearTimeout(flashTimer);
+    flashTimer = setTimeout(function() { flash.classList.remove('visible'); }, 1800);
+  }
+
+  /* Mobile legend */
+  document.querySelectorAll('.rfml-item').forEach(function(el) {
+    var match = (el.getAttribute('onclick') || '').match(/play\('([^']+)'\)/);
+    if (match && !OPEN[match[1]]) {
+      el.removeAttribute('onclick');
+      el.classList.add('rfml-item-blocked');
+      el.addEventListener('click', showFlash);
+    }
+  });
+
+  /* SVG groups */
+  svg.querySelectorAll('.rml').forEach(function(g) {
+    var loc = g.getAttribute('data-loc');
+    if (!loc || OPEN[loc]) return;
+    g.classList.add('rml-blocked');
+    g.removeAttribute('onclick');
+    g.addEventListener('click', function(e) {
+      e.stopPropagation();
+      showFlash();
+    });
+  });
+
+  /* Tooltip */
+  svg.addEventListener('mouseover', function(e) {
+    var g = e.target.closest('.rml');
+    if (!g) return;
+    var loc = g.getAttribute('data-loc');
+    if (!loc || !LABELS[loc]) return;
+    clearTimeout(hideTimer);
+    var label = LABELS[loc];
+    if (!OPEN[loc]) label = label + ' [RESTRICTED]';
+    tooltip.textContent = '▶ ' + label;
+    tooltip.classList.add('visible');
+  });
+
+  svg.addEventListener('mouseout', function(e) {
+    var g = e.target.closest('.rml');
+    if (!g) return;
+    clearTimeout(hideTimer);
+    hideTimer = setTimeout(function() { tooltip.classList.remove('visible'); }, 150);
+  });
+})();
+<</script>>
+
+<div class="rfm-mobile-legend">
+  <div class="rfml-title">◉ REGENAFORM — ROOMS</div>
+  <div class="rfml-grid">
+    <span class="rfml-item" style="--c:#e84393" onclick="SugarCube.Engine.play('street_entrance')">🚪 Street Entrance</span>
+    <span class="rfml-item" style="--c:#9893a6" onclick="SugarCube.Engine.play('approach_hallway')">→ Approach Hallway</span>
+    <span class="rfml-item" style="--c:#a855f7" onclick="SugarCube.Engine.play('reception_lobby')">✦ Reception Lobby</span>
+    <span class="rfml-item" style="--c:#f59e0b" onclick="SugarCube.Engine.play('the_meridian')">◎ The Meridian</span>
+    <span class="rfml-item" style="--c:#2dd4bf" onclick="SugarCube.Engine.play('consultation_room')">◈ Consultation Room</span>
+    <span class="rfml-item" style="--c:#a855f7" onclick="SugarCube.Engine.play('wig_fitting_suite')">✂ Wig Fitting Suite</span>
+    <span class="rfml-item" style="--c:#2dd4bf" onclick="SugarCube.Engine.play('client_corridor')">→ Client Corridor</span>
+    <span class="rfml-item" style="--c:#2dd4bf" onclick="SugarCube.Engine.play('procedure_tier1')">✚ Suite 1 — Tier 1</span>
+    <span class="rfml-item" style="--c:#3a3a4a" onclick="SugarCube.Engine.play('procedure_tier2_3')">🔒 Suite 2 — Tier 2–3</span>
+    <span class="rfml-item" style="--c:#3a3a4a" onclick="SugarCube.Engine.play('procedure_tier4_6')">🔒 Suite 3 — Tier 4–6</span>
+    <span class="rfml-item" style="--c:#3a3a4a" onclick="SugarCube.Engine.play('procedure_tier7_8')">🔒 Suite 4 — Tier 7–8</span>
+    <span class="rfml-item" style="--c:#3a3a4a" onclick="SugarCube.Engine.play('staff_corridor')">🔒 Staff Corridor</span>
+  </div>
+</div>
+
+
+:: procedure_tier2_3
+<<set $locationName to "RegenaForm — Suite 2 (Tier 2–3)">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: procedure_tier4_6
+<<set $locationName to "RegenaForm — Suite 3 (Tier 4–6)">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: procedure_tier7_8
+<<set $locationName to "RegenaForm — Suite 4 (Tier 7–8)">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: staff_corridor
+<<set $locationName to "RegenaForm — Staff Corridor">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: biocompound_lab
+<<set $locationName to "RegenaForm — Biocompound Laboratory">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: sample_processing
+<<set $locationName to "RegenaForm — Sample Processing">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: genetic_archive
+<<set $locationName to "RegenaForm — Genetic Archive">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]
+
+
+:: dr_maren_private_office
+<<set $locationName to "RegenaForm — Dr. Voss's Private Office">>
+<<set $right_sidebar_mode to 0>>
+
+[[← Floor Plan|regenaform_map]]

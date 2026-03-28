@@ -1,0 +1,250 @@
+
+
+
+
+:: eli_bed
+<<nobr>>
+<<set $locationName to "Eli's Apartment - Bed">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/eli_bed.jpeg">>
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+<<if $day == 1 and $day_step == 0>>
+<<set $hint = "Wake Up">>
+[[Wake Up|day_1_1]]
+<<elseif $day == 1 and $day_step == 14>>
+<<goto "day_1_15">>
+<<elseif $day == 1 and $day_step == 15>>
+[[Wake Up|day_2_1]]
+<<elseif $day ==2 and $day_step == 31>>
+<<goto "day_2_32_kira">>
+<<elseif $day == 2 and $day_step == 32>>
+<<set $hint = "Wake up">>
+[[Wake Up|day_3_1_kira]]
+<<elseif $day == 2 and $day_step == 34>>
+<<set $hint = "Wake up">>
+[[Wake Up|day_3_1_other]]
+<<elseif $day == 3 and $day_step == 43>>
+[[Sleep|day_3_44_kira]]
+<<elseif $day == 3 and $day_step == 44>>
+[[Wake Up|day_4_1_kira]]
+<<elseif $day == 3 and $day_step == 23>>
+[[Wait|day_3_24_kira]]
+<<elseif $day == 3 and $day_step == 28>>
+[[Wake Up|day_4_1_other]]
+<<else>>
+<</if>>
+[[Masturbate|mastruebate_bed]] | [[Rest|bed_rest]] | [[Sleep|bed_sleep]] | [[← Floor Plan|apartment_map]]
+<</nobr>>
+
+
+
+:: mastruebate_bed
+
+<<set $rand to random(1, 15)>>
+<<if $rand is 1>>
+<<goto masturbation_bed_1>>
+<<elseif $rand is 2>>
+<<goto masturbation_bed_2>>
+<<elseif $rand is 3>>
+<<goto masturbation_bed_3>>
+<<elseif $rand is 4>>
+<<goto masturbation_bed_4>>
+<<elseif $rand is 5>>
+<<goto masturbation_bed_5>>
+<<elseif $rand is 6>>
+<<goto masturbation_bed_6>>
+<<elseif $rand is 7>>
+<<goto masturbation_bed_7>>
+<<elseif $rand is 8>>
+<<goto masturbation_bed_8>>
+<<elseif $rand is 9>>
+<<goto masturbation_bed_9>>
+<<elseif $rand is 10>>
+<<goto masturbation_bed_10>>
+<<elseif $rand is 11>>
+<<goto masturbation_bed_11>>
+<<elseif $rand is 12>>
+<<goto masturbation_bed_12>>
+<<elseif $rand is 13>>
+<<goto masturbation_bed_13>>
+<<elseif $rand is 14>>
+<<goto masturbation_bed_14>>
+<<else>>
+<<goto masturbation_bed_15>>
+<</if>>
+
+:: bed_rest
+
+<<set $rand to random(1, 6)>>
+<<if $rand is 1>>
+<<goto bed_rest_1>>
+<<elseif $rand is 2>>
+<<goto bed_rest_2>>
+<<elseif $rand is 3>>
+<<goto bed_rest_3>>
+<<elseif $rand is 4>>
+<<goto bed_rest_4>>
+<<elseif $rand is 5>>
+<<goto bed_rest_5>>
+<<else>>
+<<goto bed_rest_6>>
+<</if>>
+
+:: bed_rest_1
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I lie on my back, staring at the ceiling. No phone. No music. Just the low hum of the building and the faint sound of traffic somewhere outside. My body sinks into the mattress slowly, tension I didn't know I was holding easing out of my shoulders.
+
+<<eli "...just needed a minute.">>
+
+I don't sleep. Just exist for a while. It helps more than it should.
+
+[[← Bed|eli_bed]]
+
+:: bed_rest_2
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I roll onto my side and pull the blanket up without bothering to get under it properly. The room is dim, quiet. My eyes drift half-closed. Thoughts float in   scattered, weightless, not really landing on anything.
+
+<<eli "...brain's just... going.">>
+
+A loose, directionless kind of rest. Not sleep, not awake. Something in between.
+
+[[← Bed|eli_bed]]
+
+:: bed_rest_3
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I sit up against the headboard, knees pulled up, and just... breathe. The apartment is still. The kind of quiet that feels thick, like it has weight. My chest is tight in a way I can't explain. I let it be tight. Don't push it.
+
+<<eli "...it'll pass.">>
+
+Eventually my shoulders drop. Eventually my jaw unclenches. It takes longer than it should.
+
+[[← Bed|eli_bed]]
+
+:: bed_rest_4
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+Face down. Arms under the pillow. The mattress is warm from earlier and I sink into it without thinking. Everything muffles   the sound, the light, the low-grade noise in my head.
+
+<<eli "...yeah.">>
+
+It's not even tiredness. Just the need to press myself against something solid for a while.
+
+[[← Bed|eli_bed]]
+
+:: bed_rest_5
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I lie on my back and let my mind wander. Think about nothing in particular   a conversation from three days ago, the way the light looked this morning, something I can't quite place. The ceiling stays the same.
+
+<<eli "...I need to get out more.">>
+
+The thought surfaces and sinks again. I don't move.
+
+[[← Bed|eli_bed]]
+
+:: bed_rest_6
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I grab my phone, scroll for a few minutes, then set it down screen-first without really reading anything. The room is dim. I close my eyes just to rest them. The sounds of the building settle around me   a pipe somewhere, a door two floors up.
+
+<<eli "...just five minutes.">>
+
+My breathing slows on its own. Five minutes turns into fifteen.
+
+[[← Bed|eli_bed]]
+
+:: bed_sleep
+
+<<set $rand to random(1, 5)>>
+<<if $rand is 1>>
+<<goto bed_dream_1>>
+<<elseif $rand is 2>>
+<<goto bed_dream_2>>
+<<elseif $rand is 3>>
+<<goto bed_dream_3>>
+<<elseif $rand is 4>>
+<<goto bed_dream_4>>
+<<else>>
+<<goto bed_nodream>>
+<</if>>
+
+:: bed_dream_1
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I'm out fast. Deeper than usual.
+
+The dream is a hallway I've never been in. Long, low-lit, doors on both sides. I'm looking for something   I don't know what   and the floor keeps shifting slightly underfoot. Someone is walking ahead of me. I can't see their face but I know I know them. I keep calling out but no sound comes. They turn a corner. Gone.
+
+I wake up with that specific hollow feeling of something lost that never existed.
+
+<<eli "...what was that.">>
+
+The room is dark. I check the time. More time has passed than it felt like.
+
+[[← Bed|eli_bed]]
+
+:: bed_dream_2
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+The dream is bright, which feels wrong. Outside somewhere   a street, maybe, or a park. Everything is slightly too saturated, the sky an impossible flat blue. There's someone beside me. A girl. I can't quite look at her directly, the way you sometimes can't in dreams. But she's there. We're walking. It feels easy. Normal.
+
+I don't want it to end and that's probably what wakes me up.
+
+<<eli "...hm.">>
+
+I lie there for a moment, not moving, trying to hold onto the edges of it. They dissolve anyway.
+
+[[← Bed|eli_bed]]
+
+:: bed_dream_3
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+The dream doesn't make sense even inside it. I'm in this apartment but it's bigger, the rooms keep adding. There's a stream playing somewhere   my setup but not my setup. Chat is moving but I can't read any of it. The numbers keep climbing and then resetting. I'm trying to say something into the mic but I've forgotten what.
+
+I wake up mildly anxious and immediately annoyed about it.
+
+<<eli "...great. Even in my sleep.">>
+
+I pull the blanket up and stare at the ceiling until the feeling passes.
+
+[[← Bed|eli_bed]]
+
+:: bed_dream_4
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+It starts familiar   my old place, the one before this one. The layout's wrong but the feeling is right, that specific low-ceilinged quiet. Someone else is there, moving around in the other room. I don't go in. I just stand in the hallway listening to them exist.
+
+It doesn't feel sad until I wake up.
+
+<<eli "...okay.">>
+
+I sit on the edge of the bed for a moment. Let the dream finish settling. Then I get up.
+
+[[← Bed|eli_bed]]
+
+:: bed_nodream
+
+<img src="images/locations/eli_bed.jpeg" alt="Eli's Bed" style="width:100%; height:auto;">
+
+I'm out the moment my head hits the pillow. No transition. No awareness of falling asleep. Just nothing   the clean, flat dark of a dreamless sleep.
+
+I wake up disoriented, unsure for a second where I am. Then the room assembles itself. Ceiling. Walls. The same place.
+
+<<eli "...didn't even feel like time passed.">>
+
+Heavy and rested in equal measure. I lie there blinking until I feel real again.
+
+[[← Bed|eli_bed]]

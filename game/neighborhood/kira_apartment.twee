@@ -1,0 +1,1828 @@
+
+
+
+
+:: kira_apartment
+<<set $locationName to "Kira's Apartment">>
+<<set $right_sidebar_mode to 0>>
+<<set $locationImage to "images/locations/kira_apartment.jpeg">>
+<img src="images/locations/kira_apartment.jpeg" alt="Kira's Apartment" style="width:100%; height:auto;">
+<<if $day == 2 and $day_step == 13>>
+<<goto "day_2_14">>
+<<elseif $day == 4 and $day_step == 14>>
+<<goto "day_4_15_kira">>
+<<else>>
+<</if>>
+[[Chat with Kira|chat_kira]] | [[← District Map|neighbourhood]]
+
+
+:: chat_kira
+<<if !$kira_arc>>
+<<set $rand to random(1, 15)>>
+<<if $rand is 1>>
+<<goto chat_kira_norm_1>>
+<<elseif $rand is 2>>
+<<goto chat_kira_norm_2>>
+<<elseif $rand is 3>>
+<<goto chat_kira_norm_3>>
+<<elseif $rand is 4>>
+<<goto chat_kira_norm_4>>
+<<elseif $rand is 5>>
+<<goto chat_kira_norm_5>>
+<<elseif $rand is 6>>
+<<goto chat_kira_norm_6>>
+<<elseif $rand is 7>>
+<<goto chat_kira_norm_7>>
+<<elseif $rand is 8>>
+<<goto chat_kira_norm_8>>
+<<elseif $rand is 9>>
+<<goto chat_kira_norm_9>>
+<<elseif $rand is 10>>
+<<goto chat_kira_norm_10>>
+<<elseif $rand is 11>>
+<<goto chat_kira_norm_11>>
+<<elseif $rand is 12>>
+<<goto chat_kira_norm_12>>
+<<elseif $rand is 13>>
+<<goto chat_kira_norm_13>>
+<<elseif $rand is 14>>
+<<goto chat_kira_norm_14>>
+<<else>>
+<<goto chat_kira_norm_15>>
+<</if>>
+<<else>>
+<<set $rand to random(1, 15)>>
+<<if $rand is 1>>
+<<goto chat_kira_rom_1>>
+<<elseif $rand is 2>>
+<<goto chat_kira_rom_2>>
+<<elseif $rand is 3>>
+<<goto chat_kira_rom_3>>
+<<elseif $rand is 4>>
+<<goto chat_kira_rom_4>>
+<<elseif $rand is 5>>
+<<goto chat_kira_rom_5>>
+<<elseif $rand is 6>>
+<<goto chat_kira_rom_6>>
+<<elseif $rand is 7>>
+<<goto chat_kira_rom_7>>
+<<elseif $rand is 8>>
+<<goto chat_kira_rom_8>>
+<<elseif $rand is 9>>
+<<goto chat_kira_rom_9>>
+<<elseif $rand is 10>>
+<<goto chat_kira_rom_10>>
+<<elseif $rand is 11>>
+<<goto chat_kira_rom_11>>
+<<elseif $rand is 12>>
+<<goto chat_kira_rom_12>>
+<<elseif $rand is 13>>
+<<goto chat_kira_rom_13>>
+<<elseif $rand is 14>>
+<<goto chat_kira_rom_14>>
+<<else>>
+<<goto chat_kira_rom_15>>
+<</if>>
+<</if>>
+
+
+
+:: chat_kira_norm_1
+
+Rain clings to Eli’s hoodie, darkening the fabric as I stand outside Kira’s apartment door. When it opens, a soft wave of vanilla and coffee drifts out, warm and clean. Kira stands there small frame, oversized band tee slipping off one shoulder, glasses slightly fogged from the humidity.
+
+<<kira "oh hey, you’re soaked. come in, idiot. welcome.">>
+
+<<eli "yeah… rain picked up halfway.">>
+
+I step inside, careful not to drip too much.
+
+<<kira "you look like a drowned NPC.">>
+
+<<eli "accurate.">>
+
+She grabs a towel from the back of a chair and tosses it at him.
+
+<<kira "dry off before you ruin my floor aesthetic.">>
+
+<<eli "you have an aesthetic?">>
+
+<<kira "rude. yes.">>
+
+I wipes my hair, glancing around clean setup, soft lighting, everything intentional. her place feels… put together. like a different world.
+
+<<eli "your setup’s still insane.">>
+
+<<kira "it pays for itself. literally.">>
+
+She sits at her desk, spinning slightly.
+
+<<kira "you stream today?">>
+
+<<eli "yeah. same numbers.">>
+
+<<kira "consistency’s not bad.">>
+
+<<eli "doesn’t feel good either.">>
+
+She shrugs lightly.
+
+<<kira "feelings are optional. metrics aren’t.">>
+
+A small pause.
+
+<<eli "i should head before i drip everywhere.">>
+
+<<kira "yeah, go home and change. text me when you’re not a puddle.">>
+
+<<eli "will do. bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_2
+
+The rain is lighter this time, but Eli’s still damp when Kira opens the door, already holding a mug.
+
+<<kira "welcome back, rain magnet.">>
+
+<<eli "i swear it wasn’t raining earlier.">>
+
+<<kira "it sensed you.">>
+
+I step in, shoes squeaking faintly. The apartment smells like green tea and something sweet.
+
+<<eli "that smells good.">>
+
+<<kira "tea. want some?">>
+
+<<eli "sure.">>
+
+She hands him a mug without ceremony.
+
+<<kira "careful, it’s hot.">>
+
+<<eli "thanks.">>
+
+I take a sip, shoulders relaxing slightly. warm… didn’t realize how cold i was.
+
+<<kira "you look less dead today.">>
+
+<<eli "that’s progress.">>
+
+<<kira "low bar, but we take it.">>
+
+She leans against the desk.
+
+<<kira "what’d you stream?">>
+
+<<eli "same game.">>
+
+<<kira "you ever get bored of it?">>
+
+<<eli "yeah. but switching feels worse.">>
+
+Kira nods knowingly.
+
+<<kira "audience inertia. annoying but real.">>
+
+A beat.
+
+<<eli "i’ll head before i finish all your tea.">>
+
+<<kira "you barely drank any. but okay. later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_3
+
+Thunder rumbles faintly outside as I knocks. Kira opens quickly this time, eyebrows raised.
+
+<<kira "okay, wow you’re really wet. welcome.">>
+
+<<eli "it got worse.">>
+
+Water drips from my sleeves onto the floor.
+
+<<kira "hold on stay there.">>
+
+She disappears and comes back with a larger towel.
+
+<<kira "here. emergency protocol.">>
+
+<<eli "you have protocols?">>
+
+<<kira "for you? yeah.">>
+
+I dries off awkwardly. The room smells like fabric softener and faint perfume.
+
+<<eli "sorry. didn’t mean to show up like this.">>
+
+<<kira "you always show up like this. it’s your brand now.">>
+
+I look exhausted… more than usual.
+
+<<kira "you okay?">>
+
+<<eli "just tired. streamed longer than usual.">>
+
+<<kira "any payoff?">>
+
+<<eli "not really.">>
+
+She hums softly.
+
+<<kira "it stacks eventually. just… slow.">>
+
+<<eli "yeah.">>
+
+A quiet moment.
+
+<<eli "i should go before i flood your place.">>
+
+<<kira "yeah, go dry off properly. later.">>
+
+<<eli "bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_4
+
+The rain has slowed to a drizzle, but Eli’s hoodie is still damp when Kira opens the door, mid-typing on her phone.
+
+<<kira "welcome. you’re less soaked today, congrats.">>
+
+<<eli "improvement.">>
+
+I step inside, shaking my sleeves slightly. The apartment smells like coffee and something toasted.
+
+<<eli "you just wake up?">>
+
+<<kira "nah, just ended stream.">>
+
+<<eli "how’d it go?">>
+
+<<kira "good. normal numbers.">>
+
+She sets her phone down.
+
+<<kira "you?">>
+
+<<eli "earlier stream. same as always.">>
+
+<<kira "mm.">>
+
+She studies him briefly.
+
+<<kira "you’re stuck in your own head again.">>
+
+<<eli "when am i not?">>
+
+<<kira "fair.">>
+
+I'm spiraling quietly… doesn’t even notice.
+
+<<kira "try something small tomorrow. don’t overhaul everything.">>
+
+<<eli "like what?">>
+
+<<kira "different title. different energy. tiny shifts.">>
+
+I nods faintly.
+
+<<eli "i can try that.">>
+
+I step back toward the door.
+
+<<eli "i’ll head. didn’t mean to interrupt.">>
+
+<<kira "you didn’t. text me later.">>
+
+<<eli "yeah. later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_5
+
+Rain taps lightly as I arrives again, damp but not drenched. Kira opens the door with a small smile, headset resting around her neck.
+
+<<kira "welcome. look at you only mildly soggy.">>
+
+<<eli "i’m evolving.">>
+
+<<kira "finally.">>
+
+I step in, the room carrying a soft lavender scent.
+
+<<eli "your place always smells good.">>
+
+<<kira "i put effort into not living like a cave.">>
+
+<<eli "couldn’t be me.">>
+
+She laughs quietly, setting her headset aside.
+
+<<kira "stream went okay today.">>
+
+<<eli "nice.">>
+
+<<kira "what about you?">>
+
+<<eli "same numbers… but chat was a bit more active.">>
+
+Kira nods.
+
+<<kira "that’s something. engagement matters more than raw count.">>
+
+<<eli "yeah… it felt different.">>
+
+maybe… something’s shifting? She leans back slightly.
+
+<<kira "see? tiny changes.">>
+
+<<eli "maybe you’re right.">>
+
+A comfortable pause.
+
+<<eli "i’m gonna head before i get used to this place.">>
+
+<<kira "dangerous idea. later, eli.">>
+
+<<eli "later. good night.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_6
+
+Rain hits harder tonight, loud against the windows as I stands outside Kira’s door, hoodie clinging to my arms. She opens it almost immediately, eyes widening slightly.
+
+<<kira "jesus you look like you lost a fight with a river. welcome.">>
+
+<<eli "it escalated fast.">>
+
+Water drips onto the entry floor as I step in.
+
+<<kira "stop don’t move. you’re leaking.">>
+
+She grabs a towel quickly, pressing it into my hands.
+
+<<kira "damage control. go.">>
+
+<<eli "yes, ma’am.">>
+
+The room smells like fresh coffee and warm electronics. her place always feels… alive.
+
+<<eli "you streaming?">>
+
+<<kira "just ended. good session.">>
+
+<<eli "nice.">>
+
+She watches him dry off, head tilting slightly.
+
+<<kira "you look worse than usual.">>
+
+<<eli "thanks.">>
+
+<<kira "i mean it. like… drained.">>
+
+I shrugs.
+
+<<eli "long stream. tried pushing hours.">>
+
+<<kira "don’t burn out chasing numbers. not worth it.">>
+
+A quiet beat.
+
+<<eli "yeah…">>
+
+I step back toward the door.
+
+<<eli "i’ll head. before i leave a trail behind me.">>
+
+<<kira "good call. later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_7
+
+The rain is lighter, more of a mist, but Eli’s still damp when Kira opens the door, a soft glow from her monitors behind her.
+
+<<kira "welcome. you’re like… 60% wet today. improvement.">>
+
+<<eli "i’ll take it.">>
+
+I step in, shoes quiet against the floor. The room smells like vanilla and something baked.
+
+<<eli "did you make something?">>
+
+<<kira "store-bought. don’t get excited.">>
+
+<<eli "still counts.">>
+
+She gestures toward the counter.
+
+<<kira "help yourself if you want.">>
+
+<<eli "i might.">>
+
+feels weird being offered things like this. She leans back in her chair.
+
+<<kira "you change anything on stream today?">>
+
+<<eli "title. like you said.">>
+
+<<kira "and?">>
+
+<<eli "slightly better click-in… i think.">>
+
+Kira nods once.
+
+<<kira "see? small shifts.">>
+
+<<eli "still feels… fragile.">>
+
+<<kira "it always is.">>
+
+A pause.
+
+<<eli "i’ll head. don’t wanna linger.">>
+
+<<kira "you’re fine, but okay. later.">>
+
+<<eli "bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_8
+
+Thunder rolls faintly as I knocks, rain trailing down my sleeves. Kira opens slower this time, mid-sip from a bottle.
+
+<<kira "welcome. wow you really commit to the soaked look.">>
+
+<<eli "it’s consistent branding.">>
+
+<<kira "respect.">>
+
+I step inside, shaking my arms slightly. The air smells like citrus cleaner and faint perfume.
+
+<<eli "you just cleaned?">>
+
+<<kira "yeah. needed a reset.">>
+
+<<eli "looks good.">>
+
+She nods, setting the bottle down.
+
+<<kira "how was today?">>
+
+<<eli "quiet. but… less dead.">>
+
+<<kira "that’s progress.">>
+
+I'm noticing it now… good.
+
+<<eli "i clipped a moment that actually felt… decent.">>
+
+<<kira "post it. don’t overthink.">>
+
+<<eli "i will.">>
+
+A small silence.
+
+<<kira "you’re doing more lately.">>
+
+<<eli "trying to.">>
+
+I shifts my weight.
+
+<<eli "i’ll head. before the rain gets worse again.">>
+
+<<kira "yeah, go. don’t catch something.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_9
+
+The rain is steady but calm, I only slightly damp this time. Kira opens the door with her glasses pushed up, hair slightly messy.
+
+<<kira "welcome. wow you’re almost dry. character development.">>
+
+<<eli "huge arc.">>
+
+I step inside, more relaxed than usual. The room smells like tea and something floral.
+
+<<eli "you just start stream?">>
+
+<<kira "nah, prepping.">>
+
+<<eli "ah.">>
+
+She gestures vaguely to her setup.
+
+<<kira "testing audio, lighting… same routine.">>
+
+<<eli "yours looks so… intentional.">>
+
+<<kira "because it is.">>
+
+I notices details more now… interesting.
+
+<<eli "mine’s just… there.">>
+
+<<kira "then improve one thing. not everything.">>
+
+<<eli "yeah… maybe lighting.">>
+
+<<kira "good start.">>
+
+A beat.
+
+<<eli "i won’t keep you. you’re about to go live.">>
+
+<<kira "yeah. thanks. later, eli.">>
+
+<<eli "good luck. bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_10
+
+Rain taps softly as I arrives, hoodie damp at the edges. Kira opens the door with a small nod, calm as always.
+
+<<kira "welcome. you’re early.">>
+
+<<eli "yeah… didn’t feel like staying in.">>
+
+I step in, quieter than usual. The apartment smells like coffee and lavender.
+
+<<kira "fair.">>
+
+She studies him briefly.
+
+<<kira "you okay?">>
+
+<<eli "just… restless.">>
+
+<<kira "mm.">>
+
+I'm shifting… something’s building.
+
+<<eli "stream was fine. nothing crazy.">>
+
+<<kira "fine is good.">>
+
+<<eli "doesn’t feel good.">>
+
+She leans slightly against the desk.
+
+<<kira "it won’t, for a while.">>
+
+<<eli "yeah.">>
+
+A quiet settles between them.
+
+<<kira "keep going anyway.">>
+
+<<eli "i will.">>
+
+I turns toward the door.
+
+<<eli "i’ll head. didn’t mean to just… show up.">>
+
+<<kira "you’re allowed to show up. just don’t drip everywhere next time.">>
+
+<<eli "no promises. later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_11
+
+Rain streaks down the hallway window as I stands outside Kira’s door, hoodie damp and clinging. She opens it with a slight squint, one earbud still in.
+
+<<kira "welcome. you’re back on your soaked arc, i see.">>
+
+<<eli "yeah… regression.">>
+
+I step inside, water faintly dotting the floor. The apartment smells like mint and warm electronics.
+
+<<kira "you always show up mid-weather event.">>
+
+<<eli "it times itself.">>
+
+<<kira "sure it does.">>
+
+She pulls the earbud out, tossing it onto the desk.
+
+<<kira "you eat today?">>
+
+<<eli "uh… yeah. kinda.">>
+
+<<kira "that’s not convincing.">>
+
+I forgets basic stuff when I'm in it…
+
+<<eli "i had something. i think.">>
+
+<<kira "amazing. thriving.">>
+
+A small pause.
+
+<<eli "stream was… okay.">>
+
+<<kira "define okay.">>
+
+<<eli "not worse.">>
+
+She nods.
+
+<<kira "we take neutral.">>
+
+I shifts toward the door.
+
+<<eli "i’ll head before i leave puddles again.">>
+
+<<kira "good plan. go dry off. later.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_12
+
+The rain is softer tonight, more of a steady whisper. I knocks once before Kira opens, already holding a blanket.
+
+<<kira "welcome. you look cold.">>
+
+<<eli "a little.">>
+
+She hands him the blanket without ceremony.
+
+<<kira "temporary fix.">>
+
+<<eli "thanks.">>
+
+I wraps it loosely around my shoulders. The room smells like chamomile tea. warm… quiet… different from mine.
+
+<<eli "you always this prepared?">>
+
+<<kira "only when it’s obvious.">>
+
+She sits cross-legged on her chair.
+
+<<kira "stream today?">>
+
+<<eli "yeah. tried talking more.">>
+
+<<kira "and?">>
+
+<<eli "felt weird. but chat responded a bit.">>
+
+Kira nods.
+
+<<kira "lean into that. even if it’s awkward.">>
+
+<<eli "yeah…">>
+
+I adjusts the blanket slightly.
+
+<<eli "i’ll head. before i get too comfortable.">>
+
+<<kira "give that back first.">>
+
+<<eli "right.">>
+
+I hands it over.
+
+<<eli "later.">>
+
+<<kira "later, eli.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_13
+
+Rain taps lightly as I arrives, hoodie damp at the edges. Kira opens the door while typing on her keyboard, barely glancing up at first.
+
+<<kira "welcome. close the door, you’re letting the cold in.">>
+
+<<eli "yes, boss.">>
+
+I step inside, shutting it behind him. The room smells like something sweet maybe candles.
+
+<<eli "new setup tweak?">>
+
+<<kira "yeah. lighting adjustment.">>
+
+<<eli "looks better.">>
+
+She nods, still focused.
+
+<<kira "it’s all incremental.">>
+
+<<eli "seems to be the theme.">>
+
+I'm starting to get it… slowly. She finally looks at him.
+
+<<kira "you try anything new today?">>
+
+<<eli "changed my intro.">>
+
+<<kira "how’d it feel?">>
+
+<<eli "less robotic… i think.">>
+
+Kira gives a small approving nod.
+
+<<kira "good. that matters more than you think.">>
+
+A beat.
+
+<<eli "i’ll head. don’t wanna distract you.">>
+
+<<kira "you’re fine, but yeah i’m mid-setup. later.">>
+
+<<eli "bye.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_14
+
+Thunder rolls faintly as I shows up again, damp and slightly out of breath. Kira opens the door with a raised brow.
+
+<<kira "welcome. you ran here?">>
+
+<<eli "kinda. didn’t want to get more soaked.">>
+
+<<kira "mission failed.">>
+
+I step inside, catching my breath. The apartment smells like coffee and something toasted again.
+
+<<eli "you always have coffee?">>
+
+<<kira "always. survival tool.">>
+
+She hands him a cup without asking.
+
+<<kira "careful.">>
+
+<<eli "thanks.">>
+
+I takes a sip, exhaling slowly. okay… that helps.
+
+<<kira "you look less… stuck today.">>
+
+<<eli "yeah. maybe.">>
+
+<<kira "something change?">>
+
+<<eli "not really. just… kept going.">>
+
+She nods.
+
+<<kira "that’s usually it.">>
+
+A small pause.
+
+<<eli "i’ll go. before i cool off too much.">>
+
+<<kira "yeah, don’t freeze. later.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+:: chat_kira_norm_15
+
+Rain is barely there now, just a soft drizzle. Eli’s only slightly damp when Kira opens the door, arms folded.
+
+<<kira "welcome. wow you’re basically dry. impressive.">>
+
+<<eli "finally adapted.">>
+
+I step in, more relaxed than usual. The room smells like lavender again, faint and calm.
+
+<<eli "your place always feels… steady.">>
+
+<<kira "that’s intentional.">>
+
+<<eli "yeah… i can tell.">>
+
+She watches him for a second.
+
+<<kira "you seem different today.">>
+
+<<eli "i hit like… 20 viewers for a bit.">>
+
+<<kira "hey that’s real progress.">>
+
+there it is… small, but real.
+
+<<eli "it dropped again but… still.">>
+
+<<kira "doesn’t matter. it happened.">>
+
+I nods, a faint shift in my posture.
+
+<<eli "yeah.">>
+
+A quiet moment passes.
+
+<<eli "i’ll head. don’t wanna overstay.">>
+
+<<kira "you’re fine, but go ride that momentum.">>
+
+<<eli "i will. later.">>
+
+[[Leave|neighbourhood]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+:: chat_kira_rom_1
+
+Rain falls in a soft, steady curtain outside as I reaches Kira’s door, hoodie damp but not soaked. When she opens it, she pauses for half a second longer than usual, eyes scanning him.
+
+<<kira "…wow. you’re actually not drenched. welcome.">>
+
+<<eli "i’m improving. slowly.">>
+
+I step in. The apartment smells like vanilla and fresh coffee, warm and grounding. Kira lingers near the door a moment, arms loosely crossed, a faint smile tugging at her lips. I looks… different today. lighter. it suits him.
+
+<<kira "you look less miserable. should i be concerned?">>
+
+<<eli "maybe it’s a phase.">>
+
+<<kira "shame. i was starting to like it.">>
+
+I lets out a quiet huff of a laugh, setting my bag down.
+
+<<eli "harsh.">>
+
+<<kira "honest.">>
+
+She moves back toward her desk but slower than usual, glancing at him again.
+
+<<kira "how’d stream go?">>
+
+<<eli "hit twenty again… for a bit.">>
+
+<<kira "again? okay, that’s not luck anymore.">>
+
+I doesn’t even realize how big that is to him yet.
+
+<<eli "it didn’t stick though.">>
+
+<<kira "it doesn’t have to yet. it’s movement.">>
+
+A quiet settles but not awkward. Just… full. Kira leans against the edge of her desk, tilting her head.
+
+<<kira "come here for a second.">>
+
+<<eli "what?">>
+
+<<kira "just come here.">>
+
+I hesitates, then steps closer. She reaches up, brushing a damp strand of hair off my forehead with surprising gentleness.
+
+<<kira "you always show up looking like this.">>
+
+I freezes slightly. what is this…
+
+<<eli "like what?">>
+
+<<kira "like you ran through a storm to get here.">>
+
+Her hand lingers a second too long before dropping. A beat.
+
+<<eli "i… should go.">>
+
+<<kira "yeah. before i start charging you for floor damage.">>
+
+I nods, stepping back.
+
+<<eli "later.">>
+
+<<kira "later, eli.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_2
+
+The rain is heavier tonight. I knocks, and Kira opens quickly, already holding a towel.
+
+<<kira "welcome. yeah, no this is bad. get in.">>
+
+<<eli "i tried.">>
+
+She pulls him inside by the sleeve without thinking. The apartment smells like lavender and tea.
+
+<<kira "you’re freezing.">>
+
+<<eli "i’m fine.">>
+
+<<kira "you’re not fine.">>
+
+She presses the towel into my hands, then without asking grabs my wrist briefly, tugging him toward the couch.
+
+<<kira "sit.">>
+
+I does, a little stunned. since when is she this… close? Kira disappears for a second, then comes back with a blanket, draping it over my shoulders.
+
+<<kira "there. slightly less tragic.">>
+
+<<eli "thanks…">>
+
+She doesn’t move away immediately just stands there, looking down at him, expression softer than usual.
+
+<<kira "you always come here when it rains.">>
+
+<<eli "i didn’t notice that.">>
+
+<<kira "i did.">>
+
+A small silence. She sits beside him this time, closer than usual shoulders nearly touching.
+
+<<kira "stream?">>
+
+<<eli "good… actually.">>
+
+<<kira "see?">>
+
+Her shoulder brushes my lightly. Neither moves away. okay… this is new.
+
+<<eli "yeah… it felt different.">>
+
+<<kira "you felt different.">>
+
+I glances at her.
+
+<<eli "what does that mean?">>
+
+<<kira "it means you weren’t trying so hard to be someone else.">>
+
+A beat. Her hand briefly adjusts the blanket on my shoulder fingers grazing my neck for a second longer than necessary.
+
+<<kira "you should head before you fall asleep here.">>
+
+<<eli "…yeah. probably.">>
+
+I stands slowly.
+
+<<eli "later.">>
+
+<<kira "later, eli.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_3
+
+Light rain taps against the windows. I is only slightly damp when Kira opens the door but this time, she smiles immediately.
+
+<<kira "welcome. look at you almost functional.">>
+
+<<eli "don’t push it.">>
+
+I step in. The room smells like something sweet candles, maybe. Kira closes the door behind him, closer than usual.
+
+<<kira "you’ve been coming by a lot.">>
+
+<<eli "is that… bad?">>
+
+<<kira "no. just noticeable.">>
+
+and i don’t mind. that’s the weird part. They move toward the couch this time instead of the desk.
+
+<<kira "sit. you’re less likely to drip everywhere now.">>
+
+<<eli "high praise.">>
+
+They sit closer than before.
+
+<<kira "how was today?">>
+
+<<eli "good. chat was… active. like actually talking.">>
+
+<<kira "told you. energy matters.">>
+
+She leans back slightly, turning her head toward him.
+
+<<kira "you smile more when you talk about it now.">>
+
+<<eli "do i?">>
+
+<<kira "yeah. it’s… nice.">>
+
+I looks away, a little embarrassed. why does that hit harder than it should… A quiet moment passes. Then, Kira nudges him lightly with her shoulder.
+
+<<kira "relax. you look like you’re about to glitch.">>
+
+<<eli "i might be.">>
+
+She laughs softly. Then, without overthinking it, she leans in and presses a quick, light kiss to my cheek. It’s brief almost casual but deliberate. I freezes.
+
+<<eli "…">>
+
+Kira leans back like nothing happened.
+
+<<kira "there. positive reinforcement.">>
+
+A beat.
+
+<<eli "that’s… new.">>
+
+<<kira "get used to it.">>
+
+Silence lingers, charged but not overwhelming.
+
+<<eli "i should go.">>
+
+<<kira "yeah… before i make it weirder.">>
+
+I stands, still processing.
+
+<<eli "later.">>
+
+<<kira "later, eli.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_4
+
+Rain again lighter this time. I arrives, slightly damp, and Kira opens the door already smiling.
+
+<<kira "welcome back. starting to think you like the rain.">>
+
+<<eli "maybe i just like your place.">>
+
+The words slip out before I can stop them. A small pause. Kira’s smile shifts subtle, but warmer.
+
+<<kira "…good answer.">>
+
+I step in. The room smells like coffee and something floral. They don’t bother with small talk this time just drift toward the couch.
+
+<<kira "you hit twenty again?">>
+
+<<eli "yeah. and held it longer.">>
+
+<<kira "see? that’s growth.">>
+
+She sits close closer than before. Their knees brush. I'm not pulling away anymore…
+
+<<eli "it actually felt… good. like i wasn’t forcing it.">>
+
+<<kira "because you weren’t.">>
+
+She turns slightly toward him.
+
+<<kira "you’re better when you’re just… you.">>
+
+I meets her gaze for a second, then looks down.
+
+<<eli "still figuring that out.">>
+
+Kira reaches out, lightly catching my hand fingers warm against my. I doesn’t pull away. A quiet moment stretches. Then she leans in again this time slower, giving him time to react and presses a soft kiss to my lips. Short. Gentle. Testing. When she pulls back, her voice is quieter.
+
+<<kira "that okay?">>
+
+<<eli "…yeah.">>
+
+yeah… more than okay. They sit there for a second longer. Then I exhales.
+
+<<eli "i should go before i stop thinking entirely.">>
+
+<<kira "probably smart.">>
+
+She lets go of my hand reluctantly.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_5
+
+Rain hums softly outside, almost background noise now. I arrives barely damp, and Kira opens the door immediately, like she was expecting him.
+
+<<kira "welcome. you’re basically dry. i’m proud.">>
+
+<<eli "i’ve adapted.">>
+
+I step in. The apartment smells like lavender and warm light. This time, there’s no hesitation they move naturally toward the couch.
+
+<<kira "you streamed already?">>
+
+<<eli "yeah. best one so far.">>
+
+<<kira "numbers?">>
+
+<<eli "peaked at twenty-five.">>
+
+Kira’s eyes light up.
+
+<<kira "that’s big, eli.">>
+
+<<eli "it felt big.">>
+
+She shifts closer, clearly excited.
+
+<<kira "see? i told you.">>
+
+Without thinking, she leans into him slightly shoulder against my, head brushing my upper arm. I doesn’t move away. I stayed…
+
+<<eli "yeah… you were right.">>
+
+<<kira "i usually am.">>
+
+I laughs quietly. A comfortable silence settles closer now, warmer. Kira tilts her head up toward him.
+
+<<kira "you’re different lately.">>
+
+<<eli "better or worse?">>
+
+<<kira "better. easier to be around.">>
+
+She shifts, curling slightly into my side casual, but intentional. I hesitates… then relaxes into it. Her hand lightly grips my sleeve.
+
+<<kira "don’t disappear on me when things start working.">>
+
+<<eli "i won’t.">>
+
+…i don’t want to. She looks up at him again then leans in, kissing him softly, longer this time. Not rushed. Not testing. Just… certain. When she pulls back, she stays close.
+
+<<kira "good.">>
+
+A quiet beat. Then I slowly pulls back, standing.
+
+<<eli "i should go… before i forget i have a life outside this room.">>
+
+<<kira "barely. but yeah.">>
+
+She smiles faintly.
+
+<<kira "later, eli.">>
+
+<<eli "later, kira.">>
+
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_6
+
+Rain clings lightly to Eli’s hoodie as I arrives, barely damp now. Kira opens the door almost immediately, like she’s been listening for him.
+
+<<kira "welcome. you’re early.">>
+
+<<eli "yeah… didn’t feel like staying home.">>
+
+I step in. The apartment smells like soft lavender and warm tea, the lighting dimmer than usual cozier. Kira closes the door behind him, a little closer than necessary.
+
+<<kira "good. i was getting bored.">>
+
+<<eli "i exist to entertain, apparently.">>
+
+<<kira "you’re getting better at it.">>
+
+and not just on stream. They drift toward the couch without thinking.
+
+<<kira "how’d it go today?">>
+
+<<eli "held twenty for like… half an hour.">>
+
+<<kira "that’s huge.">>
+
+She turns toward him, fully now, knees brushing my.
+
+<<kira "you realize that, right?">>
+
+<<eli "i’m trying to.">>
+
+
+A quiet settles. Kira studies my face longer than usual.
+
+<<kira "you look different when you’re not doubting everything.">>
+
+<<eli "i still am. just… less loud about it.">>
+
+She smiles faintly.
+
+<<kira "i like this version better.">>
+
+Her hand finds my sleeve again, fingers curling lightly. I doesn’t pull away. Instead, I shifts closer. Their shoulders press together then stay there. I'm choosing this now. Kira leans her head gently against my shoulder, exhaling softly.
+
+<<kira "you’re warm.">>
+
+<<eli "you’re cold.">>
+
+<<kira "rude.">>
+
+I lets out a quiet laugh. A moment passes comfortable, grounded. Then she tilts her head up, brushing a slow, soft kiss against my jaw this time, lingering just a second longer. I inhales slightly.
+
+<<eli "…okay.">>
+
+<<kira "still okay?">>
+
+<<eli "yeah.">>
+
+She smiles against my shoulder. After a while, I shifts, reluctantly pulling back.
+
+<<eli "i should go.">>
+
+<<kira "you always do that right when it gets good.">>
+
+<<eli "timing’s my thing.">>
+
+She rolls her eyes, but her hand lingers on my sleeve.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_7
+
+Rain hums softly outside. I arrives almost dry, and Kira opens the door with a small, knowing smile.
+
+<<kira "welcome. look at you functional human.">>
+
+<<eli "don’t jinx it.">>
+
+I step in. The room smells like coffee and something faintly sweet. Kira closes the door, then leans back against it for a second, watching him. I'm not hesitating anymore… interesting.
+
+<<kira "you’ve been coming here a lot.">>
+
+<<eli "yeah… is that a problem?">>
+
+<<kira "no. just… noticeable.">>
+
+She pushes off the door and walks past him close enough that her shoulder brushes my. They settle onto the couch again.
+
+<<kira "stream?">>
+
+<<eli "good. hit twenty-five again.">>
+
+<<kira "consistent now. that’s what matters.">>
+
+She turns toward him, closer than before no gap now.
+
+<<kira "you’re building something.">>
+
+<<eli "slowly.">>
+
+<<kira "slow is fine.">>
+
+A quiet moment stretches. Her hand slides over my, fingers threading lightly this time more deliberate. I looks at their hands… then at her. She doesn’t look away. if I pulls back, i stop… if I doesn’t, I doesn’t. Instead, my grip tightens slightly. Kira’s expression softens.
+
+<<kira "okay…">>
+
+She leans in again this time the kiss is softer but longer, her other hand coming up briefly to rest against my shoulder. Not rushed. Not uncertain anymore. When she pulls back, she stays close foreheads nearly touching.
+
+<<eli "this is… becoming a thing.">>
+
+<<kira "yeah. it is.">>
+
+A small, quiet smile from her.
+
+<<kira "you okay with that?">>
+
+<<eli "…yeah.">>
+
+I exhales.
+
+<<eli "i should go before i forget how to function.">>
+
+<<kira "you barely function anyway.">>
+
+<<eli "fair.">>
+
+They separate slowly.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_8
+
+Rain taps lightly, almost background noise now. I arrives dry enough that Kira raises an eyebrow when she opens the door.
+
+<<kira "welcome. no rain damage? i’m disappointed.">>
+
+<<eli "i’ve evolved past that.">>
+
+I step in. The apartment smells like lavender again, soft and calming. Kira doesn’t move away this time she just reaches out, tugging lightly at my sleeve as I passes.
+
+<<kira "come here.">>
+
+I stops. Turns. She steps closer no hesitation and wraps her arms loosely around him. A quiet, casual hug… but it lingers. I stiffens for half a second… then relaxes into it. oh… this is new.
+
+<<eli "…hi.">>
+
+<<kira "hi.">>
+
+She exhales softly against my shoulder.
+
+<<kira "you feel less… tense lately.">>
+
+<<eli "i think i am.">>
+
+They stay like that a moment longer before separating though not fully. They move to the couch, closer than ever now.
+
+<<kira "stream?">>
+
+<<eli "good. chat was actually… fun.">>
+
+<<kira "see?">>
+
+She curls slightly toward him again, knee pressed against my.
+
+<<kira "you’re starting to enjoy it.">>
+
+<<eli "yeah… i think so.">>
+
+Her fingers trace lightly along my sleeve, absent-minded. I'm not pulling away… good.
+
+<<kira "i like seeing that.">>
+
+She leans in again kissing him softly, then again, a little slower this time. Not just a moment something that lingers, builds slightly. I responds this time, leaning into it instead of freezing. When they pull back, both quieter.
+
+<<eli "…okay.">>
+
+<<kira "still okay?">>
+
+<<eli "yeah. more than okay.">>
+
+A small smile from her.
+
+<<eli "i should go. before i just stay here.">>
+
+<<kira "tempting. but yeah.">>
+
+She lets him stand, but her hand trails off my sleeve slowly.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_9
+
+The rain is barely there now just a soft drizzle. I arrives dry, and Kira opens the door already smiling like she expected him.
+
+<<kira "welcome. look at you completely dry. i don’t recognize you.">>
+
+<<eli "new era.">>
+
+I step in. The apartment smells warm coffee, lavender, something faintly sweet. This time, there’s no pause. Kira steps forward immediately, sliding her arms around him again easier now, familiar. I returns it without hesitation. yeah… this feels normal now.
+
+<<eli "hi.">>
+
+<<kira "hi.">>
+
+They separate just enough to look at each other.
+
+<<kira "you did well today.">>
+
+<<eli "how do you know?">>
+
+<<kira "i checked.">>
+
+I blinks.
+
+<<eli "you watched?">>
+
+<<kira "a little. don’t make it a thing.">>
+
+of course i watched. They move to the couch, sitting close hips touching now.
+
+<<kira "you were… different. more confident.">>
+
+<<eli "felt different.">>
+
+She turns toward him fully.
+
+<<kira "it shows.">>
+
+Her hand lifts, brushing lightly along my jaw this time. No hesitation. She leans in kissing him again, deeper than before, slower, more certain. I leans into it, hand resting lightly against her side without thinking. When they pull apart, neither moves far.
+
+<<eli "…this is definitely a thing.">>
+
+<<kira "yeah. no take-backs now.">>
+
+A soft laugh escapes him.
+
+<<eli "not planning to.">>
+
+A quiet settles comfortable, full. Then, reluctantly, I shifts.
+
+<<eli "i should go… keep momentum going.">>
+
+<<kira "yeah. don’t disappear.">>
+
+<<eli "i won’t.">>
+
+She gives him one last quick kiss short, almost teasing.
+
+<<kira "good. later, eli.">>
+
+<<eli "later, kira.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_10
+
+A soft drizzle lingers outside, barely enough to matter anymore. I arrives dry, and when Kira opens the door, she doesn’t even comment on it this time just steps aside, already smiling.
+
+<<kira "welcome. you’re getting predictable.">>
+
+<<eli "i’ll try to be more chaotic.">>
+
+<<kira "please don’t.">>
+
+I step in. The apartment smells like coffee and vanilla, low music humming faintly in the background. Kira closes the door, then immediately reaches for him fingers catching my sleeve, pulling him closer without hesitation.
+
+<<kira "come here.">>
+
+I does. Her arms slide around him, natural now, practiced. I returns it easily, one hand settling lightly at her back. yeah… this is normal now.
+
+<<eli "hi.">>
+
+<<kira "hi.">>
+
+She tilts her head slightly, brushing a soft kiss against my lips quick, but familiar. They separate just enough to breathe.
+
+<<kira "you streamed already?">>
+
+<<eli "yeah. hit thirty for a bit.">>
+
+Her eyes light up instantly.
+
+<<kira "thirty? eli ">>
+
+<<eli "it dropped but… still.">>
+
+She grins, genuinely excited.
+
+<<kira "that’s not small. that’s real.">>
+
+
+I'm climbing… and I still doesn’t see how far I'm come. They move to the couch, close as always.
+
+<<kira "how’d it feel?">>
+
+<<eli "less stressful. like… i wasn’t chasing it.">>
+
+<<kira "good. because that’s when it grows.">>
+
+Her hand rests on my arm, thumb brushing lightly back and forth.
+
+<<kira "i’m proud of you.">>
+
+I pauses at that. …no one says that.
+
+<<eli "thanks.">>
+
+A quiet moment. She leans in again, kissing him slower this time lingering, intentional. When she pulls back, she stays close.
+
+<<eli "i should go… keep it going.">>
+
+<<kira "yeah. don’t lose momentum.">>
+
+She squeezes my arm once.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_11
+
+Rain taps softly as I arrives, hoodie dry again. Kira opens the door already mid-smile.
+
+<<kira "welcome. you’re early again.">>
+
+<<eli "yeah… wanted to come by before streaming.">>
+
+
+She steps aside, letting him in. The apartment smells like lavender and fresh tea.
+
+<<kira "pre-stream ritual now?">>
+
+<<eli "maybe.">>
+
+She watches him for a second. I comes here before going live… that’s new.
+
+<<kira "i don’t hate that.">>
+
+They move toward the couch.
+
+<<kira "nervous?">>
+
+<<eli "a little. numbers have been… better.">>
+
+<<kira "good. that means you care.">>
+
+She shifts closer, knee brushing my.
+
+<<kira "just don’t let it mess with your head.">>
+
+<<eli "trying not to.">>
+
+
+Her hand slides into my again, fingers interlacing naturally now.
+
+<<kira "you’ll be fine.">>
+
+She leans in, kissing him softly short, grounding.
+
+<<kira "there. confidence buff.">>
+
+<<eli "that’s helpful, actually.">>
+
+
+She smirks.
+
+<<kira "i know.">>
+
+A quiet moment passes.
+
+<<eli "i should go start.">>
+
+<<kira "yeah. go. i might lurk.">>
+
+<<eli "don’t tell me that.">>
+
+<<kira "too late.">>
+
+
+I stands.
+
+<<eli "later.">>
+
+<<kira "later, eli.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_12
+
+Rain hums softly. I arrives just after streaming, energy still lingering in my posture. Kira opens the door and immediately notices.
+
+<<kira "welcome… okay, yeah you had a good stream.">>
+
+<<eli "is it that obvious?">>
+
+<<kira "you’re not slouching.">>
+
+I laughs quietly, stepping in. The room smells like coffee and something sweet again.
+
+<<eli "hit thirty-five.">>
+
+<<kira "okay yeah, that’s real growth.">>
+
+She steps closer, hands landing lightly on my arms.
+
+<<kira "how’d it feel?">>
+
+<<eli "good. like… i was actually in it.">>
+
+I'm finally enjoying it. She smiles, softer than usual.
+
+<<kira "i like this version of you.">>
+
+Her thumbs brush lightly along my sleeves. Then she leans in kissing him deeper this time, more energy behind it, matching my mood. I responds immediately, more confident now, hand resting at her waist. When they pull apart, both slightly breathless.
+
+<<eli "…yeah, okay.">>
+
+<<kira "yeah.">>
+
+They drift to the couch, still close.
+
+<<kira "don’t let this get to your head.">>
+
+<<eli "i won’t.">>
+
+<<kira "good. stay like this.">>
+
+A quiet settles.
+
+<<eli "i should go. keep the routine.">>
+
+<<kira "yeah. consistency.">>
+
+She brushes her fingers along my jaw briefly.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_13
+
+Light rain outside. I arrives mid-evening, not wet at all. Kira opens the door and just looks at him for a second.
+
+<<kira "welcome. you didn’t even try to get wet this time.">>
+
+<<eli "i’m breaking the pattern.">>
+
+<<kira "bold.">>
+
+I step in. The apartment smells calm lavender, soft lighting. This time, she doesn’t wait just steps forward and wraps her arms around him immediately. I hugs her back without hesitation. yeah… this is automatic now.
+
+<<eli "hi.">>
+
+<<kira "hi.">>
+
+They linger a little longer than before. When they separate, she keeps one hand on my arm.
+
+<<kira "how was today?">>
+
+<<eli "steady. didn’t spike, didn’t drop.">>
+
+<<kira "that’s good. stability matters.">>
+
+They move to the couch, settling close.
+
+<<kira "you’re building something real now.">>
+
+<<eli "feels like it.">>
+
+She leans into him slightly, resting her head against my shoulder again.
+
+<<kira "don’t rush it.">>
+
+<<eli "i won’t.">>
+
+A quiet, warm moment. Then she tilts up, kissing him slowly longer, more relaxed than before. I leans into it, hand resting against her side again. When they pull back, she stays close.
+
+<<kira "you’re getting used to this.">>
+
+<<eli "yeah… i am.">>
+
+I exhales softly.
+
+<<eli "i should go.">>
+
+<<kira "you always say that.">>
+
+<<eli "i always mean it.">>
+
+She smiles faintly.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_14
+
+Rain taps steadily. I arrives just before night, hoodie slightly damp at the edges. Kira opens the door with a soft look.
+
+<<kira "welcome. little bit of rain damage today.">>
+
+<<eli "just a little.">>
+
+I step in. The room smells like tea and something warm. She closes the door, then reaches up, brushing a damp strand of hair from my forehead again like before, but more familiar now.
+
+<<kira "you never fully escape it.">>
+
+<<eli "keeps me consistent.">>
+
+She smiles slightly. They move inside, but she doesn’t let go immediately her hand trailing down to my wrist.
+
+<<kira "stream?">>
+
+<<eli "good. consistent again.">>
+
+<<kira "i watched a bit.">>
+
+I glances at her.
+
+<<eli "you always say not to make it a thing.">>
+
+<<kira "and yet.">>
+
+of course i watch. They sit close.
+
+<<kira "you’re more confident on camera than you are here sometimes.">>
+
+<<eli "that’s… probably true.">>
+
+She leans closer.
+
+<<kira "we’ll fix that.">>
+
+A soft kiss then another, slightly deeper. Her hand rests lightly against my chest now, grounding. I leans into it fully. When they part, she stays close.
+
+<<eli "…yeah, okay.">>
+
+<<kira "yeah.">>
+
+A quiet moment.
+
+<<eli "i should go.">>
+
+<<kira "yeah… you should.">>
+
+She gives him one last quick kiss.
+
+<<kira "later, eli.">>
+
+<<eli "later.">>
+
+[[Leave|neighbourhood]]
+
+
+:: chat_kira_rom_15
+
+The rain is almost gone now just a faint drizzle. I arrives dry, and Kira opens the door with an easy, familiar smile.
+
+<<kira "welcome. no rain, no chaos. weird.">>
+
+<<eli "i know. feels off.">>
+
+I step in. The apartment smells like coffee and calm. This time, neither hesitates. They meet in the middle hugging naturally, like it’s routine now. I rests my chin briefly against her head. when did this become… normal?
+
+<<eli "hi.">>
+
+<<kira "hi.">>
+
+They separate just enough.
+
+<<kira "how’d it go?">>
+
+<<eli "forty. peak.">>
+
+She blinks then breaks into a real smile.
+
+<<kira "eli that’s huge.">>
+
+<<eli "yeah… it felt huge.">>
+
+She grabs my hand, pulling him toward the couch.
+
+<<kira "tell me everything.">>
+
+I sits, closer than ever, energy still there.
+
+<<eli "chat was active, people stayed… it felt real.">>
+
+<<kira "because it is.">>
+
+She leans into him again, clearly proud.
+
+<<kira "you did that.">>
+
+A quiet moment. Then she kisses him slow, deep, no hesitation now. I responds immediately, hand steady at her side. When they pull back, she rests her forehead briefly against my.
+
+<<kira "don’t lose this.">>
+
+<<eli "i won’t.">>
+
+I exhales.
+
+<<eli "i should go… keep building.">>
+
+<<kira "yeah. go.">>
+
+She squeezes my hand.
+
+<<kira "later, eli.">>
+
+<<eli "later, kira.">>
+
+[[Leave|neighbourhood]]
+

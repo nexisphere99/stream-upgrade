@@ -1812,4 +1812,7 @@ I dream about sending money instead of spending trust.
 
 I dream about a face that isn't finished yet, but will be. Soon.
 
-[[Sleep|eli_bed]]
+Current Public Story (v0.0.1) Ends Here.
+v0.0.2 available here -> https://www.patreon.com/c/ElliePlayz
+<<set $hint = "v0.0.1 End of current Story Branch">>
+[[Sleep|apartment_map]]

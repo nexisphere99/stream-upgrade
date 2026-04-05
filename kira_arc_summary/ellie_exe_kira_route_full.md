@@ -149,7 +149,7 @@ She kisses his new nose. Tender and pointed. The first time anyone has kissed a 
 
 ---
 
-### DAY 5 — "Bone Structure / Netflix Night"
+### DAY 6 — "Bone Structure / Netflix Night"
 
 Rest day from streaming. Goes to RegenaForm — **Cheekbones (Soft & Full 1.6a)** + **Ears (Refined 1.9b)**. Batch discount: 440 $.
 
@@ -171,7 +171,7 @@ She doesn't know about ElliePlayz yet. She thinks his main channel is improving.
 
 ---
 
-### DAY 6 — "The Jaw / First Lie"
+### DAY 7 — "The Jaw / First Lie"
 
 Streams morning — 310 viewers on ElliePlayz. After stream: **Jawline — Soft (1.1a)** — 600 $.
 
@@ -195,7 +195,7 @@ He deflects. She lets him, but the crease between her brows says the concern is 
 
 ---
 
-### DAY 7 — "Lips and Eyes / First Night"
+### DAY 8 — "Lips and Eyes / First Night"
 
 **RegenaForm:** **Lips — Natural-Full (1.2a)** + **Eyes — Almond (1.3b)** — 900 $.
 
@@ -231,7 +231,7 @@ The thought should comfort him. Instead it terrifies him. Because the "me undern
 
 ---
 
-### DAY 8 — "Skin Deep / Photo Sales Begin"
+### DAY 9 — "Skin Deep / Photo Sales Begin"
 
 **RegenaForm:** **Porcelain Skin + Flawless Stack** — 750 $. His face goes from dull and scarred to luminous.
 
@@ -247,7 +247,7 @@ Kira asks to hang out. He says he's busy. The lies are stacking.
 
 ---
 
-### DAY 9 — "Her Hair / The Walk Home"
+### DAY 10 — "Her Hair / The Walk Home"
 
 **RegenaForm:** Full hair package — **Mid-Back, Silk-Straight, Platinum Blonde, Curtain Bangs, Rounded Hairline** — ~1,700 $. The greasy brown mess becomes cascading platinum silk.
 
@@ -289,7 +289,7 @@ He means it. He also knows the voice modulation is scheduled for tomorrow.
 
 ---
 
-### DAY 10 — "The Voice / Breaking the Promise"
+### DAY 11 — "The Voice / Breaking the Promise"
 
 Voice mod glitches during an ElliePlayz stream. Chat notices the masculine voice. He ends the stream early, hands shaking.
 
@@ -309,7 +309,7 @@ Marc drops off soup instead. Beanie and hoodie at the door. Marc doesn't notice 
 
 ---
 
-### DAY 11 — "First Words / Kira Hears"
+### DAY 12 — "First Words / Kira Hears"
 
 First stream with the real new voice. No mod. 740 viewers. `LonelyAstronaut` pays $50 to hear "Ellie" say their name. Fifteen subscriptions in thirty seconds.
 
@@ -363,7 +363,7 @@ He does.
 
 ---
 
-### DAY 12 — "Full Disclosure"
+### DAY 13 — "Full Disclosure"
 
 The spreadsheet day. He maps the economics. Then he goes to Kira's apartment.
 
@@ -404,7 +404,7 @@ The relationship resets on honesty. Kira becomes the person Eli discusses every 
 
 ---
 
-### DAY 13 — "Neck and Throat / Kira Watches"
+### DAY 14 — "Neck and Throat / Kira Watches"
 
 First body modification with Kira informed. She doesn't come to the clinic but she knows. He told her last night: "I'm getting my Adam's apple removed and my neck slimmed. It's visible on camera."
 
@@ -441,7 +441,7 @@ Sex that night. Kira kisses the new throat extensively. The rest of his body is 
 
 ---
 
-### DAY 14 — "Hands Tell"
+### DAY 15 — "Hands Tell"
 
 Chat catches his masculine hands on stream. Mocks them. He ends the stream early.
 
@@ -461,7 +461,7 @@ He buys women's size 7 slip-ons. That evening, Kira holds his new hands — slim
 
 ---
 
-### DAY 15 — "Limbs"
+### DAY 16 — "Limbs"
 
 **RegenaForm:** **Full Limb Package (T4.7c)** — 1,200 $. Arms slimmed, legs reshaped.
 
@@ -482,7 +482,7 @@ It's the first time Kira directly contributes to the Ellie brand. She does it wi
 
 ---
 
-### DAY 16 — "Structure"
+### DAY 17 — "Structure"
 
 **RegenaForm:** **Ribcage Full Feminization + Shoulder Narrowing (Feminine Frame)** — 5,500 $. Most painful recovery so far.
 
@@ -496,7 +496,7 @@ Marc shows up unannounced. Eli hides behind the hoodie. Marc notices the narrowe
 
 ---
 
-### DAY 17 — "The Waist / Kira's Hands"
+### DAY 18 — "The Waist / Kira's Hands"
 
 **RegenaForm:** **Waist — Defined Hourglass (T4.1b)** — 3,000 $.
 
@@ -532,7 +532,7 @@ Afterward, lying on the cold tile:
 
 ---
 
-### DAY 18 — "Skin Everywhere"
+### DAY 19 — "Skin Everywhere"
 
 **RegenaForm:** **Full-Body Skin Match + Hair Elimination + Softening + Scent** — 2,800 $.
 
@@ -552,7 +552,7 @@ Kira lies next to him that night and buries her face in his neck and breathes in
 
 ---
 
-### DAY 19 — "Height"
+### DAY 20 — "Height"
 
 **RegenaForm:** **Moderate Height Adjustment (T4.8c)** — 4,000 $. From 5'9" to 5'5". Brutal eight-hour recovery.
 
@@ -583,7 +583,7 @@ She reaches for him in the dark. Her hand finds his waist — the hourglass curv
 
 ---
 
-### DAY 20 — "Kira Sees (Full)"
+### DAY 21 — "Kira Sees (Full)"
 
 This is different from the main timeline because Kira already *knows*. She's been adapting in real-time. But today is the first time she sees the *complete* pre-breast body without clothes — the full transformation from neck to feet.
 
@@ -614,7 +614,7 @@ They collab stream the next day. **Viewers: 2,100.** Kira introduces Ellie as "m
 
 ---
 
-### DAY 21 — "The Commission / Content Escalation"
+### DAY 22 — "The Commission / Content Escalation"
 
 DMs escalating: `DiamondDaddy` wants lingerie photos. `MidnightWhale99` wants a private video. `BreastManBillionaire` offers $2,000 for the first topless photo.
 
@@ -641,7 +641,7 @@ He sells the lingerie set for $600 (Kira's price), records the private video for
 
 ---
 
-### DAY 22 — "Eye Color / The Pronoun Shift"
+### DAY 23 — "Eye Color / The Pronoun Shift"
 
 **RegenaForm:** **Eye Color — Violet (T1.3)** — 200 $.
 

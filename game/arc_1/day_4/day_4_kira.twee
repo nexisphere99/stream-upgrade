@@ -1316,8 +1316,10 @@ The RegenaForm app glows on my phone. I set it beside the mattress, screen down.
 [[Go to Sleep|day_4_26_kira]]
 
 :: day_4_26_kira
+<<nobr>>
 <<set $day_step to 26>>
-<<set $playerImage to "images/user/tier_0_2.jpeg">>
+<<set $day to 4>>
+<<set $playerImage to "images/user/tier_0_2.jpeg">><</nobr>>
 I lie on the mattress. Grey sheets. Thin comforter. The apartment is dark except for the second monitor's standby glow and the green LED of the router. The ceiling crack is up there, invisible. The numbers float behind my closed eyes: $363 today. $504 total. 339 peak. 252 followers. The nose is $500 and I'll have it by tomorrow night.
 
 But the numbers fade. The dashboard recedes. And what replaces it, in the dark, on the mattress, is not money.
@@ -1385,9 +1387,5 @@ Tomorrow I'll modify my nose. Tomorrow I'll stream and earn and grow. Tomorrow t
 But right now, in the dark, on the grey sheets, in the seconds before sleep   right now I'm just a boy who touched himself thinking about a girl who fell asleep on his shoulder once and walked out of a bathroom in a robe and didn't care that he saw her like that.
 
 That's enough. For right now. That's enough.
-
-I sleep.
-
-End of v0.0.2
-<<set $hint = "v0.0.2 End of current Story Branch">>
-[[Sleep|apartment_map]]
+<<set $hint to "Wake up">>
+[[Sleep|eli_bed]]

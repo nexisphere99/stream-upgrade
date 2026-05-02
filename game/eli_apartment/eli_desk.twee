@@ -26,6 +26,10 @@
 [[Stream|day_4_3_kira]]
 <<elseif $day == 4 and $day_step == 17>>
 [[Stream|day_4_18_kira]]
+<<elseif $day == 5 and $day_step == 2>>
+[[Stream|day_5_3_kira]]
+<<elseif $day == 5 and $day_step == 18>>
+[[Stream|day_5_19_kira]]
 <<else>>
 <</if>>
 [[Listen to Music|desk_music]] | [[Watch Movie|desk_movie]] | [[← Back to Apartment|apartment_map]]

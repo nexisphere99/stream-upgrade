@@ -10,6 +10,8 @@
 <<goto "day_3_15_kira">>
 <<elseif $day == 3 and $day_step == 2>>
 <<goto "day_3_3_other">>
+<<elseif $day == 5 and $day_step == 9>>
+<<goto "day_5_10_kira">>
 <<else>>
 <<goto "regenaform_map">>
 <</if>>

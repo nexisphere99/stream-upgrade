@@ -92,7 +92,7 @@ I sit up. The grey sheets fall away. The apartment is the same   cold, dim, the 
 
 I get up.
 
-[[Shower|eli_bed]]
+[[Shower|day_5_2_other]]
 
 :: day_5_2_other
 <<set $day_step to 2>>
@@ -371,7 +371,7 @@ I shower   quick, bar soap, the hair clean enough from this morning. Black t-shi
 <<nobr>>
 <<set $day_step to 9>>
 <<set $locationName to "RegenaForm Clinic">>
-<<set $locationImage to "images/locations/regenaform.jpeg">>
+<<set $locationImage to "images/locations/regenaform_reception_lobby.jpeg">>
 <</nobr>>
 
 Four blocks. Twelve minutes. The route I've memorized   past the laundromat, the corner store, the bail bondsman, the door at the end of the second-floor hallway with the chrome helix etched in frosted glass.
@@ -380,7 +380,7 @@ The waiting area. The orchid. The rigid couches. Lina behind the desk, amber-gol
 
 <<lina "Ellie! Welcome back.">>
 
-<<eli "Hey, Lina.">>
+<<eli "Hey, Lina. Its Eli actually.">>
 
 <<lina "Dr. Voss is prepping. The usual? Matcha?">>
 
@@ -443,10 +443,11 @@ Maybe.
 [[See the new nose|day_5_11_other]]
 
 :: day_5_11_other
+<<nobr>>
 <<set $day_step to 11>>
 <<set $appearance to 6>>
 <<set $femininity to 4>>
-<<set $playerImage = "images/user/tier_1_nose.jpeg">>
+<<set $playerImage = "images/user/tier_1_4.jpeg">><</nobr>>
 
 Mirror. The nose.
 
@@ -467,7 +468,9 @@ But on camera. In the webcam frame. With the wig.
 [[Wig room|day_5_12_other]]
 
 :: day_5_12_other
+<<nobr>>
 <<set $day_step to 12>>
+<<set $playerImage = "images/user/tier_1_5.jpeg">><</nobr>>
 The fitting room. Lina. The wig   my StreamLine, the brownish-auburn waves, the camera-optimized fiber. She puts it on. Tuck, position, align. The practiced hands, the vanilla-and-linen scent.
 
 <<lina "There.">>
@@ -499,7 +502,10 @@ I leave. Four blocks. January air on the new nose   the sensation different, the
 Time to buy food. Real food. For two people.
 
 <<set $hint to "Buy food for Marcus visit">>
-[[Buy food and go home|neighbourhood]]
+
+<<link "Buy food and go home">>
+<<set $playerImage = "images/user/tier_1_4.jpeg">>
+<<goto "neighbourhood">><</link>>
 
 :: day_5_13_other
 <<set $day_step to 13>>
@@ -530,11 +536,7 @@ I sit on the mattress. Wait. The Korean food cooling on the counter, the barley 
 :: day_5_14_other
 <<set $day_step to 14>>
 <<set $hint to "Marcus arrives">>
-
-
-Two knocks. Pause. One more. The Marcus rhythm.
-
-I open the door. He's standing in the hallway   charcoal hoodie, basketball shorts, the beat-up Jordans with the untied laces, a plastic bag in one hand. The scar on his eyebrow catches the hallway fluorescent.
+Two knocks. Pause. One more. The Marcus rhythm. I open the door. He's standing in the hallway   charcoal hoodie, basketball shorts, the beat-up Jordans with the untied laces, a plastic bag in one hand. The scar on his eyebrow catches the hallway fluorescent.
 
 <<marc "I brought the good controller.">>
 
@@ -822,8 +824,6 @@ He says it with the conviction of a man who has been saying "next time" for two 
 
 :: day_5_16_other
 <<set $day_step to 16>>
-
-
 8:30 PM. Marcus stands. Stretches. The spine-crack. The sound that makes me wince every time.
 
 <<marc "Gotta go. Early shift tomorrow   the owner's having Devon 'shadow' me, which means I do two people's jobs while Devon watches and drops things.">>
@@ -938,7 +938,7 @@ I put the phone down. The homework is done. Incomplete   the other half of the t
 
 
 <<set $hint to "Stream as ElliePlayz">>
-[[Prepare to stream|day_5_17_other]]
+[[Prepare to stream|apartment_map]]
 
 
 
@@ -947,11 +947,9 @@ I put the phone down. The homework is done. Incomplete   the other half of the t
 <<nobr>>
 <<set $day_step to 17>>
 <<set $locationName to "Eli's Apartment">>
-<<set $playerImage to "images/user/tier_0_2.jpeg">>
+<<set $playerImage to "images/user/tier_1_5.jpeg">>
 <<set $hint to "Prepare to stream">>
 <</nobr>>
-
-
 10:15 PM. The apartment. The ritual   but tonight the ritual has a new step.
 
 I stand in front of the bathroom mirror. The nose has settled fully. The bridge is sharp now   defined, narrow, running straight from the brow line to the tip in a clean profile that catches the overhead light (flicker, flicker, on) and channels it the way a finished surface channels light. The tip is soft. Angled. The Slope. The feature that Dr. Maren described as "the primary masculine tell" is gone, replaced by something that tells a different story.
@@ -969,10 +967,6 @@ I angle the desk lamp. The warm gold catches the new nose   the bridge creating 
 I check the preview one final time. The face in the rectangle is   closer. Closer to Ellie than it's ever been. Closer to the face reveal. Closer to the destination that the viewers have been building in their imaginations and that I've been building in a clinic four blocks away.
 
 She looks real.
-
-
-<<set $playerImage to "images/user/tier_1_nose_wig.jpeg">>
-
 
 ElliePlayz   Live
 Category: Just Chatting → Gunmetal Requiem
@@ -1055,8 +1049,6 @@ I do the gasp   eyes wide, hand to chest   but now the gasp includes the nose, t
 <<set $donations += 37>>
 <<set $money += 37>>
 <</nobr>>
-
-
 Viewers: 94
 
 I load Gunmetal Requiem. Ranked. The gameplay tonight carries residual energy from the Rift Walkers session with Marcus   the coordination sharpened, the reflexes primed, the muscle memory of two hours of dungeon-running translating into cleaner aim and faster reactions.
@@ -1096,8 +1088,6 @@ The hour passes. Donations accumulate. New viewers click in   the thumbnail has 
 <<set $donations += 18>>
 <<set $money += 18>>
 <</nobr>>
-
-
 Viewers: 143
 
 The message sits in the scrolling chat for three seconds before I notice it. Not because of its content   "the half-face thing is interesting" is a neutral observation, a first-time viewer's assessment, neither praise nor criticism. I notice it because of the tone. The chat has been running at full hype   capslock declarations, emojis, the collective effervescence of nose-reveal night   and this message is lowercase, punctuated, measured. A sentence instead of an exclamation. It reads like an adult in a room full of teenagers. Like someone who scrolled in and is watching rather than participating.
@@ -1155,8 +1145,6 @@ It's the first time anyone has looked at Ellie and seen the machine beneath the 
 <<set $donations += 51>>
 <<set $money += 51>>
 <</nobr>>
-
-
 Viewers: 231
 
 The second hour. The nose reveal energy sustains. I play three more matches   8-4, 7-7, 9-5. The consistency. The chat narrating the growth arc. MidnightWhale99 documenting every kill. ChillVibesOnly providing the capslock commentary track. Night_owl_cc offering the dry counterpoint and sophie1234. Quiet. Watching. Occasionally surfacing with a sentence that cuts through the noise like a knife through cake   clean, precise, gone before the crumbs settle.
@@ -1192,8 +1180,6 @@ $7.00 from stream_viewer_f12: "the fact that she hit 9-5 on nose night. the prot
 <<set $donations += 58>>
 <<set $money += 58>>
 <</nobr>>
-
-
 Viewers: 358
 
 A new peak. The nose did what the nose was supposed to do   drop the crop line, expand the face, increase the engagement. The algorithm rewarding the new input. The system responding to the additional data point   more face, more features, more Ellie   with more viewers, more clicks, more money.
@@ -1223,8 +1209,6 @@ I hit End Stream.
 <<set $playerImage to "images/user/tier_0_2.jpeg">>
 <<set $day_step to 23>>
 <</nobr>>
-
-
 Duration: 2 hours 24 minutes
 Peak Viewers: 358
 Average Viewers: 226
@@ -1267,7 +1251,6 @@ The red heart. The promise. The patience that has no deadline but isn't infinite
 
 Sent. Genuine. Incomplete.
 
-
 <<set $hint to "Go to bed">>
 [[Go to bed|apartment_map]]
 
@@ -1275,8 +1258,6 @@ Sent. Genuine. Incomplete.
 
 :: day_5_24_other
 <<set $day_step to 24>>
-
-
 The apartment is dark. The fridge hums. The ceiling crack is up there   growing, always growing, but sharing the ceiling now with a number that passed four digits today and keeps climbing.
 
 I lie on the mattress. Grey sheets. Thin comforter. The phone beside my head, Kira's red heart glowing in the notification bar, the RegenaForm app icon teal and patient beside it.
@@ -1324,7 +1305,7 @@ I close my eyes. The fridge hums. The crack grows. The face grows. The audience 
 I sleep and I dream about two faces   the stranger's and Ellie's   merging and separating and merging again in a mirror that shows both at once, and a voice in the dream that says "natural or sculpted?" and I can't tell which face the question is for.
 
 /* [[Sleep|eli_bed]] */
-End of v0.0.3
-<<set $hint = "v0.0.3 End of current Story Branch">>
+End of v0.0.4
+<<set $hint = "v0.0.4 End of current Story Branch">>
 [[Sleep|apartment_map]]
 

@@ -37,8 +37,8 @@
     <<elseif $route is "other">>
         <<if $day == 5 and $day_step == 2>>
         [[Stream|day_5_3_other]]
-        <<elseif $day == 5 and $day_step == 18>>
-        [[Stream|day_5_19_other]]
+        <<elseif $day == 5 and $day_step == 16>>
+        [[Stream|day_5_17_other]]
         <</if>>
     <</if>>
 <</if>>

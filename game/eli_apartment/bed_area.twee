@@ -43,10 +43,10 @@
     <<elseif $route == "other">>
         <<if $day == 4 and $day_step == 25>>
         [[Wake Up|day_5_1_other]]
-        /* <<elseif $day == 5 and $day_step == 13>>
-        [[Prepare for Date|day_5_14_other]]
-        <<elseif $day == 5 and $day_step == 24>>
-        [[Try to Sleep|day_5_25_other]] */
+        <<elseif $day == 5 and $day_step == 12>>
+        [[Spend Time|day_5_13_other]]
+        <<elseif $day == 5 and $day_step == 23>>
+        [[Try to Sleep|day_5_24_other]]
         <</if>>
     <</if>>
 <</if>>

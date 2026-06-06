@@ -1234,7 +1234,12 @@ I close the app. Put the phone down. Lie on the mattress. Grey sheets. Thin comf
 [[Lie on the mattress|day_4_25_other]]
 
 :: day_4_25_other
-
+<<nobr>>
+<<set $day_step to 25>>
+<<set $day to 4>>
+<<set $playerImage to "images/user/tier_0_2.jpeg">>
+<<set $route = "other">>
+<</nobr>>
 The apartment is dark. The fridge hums its one note. The numbers float behind my closed eyes   $573, $363 today, the nose tomorrow, the lips next week, the jaw the week after.
 
 But the numbers fade. They always fade in the dark, when the dashboard is off and the wig is in the closet and the performance has ended and I'm just a person on a mattress in a room that smells like microwave burritos and loneliness.
@@ -1303,6 +1308,6 @@ I sleep. And I don't dream about the stranger or the nose or the crop line.
 
 I dream about a girl with wire-frame glasses saying "I can't wait forever" and a door that's closing in slow motion and my feet won't move and the gap between the door and the frame is the exact width of a text message I haven't written yet.
 
-End of v0.0.2/v0.0.3 (In v0.0.3 there is no update in this route, but the branch ends here to keep the file size manageable and the story moving at a good pace. The next update will be v0.0.4, which will start a new branch and introduce new scenes and developments.)
-<<set $hint = "v0.0.2/v0.0.3 End of current Story Branch">>
-[[Sleep|apartment_map]]
+/* End of v0.0.2/v0.0.3 (In v0.0.3 there is no update in this route, but the branch ends here to keep the file size manageable and the story moving at a good pace. The next update will be v0.0.4, which will start a new branch and introduce new scenes and developments.)
+<<set $hint = "v0.0.2/v0.0.3 End of current Story Branch">> */
+[[Sleep|eli_bed]]

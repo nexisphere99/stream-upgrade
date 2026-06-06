@@ -1319,7 +1319,8 @@ The RegenaForm app glows on my phone. I set it beside the mattress, screen down.
 <<nobr>>
 <<set $day_step to 26>>
 <<set $day to 4>>
-<<set $playerImage to "images/user/tier_0_2.jpeg">><</nobr>>
+<<set $playerImage to "images/user/tier_0_2.jpeg">>
+<<set $route = "kira">><</nobr>>
 I lie on the mattress. Grey sheets. Thin comforter. The apartment is dark except for the second monitor's standby glow and the green LED of the router. The ceiling crack is up there, invisible. The numbers float behind my closed eyes: $363 today. $504 total. 339 peak. 252 followers. The nose is $500 and I'll have it by tomorrow night.
 
 But the numbers fade. The dashboard recedes. And what replaces it, in the dark, on the mattress, is not money.

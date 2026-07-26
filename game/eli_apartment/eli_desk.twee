@@ -33,6 +33,8 @@
         [[Stream|day_5_3_kira]]
         <<elseif $day == 5 and $day_step == 18>>
         [[Stream|day_5_19_kira]]
+        <<elseif $day == 6 and $day_step == 2>>
+        [[Stream|day_6_3_kira]]
         <</if>>
     <<elseif $route is "other">>
         <<if $day == 5 and $day_step == 2>>

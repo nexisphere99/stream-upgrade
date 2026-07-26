@@ -1619,7 +1619,7 @@ Kira knows. Kira stays. Kira said "boyfriend."
 That's enough. For tonight. That's enough.
 
 I sleep and I dream about a girl with wire-frame glasses tracing a nose that wasn't there yesterday, saying "it suits you" in a voice that sounds like home, in an apartment that smells like soy sauce and sweet peas and the specific warmth of a person who chose to stay.
-
-End of v0.0.4
-<<set $hint = "v0.0.3/v0.0.4 End of current Story Branch">>
+<<set $route = "kira">>
+<<set $day = 5>>
+<<set $hint = "Wake Up in the Bed">>
 [[Sleep|apartment_map]]

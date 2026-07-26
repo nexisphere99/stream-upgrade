@@ -1305,7 +1305,7 @@ I close my eyes. The fridge hums. The crack grows. The face grows. The audience 
 I sleep and I dream about two faces   the stranger's and Ellie's   merging and separating and merging again in a mirror that shows both at once, and a voice in the dream that says "natural or sculpted?" and I can't tell which face the question is for.
 
 /* [[Sleep|eli_bed]] */
-End of v0.0.4
-<<set $hint = "v0.0.4 End of current Story Branch">>
+End of v0.0.5
+<<set $hint = "v0.0.5 End of current Story Branch">>
 [[Sleep|apartment_map]]
 

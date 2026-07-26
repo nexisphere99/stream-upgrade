@@ -1,0 +1,1576 @@
+# Day 6 — Kira Route
+## "Shampoo Run / The Ordinary Date"
+
+---
+
+```twee3-sugarcube-2
+:: day_6_1_kira
+<<nobr>>
+<<set $day = 6>>
+<<set $day_step to 1>>
+<<set $hint to "Wake up">>
+<<set $locationName to "Eli's Apartment - Bed">>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
+<</nobr>>
+```
+
+I don't wake up hard.
+
+That's the first thing I notice, or rather the first thing I don't notice, which becomes a noticeable absence in itself because my body has greeted the morning the same way for approximately eight years running and today it decided to take the day off. I lie on the grey sheets in the thin morning light leaking through the bent blinds and I feel... normal. Rested. Almost clean, which is a strange word for a feeling but that's what it is. Like someone took a rag to the inside of my chest and wiped away the film that's been there since — since when? Since the first stream? Since the first lie?
+
+Since before that. Since always.
+
+I told her. I told her everything. And she stayed.
+
+The ceiling crack is still there. It's always there. Hairline fracture running from the light fixture toward the window like a river on a map of a country nobody's bothered to name. I've stared at it so many times from this exact position that I could draw it from memory with my eyes closed. But this morning it looks different. Not smaller. Not fixed. Just... less important. Like it dropped a few spots on the priority list and the things above it are warmer.
+
+My phone is on the mattress beside me. I pick it up. 9:47 AM. Late for me — I've been waking up around eight since the streaming started, the body adjusting to a schedule the brain never agreed to.
+
+Three notifications from Kira. Sent at 7:12, 7:14, and 8:03.
+
+<<kira "good morning boyfriend 🌿">>
+
+<<kira "that still feels weird to type. good weird. like wearing new shoes that are slightly too nice for you.">>
+
+<<kira "also i had a dream about your nose. the new one. it was on a billboard. i can't explain why. the subconscious is unhinged.">>
+
+I laugh. Actually laugh. The sound is thin and nasal and unfamiliar in the apartment because laughter has not been a regular resident here. The mini-fridge hums its monotone response. The energy drink cans on the desk catch the light.
+
+<<eli "good morning. your subconscious has good taste in noses.">>
+
+<<eli "also i slept eight hours. i think that's a personal record since middle school.">>
+
+<<kira "EIGHT?? eli that's incredible. that's more than some adults get in a week.">>
+
+<<eli "i think it's because i actually went to bed without guilt sitting on my chest like a fat cat">>
+
+<<kira "don't let Packet hear you say fat cat">>
+
+<<eli "packet IS a fat cat. this is documented.">>
+
+<<kira "he's big boned!">>
+
+<<eli "he's a sphere, kira">>
+
+<<kira "ANYWAY. what's the plan today? streaming?">>
+
+I think about it. The dashboard numbers from last night are still fresh — $252 in the nose reveal stream, bringing the grand total to $1,196. 370 followers. Peak of 347 concurrent viewers. The nose reveal worked. The crop dropped and the numbers climbed and the chat went wild and MidnightWhale99 donated $75 with the message "THE NOSE ERA BEGINS" and everything about the math says I should stream again today, ride the momentum, keep the algorithm fed.
+
+But there's a different kind of math running underneath the dashboard math. A softer calculation. The kind that doesn't show up on any analytics page.
+
+<<eli "morning stream probably. quick one. then... i don't know. i was thinking about buying shampoo.">>
+
+<<kira "shampoo??">>
+
+<<eli "actual shampoo. not the 3-in-1 body wash thing that's been dissolving in my shower since february.">>
+
+<<kira "eli. are you telling me you've been washing your hair with 3-in-1 body wash.">>
+
+<<eli "i've been washing my hair with whatever is in the shower. sometimes that's body wash. sometimes that's hand soap. one time i think it was dish detergent.">>
+
+<<kira "oh my god">>
+
+<<kira "oh my GOD">>
+
+<<kira "we are going shopping today. this is no longer optional. i'm staging an intervention.">>
+
+<<eli "it's not that serious">>
+
+<<kira "YOUR HAIR IS A CRIME SCENE, ELI. WE ARE GOING SHOPPING.">>
+
+I smile at the phone. The crack in the ceiling holds no opinion.
+
+```twee3-sugarcube-2
+<<set $hint to "Get up">>
+[[Get out of bed|day_6_2_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_2_kira
+<<set $day_step to 2>>
+<<set $hint to "Morning routine">>
+<<set $locationName to "Eli's Apartment - Bathroom">>
+```
+
+The bathroom mirror. The daily reckoning.
+
+I lean over the sink — the same sink with the rust stain shaped like Florida — and look at the face looking back. Day six of a face that isn't quite Eli and isn't quite Ellie and is something in between that doesn't have a name yet.
+
+The lashes are there. Dense, dark, naturally long. Framing the small brown eyes in a way that makes them look larger, warmer, more awake. The feathered brows — softer than the thick masculine ones they replaced, with a slight natural arch that lifts the whole upper face. And the nose. The new nose. Yesterday's nose, technically, though it feels like it's been there longer because it fits. The wide asymmetric bridge is gone. In its place: a straight narrow slope with a gently angled tip. Classic feminine. The kind of nose that wouldn't be remarkable on a woman's face but on mine — on this face, with the flat undefined jaw and the thin pale lips and the acne on the forehead — it creates a dissonance that's almost musical. The upper face sings in one key and the lower face drones in another and the combination is something that shouldn't work and doesn't work and also, somehow, compels.
+
+I turn my head left. Right. The nose in profile is where the change hits hardest. In profile, the old nose was a blunt protrusion, wide-bridged and rounded, the kind of feature that anchored the whole face in the masculine register. The new one creates a line. A slope. A gesture toward something that isn't here yet but is coming.
+
+I brush my teeth with the toothbrush I've had since October. The bristles are splayed. I should buy a new one. I should buy a lot of things. The $1,196 in the StreamCoin account says I can. Not all of it — RegenaForm credit has claimed most of it, the lashes and brows and nose stacked up in an IOU that I'm slowly chipping away at — but there's enough liquid to afford a toothbrush and shampoo and maybe, possibly, a life that doesn't smell like energy drinks and regret.
+
+The 3-in-1 body wash is in the shower. The bottle is nearly empty, the last third of it collecting in the corner like a tired soldier refusing to leave its post. I use it anyway. Lather. Rinse. The hair is still greasy afterward because 3-in-1 body wash does not, despite its enthusiastic labeling, actually wash hair. It washes the idea of hair. The concept of hair. The hair itself remains a greasy unkempt monument to neglect.
+
+Kira's right. This is a crime scene.
+
+I towel off. Pull on the grey sweatpants and the faded black t-shirt. The uniform. The armor of a person whose wardrobe is a rotation, not a collection. But today I look at the three t-shirts hanging on the back of the folding chair — black, grey, dark green with the unreadable graphic — and something about them feels insufficient. Not wrong. Insufficient. Like a vocabulary that's missing words for the things I'm starting to want to say.
+
+I push the thought aside. Stream first. Shampoo later.
+
+```twee3-sugarcube-2
+<<set $hint to "Start morning stream">>
+[[Set up the stream|day_6_3_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_3_kira
+<<set $day_step to 3>>
+<<set $hint to "Stream">>
+<<set $locationName to "Eli's Apartment - Desk">>
+<<set $playerImage to "images/user/ellie_stream_nose.jpeg">>
+```
+
+The desk. The two monitors. The mic with the ambient noise problem. The webcam from 2014 that somehow, through some miracle of low resolution and forgiving lighting, makes the modified upper face look even better than it does in the bathroom mirror because pixels are generous and reality is not.
+
+I pull the wig from the drawer. The brownish-auburn soft waves. The transformation from Eli to ElliePlayz happens in stages: wig first, then the headset positioned to hide the wig's edge, then VoxMorph loaded on the second monitor — the voice modulator that turns my slightly nasal masculine register into something softer, breathier, the Sweet/Breathy preset that makes every word sound like a secret being shared. The webcam goes live on the preview screen and I check the crop — yesterday's new frame, the one that shows eyes AND nose now, the jawline still hidden below the bottom edge because the jaw is still Eli's jaw, flat and undefined and masculine in a way that would shatter the illusion if it entered frame.
+
+ElliePlayz goes live at 10:22 AM.
+
+The game is the same competitive shooter I've been running — familiar territory, muscle memory handling the mechanics while the persona handles the audience. The title card reads: **"good morning!! nose era day 2 🌸 come say hi 💕"**
+
+The viewer count ticks up. 12. 30. 55. 80. The morning crowd is different from the night crowd — quieter, smaller, more regulars and fewer drive-bys. The chat fills slowly, like a room where people are finding their seats.
+
+<<chat "MidnightWhale99" "morning queen. the nose is still gorgeous btw. wasn't a dream.">>
+
+<<chat "stream_viewer_f15" "GOOD MORNING ELLIE 🌸🌸🌸">>
+
+<<chat "early_bird_dan" "caught the nose reveal last night on the VOD. had to come see it live.">>
+
+<<chat "ChillVibesOnly" "the nose. THE NOSE. it's even better in the morning light.">>
+
+"Good morning, lovelies!" The VoxMorph catches the greeting and smooths it into something warm and bubbly. The voice isn't mine but the enthusiasm behind it is — and that's a thought I haven't had before. On Day 3, the first ElliePlayz stream, the enthusiasm was performed. Manufactured. I was playing a character and the character was playing a streamer. But somewhere between then and now the layers thinned, and this morning the voice is fake but the smile is real, which is a kind of progress I don't have a metric for.
+
+"Yes, the nose is still here! She didn't leave overnight!" I turn my head left and right in the frame — the nose catching the pale light from the window behind the monitor. The straight narrow bridge. The gentle slope. In the webcam's low resolution it reads as effortlessly natural, like good genetics rather than bioengineering. "I'm very attached to her. We're bonded now. The nose and I have a whole relationship going."
+
+<<chat "MidnightWhale99" "the nose has a pronoun now. we love character development.">>
+
+<<chat "night_owl_cc" "wait, am i witnessing a MORNING STREAM? ellie goes diurnal??">>
+
+<<chat "stream_viewer_f15" "MORNING ELLIE ERA. i repeat. MORNING ELLIE ERA.">>
+
+"Don't get used to it! I'm still a night creature. This is just a special appearance. A matinee, if you will."
+
+I load into a match. The game is secondary — it always is now, the game is wallpaper and the face is the art — but I play with enough competence to hold the screen. The mechanics handle themselves while I banter with the chat, the rhythm of it almost natural now, the call-and-response of parasocial intimacy that I've been studying for five days and am starting to understand not as a transaction but as a language. The chat speaks. I listen. I respond. They feel heard. I feel seen. The money is the byproduct of the feeling, not the other way around.
+
+Almost.
+
+<<chat "luna_soleil" "your skin is glowing today! new filter?">>
+
+"No filter! Just vibes." This is technically true — there is no filter on the webcam. The glow is the nose making the rest of the face read differently, the geometry of femininity doing work that no filter could replicate. The lashes framing the eyes, the brows lifting the forehead, the nose pulling the whole upper face into a register that the low-resolution webcam interprets as beauty. It's architecture, not cosmetics. And the audience can't tell the difference because the audience doesn't know there's a clinic on the west side of the city that grows noses from DNA.
+
+The first donation pops at 10:31.
+
+<<chat "early_bird_dan" "$15 - 'the nose reveal brought me here. staying for the vibes.'">>
+
+"Danny! Thank you so much! Welcome to the morning crew. We're smaller but we're cozy." I lean slightly toward the camera — a gesture I've been developing, the tilt-and-smile, the VoxMorph catching the warmth. The lashes flutter. Not deliberately — I blinked — but the lashes make every blink look deliberate, look coy, look like an invitation. The modification doing work I didn't ask it to do.
+
+<<chat "MidnightWhale99" "$25 - 'morning tax. can't start the day without seeing the nose.'">>
+
+<<chat "ChillVibesOnly" "midnight you simp EVERY session. at least wait till she does something cute first">>
+
+<<chat "MidnightWhale99" "she exists. that IS something cute.">>
+
+"Midnight, you're going to make me blush and I'm trying to maintain a professional gaming demeanor here." I'm not trying to maintain anything. The blush reference is a bit — something I've started doing, the performative embarrassment that reads as authentic vulnerability on camera. Kira would call it engagement optimization. I would have called it that yesterday. Today I'm not sure what to call it because the embarrassment is half-real. Someone calling my existence cute hits differently when the face they're calling cute was engineered in a clinic six days ago.
+
+The game continues. I play three matches, winning two. The mechanics are sharper in the morning — fewer energy drinks, more sleep, the eight hours working in my favor. Between matches I chat with the room, answering questions about the "skincare routine" (the cover story that's becoming increasingly difficult to maintain, especially now that the nose is involved — nobody's skincare routine restructures bone), deflecting requests for full face reveals with practiced evasion.
+
+<<chat "face_reveal_fund" "$5 - 'adding to the face reveal fund. we're at $37 total.'">>
+
+<<chat "ChillVibesOnly" "WHEN LIPS??? WHEN FULL FACE??? WE NEED A ROADMAP">>
+
+"I appreciate the fund, I really do! And I hear you, ChillVibes. We'll get there. The face is a work in progress. A cathedral under construction! You don't rush a cathedral."
+
+<<chat "stream_viewer_f15" "THE CATHEDRAL. i love her metaphors.">>
+
+<<chat "MidnightWhale99" "the sistine ceiling of streaming. the mona lisa of crop reveals.">>
+
+<<chat "early_bird_dan" "can you at least tell us what's next? jaw? lips? the suspense is killing me">>
+
+"I can tell you that there are... plans." I tap the side of my nose — the new nose, the slope catching the light — and wink. The wink I discovered yesterday, the signature move that the audience latched onto because it combines all three modifications (the lashes close and open over the eye, the brows shift, the nose crinkles slightly at the bridge) into a single gesture that reads as flirty and knowing and somehow intimate despite being broadcast to 138 concurrent viewers. "Plans are afoot. Plans are a-nose. That's not a word but I'm making it one."
+
+<<chat "night_owl_cc" "she said a-NOSE. the puns are escalating.">>
+
+<<chat "MidnightWhale99" "$10 - 'a-nose. i'm keeping that forever.'">>
+
+The stream runs for ninety minutes. Morning light. Casual games. The chat is warm and the donations trickle steadily — not the explosive surge of last night's nose reveal, but a consistent baseline that suggests the audience is settling in. Regulars establishing patterns. MidnightWhale99 donating at least once per stream. stream_viewer_f15 posting in all caps at every minor event. ChillVibesOnly oscillating between genuine fan behavior and ironic detachment that is itself a form of genuine fan behavior. night_owl_cc, who appears in morning AND night streams, suggesting either a very flexible schedule or a deeply concerning sleep pattern.
+
+At 11:52 I wrap.
+
+"Okay, morning crew. I have to go. I have a very important appointment." I lean into the camera conspiratorially, the VoxMorph dropping my voice to a stage whisper. "I'm buying shampoo."
+
+<<chat "stream_viewer_f15" "SHAMPOO LORE??">>
+
+<<chat "MidnightWhale99" "the shampoo arc. this is what we've been building toward.">>
+
+<<chat "ChillVibesOnly" "wait you haven't been using shampoo??">>
+
+<<chat "early_bird_dan" "the shampoo reveal will be bigger than the nose reveal mark my words">>
+
+"I've been using... alternative products. We don't need to get into it. The point is, today we level up our hair care game. This is character development, people. This is growth."
+
+<<chat "night_owl_cc" "from skincare routine to shampoo arc. the cathedral grows.">>
+
+<<chat "MidnightWhale99" "$5 - 'shampoo fund. use it wisely.'">>
+
+"Midnight, you just funded approximately one-third of a bottle of drugstore shampoo. You're an investor in my scalp now. You have a stake in this. Literally."
+
+I end the stream with the new sign-off — the wink, the nose-tap, the whispered "see you tonight" that VoxMorph turns into something that sounds like a promise whispered into a pillow. The viewer count at close: 142. Donations for the session: $87. Followers gained: 14. Total followers: 384.
+
+The numbers are smaller than last night but the morning slot is new territory. I'm planting a flag. Testing whether the audience will follow me across time zones, whether ElliePlayz can exist in daylight as well as darkness. The data suggests yes. The data has been saying yes more often than it says anything else lately.
+
+I pull off the wig. The headset. Close VoxMorph. The face in the monitor's reflection is Eli again — greasy hair, masculine jaw, the nose somehow reading differently without the wig framing it. The slope is still there, still feminine, still the face I chose. But without the auburn waves and the softened voice it looks less like a destination and more like a rest stop. A face in transit.
+
+```twee3-sugarcube-2
+<<set $hint to "Check messages">>
+<<set $streamcoin += 87>>
+<<set $followers = 384>>
+[[Check phone|day_6_4_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_4_kira
+<<set $day_step to 4>>
+<<set $hint to "Messages">>
+<<set $locationName to "Eli's Apartment - Desk">>
+```
+
+Kira texted during the stream.
+
+<<kira "watched the last 20 min of your morning stream. the nose tap wink thing is lethal btw.">>
+
+<<kira "also, you told 142 people about the shampoo. so now it's a public commitment. no backing out.">>
+
+<<eli "i wasn't going to back out!">>
+
+<<kira "eli you've been using dish soap on your head. forgive me for having trust issues about your hair care intentions.">>
+
+<<eli "IT WAS ONE TIME.">>
+
+<<kira "one time is enough! that's like saying 'i only set the kitchen on fire once.' THE FIRE STILL HAPPENED.">>
+
+<<eli "you're dramatic">>
+
+<<kira "i'm passionate about hair care. there's a difference.">>
+
+<<eli "what's the plan then? where do you buy shampoo?">>
+
+<<kira "oh my god. 'where do you buy shampoo.' you sweet disaster. a DRUGSTORE, eli. you buy shampoo at a DRUGSTORE.">>
+
+<<eli "i know where a drugstore is">>
+
+<<kira "do you though?">>
+
+<<eli "...there's one on third, right?">>
+
+<<kira "there's one on fifth. meet me there at 1? i'll guide you through the shampoo aisle like a sherpa through the mountains.">>
+
+<<eli "a shampoo sherpa">>
+
+<<kira "that's my new title. put it on my business card.">>
+
+<<eli "what time works?">>
+
+<<kira "1 o'clock. and then we're going to the grocery store after because i saw the inside of your fridge on stream once and i had to pause and process my emotions.">>
+
+<<eli "my fridge is fine">>
+
+<<kira "your fridge had an energy drink, a ketchup packet, and something growing in a tupperware container that i'm pretty sure was sentient.">>
+
+<<eli "the tupperware is gone.">>
+
+<<kira "what happened to it?">>
+
+<<eli "i threw it away. container and all. i wasn't opening that.">>
+
+<<kira "smart. 1 o'clock. drugstore. wear shoes.">>
+
+<<eli "i always wear shoes">>
+
+<<kira "you wear shoe-adjacent objects. those crushed sneakers don't count.">>
+
+<<eli "they're comfortable!">>
+
+<<kira "they're a cry for help, eli.">>
+
+I'm grinning at the phone. The apartment is quiet except for the mini-fridge and the leftover warmth of a stream that ended fifteen minutes ago and a conversation that makes the space between the walls feel less like a box and more like a room where someone lives. Someone who has a girlfriend. Someone who is meeting that girlfriend in two hours to buy shampoo. Someone whose biggest problem today is footwear selection.
+
+I look at the crushed sneakers by the door. The heels are flat, the rubber worn smooth, the grey fabric stained with something I decided months ago to stop investigating. Kira's right. They're not shoes. They're the ghosts of shoes.
+
+I put them on anyway.
+
+```twee3-sugarcube-2
+<<set $hint to "Call Marcus">>
+[[Call Marcus|day_6_5_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_5_kira
+<<set $day_step to 5>>
+<<set $locationName to "Eli's Apartment - Mattress">>
+```
+
+Before I leave, I should call Marcus.
+
+The thought arrives the way Marcus thoughts usually arrive — not as urgency but as gravity. A slow pull toward the center of something that's always been there. I haven't talked to him since Day 4. Two days. That's not unusual for us — we go three, four days sometimes without talking, the friendship operating on a frequency that doesn't require daily check-ins — but two days feels different now because two days ago I didn't have a girlfriend and my nose was shaped like a different nose and the gap between what Marcus knows and what's true has widened into something I can feel in my stomach.
+
+He doesn't know about RegenaForm. He doesn't know about ElliePlayz. He doesn't know about the lashes, the brows, the nose. He doesn't know about Kira.
+
+He doesn't know about any of it and he's my best friend and the longer I wait the worse it gets and I know this because Kira said "work faster, he deserves to hear it from you" and she's right and I'm picking up the phone and—
+
+I call him. It rings three times.
+
+<<marc "yo.">>
+
+<<eli "hey man.">>
+
+<<marc "what's up. you alive?">>
+
+<<eli "yeah. just... checking in.">>
+
+<<marc "checking in. that's suspicious. you never check in. you appear like a ghost and then vanish for three days.">>
+
+<<eli "that's not true.">>
+
+<<marc "bro. last tuesday you texted me 'do penguins have knees' at 4 AM and then didn't respond for 48 hours.">>
+
+<<eli "they do have knees, by the way. they're hidden inside the body.">>
+
+<<marc "I KNOW. i looked it up! and then i texted you the answer and you never replied because you'd already moved on to whatever the next 4 AM thought spiral was.">>
+
+<<eli "sorry.">>
+
+<<marc "don't apologize. i like the penguin facts. just don't pretend you're a normal check-in person. what's actually going on?">>
+
+I swallow. The moment is here. The moment to say: Marc, I've been modifying my face at a biotech clinic. I'm streaming as a girl named Ellie. I'm dating Kira. The shampoo conversation is real but the nose is fake. Everything is happening at once and I don't know how to tell you without it sounding insane because it is insane and also it's working and also I'm happier than I've been in years and also I'm terrified.
+
+I don't say any of that.
+
+<<eli "nothing major. just wanted to see what you're up to. you working today?">>
+
+<<marc "half shift at ScreenFixx. some lady brought in a phone she dropped in a toilet. again. same lady. third time. i'm starting to think it's a hobby.">>
+
+<<eli "maybe she likes visiting you.">>
+
+<<marc "she's seventy-two, eli. if she's visiting me, the phone-in-toilet strategy is deeply committed.">>
+
+I laugh. The easy rhythm of Marcus. The low-effort warmth that doesn't require eye contact or vulnerability or confessions. He tells me about the toilet phone and about Ray from the shop who keeps trying to start a fantasy football league in July and about a new floor they unlocked in Rift Walkers — Floor 18, which apparently has a boss that uses gravity reversal as a mechanic, which Marcus describes as "disrespectful to my spatial awareness."
+
+<<marc "you should come play tonight. i haven't had a co-op partner in days and floor 18 needs two people for the grav puzzles.">>
+
+<<eli "can't tonight. i have... plans.">>
+
+<<marc "plans. you have plans. TWO days in a row you have plans.">>
+
+<<eli "is that so hard to believe?">>
+
+<<marc "eli. three weeks ago your evening plan was 'stare at computer, eat microwave burrito, question existence.' yes, it's hard to believe.">>
+
+<<eli "things change, Marc.">>
+
+<<marc "things change. okay, mr. mysterious. you got a date or something?">>
+
+The silence lasts half a beat too long.
+
+<<marc "wait. wait. you DO have a date. who is it?">>
+
+<<eli "nobody. it's not— i'm just hanging out with someone.">>
+
+<<marc "with who?">>
+
+<<eli "just... a friend.">>
+
+<<marc "a friend. right. okay. you know i'm going to figure this out, right? i always figure it out.">>
+
+<<eli "there's nothing to figure out.">>
+
+<<marc "there's always something to figure out with you. you're a puzzle box made of anxiety and bad decisions.">>
+
+<<eli "thank you, marcus. that's the nicest thing anyone's ever said to me.">>
+
+<<marc "i try. go on your non-date with your non-person. i'll be here. killing gravity bosses alone. like a WINNER.">>
+
+<<eli "i'll play this weekend. promise.">>
+
+<<marc "you better. floor 18 waits for no man.">>
+
+<<eli "i'll be there.">>
+
+<<marc "later, weirdo.">>
+
+<<eli "later.">>
+
+I hang up. The guilt is there — the familiar weight, the splinter that Kira extracted last night returning in a different shape. Not the guilt of lying to a girlfriend about a secret identity. The guilt of lying to a best friend about a girlfriend. About a face. About a life that's changing so fast the person closest to me can't see it because I won't let him.
+
+Kira said: "He deserves to hear it from you, not figure it out from your bone structure."
+
+She's right. She's always right about the things I don't want to hear.
+
+But not today. Today is shampoo. Today is groceries. Today is plates. Today is the kind of day where the biggest decision is coconut or argan and the biggest risk is buying the wrong brand and the stakes are so beautifully, mercifully low that I can pretend, for a few hours, that I'm a person whose life is simple.
+
+I'll tell Marcus. Soon. After the next thing.
+
+Always after the next thing.
+
+```twee3-sugarcube-2
+<<set $hint to "Head to drugstore">>
+[[Leave apartment|day_6_6_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_6_kira
+<<set $day_step to 6>>
+<<set $hint to "Meet Kira">>
+<<set $locationName to "Drugstore - Fifth Street">>
+```
+
+The drugstore on Fifth is fluorescent-lit and smells like floor cleaner and plastic. I arrive seven minutes early because I'm incapable of being late to things that involve Kira and also because the walk was shorter than I expected. I've lived in this neighborhood for two years and I've never been inside this building. The realization is pathetic in a way that I'm choosing to reframe as "growth potential."
+
+I stand in the entryway near the shopping baskets, hands in the hoodie pockets, the navy zip-up pulled tight because the air conditioning is aggressive. My hair — greasy, unkempt, the same brownish mess that's been refusing to cooperate since puberty — falls across my forehead. Without the wig I'm Eli. Fully, uncomplicatedly Eli. The nose is the only modification visible and even that, in the overhead fluorescent light, reads more as "slightly different" than "surgically altered." The lashes are noticeable if you look closely — denser and longer than any man's lashes have a right to be — and the brows are softer. But nobody in a drugstore on Fifth Street is looking closely at a twenty-two-year-old in a faded hoodie. I am invisible here. The same invisibility that drove me to RegenaForm in the first place, except today it feels like shelter rather than a sentence.
+
+Kira arrives at 1:03. She's wearing an olive cargo jacket over a white t-shirt, high-waisted jeans cuffed at the ankles, the white platform sneakers that add two inches to her 5'3" frame. The wire-frame glasses. The sharp black bob with the blunt bangs. She looks like a person who has her life together. Which she does. Which is why she's here — to help me assemble the first pieces of mine.
+
+She spots me and her face does the thing it does when she sees me now — a micro-expression that I've been cataloging since Day 2 but still can't fully decode. The eyes widen slightly. The lips compress and then release into a not-quite-smile. It's the expression of a person reconciling the face in their memory with the face in front of them and finding the differences both startling and welcome. She's been making this face every time she sees me since the nose. Like she's meeting me again for the first time, daily.
+
+<<kira "hey, disaster.">>
+
+<<eli "hey, sherpa.">>
+
+She kisses me. Quick, public, unremarkable — the kind of kiss that people in relationships perform without thinking about it, the greeting-kiss, the I'm-here-and-you're-here-and-that's-enough kiss. Her lips taste like the strawberry lip balm she uses. The contact lasts maybe two seconds. But it's the first time we've kissed in a public space and the publicness of it does something to my chest that the privacy of her apartment couch never did. This is visible. This is witnessed. The bored cashier and the old man comparing reading glasses and the teenager in the candy aisle — they all exist in the same space as this kiss and none of them care and the not-caring is the most affirming thing I've ever experienced. We're normal. We're a couple in a drugstore. We're nobody special and that's everything.
+
+She takes my hand. Small, warm, the pixel-heart tattoo on her inner left wrist pressing against my thumb. Her hand is soft and mine is rough and the contrast is familiar now but still registering as new.
+
+"Okay. Shampoo aisle. Follow me."
+
+She leads. I follow. This is the dynamic and I'm fine with it.
+
+```twee3-sugarcube-2
+<<set $hint to "Shop for shampoo">>
+[[Enter the shampoo aisle|day_6_7_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_7_kira
+<<set $day_step to 7>>
+<<set $locationName to "Drugstore - Hair Care Aisle">>
+```
+
+The shampoo aisle is a wall of color. Bottles in every size, shape, and shade of packaging — pink and gold and green and clinical white and matte black and some that look like they belong in a chemistry lab and others that look like they belong on a dessert menu. The brands are inscrutable. The claims are contradictory. "Volume enhancing." "Smoothing." "Damage repair." "Color protect." "Biotin-infused." "Sulfate-free." "Keratin complex." I don't know what half of these words mean individually and in combination they form a language I was never taught.
+
+I stand in front of this wall for eleven seconds before the paralysis sets in.
+
+<<eli "there are too many options.">>
+
+<<kira "welcome to having hair, eli. it's a journey.">>
+
+<<eli "this isn't a journey. this is an abyss. this is the hair care void.">>
+
+She pulls two bottles off the shelf and holds them up — one in each hand, a demonstration. The left one is brown and gold with a coconut on the label. The right one is sleek and amber with "Argan Oil" in script across the front.
+
+<<kira "okay. simplified. two choices. coconut or argan?">>
+
+I stare at them. They look identical in function. The difference, as far as I can tell, is branding and the presence or absence of a tropical fruit on the label.
+
+<<eli "what's the difference?">>
+
+<<kira "coconut is hydrating. good for dry hair. smells like vacation. argan is smoothing. good for frizzy or damaged hair. smells like expensive.">>
+
+<<eli "my hair is both dry and damaged.">>
+
+<<kira "your hair is a hostage situation. we need to approach this like negotiators.">>
+
+I take my phone out and snap a photo of both bottles. I send it to Kira. She's standing right next to me. She receives the photo and looks at her phone and then looks at me with the expression of a person who has encountered a new form of human behavior and is deciding whether to classify it as endearing or concerning.
+
+<<kira "you just texted me a photo. i'm right here.">>
+
+<<eli "i wanted your opinion!">>
+
+<<kira "i'm RIGHT HERE. you can ask me with your MOUTH.">>
+
+<<eli "it felt like a text conversation.">>
+
+<<kira "everything feels like a text conversation to you. you're a digital native who's afraid of the analog world.">>
+
+<<eli "coconut or argan, kira.">>
+
+<<kira "argan. coconut is for people who peaked in 2016.">>
+
+I put the coconut back. I hold the argan oil shampoo in my hand. It's $7.49. The most expensive shampoo I've ever purchased, which is a low bar given that my previous shampoo was a $2 bottle of 3-in-1 that was also my body wash and, on at least one occasion, my dish soap.
+
+<<kira "you also need conditioner.">>
+
+<<eli "conditioner?">>
+
+<<kira "yes, eli. conditioner. the second half of the equation. shampoo cleans. conditioner softens. they're a pair. like shoes.">>
+
+<<eli "i've never used conditioner.">>
+
+She closes her eyes. Opens them. The patience of a person who has chosen to love someone who has never used conditioner is visible in the line of her jaw.
+
+<<kira "okay. we're getting the matching conditioner. and a leave-in treatment. and a wide-tooth comb.">>
+
+<<eli "that's four things. i came for one thing.">>
+
+<<kira "you came for shampoo. you're leaving with a hair care routine. consider it an intervention.">>
+
+<<eli "how much is all this going to cost?">>
+
+<<kira "less than one donation from MidnightWhale.">>
+
+She freezes. I freeze. The name — MidnightWhale — hanging in the fluorescent air between us. She watched the stream. She knows the chat names. She knows the economy of ElliePlayz from the inside now, the specifics of who pays and how much and what they pay for. The mention of a donor's name in a drugstore aisle collapses the distance between the two worlds — the world where I am Eli buying shampoo with his girlfriend and the world where I am Ellie receiving $25 morning donations from a person named after a marine mammal.
+
+<<kira "sorry. that was weird to say out loud.">>
+
+<<eli "no. it's fine. it's just... those are the same dollars.">>
+
+<<kira "i know.">>
+
+<<eli "the money that MidnightWhale donates to Ellie is the money that Eli uses to buy shampoo.">>
+
+<<kira "i know, eli.">>
+
+<<eli "does that bother you?">>
+
+She considers this. Tilts her head. The bob shifts, the blunt bangs angling across her forehead. The thinking posture. The one she deploys when a question deserves more than a reflex.
+
+<<kira "it bothers me less than it should. which probably means it should bother me more. but you told me everything yesterday and i decided to be okay with it and being okay with it means being okay with the weird parts too. the money is the money. it comes from people who watch Ellie. it buys shampoo for Eli. the pipeline is strange but the outcome is you, here, in a drugstore, buying your first real bottle of shampoo, and i'm choosing to focus on the outcome.">>
+
+<<eli "that's very rational.">>
+
+<<kira "i'm a very rational person.">>
+
+<<eli "you cried when i bought plates.">>
+
+<<kira "plates are EMOTIONAL, eli. plates represent STABILITY. don't you dare compare plates to shampoo.">>
+
+<<eli "i haven't bought the plates yet.">>
+
+<<kira "WHAT?">>
+
+<<eli "i was going to! it's on the list!">>
+
+<<kira "the list? what list?">>
+
+<<eli "the mental list. shampoo, conditioner, plates, vegetables.">>
+
+<<kira "you have a list. you have an actual mental list of household items to acquire. eli vance. are you NESTING?">>
+
+<<eli "i'm not nesting. i'm... furnishing. incrementally.">>
+
+<<kira "you're nesting. the boy who ate ramen from the pot because he didn't own a bowl is NESTING.">>
+
+<<eli "i owned a bowl! i just didn't know where it was.">>
+
+<<kira "oh, well, THAT'S reassuring.">>
+
+We're both grinning. The aisle is empty except for us and the wall of bottles and the overhead fluorescent hum and the particular joy of two people who are learning each other's rhythms through the medium of consumer products. She tosses the matching conditioner into my basket. Then a leave-in treatment with a pump top. Then a wide-tooth comb in a clear plastic package.
+
+<<kira "total hair care damage: about twenty-two dollars.">>
+
+<<eli "twenty-two dollars.">>
+
+<<kira "that's less than two MidnightWhales. you can afford it.">>
+
+<<eli "please stop measuring my finances in whale units.">>
+
+<<kira "one whale equals twelve-fifty. it's a useful conversion.">>
+
+I carry the basket to the register. The bored cashier scans the four items without looking at me, which is perfect because I don't want to be looked at right now. I want to be a person buying shampoo. That's all. The transaction is $22.47 with tax. I pay with the debit card linked to the StreamCoin account. MidnightWhale's money becomes argan oil shampoo. The pipeline is strange. The outcome is real.
+
+Outside, the afternoon sun is pale and warm. Kira links her arm through mine — the casualness of it, the learned intimacy of a gesture that says "you're mine and I'm walking next to you and neither of us has to think about what this means because it means exactly what it looks like."
+
+<<kira "grocery store next. two blocks east. i'm going to teach you what a shallot is.">>
+
+<<eli "i know what a shallot is.">>
+
+<<kira "what is it?">>
+
+<<eli "it's... an onion. a type of onion.">>
+
+<<kira "close enough. let's go.">>
+
+```twee3-sugarcube-2
+<<set $hint to "Grocery shopping">>
+[[Walk to grocery store|day_6_8_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_8_kira
+<<set $day_step to 8>>
+<<set $locationName to "SuperFresh Grocery - Produce Section">>
+```
+
+I have never been inside a grocery store with intention.
+
+That's not entirely true. I've been inside grocery stores. I've walked the perimeter to grab energy drinks and frozen burritos and the occasional box of cereal that I eat dry from the box at 2 AM because pouring milk into a bowl requires owning a bowl and being awake enough to pour. But I've never been inside a grocery store with the intent to buy food that requires preparation. Food that has an expiration date measured in days rather than months. Food that was recently alive.
+
+Kira grabs a cart. Not a basket — a full cart, the kind with the wobbly front wheel and the child seat nobody sits in. She pilots it through the automatic doors with the confidence of a person who does this every week, which she does, because Kira Nomura is a functioning adult who eats vegetables and owns more than three plates and washes her hair with actual shampoo.
+
+The produce section hits first. Towers of color — red and green and orange and purple and the particular bright green of something leafy that I cannot name. The mist sprayers kick on as we pass the lettuce, a fine spray catching the fluorescent light and making the whole section look like a nature documentary.
+
+<<kira "okay. basics. what do you eat in a given week?">>
+
+<<eli "ramen. microwave burritos. energy drinks. sometimes a gas station sandwich if i'm feeling fancy.">>
+
+<<kira "eli.">>
+
+<<eli "what?">>
+
+<<kira "that's not a diet. that's a slow suicide.">>
+
+<<eli "it's kept me alive for twenty-two years.">>
+
+<<kira "barely! your skin is grey!">>
+
+<<eli "my skin has always been grey.">>
+
+<<kira "BECAUSE OF THE BURRITOS, ELI.">>
+
+She pulls a bag of spinach from the shelf and puts it in the cart. I look at it the way a dog looks at a bath — with recognition that this is happening and a deep uncertainty about the endgame.
+
+<<eli "what do i do with that?">>
+
+<<kira "you eat it.">>
+
+<<eli "just... eat it?">>
+
+<<kira "in things! in stir-fry! in eggs! you can put it in literally anything and it disappears!">>
+
+<<eli "then why put it in?">>
+
+<<kira "because it has nutrients, eli! nutrients are a concept your body has apparently never encountered and we're fixing that today!">>
+
+She moves through the produce section like a general conducting a campaign. Bell peppers — red and yellow, because "green ones are unripe and they taste like sadness." Garlic — a whole bulb, which she hands me, and I hold it like a grenade because I have no idea what to do with garlic that hasn't been pre-processed into powder. Ginger root — a knobby brown thing that looks like it came from another planet. Green onions. A single yellow onion.
+
+<<kira "and this—" she holds up a small brownish-purple bulb, "—is a shallot.">>
+
+<<eli "that's an onion.">>
+
+<<kira "it's a shallot.">>
+
+<<eli "it looks like an onion.">>
+
+<<kira "it's RELATED to an onion. it's the onion's sophisticated cousin. the one who studied abroad.">>
+
+<<eli "the onion went to france?">>
+
+<<kira "the shallot went to france. the onion stayed home and watched TV.">>
+
+<<eli "i'm the onion.">>
+
+<<kira "you WERe the onion. today you're leveling up to shallot. welcome to the family.">>
+
+She puts the shallot in the cart. I stare at it. It stares back. Neither of us blinks.
+
+We move deeper into the store. The produce section gives way to refrigeration — the cold aisle, the glass doors, the fog of temperature difference.
+
+The protein aisle. Kira stands in front of the meat section with her arms crossed, evaluating the selection with the focus of a general choosing ground for battle.
+
+<<kira "chicken thighs.">>
+
+<<eli "why thighs?">>
+
+<<kira "more flavor than breast. less work than drumsticks. the thigh is the people's cut. it forgives mistakes. it stays juicy even when you overcook it, which you WILL overcook it, because you've never cooked anything.">>
+
+<<eli "i resent that.">>
+
+<<kira "have you ever cooked anything?">>
+
+<<eli "...i've heated things.">>
+
+<<kira "heating is not cooking. microwaving a burrito is not cooking. pressing a button on a machine is not cooking.">>
+
+<<eli "there's a skill to it. timing. wattage awareness.">>
+
+<<kira "wattage awareness. you're describing using a microwave like it's an art form.">>
+
+<<eli "every art form starts somewhere.">>
+
+She picks up a package of chicken thighs — four pieces, bone-in, skin-on, $6.49 — and puts them in the cart. Then a block of firm tofu from the refrigerated section, wrapped in plastic in a small pool of water that sloshes when she drops it in beside the chicken.
+
+<<eli "what's the tofu for?">>
+
+<<kira "stir-fry. it's good. you'll like it.">>
+
+<<eli "i've never had tofu.">>
+
+<<kira "you've never had shampoo either. today is full of firsts.">>
+
+<<eli "i've HAD shampoo. i just haven't had GOOD shampoo.">>
+
+<<kira "the 3-in-1 doesn't count, eli. the 3-in-1 is the microwave burrito of hair care.">>
+
+The sauce aisle: soy sauce (the good kind, not the packet kind that comes with delivery sushi), sesame oil in a small dark bottle ("a little goes a long way, don't drown things, this isn't the ocean"), rice vinegar ("for brightness, which is a flavor concept you're about to learn"), and a small jar of chili flakes that Kira adds at the last second "for character."
+
+<<eli "this is a lot of bottles.">>
+
+<<kira "this is a pantry. you're building a pantry. this is the infrastructure of eating like a human being.">>
+
+<<eli "i ate like a human being before.">>
+
+<<kira "you ate like a human being who had given up on the concept of ingredients. there's a difference between 'eating' and 'consuming calories in the dark while watching your own stream.'">>
+
+<<eli "i don't watch my own stream while eating.">>
+
+<<kira "you don't?">>
+
+<<eli "...sometimes. for analytics purposes.">>
+
+<<kira "for analytics purposes. while eating a gas station sandwich. in the dark.">>
+
+<<eli "it sounds worse when you say it.">>
+
+<<kira "it sounds ACCURATE when i say it.">>
+
+The carb aisle: a bag of jasmine rice that she weighs in her hands with the authority of a person who has opinions about grain density. She lifts two brands, comparing them with a furrowed brow that suggests the decision carries genuine consequence.
+
+<<kira "this one. thai jasmine. the other one is fine but this one is aromatic.">>
+
+<<eli "i don't know what aromatic means in a rice context.">>
+
+<<kira "it means it smells good when it cooks. it fills the room. your apartment needs things that fill the room with something other than energy drink fumes and regret.">>
+
+<<eli "my apartment doesn't smell like regret.">>
+
+<<kira "eli. your apartment smells like a college dorm that never graduated.">>
+
+<<eli "okay. aromatic rice. sold.">>
+
+The rice goes in the cart. Four pounds. Enough for weeks, apparently, because rice is one of those foods that multiplies when you cook it — "one cup dry becomes three cups cooked, it's basically magic" — and the bag costs $4.99 and will outlast everything else in the cart. The math of rice is different from the math of burritos. Burritos are transactional — $2, one meal, done. Rice is an investment. Rice is infrastructure. Rice is the kind of food that lives in a pantry, in a kitchen, in a home, and having it means having a place where food is stored for the future, which means having a future that includes food, which means having a future.
+
+<<eli "this is a lot of food.">>
+
+<<kira "this is three days of food. maybe four if you don't eat like a raccoon.">>
+
+<<eli "i eat like a person.">>
+
+<<kira "you eat like a person who has given up on the concept of meals and replaced it with 'consuming matter at irregular intervals.'">>
+
+<<eli "that's technically what meals are.">>
+
+<<kira "don't be pedantic when i'm trying to save your life.">>
+
+Then the housewares aisle. And this is where the morning's prophecy fulfills itself.
+
+I see the plates. A set of four, ceramic, stacked in a clearance bin near the endcap. They're white with a thin blue line around the rim. They cost $12. They are the most unremarkable plates in the history of plates. They have no special features. They are not designed for any purpose beyond holding food. They are just plates.
+
+I pick them up.
+
+<<eli "plates.">>
+
+<<kira "plates.">>
+
+<<eli "four of them.">>
+
+<<kira "eli...">>
+
+<<eli "they were twelve dollars. clearance.">>
+
+Her eyes. The glasses catching the overhead light. The particular wetness of a person who is about to feel something about ceramic dishware. I watch it happen — the compression of her lips, the swallow, the blink that's slightly too long.
+
+<<kira "you bought plates.">>
+
+<<eli "four of them.">>
+
+<<kira "that's the most romantic thing you've ever done and we've kissed.">>
+
+<<eli "we've done more than kiss.">>
+
+<<kira "we've done— STOP. we're in a grocery store. don't bring up the— the couch thing. in public.">>
+
+<<eli "i didn't say the couch thing.">>
+
+<<kira "you implied it!">>
+
+<<eli "you inferred it. different verb.">>
+
+<<kira "i hate you.">>
+
+<<eli "you love me.">>
+
+The word lands before I realize I threw it. Love. I said love. Casually, reflexively, the way people in movies say it, the way people who have been together for years say it, not the way people who have been dating for four days say it. The word sits in the aisle between us and vibrates.
+
+Kira looks at me. The glasses. The bob. The blunt bangs. The wire-frame circles framing the brown eyes that are looking at me with something I can't catalog because it's too new and too big and too quiet.
+
+<<kira "...that's the first time you've said that.">>
+
+<<eli "i know.">>
+
+<<kira "you said it about plates.">>
+
+<<eli "i said it because of plates. there's a difference.">>
+
+<<kira "is there?">>
+
+<<eli "the plates are... evidence. that i'm trying. that i'm not just the guy with the ceiling crack and the burritos. i'm a guy with plates. and shampoo. and a person who teaches me what a shallot is. that's— that's the thing. that's the whole thing.">>
+
+She sets the jasmine rice in the cart with deliberate care. Turns to face me fully. We're standing in the housewares aisle of a SuperFresh grocery store under fluorescent lights next to a display of discounted paper towels and she takes my face in her hands — both hands, palms against my cheeks, thumbs on the modified cheekbones (not yet — the lashes, the brows, the nose, the things that are different, the things she can feel are different under her fingertips) — and she kisses me. Not the greeting-kiss from the drugstore. Not the goodnight-kiss from her doorway. This is the kind of kiss that forgets where it is. The kind that exists outside context. Her lips are warm and the strawberry lip balm is there and her glasses press against the bridge of my new nose and neither of us adjusts and the paper towel display is a witness and the wobbly-wheeled cart holds our future in the form of spinach and jasmine rice and four ceramic plates with blue rims.
+
+Someone clears their throat. An older woman with a shopping basket wants to get past us to the paper towels. We separate. Kira's cheeks are flushed. My ears are red. The older woman gives us a look that's equal parts disapproval and nostalgia.
+
+<<kira "sorry.">>
+
+The woman shrugs. "You're young. Get it while you can."
+
+She walks away. Kira and I look at each other and the laughter comes simultaneously — the shared, breathless, slightly hysterical laughter of two people who just got caught kissing in a grocery store by a stranger who gave them the most devastating piece of advice possible by making it sound completely ordinary.
+
+Get it while you can.
+
+We finish shopping. The total is $43.67. Kira pays for her items (coffee, cat food, the good yogurt) and I pay for mine (the ingredients, the plates, a new toothbrush that I add at the last second because the splayed one at home has been bothering me since this morning). The debit card works. The whale money transforms into groceries. The pipeline continues.
+
+We carry the bags the six blocks to my apartment. Her arm through mine. The plastic handles cutting into my fingers. The afternoon sun warming the back of my neck. I am walking through my neighborhood with grocery bags and a girlfriend and four plates and I am, for the first time in a long time, a person who looks like he's going somewhere specific.
+
+```twee3-sugarcube-2
+<<set $hint to "Go home">>
+<<set $streamcoin -= 44>>
+[[Walk home with groceries|day_6_9_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_9_kira
+<<set $day_step to 9>>
+<<set $locationName to "Eli's Apartment - Kitchen">>
+```
+
+Kira has never been in my apartment during the day.
+
+The night visits — Day 4, Day 5 — were softened by darkness. The single overhead bulb casts a warm dim glow that turns the clutter into atmosphere and the neglect into aesthetic. The mattress on the floor looks bohemian at night. The bare walls look minimalist. The energy drink cans look like props in an indie film about a struggling artist.
+
+In the afternoon light, through the bent blinds, the apartment looks like what it is.
+
+She stands in the doorway with the grocery bags, taking it in. The mattress with the tangled grey sheets. The folding chair with the three t-shirts. The desk with the monitors and the cable tangle and the dead pixel cluster and the microphone on its crooked stand. The mini-fridge humming. The hot plate on the kitchenette counter beside a stack of instant ramen cups. The empty energy drink cans — seven of them, now that I count — scattered across the desk and the floor near the mattress. The walls, bare except for the one anime poster curling at the corners.
+
+The crack in the ceiling.
+
+<<kira "okay.">>
+
+<<eli "okay?">>
+
+<<kira "i'm processing.">>
+
+<<eli "it's not that bad.">>
+
+<<kira "eli. your bed is on the floor.">>
+
+<<eli "it's a mattress. mattresses go on floors.">>
+
+<<kira "mattresses go on BED FRAMES. floors are for rugs and furniture legs and existential crises at 3 AM.">>
+
+<<eli "i've had plenty of those.">>
+
+<<kira "on the FLOOR mattress?">>
+
+<<eli "where else?">>
+
+She sets the grocery bags on the counter. Surveys the kitchenette. The hot plate — a single burner, the coil kind, the cord slightly frayed near the plug. The lack of counter space. The stack of ramen cups that constitutes my pantry.
+
+<<kira "we're working with what we have.">>
+
+She starts unpacking the bags. The spinach goes in the mini-fridge — she has to rearrange the energy drinks to make room, which she does with the resigned precision of a Tetris player. The chicken thighs go on the shelf below. The sauces line up on the counter in a row that looks, somehow, like the beginning of a real kitchen. The rice bag sits beside the hot plate.
+
+The plates.
+
+I unwrap them from the plastic. Four white ceramic plates with thin blue rims. I hold one up. It catches the light from the window — the afternoon sun making the white surface glow. I don't own a dish rack. I don't own a drying mat. I set the plates on the counter in a stack and they look like they belong to someone else. Someone who eats meals. Someone who has guests. Someone who doesn't eat ramen from the pot with a plastic fork while watching VODs of his own stream.
+
+<<kira "where are your bowls?">>
+
+<<eli "i have one bowl. it's... somewhere.">>
+
+She opens the cabinet above the hot plate. Inside: one bowl (chipped, ceramic, origin unknown), two mugs (one says WORLD'S OKAYEST BROTHER, a gift from nobody — I bought it myself as a joke that stopped being funny), and a collection of plastic utensils from various delivery orders.
+
+<<kira "eli.">>
+
+<<eli "yeah.">>
+
+<<kira "this cabinet is a biography.">>
+
+She's not wrong. The cabinet tells a story. A story about a person who receives food but doesn't prepare it. Who owns exactly one bowl and two mugs and zero wooden spoons and zero spatulas and whose cooking implements consist of a hot plate and hope.
+
+<<kira "do you have a pan?">>
+
+<<eli "i have... i think there's something under the sink.">>
+
+Under the sink, behind a curtain of pipes and a suspicious stain, there's a non-stick pan. Small. The coating scratched. The handle slightly loose. But it exists. She pulls it out, examines it with the eye of a diagnostician.
+
+<<kira "this will work. barely.">>
+
+<<eli "it's a pan.">>
+
+<<kira "it's a pan the way your sneakers are shoes. technically, legally, but not spiritually.">>
+
+She washes the pan in the sink. The single sink with the rust stain shaped like Florida. She washes it with dish soap — actual dish soap, which I do own because it once served as my shampoo — and dries it with a paper towel because I don't own a dish towel. Then she starts cooking.
+
+The hot plate clicks on. The coil glows orange. Oil in the pan — the sesame oil, just a little, the way she said. The ginger gets minced with the one knife I own (a paring knife, dull, handle cracked). The garlic gets smashed with the flat of the blade. The shallot — the sophisticated onion, the one that studied abroad — gets sliced thin.
+
+The apartment starts to smell like food. Not microwave food. Not delivery food. Not ramen-packet food with its powdered chemistry. Real food. The kind of smell that soaks into walls and curtains and mattresses and stays. The kind of smell that changes the meaning of a room.
+
+I watch her cook. She moves in my tiny kitchenette the way she moves through a grocery store — with purpose and direction and the physical confidence of a person who knows where things go even when the space is unfamiliar. She bumps the mini-fridge with her hip and it doesn't bother her. She reaches past me for the soy sauce and her arm crosses mine and she doesn't acknowledge the contact because it doesn't need acknowledging. This is domestic. This is ordinary. This is the version of intimacy that doesn't make the highlight reel because it looks like nothing and feels like everything.
+
+<<eli "can i help?">>
+
+<<kira "you can cut the chicken.">>
+
+<<eli "how?">>
+
+<<kira "into pieces. small pieces. like, bite-size.">>
+
+<<eli "what size is a bite?">>
+
+<<kira "how big is your mouth?">>
+
+<<eli "i don't know. average? i've never measured my mouth.">>
+
+<<kira "an inch. make them about an inch.">>
+
+I take the chicken thighs out of the package. Raw chicken. I've never handled raw chicken. It's slippery and cold and faintly pink and it does not want to be cut with a dull paring knife but I persist because Kira told me to and because I am learning that some acts of love look like incompetent butchery.
+
+The chicken goes into the pan. It sizzles. The sound is percussive and immediate and alive in a way that the microwave's beep never was. Kira adds the ginger, the garlic, the shallot. The smell intensifies. She tosses in the bell peppers — red and yellow strips that curl in the heat. The spinach goes last, a massive handful that wilts down to almost nothing in thirty seconds, proving her earlier claim that it "disappears."
+
+<<kira "see? ghost vegetable. invisible nutrition.">>
+
+<<eli "that's unsettling.">>
+
+<<kira "that's efficiency.">>
+
+She pours soy sauce and rice vinegar over the whole thing. A drizzle of sesame oil at the end. The stir-fry comes together in under fifteen minutes and it looks like something from a food blog — glossy, colorful, steaming. She serves it over the jasmine rice onto the new plates. The white ceramic with the blue rim. The food sitting on a plate that I own. That I bought. With money that I earned.
+
+We eat at the desk. She takes the folding chair and I sit on the desk chair — the one with the broken armrest and the squeaky wheel. The monitors are off but the webcam is still clipped to the top of the main monitor, its lens dark, its eye closed. ElliePlayz is not here. This is Eli's apartment and these are Eli's plates and this is Eli's girlfriend eating Eli's food in Eli's life and for the duration of this meal, Ellie doesn't exist.
+
+<<kira "is it good?">>
+
+I take a bite. The chicken is tender. The vegetables are crisp. The sauce is salty and warm and faintly sweet from the ginger and it's the first time in — how long? Months? Years? — that I've eaten something that someone made for me in a kitchen. Made from ingredients. With heat and oil and a shallot.
+
+<<eli "it's really good, kira.">>
+
+<<kira "it's a stir-fry. it's the easiest thing in the world.">>
+
+<<eli "it's the best thing i've ever eaten.">>
+
+<<kira "you've been eating microwave burritos. a boiled egg would be the best thing you've ever eaten.">>
+
+<<eli "i'm serious. this is... thank you.">>
+
+She reaches across the desk and puts her hand on mine. The pixel-heart tattoo. The warm fingers. The contact that says "you're welcome" and "i know" and "eat your spinach" all at once.
+
+We eat. The food disappears. The plates — the new plates — sit empty and warm and used. I wash them in the sink, carefully, with the dish soap, and set them on the counter to dry because I don't have a dish rack. Kira watches me wash the plates with an expression I can't read. It might be pride. It might be love. It might be the simple satisfaction of witnessing a person use a plate for the first time as though it matters.
+
+```twee3-sugarcube-2
+<<set $hint to "After dinner">>
+[[Settle in|day_6_10_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_10_kira
+<<set $day_step to 10>>
+<<set $locationName to "Eli's Apartment - Mattress">>
+```
+
+We sit on the mattress afterward. Backs against the wall. The late afternoon light coming through the blinds in strips, golden and warm, painting bars across the floor and the grey sheets. Her head on my shoulder. The weight of her — slight, warm, the black bob tickling the side of my neck. She smells like the stir-fry oil and her shampoo (not argan — something floral, something that's been living in her bathroom for months, something I notice now because I've started paying attention to what hair smells like when it's taken care of).
+
+The apartment is quiet. The mini-fridge hums. A car passes outside. The overhead bulb is off — we're sitting in natural light, a luxury I usually deny myself because the blinds are usually closed and the monitors usually lit and the circadian rhythm usually inverted. But Kira opened the blinds when she came in and the apartment is a different place with daylight in it. Less cave. More room.
+
+Her fingers find my face. The new nose. She traces it — the bridge, the slope, the tip — the way she did at her apartment the night before, but slower now, more deliberate, as though she's memorizing the geography. Her fingertip follows the line from between my brows down to the tip and then traces the edge of one nostril, gently, the touch so light it's almost not there.
+
+<<kira "does it feel different? from the inside, i mean. breathing through a different nose.">>
+
+<<eli "a little. the airflow is different. narrower. smoother. like... you know how when you cover one nostril and breathe through the other, it feels more focused? it's like that, but both sides.">>
+
+<<kira "focused breathing.">>
+
+<<eli "focused breathing through a nose that used to be wider and is now the nose of someone who has never set foot in my body before.">>
+
+<<kira "that's poetic.">>
+
+<<eli "i'm feeling poetic. it's the shallot.">>
+
+<<kira "the shallot didn't make you poetic.">>
+
+<<eli "the shallot changed my life, kira. i'm a different person post-shallot.">>
+
+She laughs. The embarrassed laugh — the one she hates, the one that sounds like a snort cut short, the one she covers with her hand. I love it. I've loved it since the first time I heard it, on a voice call during a co-op session nine months ago when I made a joke about a boss enemy's hitbox and she laughed so hard she muted herself and I heard the ghost of it through the game audio.
+
+<<kira "does Marcus know? about any of it?">>
+
+The question again. The gravity question. She asked it yesterday too, at her apartment, and the answer was the same then as it is now.
+
+<<eli "no.">>
+
+<<kira "he's going to notice eventually. the nose is... not subtle.">>
+
+<<eli "i know.">>
+
+<<kira "it's one thing for random people on the street to not register it. people don't look closely at strangers. but Marcus looks at you, eli. he looks AT you. he might not analyze bone structure but he knows your face. he's known it since you were twelve.">>
+
+<<eli "i know.">>
+
+<<kira "so when are you going to tell him?">>
+
+<<eli "i'm working on it.">>
+
+<<kira "work faster. he deserves to hear it from you, not figure it out from your bone structure.">>
+
+The sentence lands in the quiet room. The wisdom of it. The kindness of it. The challenge of it. Kira doesn't give ultimatums — she gives frameworks. She doesn't say "tell Marcus or else." She says "he deserves this" and lets the weight of the word "deserves" do the work.
+
+<<eli "i'll tell him. soon. i just need to figure out how.">>
+
+<<kira "you don't need to figure out how. you just need to open your mouth and let the truth fall out. it's messy. it's always messy. but Marcus is the kind of person who catches things when they fall.">>
+
+<<eli "what if he doesn't?">>
+
+<<kira "then i'll catch you. that's the deal.">>
+
+I turn my head. Her face is right there — three inches away, the glasses slightly askew, the brown eyes warm behind the wire frames, the blunt bangs a straight line across her forehead. The face of a person who chose this. Who chose me — the ceiling crack and the burritos and the lies and the nose and all of it — and keeps choosing.
+
+<<eli "what did i do to deserve you?">>
+
+<<kira "nothing. that's the point. you don't have to earn people, eli. i'm not a subscriber milestone.">>
+
+The sentence hits somewhere deep. Somewhere below the ribs. The place where the splinter used to live — the guilt of lying to her — is empty now, cleaned out by the confession, but the cavity is still tender. And what she just said fills it with something that isn't guilt. Something warmer. Something that doesn't need a dashboard to measure.
+
+She turns her face up. The kiss starts slow. The taste of soy sauce and rice vinegar still faintly on her lips, mixed with the strawberry lip balm that she reapplied while I was washing the dishes. Her hand goes to the back of my neck — small fingers in the greasy hair, the hair that's going to be different tomorrow because I bought shampoo, the hair she's touching now in its final form as a crime scene.
+
+The kiss deepens. Her other hand flat on my chest, over the faded black t-shirt, over the heartbeat that's picking up speed. My hand on her hip, the olive cargo jacket pushed aside, the white t-shirt warm underneath. She shifts on the mattress, turning toward me, her knee crossing over my thigh. The weight of her. The smallness of her. The way she fits against me like a puzzle piece that someone designed specifically for this gap.
+
+This is different from Day 5. Day 5 was her couch, her territory, the confession still wet on the air and the handjob arriving like a period at the end of a sentence that neither of us knew we were writing. This is my apartment. My mattress. My grey sheets that need washing and my ceiling crack watching and my stir-fry smell soaking into the walls. She's in my space. She chose to come here and cook and eat on my new plates and now she's kissing me on my floor-level bed and the domesticity of it — the fact that fifteen minutes ago she was washing ginger off her fingers in my rust-stained sink — makes the kissing hotter than any fantasy I've ever constructed.
+
+Her tongue touches mine and I make a sound. Not the "mmnh" — that's hers. Mine is deeper, less elegant, a groan that starts in my throat and dies between our mouths. She swallows it. Presses closer. Her knee slides higher on my thigh and the white t-shirt rides up and my hand finds the bare skin above her waistband — the strip of warmth between the hem and the jeans, the lower back, the slight ridge of her spine under my fingertips.
+
+<<kira "mmnh—">>
+
+There it is. The sound. The one from Day 4 that my brain recorded and played on loop until 1 AM. But this time it's not a standalone event — it's a comma, not a period. She doesn't pull back. She pushes forward. Both hands on my face now, palms on my cheeks, fingertips on the modified brows, thumbs on the jawline (the masculine jawline, the one part of the lower face that's still Eli), holding me in place while her mouth works against mine.
+
+The golden light from the blinds has shifted. The bars are longer now, reaching across the mattress, painting stripes across her olive jacket on the floor — she shrugged it off at some point, I didn't notice when — and the white t-shirt is all that's between her skin and the warm air.
+
+I slide my hand up her back. Under the t-shirt. The skin is smooth, warm, the knobs of her spine gentle under my palm. No bra strap. The absence registers like a missing step on a staircase — the place where the fabric should be, where my fingers expect the elastic ridge, and there's nothing. Just skin. Just the flat plain of her back and the curve of her ribcage and the warmth that says she left her apartment this morning knowing she wasn't wearing one. Knowing, maybe, that this would happen.
+
+My hand freezes at the realization. She feels me stop.
+
+<<kira "it's okay.">>
+
+Her voice is quieter than the conversation voice. This is the voice underneath that voice — the one that doesn't perform, the one that exists in the space between public and private, the voice of a person who means exactly what she's saying and nothing else.
+
+<<eli "you're not wearing—">>
+
+<<kira "i know what i'm not wearing, eli.">>
+
+<<eli "did you—">>
+
+<<kira "plan it? no. decide on the way over? ...maybe.">>
+
+The honesty of it. The combination of calculation and spontaneity — the decision made not in advance but in the moment, in the gap between her apartment door and mine, the choice to be accessible in a way she hadn't been before. The bra removed and the choice made and the knowledge carried silently through the drugstore and the grocery store and the cooking and the eating and the plate-washing. She was braless during the shallot lesson. She was braless when she said "that's the most romantic thing you've ever done." She was braless during the grocery store kiss and the older woman and the entire walk home. The knowledge retroactively rewrites every moment of the afternoon.
+
+She pulls back. Looks at me. The glasses are fogged slightly from the heat between us. She reaches up and takes them off — folds them carefully, sets them on the floor beside the mattress, a gesture so precise and deliberate in the middle of everything imprecise and indeliberate that it makes my chest ache. Kira without glasses is a person I've seen only twice — once when she switched to contacts for her stream, and now. The eyes are bigger without the frames. Darker. More exposed. The face is softer, younger, more vulnerable. She looks like someone who has removed a piece of armor and is waiting to see what happens next.
+
+<<kira "i want to show you something.">>
+
+<<eli "okay.">>
+
+She sits back on her heels. The afternoon light catches the side of her face — the sharp bob, the blunt bangs, the jaw set with a determination that's also nervousness that's also want. Her hands go to the hem of her white t-shirt.
+
+She lifts it.
+
+Not fast. Not performative. Not the way Ellie would do it on a stream if Ellie ever did it on a stream — the calculated tease, the slow reveal designed for maximum engagement. This is private. This is Kira's speed, which is deliberate and steady and certain. The white cotton rises past her stomach — flat, soft, a shallow navel — past the lower ribs, past the solar plexus, and then she pulls it over her head and drops it on the mattress beside her and she's sitting in front of me in the golden bar-light with nothing above her waist.
+
+Her breasts are small. B-cup, maybe smaller — I don't know the system yet, my only reference is the RegenaForm catalog with its clinical tier list from AA to G+, and the irony of that reference frame makes something twist in my gut. But they're not a catalog entry. They're hers. Real. Specific. Small and round with a gentle upward tilt, the skin paler than her arms and face — a tan line visible at the collarbone, the white of skin that doesn't see sun. Her nipples are light pink, small, the areolae barely wider than the raised centers, and they're hard. The air. The vulnerability. The wanting. All of it making them stand out against the pale skin like punctuation marks.
+
+I stare. I know I'm staring and I can't stop and she can see me staring and neither of us says anything for a moment that lasts either three seconds or three years.
+
+<<kira "you can breathe, eli.">>
+
+I exhale. I didn't know I was holding it.
+
+<<eli "you're beautiful.">>
+
+<<kira "you don't have to say—">>
+
+<<eli "i'm not saying it because i have to. i'm saying it because it's true and also because my brain has stopped producing words that aren't that word.">>
+
+<<kira "your brain produced a whole sentence just now.">>
+
+<<eli "it was a structural miracle. i don't think i can do it again.">>
+
+She laughs. The embarrassed laugh. The snort. The hand-over-mouth reflex activating and then stopping because her hands are not available — they're at her sides, on the mattress, bracing herself in the vulnerability of being seen. The laugh happens unguarded, uncovered, the sound escaping into the room alongside the sight of her bare chest and the combination of the two — the laugh and the skin — is the most intimate thing I've ever experienced.
+
+<<kira "you can touch me. if you want.">>
+
+I reach forward. My hand — the rough hand, the large hand with the bitten thumbnails and the broad knuckles, the hand that has held a controller and a microphone and a paring knife and never, not once in twenty-two years, held a breast — settles on her left side. The skin is warm. Warmer than I expected. The breast fits in my palm with room to spare — the softness of it, the give, the way the flesh reshapes around my fingers when I apply the faintest pressure. Underneath the softness there's structure — the ribcage, the slight firmness of glandular tissue, the mechanics of a body that's working exactly as designed.
+
+Her breath catches. A short sharp intake through the nose — the slope nose on my face is the product of engineering but the small nose on hers is the product of genetics and both noses are breathing faster now.
+
+<<kira "nnh—">>
+
+The sound is small. Almost inaudible. But I hear it the way a radio picks up a frequency it's been tuned to find — my whole body leaning toward the signal, amplifying it, needing more of it. I brush my thumb across the nipple. Lightly. Exploratory. The nub is hard and tight and it shifts under my thumb and she shudders. Actually shudders — a full-body tremor that starts at the contact point and radiates outward through her shoulders and down her spine.
+
+<<eli "is that—">>
+
+<<kira "yes. do that again.">>
+
+I do it again. Slower. A circle. The pad of my thumb around the areola and then across the center. She closes her eyes. Her head tilts back slightly, the black bob falling away from her neck, the pale throat exposed, and the position opens her to me — the neck, the collarbone, the gentle slope of her shoulders, the breasts in the golden light. She looks like a painting. She looks like a person. She looks like the reason I understand, for the first time, why people make art about bodies.
+
+I lean in and kiss her neck. The skin there is thin and warm and I can feel her pulse under my lips — fast, faster than her breathing, a rhythm that tells me something her composure doesn't. She's not composed. She's working at being composed. The effort is part of the intimacy.
+
+Her hand finds the back of my head. Fingers in the greasy hair, gripping, pulling me closer. I kiss the collarbone — the one I've been thinking about since Day 4, the one the bathrobe revealed, the architecture of bone under skin that I've been replaying nightly. My lips trace it from the shoulder toward the center, the ridge of it under my mouth, and when I reach the hollow of her throat she makes a sound that isn't the "mmnh" or the "nnh" but something between them — a low hum that vibrates against my lips.
+
+My other hand finds her right breast. Both now. Both hands on her. Small and warm and real and here. I feel the weight of them — slight, gentle, the way water pools in cupped hands. The nipples against my palms. Her breathing has changed — shorter, sharper, the exhales carrying small sounds that are not words and don't need to be.
+
+She pushes me back. Gently but firmly, hands on my shoulders, guiding me until my back hits the wall. She looks down at me. Without the glasses her face is open and fierce and tender all at once. Her chest rises and falls. Her breasts move with the breathing — the slight bounce, the natural motion of a body in a state of arousal that she's not hiding and not performing. Just being.
+
+<<kira "your turn.">>
+
+Her hands go to my waistband. The same gesture as Day 5 — the same fingers, the same elastic, the same question asked with her eyes instead of her voice. But Day 5 was on her couch, in her apartment, with the confession still fresh and the touch tentative and exploratory. This is Day 6. This is my apartment. This is a person who removed her shirt and her bra before she walked through my door and who is now kneeling on my mattress half-naked with the golden light painting stripes across her shoulders and she knows what she's doing and she wants to do it and the wanting is visible in the set of her jaw and the steadiness of her hands.
+
+<<eli "kira—">>
+
+<<kira "shh.">>
+
+She pulls the waistband of my grey sweatpants down. The erection is already there — has been there since the t-shirt came off, since the first glimpse of her stomach in the rising fabric, a biological fact that the body stated plainly while the brain was still loading. It springs free against my stomach and the air hits it and I shiver.
+
+She wraps her hand around me. The grip is more confident than Day 5. She learned something yesterday — the pressure I like, the rhythm that works, the specific mechanics of this particular body. The pixel-heart tattoo disappears below the waistband line and her fingers tighten and my head drops back against the wall.
+
+"Fffuck—"
+
+The word comes out rough and graceless. Not the voice I use on stream. Not the voice I use in conversation. The voice underneath all the other voices — the raw involuntary sound of a body being touched by the specific person it wants to be touched by. She smiles. I can see the smile even through the haze — the confident one, not the embarrassed laugh, the one that says "I know what I'm doing to you."
+
+Her rhythm is steady. Slow at first — the full stroke, base to tip, the thumb swiping over the head on the upstroke in a motion she must have read about or watched or intuited because nobody is that good by accident. The pre-come makes it slicker and the slickness changes the sound and the sound is obscene in the quiet apartment — wet, rhythmic, unmistakable. If the walls are thin, the neighbors know. I don't care. I cannot bring myself to care about anything beyond the five-foot radius of this mattress.
+
+She leans forward. Kisses me. Her mouth on mine while her hand works below. The split attention — her tongue against mine and her fingers around me — creates a circuit that runs from my mouth to my cock and back, a loop of sensation that tightens with every stroke. Her bare breasts press against my chest through the faded black t-shirt and I can feel the nipples — two hard points against the thin fabric, the warmth of her skin through the cotton, and the intimacy of chest-to-chest while her hand moves between us is almost too much.
+
+<<kira "look at me.">>
+
+I open my eyes. I didn't know they were closed. She's right there. Three inches. Brown eyes without the glasses, wide and dark and watching. Her lips parted. Her breath coming fast. The bangs slightly damp at her temples. She watches my face the way she watched it on Day 5 — with the scientific attention and the personal curiosity, the observer and the participant occupying the same body — and the scrutiny, the being-seen, the fact that she wants to watch me come apart, is the thing that pushes me over.
+
+"K-Kira, I'm— nngh—"
+
+She tightens her grip. Quickens. Two more strokes, three, and the edge arrives and the edge becomes the fall and I come with my back against the wall and my eyes on hers and a sound in my throat that starts as her name and ends as a groan that has no letters. The release is warm and thick and lands on my stomach, on the faded black t-shirt, on her hand, on the grey sheets. She doesn't stop immediately — keeps the rhythm going, slower, gentler, milking the last spasms until I'm trembling and oversensitive and my hand closes over hers to say "enough."
+
+She lets go. Sits back. Wipes her hand on the sheet — not the shirt, the sheet, a practical choice that I register and file under "she's thinking clearly and I am not." She's breathing hard. Her chest heaving. Her breasts rising and falling with each breath, the nipples still hard, the skin flushed pink down to the collarbone. She's aroused. She didn't get to come and she's not asking to come and the restraint is either generosity or patience or something I don't have the neural capacity to analyze right now.
+
+<<kira "how was that?">>
+
+<<eli "i think you broke me.">>
+
+<<kira "in a good way?">>
+
+<<eli "in every way.">>
+
+She reaches for her t-shirt. Pulls it back on. The breasts disappear under white cotton and their absence is a loss I feel physically, like someone closing a book I was in the middle of reading. But the memory is there — seared, permanent, filed in the part of my brain that used to store gaming stats and now stores the exact shade of pink of Kira Nomura's nipples.
+
+She lies down beside me on the mattress. On her side, facing me, her head on the thin pillow, the blunt bangs fanned across her forehead. I'm still catching my breath. The black t-shirt is stained. The sheets are stained. The apartment smells like stir-fry and sesame oil and sex and the combination shouldn't work but it does because this is what a life smells like when someone is living in it.
+
+<<kira "does Marcus know? about any of it?">>
+
+The question. Even now. Even post-orgasm, lying on a stained mattress in a studio apartment with the golden light fading. She asks the question because the question matters and because she's the kind of person who doesn't let warmth silence responsibility.
+
+<<eli "no.">>
+
+<<kira "he's going to notice eventually. the nose is... not subtle.">>
+
+<<eli "i know. i'm working on it.">>
+
+<<kira "work faster. he deserves to hear it from you, not figure it out from your bone structure.">>
+
+The sentence lands in the quiet room. The same sentence she said yesterday, at her apartment, but it's different here. It's different because she's lying on my mattress wearing a t-shirt she took off thirty seconds ago and her hand is resting on my stomach and the trust between us — the trust that survived the confession, that weathered the lies, that holds steady through the ongoing deception of Marcus — is the most fragile and most important thing in this room. More important than the plates. More important than the shampoo.
+
+<<eli "i'll tell him. soon.">>
+
+<<kira "i know you will.">>
+
+She stays for another twenty minutes. We don't talk much. She curls against my side and I trace patterns on her arm with my fingertip — the pixel-heart tattoo, the wrist bone, the forearm, the crook of the elbow — and she makes small contented sounds that are not the "mmnh" but something softer, something that belongs only to this frequency, this channel, this apartment.
+
+Then she sits up. Puts on the glasses. The armor returns. The eyes become framed again, contained, the vulnerability of the past hour shuttered behind wire and glass.
+
+<<kira "i should go. you have a night stream, right?">>
+
+<<eli "i was thinking about it.">>
+
+<<kira "do it. ride the nose momentum. the algorithm rewards consistency.">>
+
+<<eli "the algorithm can wait.">>
+
+<<kira "the algorithm waits for no one. that's what makes it an algorithm.">>
+
+She's right. She's always right about the things I don't want to hear and also about the things I do.
+
+She stands. Stretches. Picks up the olive jacket from the mattress where it fell at some point during the kissing — the jacket that came off first, before the t-shirt, the first layer removed in a sequence that ended with bare skin and my hands on her breasts and her hand on me and a sound I made that I'll hear in my own voice for the rest of my life.
+
+Packet is at her apartment — the fat orange tabby waiting for his dinner, his particular yowl probably already echoing off the walls of her cleaner, brighter, plate-having apartment.
+
+I walk her to the door. She holds my face in both hands. The modified face. The straight nose between her palms. The lashes and the brows under her fingertips. She kisses me. Slowly. The "mmnh" sound.
+
+<<kira "goodnight, disaster.">>
+
+<<eli "goodnight, sherpa.">>
+
+<<kira "use the shampoo.">>
+
+<<eli "i will.">>
+
+<<kira "ACTUALLY use it. not 'i'll try it later.' tonight. in the shower. shampoo AND conditioner.">>
+
+<<eli "i promise.">>
+
+<<kira "and text me what it smells like.">>
+
+<<eli "you told me to buy it. you know what it smells like.">>
+
+<<kira "i want to know what it smells like on YOU. that's different.">>
+
+<<eli "that's weirdly romantic.">>
+
+<<kira "i'm a romantic weirdo. it's my brand.">>
+
+One more kiss. Quick. The taste of her gone too soon. The sound of her platform sneakers in the hallway, the stairwell door, the faint beep of her car unlocking, and then nothing. The apartment holds her absence the way a glass holds the shape of water after it's poured out — the form lingers, invisible but real.
+
+I watch from the window through the bent blinds. The taillights of her car moving down the block, turning the corner, gone.
+
+The apartment is quiet. The mini-fridge hums. The ceiling crack holds steady. The four plates are drying on the counter. The stir-fry smell is fading but present. The drugstore bag with the argan shampoo sits by the door. The black t-shirt is stained and I should change it but I don't want to because it smells like her.
+
+I will use the shampoo. But first: the stream.
+
+```twee3-sugarcube-2
+<<set $hint to "Set up night stream">>
+[[Prepare for stream|day_6_11_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_11_kira
+<<set $day_step to 11>>
+<<set $hint to "Stream">>
+<<set $locationName to "Eli's Apartment - Desk">>
+<<set $playerImage to "images/user/ellie_stream_nose.jpeg">>
+```
+
+The wig goes on. The headset goes on. VoxMorph loads.
+
+The transition takes less time now — five minutes from Eli to Ellie, the practiced motions smoothing out, the wig adjustment requiring fewer mirror checks, the VoxMorph calibration running on the saved preset. The webcam blinks to life and there she is in the preview window. Auburn waves. Dense lashes. Feathered brows. The slope nose catching the monitor glow. The lower face cropped at the upper lip. ElliePlayz.
+
+I go live at 9:14 PM.
+
+The title card: **"nose era continues!! 🌸 late night vibes + games + maybe some shampoo talk?? 💕🧴"**
+
+The viewer count climbs. The night crowd is bigger, faster, more energetic than the morning. 30. 60. 100. 150. The chat explodes into life like a room that's been waiting all day for the lights to turn on.
+
+<<chat "MidnightWhale99" "SHE'S BACK. NOSE ERA NIGHT SHIFT.">>
+
+<<chat "stream_viewer_f15" "ELLIE!! TWO STREAMS IN ONE DAY?? WE'RE BLESSED">>
+
+<<chat "ChillVibesOnly" "the morning stream was a tease. this is the main event.">>
+
+<<chat "night_owl_cc" "my sleep schedule exists specifically to be here for this">>
+
+<<chat "new_viewer_331" "first time here. who is this person and why is the chat this hype?">>
+
+<<chat "stream_viewer_f15" "NEW VIEWER ALERT 🚨 welcome!! you're witnessing the nose era!!">>
+
+<<chat "MidnightWhale99" "welcome newbie. buckle up. she's building a face cathedral.">>
+
+"Good evening, lovely people! Yes, two streams today! I couldn't stay away. I missed you. Also I had a very productive afternoon and I need to tell you about it."
+
+I load into the game — a different one tonight, a narrative indie thing with puzzle elements, the kind of game that allows for more banter because the mechanics don't demand constant attention. The camera stays on me. The face. The crop. Eyes, brows, lashes, nose. The architectural elements of a cathedral still under construction.
+
+<<chat "ChillVibesOnly" "productive afternoon?? LORE??">>
+
+<<chat "stream_viewer_f15" "LORE DROP INCOMING I CAN FEEL IT">>
+
+"Okay so — and this is going to sound extremely basic and I know that — I bought shampoo today."
+
+The chat erupts.
+
+<<chat "MidnightWhale99" "THE SHAMPOO ARC IS REAL">>
+
+<<chat "stream_viewer_f15" "SHE BOUGHT SHAMPOO. GROWTH. DEVELOPMENT. CHARACTER ARC.">>
+
+<<chat "ChillVibesOnly" "wait, you didn't have shampoo before??">>
+
+<<chat "night_owl_cc" "the shampoo era begins. nose era + shampoo era = unstoppable">>
+
+<<chat "new_viewer_331" "i'm confused. is shampoo a metaphor?">>
+
+<<chat "MidnightWhale99" "no it's literal shampoo. we've been through a lot.">>
+
+"It's argan oil! Someone very important in my life told me that coconut is for people who peaked in 2016 and I'm choosing to trust that assessment." I'm careful with the pronoun. "Someone." Not "my girlfriend." The existence of Kira in Eli's life is a truth that lives outside the stream. Ellie is single. Ellie has "someone important." The ambiguity is intentional and also necessary and also another kind of lie, a smaller one, a lie of omission rather than construction, and I notice it the way I now notice all the lies — with a twinge that's too soft to be guilt and too sharp to be nothing.
+
+<<chat "MidnightWhale99" "'someone very important.' THE LORE THICKENS.">>
+
+<<chat "ChillVibesOnly" "ELLIE HAS A SOMEONE???? WHO IS THIS SOMEONE????">>
+
+<<chat "stream_viewer_f15" "the someone cinematic universe expands">>
+
+<<chat "latenight_luna" "$10 - 'the someone reveal will be bigger than the face reveal'">>
+
+"I'm not revealing the someone! The someone is classified. Top secret. Above your clearance level." I tap the side of my nose — the wink-and-tap, the signature move, VoxMorph catching the playful lilt. "But I will say that this someone taught me what a shallot is today and that information has fundamentally changed me as a person."
+
+<<chat "ChillVibesOnly" "A SHALLOT?? IS SOMEONE A CHEF??">>
+
+<<chat "MidnightWhale99" "she's learning vegetables. the arc continues.">>
+
+<<chat "night_owl_cc" "from skincare to shampoo to shallots. the self-care trilogy.">>
+
+The game proceeds. I play through the puzzle narrative, commenting on the story beats, reacting to twists, letting the VoxMorph voice carry the warmth. Between puzzle segments I banter with chat, answer questions, deflect the persistent "when full face" requests with the cathedral metaphor that's become a running bit. The rhythm of streaming is becoming native to me — not the game, the game was always native, but the performance around the game. The leaning in. The raised eyebrow. The way I catch myself reacting to a jump scare and realize the reaction is both genuine AND performed simultaneously, both halves true, both halves useful.
+
+<<chat "quiet_type_88" "$5 - 'your voice is so calming. i watch to fall asleep. is that weird?'">>
+
+"That's not weird at all! I'm honored to be your bedtime ASMR. Just promise me you're not falling asleep at the wheel or during surgery or something."
+
+<<chat "quiet_type_88" "lol no just in bed. your voice and the game sounds. it's like a lullaby but with violence.">>
+
+<<chat "MidnightWhale99" "a lullaby but with violence. that's the stream tagline.">>
+
+<<chat "stream_viewer_f15" "ellie's ASMR career starts NOW">>
+
+"I'm not doing ASMR. I'm playing a game. If the game happens to be soothing, that's the game's fault, not mine." But the idea plants itself. ASMR streams. The voice is already there — the VoxMorph Sweet/Breathy preset basically IS ASMR by default. The soft consonants. The airy vowel spacing. Every word I say through this filter sounds like it's being whispered into someone's ear from three inches away. The chat has been commenting on the voice quality since Day 3 and I've been filing those comments under "engagement" but maybe they belong under "content strategy." Maybe the voice is its own product line.
+
+Later. That's a later thought. Tonight is shampoo night.
+
+<<chat "face_reveal_fund" "$8 - 'adding to the fund. we're at $50 now. when does the cathedral open for business?'">>
+
+"The cathedral opens when the cathedral is READY. You can't rush divine architecture. The Sistine Chapel took four years. I've been at this for six days. Give a girl some grace."
+
+<<chat "MidnightWhale99" "$20 - 'i'll wait four years. the nose alone was worth the price of admission.'">>
+
+<<chat "stream_viewer_f15" "MIDNIGHT WITH THE $20. KING BEHAVIOR.">>
+
+<<chat "ChillVibesOnly" "we get it midnight you like the nose. we ALL like the nose.">>
+
+<<chat "MidnightWhale99" "i don't just like the nose. i respect the nose. the nose and i have an understanding.">>
+
+"Midnight, the fact that you have a personal relationship with my nose is both flattering and slightly terrifying. I appreciate you."
+
+Viewer count peaks at 218. Not the nose-reveal highs of last night — the 347 peak was a novelty spike, the audience surging to witness the reveal — but a strong number for a regular stream. Stronger than last week. Stronger than the week before. The baseline is climbing. The floor is rising. The math is doing what the math does.
+
+The donations come steadily. Not in the dramatic bursts of MidnightWhale drops but in the quiet accumulation of $5s and $10s and the occasional $15 from a new viewer who showed up for the nose and stayed for the voice. The chat maintains its rhythm — the regulars anchoring the room while newcomers filter in, orient, and either settle or leave.
+
+<<chat "early_bird_dan" "caught you this morning AND tonight. double ellie day. my productivity is destroyed.">>
+
+<<chat "quiet_type_88" "the way you talk about the 'someone'... whoever they are, they're lucky.">>
+
+<<chat "ChillVibesOnly" "ellie when are we getting the jawline reveal. the crop is killing me. i NEED to see the full face.">>
+
+"ChillVibes, the jawline is... a work in progress. The cathedral has many rooms. Some are still under construction. But I promise you — when the full face reveal happens, it's going to be worth the wait. Every brick, every beam, every... nose."
+
+<<chat "stream_viewer_f15" "SHE SAID EVERY NOSE. CALLBACK.">>
+
+<<chat "MidnightWhale99" "the nose is the cornerstone. the rest is just decorating.">>
+
+I play for another hour. The puzzle game reaches a narrative beat about a character who discovers that the person they've been communicating with online isn't who they claimed to be. The chat makes the obvious connection.
+
+<<chat "night_owl_cc" "this game is ABOUT ellie. the devs are psychic.">>
+
+<<chat "ChillVibesOnly" "ellie is the catfish. confirmed.">>
+
+"I am NOT a catfish. I am a... carefully curated presentation of my best features. That's different."
+
+<<chat "MidnightWhale99" "curated presentation. marketing queen.">>
+
+<<chat "stream_viewer_f15" "ellie is a brand and we're all investors">>
+
+The irony lands. The audience laughs. I laugh. The laughter is real on both sides of the screen, even if the reasons for it don't perfectly overlap. They think it's a joke. I think it's a biography.
+
+At 11:30 I start the wind-down. The chat is slower now — the night-owls and the dedicated, the people who schedule their sleep around a stranger's webcam. The game is on pause. The face fills the frame. Lashes, brows, nose. The aurora of auburn hair from the wig. The monitor glow.
+
+"Okay, lovelies. I need to go. I have a very important appointment with a bottle of argan oil shampoo and I promised someone I'd use it tonight."
+
+<<chat "stream_viewer_f15" "THE SHAMPOO MOMENT. IT'S HAPPENING.">>
+
+<<chat "MidnightWhale99" "$15 - 'shampoo fund. may the argan be with you.'">>
+
+<<chat "night_owl_cc" "goodnight ellie. the nose was worth the wait.">>
+
+<<chat "ChillVibesOnly" "WHEN LIPS??? WHEN FULL FACE??? WE NEED A ROADMAP">>
+
+"Soon, ChillVibes! Soon! I'm working on it. The cathedral is being built! Goodnight everyone. Same eyes, same nose, tomorrow and maybe... maybe more. We'll see. Love you!!"
+
+<<chat "MidnightWhale99" "she said love. my heart.">>
+
+<<chat "stream_viewer_f15" "LOVE YOU ELLIE 💕💕💕">>
+
+<<chat "night_owl_cc" "the shampoo arc awaits. godspeed.">>
+
+The wink. The nose-tap. The whispered "see you tomorrow" that VoxMorph turns into silk. The stream ends.
+
+Viewer count at close: 167. Donations for the night session: $128. Total for the day: $215 (morning $87 + night $128). Followers gained today: 31. Total followers: 415.
+
+I pull off the wig. Close VoxMorph. The face in the dark monitor is Eli. Greasy hair, masculine jaw, the nose that doesn't match the rest. The apartment smells like stir-fry and sesame oil. The plates are on the counter. The shampoo is by the door.
+
+```twee3-sugarcube-2
+<<set $hint to "Shower">>
+<<set $streamcoin += 128>>
+<<set $followers = 415>>
+[[Go shower|day_6_12_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_12_kira
+<<set $day_step to 12>>
+<<set $locationName to "Eli's Apartment - Bathroom">>
+```
+
+The shower.
+
+I take the argan oil shampoo and the matching conditioner out of the drugstore bag. The bottles are sleek and amber and they look absurd on the edge of my bathtub — next to the dying 3-in-1 body wash, next to the rust stain shaped like Florida, next to the shower curtain with the mildew along the bottom that I've been meaning to replace since January. Two products that cost $14.98 combined, arranged on the rim of a bathtub in a studio apartment, and they look like artifacts from a civilization more advanced than mine.
+
+I step into the shower. The water takes forty seconds to heat up — the building's plumbing has opinions about temperature that it expresses through inconsistency and spite. When the warm water finally arrives it hits the top of my head and runs down and for the first time in my life, the next step is not "grab whatever bottle is closest."
+
+The argan shampoo smells expensive. That's the only word for it. Not coconut, not floral, not citrus — expensive. It smells like the inside of a nice store. Like a hotel lobby. Like the waiting room at RegenaForm, actually, which is a connection I didn't want to make but the brain makes connections whether you want it to or not. I work it into my hair — my actual hair, not the wig, the greasy unkempt brownish mess that's been surviving on neglect and prayer — and the lather is thick and white and slippery and it foams in a way that the 3-in-1 never did.
+
+I rinse. The water runs slightly grey. I try not to think about what the grey means.
+
+Conditioner. The matching bottle. I squeeze it into my palm — it's thicker than the shampoo, almost cream-like, and it smells the same but deeper. Kira said "shampoo cleans, conditioner softens" and the distinction was abstract until this moment when I'm running a cream through my hair and the hair is responding. Not dramatically. Not instantly. But the texture changes under my fingers — from wire to something closer to fabric. From resistant to willing.
+
+I leave the conditioner in for two minutes because the bottle says to and because Kira would know if I didn't and because I'm learning that instructions exist for reasons. I rinse again. The water runs clear this time.
+
+I step out. Towel off. Look in the mirror.
+
+My hair is different.
+
+Not transformed. Not magical. The greasy unkempt mess is still unkempt — the shape is the same, the length is the same, it still falls across my forehead in the same formless way. But it's not greasy. For the first time in — months? — my hair is not greasy. It's damp and clean and the brownish color is slightly lighter without the oil film and the strands move independently instead of clumping. It's still a mess. But it's a clean mess. An honest mess. A mess that admits what it is instead of hiding under a layer of grease and apathy.
+
+I run my fingers through it. They don't catch. They glide. The argan oil is doing something subtle, something below the threshold of dramatic change but above the threshold of nothing, and the difference — the difference between hair that has been cared for and hair that has been endured — is the difference between a room with plates and a room without them.
+
+I pick up my phone. Take a selfie in the bathroom mirror — hair damp, face bare, the nose catching the overhead light, the lashes still there (they're permanent, they're always there, they're part of me now), the brows framing the tired eyes. The face is half-feminine and half-not and fully mine and the hair is clean.
+
+I text Kira.
+
+<<eli "argan. reporting from the field. hair status: no longer a crime scene.">>
+
+<<eli "[selfie]">>
+
+<<kira "oh my GOD">>
+
+<<kira "ELI">>
+
+<<kira "YOUR HAIR">>
+
+<<eli "it's just clean hair">>
+
+<<kira "it's ALIVE. it's moving! individual strands! they're SEPARATE! i can see TEXTURE!">>
+
+<<eli "you're being dramatic">>
+
+<<kira "i'm being ACCURATE. your hair has been a single solid mass since i've known you and now it's INDIVIDUAL STRANDS. this is like watching someone discover fire.">>
+
+<<eli "fire seems like a stretch">>
+
+<<kira "the wheel then. you've invented the wheel of hair care.">>
+
+<<eli "what does it smell like?">>
+
+<<kira "i can't smell it through a phone, eli">>
+
+<<eli "you told me to text you what it smells like">>
+
+<<kira "on YOU. i want to smell it on you. in person. tomorrow.">>
+
+<<eli "okay">>
+
+<<kira "okay 😊">>
+
+<<eli "goodnight, sherpa. thanks for the intervention.">>
+
+<<kira "goodnight, disaster. welcome to shampoo. you'll never go back.">>
+
+<<eli "❤️">>
+
+<<kira "❤️">>
+
+I put the phone down. Sit on the mattress. The grey sheets that need washing. The thin comforter that needs replacing. The ceiling crack that needs nothing because it's been here longer than me and will be here after I leave and isn't asking anyone's permission to exist.
+
+```twee3-sugarcube-2
+<<set $hint to "Go to bed">>
+[[Lie down|day_6_13_kira]]
+```
+
+---
+
+```twee3-sugarcube-2
+:: day_6_13_kira
+<<set $day_step to 13>>
+<<set $locationName to "Eli's Apartment - Bed">>
+```
+
+The apartment is dark. The blinds are closed again — I closed them before the stream, the instinct to seal the cave, to create the lighting that the webcam prefers. But the darkness feels different tonight. Less empty. The stir-fry smell is still here, faintly, a ghost of ginger and garlic. The plates are on the counter — I can't see them but I know they're there, four white circles with blue rims, proof of something I'm not ready to name.
+
+I lie on the mattress. My hair is damp against the pillow. Clean. Argan-scented. The sensation of clean hair on a pillow is so novel that I keep turning my head, feeling the strands move against the pillowcase, the friction different, softer, the brownish mess behaving like actual hair instead of a problem.
+
+The day replays. Not as strategy, not as metrics, not as the before-and-after calculus that I run every night before sleep. Just as memory. Just as life.
+
+Kira in the drugstore aisle, holding two bottles like scales of justice. The coconut verdict. The shallot biography. The plates in the clearance bin, white with blue rims, $12 for four, the most romantic purchase in the history of commerce. Her face when I said "you love me." The kiss in the housewares aisle. The older woman: "get it while you can." The stir-fry sizzling in the scratched pan. The spinach disappearing. The jasmine rice. The blue rims under the food. Her head on my shoulder afterward, her fingers on the nose, the question about Marcus, the challenge delivered with kindness: "work faster."
+
+I think about the stream. 215 dollars today, total. 415 followers. The nose era continuing its upward trajectory. The math is working. The cathedral is being built. But for the first time in six days, the math isn't the first thing I think about. The math is fifth or sixth, after the breasts and the kiss and the plates and the shallot and the sound she made when my thumb crossed her nipple.
+
+The breasts. Her breasts. The image arrives behind my closed eyes like a photograph developing in a darkroom — the white t-shirt rising, the pale skin underneath, the slow reveal of her body in the golden bar-light from the blinds. The smallness of them. The realness of them. Not a catalog entry, not a tier on a RegenaForm menu, not a number on an appearance score chart. Just Kira. Just the body of the person I love sitting on my mattress with her shirt in her hands and her chest bare and her eyes watching me watch her.
+
+My hand moves. Under the comforter. The familiar gesture, the nightly ritual. But the material tonight is richer than any previous night. Not the Day 5 memory — the couch, the first handjob, the tentative grip. Today's memory. My mattress. My apartment. Her t-shirt coming off. The no-bra decision that rewrote every moment of the afternoon retroactively.
+
+I close my eyes and I'm there again. The golden light. Her skin. The slight tan line at the collarbone — the border between public and private, between the body the world sees and the body I saw. Her nipples, small and pink and hard. The shudder that ran through her when my thumb found the center. The sound — not the "mmnh" but the "nnh," smaller, more vulnerable, the sound of a nerve being discovered.
+
+My grip tightens. The rhythm finds itself — faster than hers, less patient, the urgency of a body replaying a memory it can't believe it owns. I think about her hand replacing mine. The grip on my cock — more confident today than yesterday, the learning curve of a person who pays attention and retains information. The swiping thumb on the upstroke. The slick sound. Her bare chest pressing against my t-shirt, the nipples two hard points through the cotton, the warmth of skin on fabric on skin.
+
+"Look at me." Her voice in the memory. The glasses off. The brown eyes wide and watching. The face of a person who wanted to see me come apart and saw it and smiled.
+
+I think about the moment right before. The tightening of her hand. The quickening. The edge approaching and her reading it on my face — the way she reads everything, with precision and care — and choosing to push me over rather than make me wait. The generosity of that. The intimacy of being known well enough that someone can feel the orgasm arriving before you can.
+
+The pressure builds. My hips lift off the mattress — an involuntary thrust into my own fist, the body chasing the ghost of her grip. Behind my eyes: her breasts in the light. The upward tilt. The pink. The warmth of them in my palms. Her breath catching. Her head tilting back. The neck. The collarbone. My lips on her pulse.
+
+I come. The sound is half her name and half nothing — "Ki—nnnh" — swallowed by the pillow, the clean pillow, the argan-scented pillow, everything cleaner tonight, everything softer. The release pulses through me in waves that crest and recede and leave behind a warmth that isn't emptiness. Not the hollow that used to follow. The warmth of a body that was touched today by someone who chose to touch it.
+
+I clean up with tissues from the box on the floor. Drop them in the trash. Lie back. The ceiling crack is invisible in the darkness but I know it's there. I always know it's there.
+
+The phone glows. One more text from Kira, sent while I was in the shower:
+
+<<kira "today was my favorite day so far. just so you know.">>
+
+Mine too.
+
+The apartment hums. The mini-fridge. The distant street noise. The particular quiet of a room that contains plates and shampoo and the memory of a girl's bare chest in the golden afternoon light and the clean smell of argan oil and a person who is learning, slowly, unevenly, with many setbacks and at least one ongoing deception toward his best friend, to be a person who lives rather than a person who survives.
+
+The crack in the ceiling holds no judgment.
+
+I sleep.
+
+```twee3-sugarcube-2
+<<set $hint to "Sleep">>
+[[Sleep|day_7_1_kira]]
+```
+
+---
+
+## Day 6 — End of Day Stats
+
+- **Spent:** ~$67 (shampoo/conditioner/comb: $22.47, groceries/plates/toothbrush: $44.53)
+- **Earned:** $215 (morning stream: $87, night stream: $128)
+- **Net:** +$148
+- **Followers:** 415
+- **Peak Viewers:** 218 (night session)
+- **Appearance Score:** 6 (no modifications today)
+- **Modifications Today:** None
+- **Relationship:** Domestic. Plates. Shallots. The word "love" said for the first time, in a grocery store, about plates. First time seeing Kira's body — she removed her shirt. Second handjob. The physical relationship deepening from tentative to confident. The kind of day that proves the relationship exists outside the transformation narrative.
+- **Sexual Milestone:** First time Kira shows her breasts. Second handjob (more confident, in Eli's apartment). The intimacy graduates from "exploratory" to "knowing."
+- **Marcus Status:** Doesn't know. Kira says "work faster." The clock is ticking.
+- **Hair Status:** Clean. For the first time. Argan.
+
+---

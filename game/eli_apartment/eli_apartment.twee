@@ -8,7 +8,7 @@
 <<set $right_sidebar_mode to 0>>
 <img src="images/locations/eli_apartment.jpeg" alt="Eli's Apartment" class="location-image">
 /* <br><br> */
-<<=$day>>.<=$day_step>>
+/* <<=$day>>.<=$day_step>> */
 
 
 

@@ -41,6 +41,10 @@
         [[Stream|day_5_3_other]]
         <<elseif $day == 5 and $day_step == 16>>
         [[Stream|day_5_17_other]]
+        <<elseif $day == 6 and $day_step == 2>>
+        [[Stream|day_6_3_other]]
+        <<elseif $day == 6 and $day_step == 9>>
+        [[Stream|day_6_10_other]]
         <</if>>
     <</if>>
 <</if>>

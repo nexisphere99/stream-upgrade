@@ -49,6 +49,8 @@
         [[Spend Time|day_5_13_other]]
         <<elseif $day == 5 and $day_step == 23>>
         [[Try to Sleep|day_5_24_other]]
+        <<elseif $day == 5 and $day_step == 24>>
+        [[Wake Up|day_6_1_other]]
         <</if>>
     <</if>>
 <</if>>

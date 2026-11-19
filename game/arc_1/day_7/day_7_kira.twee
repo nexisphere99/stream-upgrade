@@ -90,14 +90,12 @@ Stream first. Talk to Kira about the next modification. Then whatever comes afte
 <<set $hint to "Set up stream">>
 [[Set up morning stream|day_7_2_kira]]
 
----
-
 :: day_7_2_kira
 <<nobr>>
 <<set $day_step to 2>>
 <<set $hint to "Stream">>
 <<set $locationName to "Eli's Apartment - Desk">>
-<<set $playerImage to "images/user/ellie_stream_nose.jpeg">>
+<<set $playerImage to "images/user/tier_0_3.jpeg">>
 <</nobr>>
 
 The wig. The headset. VoxMorph. The three-step transformation that takes four minutes now, down from seven on Day 3, the efficiency of repetition, the body learning the choreography. Wig adjusted, hairline hidden behind the headset band. Mic calibrated. Software voice modulator set to Sweet/Breathy, the same preset, the voice that isn't mine and is becoming mine, the voice that 415 people have learned to associate with a face that's also mine and also not mine.
@@ -257,8 +255,6 @@ The phone buzzes.
 <<set $followers = 450>>
 [[Head to Kira's apartment|day_7_3_kira]]
 
----
-
 :: day_7_3_kira
 <<nobr>>
 <<set $day_step to 3>>
@@ -357,8 +353,6 @@ When the bowls are empty, when the fried rice is gone and the chopsticks are cro
 
 <<set $hint to "Talk modifications">>
 [[Discuss next modifications|day_7_4_kira]]
-
----
 
 :: day_7_4_kira
 <<nobr>>
@@ -507,8 +501,6 @@ Packet purrs. The vibration travels through the couch cushion and into both our 
 <<set $hint to "Afternoon together">>
 [[Spend the afternoon|day_7_5_kira]]
 
----
-
 :: day_7_5_kira
 <<nobr>>
 <<set $day_step to 5>>
@@ -611,8 +603,6 @@ She pauses. The glasses. The bob. The slight flush that appears on her cheeks wh
 
 <<set $hint to "Evening">>
 [[Watch Frieren|day_7_6_kira]]
-
----
 
 :: day_7_6_kira
 <<nobr>>
@@ -859,8 +849,6 @@ I'm laughing so hard my stomach hurts. She's hitting my chest with her fist, sof
 <<set $hint to "Stay together">>
 [[After|day_7_7_kira]]
 
----
-
 :: day_7_7_kira
 <<nobr>>
 <<set $day_step to 7>>
@@ -1016,8 +1004,6 @@ She blushes. Pushes me out the door. The door closes. I hear her laugh, the emba
 <<set $hint to "Walk home">>
 [[Walk home|day_7_8_kira]]
 
----
-
 :: day_7_8_kira
 <<nobr>>
 <<set $day_step to 8>>
@@ -1042,8 +1028,6 @@ I'm smiling in the dark. Walking home. The crushed sneakers on the sidewalk. The
 
 <<set $hint to "Go inside">>
 [[Enter apartment|day_7_9_kira]]
-
----
 
 :: day_7_9_kira
 <<nobr>>

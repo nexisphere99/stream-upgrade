@@ -13,6 +13,8 @@
 <<goto "day_4_15_kira">>
 <<elseif $day == 5 and $day_step == 14>>
 <<goto "day_5_15_kira">>
+<<elseif $day == 7 and $day_step == 2>>
+<<goto "day_7_3_kira">>
 <<else>>
 <</if>>
 [[Chat with Kira|chat_kira]] | [[← District Map|neighbourhood]]

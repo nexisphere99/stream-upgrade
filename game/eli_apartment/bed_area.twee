@@ -40,7 +40,9 @@
         <<elseif $day == 5 and $day_step == 24>>
         [[Try to Sleep|day_5_25_kira]]
         <<elseif $day == 5 and $day_step == 25>>
-        [[Wakue Up|day_6_1_kira]]
+        [[Wake Up|day_6_1_kira]]
+        <<elseif $day == 6 and $day_step == 13>>
+        [[Wake Up|day_7_1_kira]]
         <</if>>
     <<elseif $route == "other">>
         <<if $day == 4 and $day_step == 25>>

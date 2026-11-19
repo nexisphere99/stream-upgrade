@@ -1510,7 +1510,5 @@ Mine too. The apartment hums. The mini-fridge. The distant street noise. The par
 
 The crack in the ceiling holds no judgment. I sleep.
 
-End of v0.0.5
-<<set $hint = "v0.0.5 End of current Story Branch">>
 <<set $hint to "Sleep">>
-[[Sleep|apartment_map]]
+[[Sleep|eli_bed]]

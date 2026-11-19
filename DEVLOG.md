@@ -2,6 +2,59 @@
 
 ---
 
+## v0.0.7 — Day 7 Kira Route
+**Date:** 2026-11-19
+**Branch:** v0.0.7
+
+---
+
+### Overview
+
+Day 7 of the Kira route is now playable from start to finish. This covers a full day: morning stream, an afternoon visit to Kira's apartment with the cheekbones and ears planning conversation, an evening watching Frieren together, the first blowjob scene, and the walk home at night. The day ends with Eli asleep, ready for Day 8.
+
+---
+
+### Story Content
+
+**Day 7 — Kira Route (9 passages)**
+
+- Eli wakes up for the first time smelling argan oil on his pillow. The morning routine now includes a moment in the mirror where he identifies the cheekbones as the next gap in the cathedral.
+- Text exchange with Kira covers the leftover rice, crushed shoes, and The List.
+- Morning stream introduces Sophie (sophie1234), a new viewer who appears for 23 minutes, donates nothing, and leaves four observations that land harder than any donation. She identifies that Eli's gameplay improves when he stops performing. Kira watched the last hour and noted Sophie too.
+- Stream peaks at 312 viewers, earns $198. Total followers reach 450.
+- Eli walks to Kira's carrying tupperware rice and sesame oil. Gets a text from Marcus about Floor 18 and puts it off again.
+- Kira makes fried rice in matching bowls. The RegenaForm planning conversation happens on the couch: cheekbones (Soft and Full) and ears (Refined) are chosen for the next morning. Kira asks the compass question. Eli gives an honest answer.
+- The afternoon is shapeless and domestic. Manga on the floor, cat philosophizing, green tea. Kira talks Eli out of streaming that night, framing rest as a content strategy.
+- Frieren episode 9 pauses on the portrait scene. Kira connects the elf's unchanging face to Eli's changing one, reversed.
+- During episode 11, Kira kneels on the carpet. First blowjob scene. She studied from a YouTube channel with animated diagrams and a British accent (The Intimate Educator). The aftermath is tender, funny, and honest.
+- The evening ends with the Marcus conversation: Eli promises to tell him everything this weekend.
+- Eli walks home alone and sleeps after a final exchange of texts with Kira.
+
+---
+
+### Navigation Updates
+
+- Bed area now routes from Day 6 step 13 to the Day 7 wake-up passage.
+- Streaming desk now routes from Day 7 step 1 to the Day 7 stream passage.
+- Kira's apartment now routes from Day 7 step 2 to the Day 7 walking-to-Kira passage.
+- Day 6 Kira route ending updated: the "End of v0.0.5" placeholder removed, sleep link now correctly goes to the bed.
+
+---
+
+### Characters
+
+- **Sophie (sophie1234):** New recurring chat viewer introduced. Appears 23 minutes, no donations, no subscription. Sees the construction. Notes lighting, aim split, and the relationship between face and performance. File is labeled SOPHIE in Eli's head.
+
+---
+
+### Known State (v0.0.7)
+
+- Day 8 is not yet written. After sleeping at the end of Day 7, the bed shows standard options until Day 8 is added.
+- The cheekbones and ears modification (Day 8 morning) is referenced but not yet playable.
+- Marcus conversation (this weekend, Floor 18) is set up but not yet playable.
+
+---
+
 ## v0.0.1 — Foundation Release
 **Date:** 2026-03-28
 **Branch:** v0.0.1
